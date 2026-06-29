@@ -1,25 +1,26 @@
 ---
 title: Home
 tags: [dashboard, index]
-updated: 2026-06-28
+updated: 2026-06-29
 ---
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-06-28
+> Last updated: 2026-06-29
 
 ## 📊 Stats
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 32 |
-| Wikilinks | 280 |
+| Total Notes | 33 |
+| Wikilinks | 227 |
 | Notes with Links | 29 |
 | Properties | 4 (Story Engine, OctoGentic, Bookbrary, RoleFresh) |
-| Daily Logs | 2 (2026-06-27, 2026-06-28) |
+| Daily Logs | 3 (2026-06-27, 2026-06-28, 2026-06-29) |
 
 ## 🔄 Recent Updates
 
+- 2026-06-29: Daily maintenance — daily note created, Home.md updated, vault-graph.json regeneration pending
 - 2026-06-28: Daily maintenance — vault-graph.json regenerated, dual-push complete
 - 2026-06-27: Vault initialized (6 folders, 32 notes, 280 links)
 - 2026-06-27: Story Engine self-healing deployed, The Last Ural Owl published
@@ -35,8 +36,8 @@ updated: 2026-06-28
 
 ## 🎯 Active Priorities
 
-1. Review re-run (Story Engine chapters)
-2. Red Genesis generation (3 books)
+1. Red Genesis + Last Lantern generation completion, push to Supabase
+2. Review re-run with multi-pass revision (Story Engine)
 3. Blog post migration to vault
 4. Council reviews for OctoGentic agents
 
