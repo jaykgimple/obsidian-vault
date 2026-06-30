@@ -1,29 +1,41 @@
 ---
 title: Home
 tags: [dashboard, index]
-updated: 2026-06-29
+updated: 2026-06-30
 ---
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-06-29
+> Last updated: 2026-06-30 (09:00 UTC)
 
-## 📊 Stats
+## � Health: 86/100 (B)
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 33 |
-| Wikilinks | 227 |
-| Notes with Links | 29 |
-| Properties | 4 (Story Engine, OctoGentic, Bookbrary, RoleFresh) |
-| Daily Logs | 3 (2026-06-27, 2026-06-28, 2026-06-29) |
+| Total Notes | 35 |
+| Wikilinks | 273 |
+| Link Density | 19.33% |
+| Orphans | 12 |
+| Dead Ends | 3 |
+| Untagged | 0 |
+| Broken Links | 10 |
 
-## 🔄 Recent Updates
+## �️ God Notes (Most Connected)
 
+| # | Note | In | Out | Group |
+|---|------|----|-----|-------|
+| 1 | OctoGentic Blog Index | 3 | 30 | OctoGentic |
+| 2 | OctoGentic Key Takeaways | 2 | 23 | OctoGentic |
+| 3 | Story Engine — Architecture Overview | 4 | 20 | Story-Engine |
+| 4 | Home | 7 | 10 | meta |
+| 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
+
+## 📅 Recent Updates
+- 2026-06-30: Daily maintenance — daily note created, Home.md refreshed, vault-graph.json regenerated + pushed
+- 2026-06-30: Vault analysis run — health 86/100, 12 orphans, 10 broken links detected
 - 2026-06-29: Daily maintenance — daily note created, Home.md updated, vault-graph.json regeneration pending
 - 2026-06-28: Daily maintenance — vault-graph.json regenerated, dual-push complete
 - 2026-06-27: Vault initialized (6 folders, 32 notes, 280 links)
-- 2026-06-27: Story Engine self-healing deployed, The Last Ural Owl published
 
 ## 📂 Structure
 
@@ -34,12 +46,23 @@ updated: 2026-06-29
 - [[40-LOGS]] — Daily standups, retrospectives
 - [[50-ARCHIVE]] — Deprecated/legacy content
 
+## ⚠️ Critical Issues (Non-Placeholder Broken Links)
+
+| Source | Missing Target | Action Needed |
+|--------|----------------|---------------|
+| Coherence Scoring | Story Engine — Overview | Rename or create target |
+| Coherence Scoring | 10-PROPERTIES/Story-Engine/Lessons | Create Lessons note |
+| Self-Healing Pipelines | Story Engine — Overview | Rename or create target |
+| Review and Revision | Story Engine — Overview | Rename or create target |
+| Review and Revision | Lesson: Service Key Required | Create or relink |
+
 ## 🎯 Active Priorities
 
-1. Red Genesis + Last Lantern generation completion, push to Supabase
-2. Review re-run with multi-pass revision (Story Engine)
-3. Blog post migration to vault
-4. Council reviews for OctoGentic agents
+1. Fix broken links to "Story Engine — Overview" (3 notes reference it)
+2. Reduce orphan count (12 unlinked notes — link into graph)
+3. Red Genesis + Last Lantern generation completion, push to Supabase
+4. Review re-run with multi-pass revision (Story Engine)
+5. Blog post migration to vault
 
 ## 🔗 Key Notes
 

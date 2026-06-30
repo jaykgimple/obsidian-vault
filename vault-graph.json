@@ -1,7 +1,36 @@
 {
   "nodes": [
     {
-      "id": "00-META/Architecture.md",
+      "id": "00-META/Home",
+      "title": "Home",
+      "group": "meta",
+      "tags": [
+        "dashboard",
+        "index"
+      ],
+      "status": "unknown",
+      "inbound": 7,
+      "outbound": 10,
+      "path": "00-META/Home.md",
+      "word_count": 219
+    },
+    {
+      "id": "00-META/Compound-Effect",
+      "title": "Octo-Compounding-Effect",
+      "group": "meta",
+      "tags": [
+        "takeaway",
+        "compounding",
+        "foundational"
+      ],
+      "status": "unknown",
+      "inbound": 2,
+      "outbound": 5,
+      "path": "00-META/Compound-Effect.md",
+      "word_count": 364
+    },
+    {
+      "id": "00-META/Architecture",
       "title": "Obsidian Vault \u2014 Knowledge Architecture",
       "group": "meta",
       "tags": [
@@ -11,379 +40,84 @@
         "index"
       ],
       "status": "active",
+      "inbound": 0,
+      "outbound": 8,
       "path": "00-META/Architecture.md",
-      "links_count": 1,
-      "inbound_count": 1
+      "word_count": 636
     },
     {
-      "id": "00-META/Compound-Effect.md",
-      "title": "Octo-Compounding-Effect",
-      "group": "meta",
+      "id": "40-LOGS/_Template",
+      "title": "Daily Log Template",
+      "group": "logs",
       "tags": [
-        "takeaway",
-        "compounding",
-        "foundational"
+        "template",
+        "daily-log",
+        "standup"
       ],
+      "status": "active",
+      "inbound": 2,
+      "outbound": 1,
+      "path": "40-LOGS/_Template.md",
+      "word_count": 157
+    },
+    {
+      "id": "40-LOGS/2026-06-28",
+      "title": "Daily Standup \u2014 2026-06-28",
+      "group": "logs",
+      "tags": [
+        "daily-log",
+        "standup",
+        "2026-06"
+      ],
+      "status": "in-progress",
+      "inbound": 0,
+      "outbound": 0,
+      "path": "40-LOGS/2026-06-28.md",
+      "word_count": 286
+    },
+    {
+      "id": "40-LOGS/vault-analysis-latest",
+      "title": "vault-analysis-latest",
+      "group": "logs",
+      "tags": [],
       "status": "unknown",
-      "path": "00-META/Compound-Effect.md",
-      "links_count": 0,
-      "inbound_count": 0
+      "inbound": 0,
+      "outbound": 11,
+      "path": "40-LOGS/vault-analysis-latest.md",
+      "word_count": 254
     },
     {
-      "id": "00-META/Home.md",
-      "title": "Agentic Knowledge Vault \u2014 Home Dashboard",
-      "group": "meta",
+      "id": "40-LOGS/2026-06-29",
+      "title": "Daily Standup \u2014 2026-06-29",
+      "group": "logs",
       "tags": [
-        "vault-home",
-        "dashboard",
-        "index"
+        "daily-log",
+        "standup",
+        "2026-06"
       ],
-      "status": "active",
-      "path": "00-META/Home.md",
-      "links_count": 25,
-      "inbound_count": 0
+      "status": "in-progress",
+      "inbound": 0,
+      "outbound": 0,
+      "path": "40-LOGS/2026-06-29.md",
+      "word_count": 324
     },
     {
-      "id": "10-PROPERTIES/Bookbrary.md",
-      "title": "Bookbrary \u2014 Reader-Facing Platform",
-      "group": "Bookbrary.md",
+      "id": "40-LOGS/2026-06-27",
+      "title": "Daily Standup \u2014 2026-06-27",
+      "group": "logs",
       "tags": [
-        "property",
-        "bookbrary",
-        "frontend"
+        "daily-log",
+        "standup",
+        "2026-06"
       ],
-      "status": "active",
-      "path": "10-PROPERTIES/Bookbrary.md",
-      "links_count": 0,
-      "inbound_count": 1
+      "status": "complete",
+      "inbound": 0,
+      "outbound": 1,
+      "path": "40-LOGS/2026-06-27.md",
+      "word_count": 389
     },
     {
-      "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop.md",
-      "title": "2026-06-25 The Agentic Feedback Loop",
-      "group": "OctoGentic",
-      "tags": [
-        "blog",
-        "octogentic",
-        "feedback",
-        "learning"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop.md",
-      "links_count": 0,
-      "inbound_count": 1
-    },
-    {
-      "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect.md",
-      "title": "2026-06-26 The Agentic Compound Effect",
-      "group": "OctoGentic",
-      "tags": [
-        "blog",
-        "octogentic",
-        "compounding",
-        "foundational"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect.md",
-      "links_count": 0,
-      "inbound_count": 1
-    },
-    {
-      "id": "10-PROPERTIES/OctoGentic/Blog-Index.md",
-      "title": "OctoGentic Blog Index",
-      "group": "OctoGentic",
-      "tags": [
-        "octogentic",
-        "blog",
-        "index"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/OctoGentic/Blog-Index.md",
-      "links_count": 0,
-      "inbound_count": 2
-    },
-    {
-      "id": "10-PROPERTIES/OctoGentic/Key-Takeaways.md",
-      "title": "OctoGentic Key Takeaways",
-      "group": "OctoGentic",
-      "tags": [
-        "octogentic",
-        "takeaways",
-        "index"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/OctoGentic/Key-Takeaways.md",
-      "links_count": 0,
-      "inbound_count": 1
-    },
-    {
-      "id": "10-PROPERTIES/OctoGentic/Objectives.md",
-      "title": "OctoGentic \u2014 Agentic Objectives",
-      "group": "OctoGentic",
-      "tags": [
-        "octogentic",
-        "agents",
-        "objectives"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/OctoGentic/Objectives.md",
-      "links_count": 2,
-      "inbound_count": 0
-    },
-    {
-      "id": "10-PROPERTIES/OctoGentic/Overview.md",
-      "title": "OctoGentic \u2014 Portfolio Overview",
-      "group": "OctoGentic",
-      "tags": [
-        "property",
-        "octogentic",
-        "portfolio"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/OctoGentic/Overview.md",
-      "links_count": 1,
-      "inbound_count": 2
-    },
-    {
-      "id": "10-PROPERTIES/RoleFresh.md",
-      "title": "RoleFresh \u2014 Job Matching Platform",
-      "group": "RoleFresh.md",
-      "tags": [
-        "property",
-        "rolefresh",
-        "jobs"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/RoleFresh.md",
-      "links_count": 0,
-      "inbound_count": 1
-    },
-    {
-      "id": "10-PROPERTIES/Story-Engine/Agent-Details.md",
-      "title": "Story Engine \u2014 Agent Deep-Dives",
-      "group": "Story-Engine",
-      "tags": [
-        "story-engine",
-        "agents",
-        "reference"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/Story-Engine/Agent-Details.md",
-      "links_count": 1,
-      "inbound_count": 2
-    },
-    {
-      "id": "10-PROPERTIES/Story-Engine/Agents.md",
-      "title": "Story Engine \u2014 Agent Roster",
-      "group": "Story-Engine",
-      "tags": [
-        "story-engine",
-        "agents",
-        "reference"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/Story-Engine/Agents.md",
-      "links_count": 0,
-      "inbound_count": 2
-    },
-    {
-      "id": "10-PROPERTIES/Story-Engine/Lessons/Chapter-Backfill.md",
-      "title": "Lesson: Chapter Content Backfill",
-      "group": "Story-Engine",
-      "tags": [
-        "lesson",
-        "story-engine",
-        "data"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/Story-Engine/Lessons/Chapter-Backfill.md",
-      "links_count": 0,
-      "inbound_count": 3
-    },
-    {
-      "id": "10-PROPERTIES/Story-Engine/Lessons/Coherence-9.md",
-      "title": "Lesson: Coherence Threshold Must Be 9",
-      "group": "Story-Engine",
-      "tags": [
-        "lesson",
-        "story-engine",
-        "coherence"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/Story-Engine/Lessons/Coherence-9.md",
-      "links_count": 0,
-      "inbound_count": 2
-    },
-    {
-      "id": "10-PROPERTIES/Story-Engine/Lessons/Cover-Upload.md",
-      "title": "Lesson: Cover Upload Gap",
-      "group": "Story-Engine",
-      "tags": [
-        "lesson",
-        "story-engine",
-        "media"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/Story-Engine/Lessons/Cover-Upload.md",
-      "links_count": 0,
-      "inbound_count": 3
-    },
-    {
-      "id": "10-PROPERTIES/Story-Engine/Lessons/Queue-Desync.md",
-      "title": "Lesson: Dual Queue Desync",
-      "group": "Story-Engine",
-      "tags": [
-        "lesson",
-        "story-engine",
-        "ops"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/Story-Engine/Lessons/Queue-Desync.md",
-      "links_count": 0,
-      "inbound_count": 4
-    },
-    {
-      "id": "10-PROPERTIES/Story-Engine/Lessons/Rate-Limits.md",
-      "title": "Lesson: Rate Limit Management",
-      "group": "Story-Engine",
-      "tags": [
-        "lesson",
-        "ops",
-        "infrastructure"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/Story-Engine/Lessons/Rate-Limits.md",
-      "links_count": 0,
-      "inbound_count": 3
-    },
-    {
-      "id": "10-PROPERTIES/Story-Engine/Lessons/Service-Key.md",
-      "title": "Lesson: Service Key Required",
-      "group": "Story-Engine",
-      "tags": [
-        "lesson",
-        "story-engine",
-        "ops"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/Story-Engine/Lessons/Service-Key.md",
-      "links_count": 0,
-      "inbound_count": 3
-    },
-    {
-      "id": "10-PROPERTIES/Story-Engine/Objectives.md",
-      "title": "Story Engine \u2014 Agentic Objectives",
-      "group": "Story-Engine",
-      "tags": [
-        "story-engine",
-        "agents",
-        "objectives"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/Story-Engine/Objectives.md",
-      "links_count": 2,
-      "inbound_count": 0
-    },
-    {
-      "id": "10-PROPERTIES/Story-Engine/Overview.md",
-      "title": "Story Engine \u2014 Architecture Overview",
-      "group": "Story-Engine",
-      "tags": [
-        "property",
-        "story-engine",
-        "pipeline"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/Story-Engine/Overview.md",
-      "links_count": 4,
-      "inbound_count": 1
-    },
-    {
-      "id": "10-PROPERTIES/Story-Engine/Pipeline.md",
-      "title": "Story Engine \u2014 Pipeline Architecture",
-      "group": "Story-Engine",
-      "tags": [
-        "story-engine",
-        "pipeline",
-        "architecture"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/Story-Engine/Pipeline.md",
-      "links_count": 0,
-      "inbound_count": 0
-    },
-    {
-      "id": "10-PROPERTIES/Story-Engine/Review-System.md",
-      "title": "Story Engine \u2014 Review System",
-      "group": "Story-Engine",
-      "tags": [
-        "story-engine",
-        "review",
-        "post-generation"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/Story-Engine/Review-System.md",
-      "links_count": 0,
-      "inbound_count": 1
-    },
-    {
-      "id": "10-PROPERTIES/Story-Engine/Watchdog.md",
-      "title": "Story Engine \u2014 Watchdog & Recovery",
-      "group": "Story-Engine",
-      "tags": [
-        "story-engine",
-        "watchdog",
-        "recovery",
-        "self-healing"
-      ],
-      "status": "active",
-      "path": "10-PROPERTIES/Story-Engine/Watchdog.md",
-      "links_count": 4,
-      "inbound_count": 0
-    },
-    {
-      "id": "20-AGENTS/Agent-Objectives.md",
-      "title": "Agent Objective Functions",
-      "group": "agents",
-      "tags": [
-        "agents",
-        "objectives",
-        "reference"
-      ],
-      "status": "active",
-      "path": "20-AGENTS/Agent-Objectives.md",
-      "links_count": 3,
-      "inbound_count": 5
-    },
-    {
-      "id": "20-AGENTS/CoS.md",
-      "title": "CoS \u2014 Chief of Staff",
-      "group": "agents",
-      "tags": [
-        "agent",
-        "cos",
-        "coordinator"
-      ],
-      "status": "active",
-      "path": "20-AGENTS/CoS.md",
-      "links_count": 1,
-      "inbound_count": 4
-    },
-    {
-      "id": "20-AGENTS/Delegation.md",
-      "title": "CoS \u2014 Knowledge Routing",
-      "group": "agents",
-      "tags": [
-        "cos",
-        "delegation",
-        "routing"
-      ],
-      "status": "active",
-      "path": "20-AGENTS/Delegation.md",
-      "links_count": 2,
-      "inbound_count": 2
-    },
-    {
-      "id": "30-PATTERNS/Coherence-Scoring.md",
+      "id": "30-PATTERNS/Coherence-Scoring",
       "title": "Coherence Scoring",
       "group": "patterns",
       "tags": [
@@ -392,12 +126,28 @@
         "quality"
       ],
       "status": "active",
+      "inbound": 0,
+      "outbound": 5,
       "path": "30-PATTERNS/Coherence-Scoring.md",
-      "links_count": 1,
-      "inbound_count": 1
+      "word_count": 363
     },
     {
-      "id": "30-PATTERNS/Compounding-Knowledge.md",
+      "id": "30-PATTERNS/Self-Healing-Pipelines",
+      "title": "Self-Healing Pipelines",
+      "group": "patterns",
+      "tags": [
+        "pattern",
+        "self-healing",
+        "reliability"
+      ],
+      "status": "active",
+      "inbound": 0,
+      "outbound": 5,
+      "path": "30-PATTERNS/Self-Healing-Pipelines.md",
+      "word_count": 366
+    },
+    {
+      "id": "30-PATTERNS/Compounding-Knowledge",
       "title": "Compounding Knowledge \u2014 The Core Pattern",
       "group": "patterns",
       "tags": [
@@ -407,12 +157,13 @@
         "meta"
       ],
       "status": "active",
+      "inbound": 5,
+      "outbound": 6,
       "path": "30-PATTERNS/Compounding-Knowledge.md",
-      "links_count": 1,
-      "inbound_count": 1
+      "word_count": 393
     },
     {
-      "id": "30-PATTERNS/Review-and-Revision.md",
+      "id": "30-PATTERNS/Review-and-Revision",
       "title": "Review and Revision",
       "group": "patterns",
       "tags": [
@@ -421,281 +172,1960 @@
         "revision"
       ],
       "status": "active",
+      "inbound": 0,
+      "outbound": 3,
       "path": "30-PATTERNS/Review-and-Revision.md",
-      "links_count": 1,
-      "inbound_count": 1
+      "word_count": 256
     },
     {
-      "id": "30-PATTERNS/Self-Healing-Pipelines.md",
-      "title": "Self-Healing Pipelines",
-      "group": "patterns",
+      "id": "20-AGENTS/CoS",
+      "title": "CoS \u2014 Chief of Staff",
+      "group": "agents",
       "tags": [
-        "pattern",
-        "self-healing",
-        "reliability"
+        "agent",
+        "cos",
+        "coordinator"
       ],
       "status": "active",
-      "path": "30-PATTERNS/Self-Healing-Pipelines.md",
-      "links_count": 2,
-      "inbound_count": 1
+      "inbound": 3,
+      "outbound": 8,
+      "path": "20-AGENTS/CoS.md",
+      "word_count": 228
     },
     {
-      "id": "40-LOGS/2026-06-27.md",
-      "title": "Daily Standup \u2014 2026-06-27",
-      "group": "logs",
+      "id": "20-AGENTS/Delegation",
+      "title": "CoS \u2014 Knowledge Routing",
+      "group": "agents",
       "tags": [
-        "daily-log",
-        "standup",
-        "2026-06"
-      ],
-      "status": "complete",
-      "path": "40-LOGS/2026-06-27.md",
-      "links_count": 1,
-      "inbound_count": 1
-    },
-    {
-      "id": "40-LOGS/_Template.md",
-      "title": "Daily Log Template",
-      "group": "logs",
-      "tags": [
-        "template",
-        "daily-log",
-        "standup"
+        "cos",
+        "delegation",
+        "routing"
       ],
       "status": "active",
-      "path": "40-LOGS/_Template.md",
-      "links_count": 1,
-      "inbound_count": 3
+      "inbound": 1,
+      "outbound": 8,
+      "path": "20-AGENTS/Delegation.md",
+      "word_count": 327
+    },
+    {
+      "id": "20-AGENTS/Agent-Objectives",
+      "title": "Agent Objective Functions",
+      "group": "agents",
+      "tags": [
+        "agents",
+        "objectives",
+        "reference"
+      ],
+      "status": "active",
+      "inbound": 6,
+      "outbound": 4,
+      "path": "20-AGENTS/Agent-Objectives.md",
+      "word_count": 360
+    },
+    {
+      "id": "10-PROPERTIES/RoleFresh",
+      "title": "RoleFresh \u2014 Job Matching Platform",
+      "group": "properties",
+      "tags": [
+        "property",
+        "rolefresh",
+        "jobs"
+      ],
+      "status": "active",
+      "inbound": 0,
+      "outbound": 5,
+      "path": "10-PROPERTIES/RoleFresh.md",
+      "word_count": 145
+    },
+    {
+      "id": "10-PROPERTIES/Bookbrary",
+      "title": "Bookbrary \u2014 Reader-Facing Platform",
+      "group": "properties",
+      "tags": [
+        "property",
+        "bookbrary",
+        "frontend"
+      ],
+      "status": "active",
+      "inbound": 0,
+      "outbound": 6,
+      "path": "10-PROPERTIES/Bookbrary.md",
+      "word_count": 246
+    },
+    {
+      "id": "10-PROPERTIES/Story-Engine/Objectives",
+      "title": "Story Engine \u2014 Agentic Objectives",
+      "group": "Story-Engine",
+      "tags": [
+        "story-engine",
+        "agents",
+        "objectives"
+      ],
+      "status": "active",
+      "inbound": 0,
+      "outbound": 3,
+      "path": "10-PROPERTIES/Story-Engine/Objectives.md",
+      "word_count": 670
+    },
+    {
+      "id": "10-PROPERTIES/Story-Engine/Watchdog",
+      "title": "Story Engine \u2014 Watchdog & Recovery",
+      "group": "Story-Engine",
+      "tags": [
+        "story-engine",
+        "watchdog",
+        "recovery",
+        "self-healing"
+      ],
+      "status": "active",
+      "inbound": 0,
+      "outbound": 7,
+      "path": "10-PROPERTIES/Story-Engine/Watchdog.md",
+      "word_count": 331
+    },
+    {
+      "id": "10-PROPERTIES/Story-Engine/Pipeline",
+      "title": "Story Engine \u2014 Pipeline Architecture",
+      "group": "Story-Engine",
+      "tags": [
+        "story-engine",
+        "pipeline",
+        "architecture"
+      ],
+      "status": "active",
+      "inbound": 0,
+      "outbound": 5,
+      "path": "10-PROPERTIES/Story-Engine/Pipeline.md",
+      "word_count": 302
+    },
+    {
+      "id": "10-PROPERTIES/Story-Engine/Overview",
+      "title": "Story Engine \u2014 Architecture Overview",
+      "group": "Story-Engine",
+      "tags": [
+        "property",
+        "story-engine",
+        "pipeline"
+      ],
+      "status": "active",
+      "inbound": 4,
+      "outbound": 20,
+      "path": "10-PROPERTIES/Story-Engine/Overview.md",
+      "word_count": 227
+    },
+    {
+      "id": "10-PROPERTIES/Story-Engine/Agents",
+      "title": "Story Engine \u2014 Agent Roster",
+      "group": "Story-Engine",
+      "tags": [
+        "story-engine",
+        "agents",
+        "reference"
+      ],
+      "status": "active",
+      "inbound": 2,
+      "outbound": 12,
+      "path": "10-PROPERTIES/Story-Engine/Agents.md",
+      "word_count": 212
+    },
+    {
+      "id": "10-PROPERTIES/Story-Engine/Review-System",
+      "title": "Story Engine \u2014 Review System",
+      "group": "Story-Engine",
+      "tags": [
+        "story-engine",
+        "review",
+        "post-generation"
+      ],
+      "status": "active",
+      "inbound": 1,
+      "outbound": 4,
+      "path": "10-PROPERTIES/Story-Engine/Review-System.md",
+      "word_count": 298
+    },
+    {
+      "id": "10-PROPERTIES/Story-Engine/Agent-Details",
+      "title": "Story Engine \u2014 Agent Deep-Dives",
+      "group": "Story-Engine",
+      "tags": [
+        "story-engine",
+        "agents",
+        "reference"
+      ],
+      "status": "active",
+      "inbound": 1,
+      "outbound": 9,
+      "path": "10-PROPERTIES/Story-Engine/Agent-Details.md",
+      "word_count": 531
+    },
+    {
+      "id": "10-PROPERTIES/Story-Engine/Lessons/Chapter-Backfill",
+      "title": "Lesson: Chapter Content Backfill",
+      "group": "Story-Engine",
+      "tags": [
+        "lesson",
+        "story-engine",
+        "data"
+      ],
+      "status": "active",
+      "inbound": 2,
+      "outbound": 0,
+      "path": "10-PROPERTIES/Story-Engine/Lessons/Chapter-Backfill.md",
+      "word_count": 80
+    },
+    {
+      "id": "10-PROPERTIES/Story-Engine/Lessons/Coherence-9",
+      "title": "Lesson: Coherence Threshold Must Be 9",
+      "group": "Story-Engine",
+      "tags": [
+        "lesson",
+        "story-engine",
+        "coherence"
+      ],
+      "status": "active",
+      "inbound": 1,
+      "outbound": 2,
+      "path": "10-PROPERTIES/Story-Engine/Lessons/Coherence-9.md",
+      "word_count": 158
+    },
+    {
+      "id": "10-PROPERTIES/Story-Engine/Lessons/Queue-Desync",
+      "title": "Lesson: Dual Queue Desync",
+      "group": "Story-Engine",
+      "tags": [
+        "lesson",
+        "story-engine",
+        "ops"
+      ],
+      "status": "active",
+      "inbound": 3,
+      "outbound": 2,
+      "path": "10-PROPERTIES/Story-Engine/Lessons/Queue-Desync.md",
+      "word_count": 142
+    },
+    {
+      "id": "10-PROPERTIES/Story-Engine/Lessons/Rate-Limits",
+      "title": "Lesson: Rate Limit Management",
+      "group": "Story-Engine",
+      "tags": [
+        "lesson",
+        "ops",
+        "infrastructure"
+      ],
+      "status": "active",
+      "inbound": 2,
+      "outbound": 0,
+      "path": "10-PROPERTIES/Story-Engine/Lessons/Rate-Limits.md",
+      "word_count": 156
+    },
+    {
+      "id": "10-PROPERTIES/Story-Engine/Lessons/Cover-Upload",
+      "title": "Lesson: Cover Upload Gap",
+      "group": "Story-Engine",
+      "tags": [
+        "lesson",
+        "story-engine",
+        "media"
+      ],
+      "status": "active",
+      "inbound": 2,
+      "outbound": 0,
+      "path": "10-PROPERTIES/Story-Engine/Lessons/Cover-Upload.md",
+      "word_count": 108
+    },
+    {
+      "id": "10-PROPERTIES/OctoGentic/Objectives",
+      "title": "OctoGentic \u2014 Agentic Objectives",
+      "group": "OctoGentic",
+      "tags": [
+        "octogentic",
+        "agents",
+        "objectives"
+      ],
+      "status": "active",
+      "inbound": 0,
+      "outbound": 6,
+      "path": "10-PROPERTIES/OctoGentic/Objectives.md",
+      "word_count": 397
+    },
+    {
+      "id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "title": "OctoGentic Key Takeaways",
+      "group": "OctoGentic",
+      "tags": [
+        "octogentic",
+        "takeaways",
+        "index"
+      ],
+      "status": "active",
+      "inbound": 2,
+      "outbound": 23,
+      "path": "10-PROPERTIES/OctoGentic/Key-Takeaways.md",
+      "word_count": 430
+    },
+    {
+      "id": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "title": "OctoGentic Blog Index",
+      "group": "OctoGentic",
+      "tags": [
+        "octogentic",
+        "blog",
+        "index"
+      ],
+      "status": "active",
+      "inbound": 3,
+      "outbound": 30,
+      "path": "10-PROPERTIES/OctoGentic/Blog-Index.md",
+      "word_count": 519
+    },
+    {
+      "id": "10-PROPERTIES/OctoGentic/Overview",
+      "title": "OctoGentic \u2014 Portfolio Overview",
+      "group": "OctoGentic",
+      "tags": [
+        "property",
+        "octogentic",
+        "portfolio"
+      ],
+      "status": "active",
+      "inbound": 3,
+      "outbound": 11,
+      "path": "10-PROPERTIES/OctoGentic/Overview.md",
+      "word_count": 175
+    },
+    {
+      "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop",
+      "title": "2026-06-25 The Agentic Feedback Loop",
+      "group": "OctoGentic",
+      "tags": [
+        "blog",
+        "octogentic",
+        "feedback",
+        "learning"
+      ],
+      "status": "active",
+      "inbound": 0,
+      "outbound": 5,
+      "path": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop.md",
+      "word_count": 307
+    },
+    {
+      "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
+      "title": "2026-06-26 The Agentic Compound Effect",
+      "group": "OctoGentic",
+      "tags": [
+        "blog",
+        "octogentic",
+        "compounding",
+        "foundational"
+      ],
+      "status": "active",
+      "inbound": 0,
+      "outbound": 5,
+      "path": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect.md",
+      "word_count": 303
     }
   ],
   "links": [
     {
-      "source": "00-META/Architecture.md",
-      "target": "Agent Objective Functions"
+      "source": "00-META/Home",
+      "target": "00-META"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "Obsidian Vault \u2014 Knowledge Architecture"
+      "source": "00-META/Home",
+      "target": "10-PROPERTIES"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "Compounding Knowledge \u2014 The Core Pattern"
+      "source": "00-META/Home",
+      "target": "20-AGENTS"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "Story Engine \u2014 Architecture Overview"
+      "source": "00-META/Home",
+      "target": "30-PATTERNS"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "OctoGentic \u2014 Portfolio Overview"
+      "source": "00-META/Home",
+      "target": "40-LOGS"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "Bookbrary \u2014 Reader-Facing Platform"
+      "source": "00-META/Home",
+      "target": "50-ARCHIVE"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "RoleFresh \u2014 Job Matching Platform"
+      "source": "00-META/Home",
+      "target": "Architecture"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "Agent Objective Functions"
+      "source": "00-META/Home",
+      "target": "Compounding-Knowledge"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "Story Engine \u2014 Agent Deep-Dives"
+      "source": "00-META/Home",
+      "target": "Delegation"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "CoS \u2014 Chief of Staff"
+      "source": "00-META/Home",
+      "target": "Objectives"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "CoS \u2014 Knowledge Routing"
+      "source": "00-META/Compound-Effect",
+      "target": "2026-06-26-the-Agentic-Compound-Effect"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "Self-Healing Pipelines"
+      "source": "00-META/Compound-Effect",
+      "target": "KEY: OctoGentic Takeaways"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "Coherence Scoring"
+      "source": "00-META/Compound-Effect",
+      "target": "20-AGENTS/Agent-Objectives"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "Review and Revision"
+      "source": "00-META/Compound-Effect",
+      "target": "30-PATTERNS/"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "Lesson: Coherence Threshold Must Be 9"
+      "source": "00-META/Compound-Effect",
+      "target": "Pattern: Compounding Knowledge"
     },
     {
-      "source": "00-META/Home.md",
+      "source": "00-META/Architecture",
+      "target": "Note Name"
+    },
+    {
+      "source": "00-META/Architecture",
+      "target": "..."
+    },
+    {
+      "source": "00-META/Architecture",
+      "target": "Parent Note"
+    },
+    {
+      "source": "00-META/Architecture",
+      "target": "Related Note"
+    },
+    {
+      "source": "00-META/Architecture",
+      "target": "30-PATTERNS/Compounding-Knowledge"
+    },
+    {
+      "source": "00-META/Architecture",
+      "target": "00-META/Home"
+    },
+    {
+      "source": "00-META/Architecture",
+      "target": "20-AGENTS/Agent-Objectives"
+    },
+    {
+      "source": "00-META/Architecture",
+      "target": "40-LOGS/"
+    },
+    {
+      "source": "40-LOGS/_Template",
+      "target": "20-AGENTS/CoS"
+    },
+    {
+      "source": "40-LOGS/vault-analysis-latest",
+      "target": "Objectives"
+    },
+    {
+      "source": "40-LOGS/vault-analysis-latest",
+      "target": "2026-06-25-Feedback-Loop"
+    },
+    {
+      "source": "40-LOGS/vault-analysis-latest",
+      "target": "2026-06-26-Compound-Effect"
+    },
+    {
+      "source": "40-LOGS/vault-analysis-latest",
+      "target": "Watchdog"
+    },
+    {
+      "source": "40-LOGS/vault-analysis-latest",
+      "target": "Pipeline"
+    },
+    {
+      "source": "40-LOGS/vault-analysis-latest",
+      "target": "Architecture"
+    },
+    {
+      "source": "40-LOGS/vault-analysis-latest",
+      "target": "Coherence-Scoring"
+    },
+    {
+      "source": "40-LOGS/vault-analysis-latest",
+      "target": "Self-Healing-Pipelines"
+    },
+    {
+      "source": "40-LOGS/vault-analysis-latest",
+      "target": "Review-and-Revision"
+    },
+    {
+      "source": "40-LOGS/vault-analysis-latest",
+      "target": "RoleFresh"
+    },
+    {
+      "source": "40-LOGS/vault-analysis-latest",
+      "target": "Bookbrary"
+    },
+    {
+      "source": "40-LOGS/2026-06-27",
+      "target": "40-LOGS/_Template"
+    },
+    {
+      "source": "30-PATTERNS/Coherence-Scoring",
+      "target": "Agent: Dev Editor"
+    },
+    {
+      "source": "30-PATTERNS/Coherence-Scoring",
+      "target": "Story Engine \u2014 Overview"
+    },
+    {
+      "source": "30-PATTERNS/Coherence-Scoring",
+      "target": "10-PROPERTIES/Story-Engine/Review-System"
+    },
+    {
+      "source": "30-PATTERNS/Coherence-Scoring",
+      "target": "Pattern: Compounding Knowledge"
+    },
+    {
+      "source": "30-PATTERNS/Coherence-Scoring",
+      "target": "10-PROPERTIES/Story-Engine/Lessons"
+    },
+    {
+      "source": "30-PATTERNS/Self-Healing-Pipelines",
+      "target": "Story Engine \u2014 Overview"
+    },
+    {
+      "source": "30-PATTERNS/Self-Healing-Pipelines",
+      "target": "Agent: Pipeline Orchestrator"
+    },
+    {
+      "source": "30-PATTERNS/Self-Healing-Pipelines",
+      "target": "10-PROPERTIES/Story-Engine/Lessons/Queue-Desync"
+    },
+    {
+      "source": "30-PATTERNS/Self-Healing-Pipelines",
+      "target": "10-PROPERTIES/Story-Engine/Lessons/Rate-Limits"
+    },
+    {
+      "source": "30-PATTERNS/Self-Healing-Pipelines",
+      "target": "Pattern: Compounding Knowledge"
+    },
+    {
+      "source": "30-PATTERNS/Compounding-Knowledge",
+      "target": "2026-06-26-The-Agentic-Compound-Effect"
+    },
+    {
+      "source": "30-PATTERNS/Compounding-Knowledge",
+      "target": "00-META/Compound-Effect"
+    },
+    {
+      "source": "30-PATTERNS/Compounding-Knowledge",
+      "target": "Pattern: Coherence-Scoring"
+    },
+    {
+      "source": "30-PATTERNS/Compounding-Knowledge",
+      "target": "Pattern: Self-Healing Pipelines"
+    },
+    {
+      "source": "30-PATTERNS/Compounding-Knowledge",
+      "target": "30-PATTERNS/"
+    },
+    {
+      "source": "30-PATTERNS/Compounding-Knowledge",
+      "target": "20-AGENTS/Agent-Objectives"
+    },
+    {
+      "source": "30-PATTERNS/Review-and-Revision",
+      "target": "Story Engine \u2014 Overview"
+    },
+    {
+      "source": "30-PATTERNS/Review-and-Revision",
+      "target": "Pattern: Coherence Scoring"
+    },
+    {
+      "source": "30-PATTERNS/Review-and-Revision",
       "target": "Lesson: Service Key Required"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "Lesson: Dual Queue Desync"
+      "source": "20-AGENTS/CoS",
+      "target": "OctoGentic \u2014 Portfolio"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "Lesson: Chapter Content Backfill"
+      "source": "20-AGENTS/CoS",
+      "target": "40-LOGS/_Template"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "Lesson: Cover Upload Gap"
+      "source": "20-AGENTS/CoS",
+      "target": "40-LOGS/"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "Lesson: Rate Limit Management"
+      "source": "20-AGENTS/CoS",
+      "target": "CoS \u2014 Delegation Map"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "Daily Standup \u2014 2026-06-27"
+      "source": "20-AGENTS/CoS",
+      "target": "30-PATTERNS/"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "Daily Log Template"
+      "source": "20-AGENTS/CoS",
+      "target": "Story Engine \u2014 Overview"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "OctoGentic Key Takeaways"
+      "source": "20-AGENTS/CoS",
+      "target": "00-META/Home"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "OctoGentic Blog Index"
+      "source": "20-AGENTS/CoS",
+      "target": "Pattern: Compounding Knowledge"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "2026-06-26 The Agentic Compound Effect"
+      "source": "20-AGENTS/Delegation",
+      "target": "20-AGENTS/CoS"
     },
     {
-      "source": "00-META/Home.md",
-      "target": "2026-06-25 The Agentic Feedback Loop"
+      "source": "20-AGENTS/Delegation",
+      "target": "Pattern: Self-Healing Pipelines"
     },
     {
-      "source": "10-PROPERTIES/OctoGentic/Objectives.md",
-      "target": "Agent Objective Functions"
+      "source": "20-AGENTS/Delegation",
+      "target": "Pattern: Coherence-Scoring"
     },
     {
-      "source": "10-PROPERTIES/OctoGentic/Objectives.md",
-      "target": "OctoGentic \u2014 Portfolio Overview"
+      "source": "20-AGENTS/Delegation",
+      "target": "10-PROPERTIES/Story-Engine/Lessons/Rate-Limits"
     },
     {
-      "source": "10-PROPERTIES/OctoGentic/Overview.md",
-      "target": "OctoGentic Blog Index"
+      "source": "20-AGENTS/Delegation",
+      "target": "10-PROPERTIES/OctoGentic/Key-Takeaways"
     },
     {
-      "source": "10-PROPERTIES/Story-Engine/Agent-Details.md",
-      "target": "Story Engine \u2014 Agent Roster"
+      "source": "20-AGENTS/Delegation",
+      "target": "30-PATTERNS/Compounding-Knowledge"
     },
     {
-      "source": "10-PROPERTIES/Story-Engine/Objectives.md",
-      "target": "Agent Objective Functions"
+      "source": "20-AGENTS/Delegation",
+      "target": "40-LOGS/"
     },
     {
-      "source": "10-PROPERTIES/Story-Engine/Objectives.md",
-      "target": "Story Engine \u2014 Agent Deep-Dives"
+      "source": "20-AGENTS/Delegation",
+      "target": "00-META/Home"
     },
     {
-      "source": "10-PROPERTIES/Story-Engine/Overview.md",
-      "target": "Lesson: Coherence Threshold Must Be 9"
+      "source": "20-AGENTS/Agent-Objectives",
+      "target": "20-AGENTS/CoS"
     },
     {
-      "source": "10-PROPERTIES/Story-Engine/Overview.md",
-      "target": "Lesson: Chapter Content Backfill"
+      "source": "20-AGENTS/Agent-Objectives",
+      "target": "20-AGENTS/Delegation"
     },
     {
-      "source": "10-PROPERTIES/Story-Engine/Overview.md",
-      "target": "Lesson: Cover Upload Gap"
+      "source": "20-AGENTS/Agent-Objectives",
+      "target": "10-PROPERTIES/Story-Engine/Agents"
     },
     {
-      "source": "10-PROPERTIES/Story-Engine/Overview.md",
-      "target": "Lesson: Dual Queue Desync"
+      "source": "20-AGENTS/Agent-Objectives",
+      "target": "30-PATTERNS/"
     },
     {
-      "source": "10-PROPERTIES/Story-Engine/Watchdog.md",
-      "target": "Lesson: Dual Queue Desync"
+      "source": "10-PROPERTIES/RoleFresh",
+      "target": "00-META/Home"
     },
     {
-      "source": "10-PROPERTIES/Story-Engine/Watchdog.md",
-      "target": "Lesson: Cover Upload Gap"
+      "source": "10-PROPERTIES/RoleFresh",
+      "target": "Takeaway T-A2"
     },
     {
-      "source": "10-PROPERTIES/Story-Engine/Watchdog.md",
-      "target": "Lesson: Chapter Content Backfill"
+      "source": "10-PROPERTIES/RoleFresh",
+      "target": "Agent: Novelist"
     },
     {
-      "source": "10-PROPERTIES/Story-Engine/Watchdog.md",
+      "source": "10-PROPERTIES/RoleFresh",
+      "target": "Pattern: Self-Healing Pipelines"
+    },
+    {
+      "source": "10-PROPERTIES/RoleFresh",
+      "target": "Takeaway T-C3"
+    },
+    {
+      "source": "10-PROPERTIES/Bookbrary",
+      "target": "00-META/Home"
+    },
+    {
+      "source": "10-PROPERTIES/Bookbrary",
+      "target": "Pattern: Review-and-Revision"
+    },
+    {
+      "source": "10-PROPERTIES/Bookbrary",
+      "target": "Agent: Pipeline Orchestrator"
+    },
+    {
+      "source": "10-PROPERTIES/Bookbrary",
+      "target": "Agent: Cover Artist"
+    },
+    {
+      "source": "10-PROPERTIES/Bookbrary",
+      "target": "Pattern: Coherence-Scoring"
+    },
+    {
+      "source": "10-PROPERTIES/Bookbrary",
+      "target": "Takeaway 7.5"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Objectives",
+      "target": "10-PROPERTIES/Story-Engine/Overview"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Objectives",
+      "target": "20-AGENTS/Agent-Objectives"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Objectives",
+      "target": "10-PROPERTIES/Story-Engine/Agent-Details"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Watchdog",
+      "target": "Pattern: Self-Healing Pipelines"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Watchdog",
+      "target": "10-PROPERTIES/Story-Engine/Overview"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Watchdog",
+      "target": "10-PROPERTIES/Story-Engine/Lessons/Queue-Desync"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Watchdog",
+      "target": "10-PROPERTIES/Story-Engine/Lessons/"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Watchdog",
+      "target": "10-PROPERTIES/Story-Engine/Lessons/Cover-Upload"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Watchdog",
+      "target": "10-PROPERTIES/Story-Engine/Lessons/Chapter-Backfill"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Watchdog",
       "target": "Lesson: Service Key Required"
     },
     {
-      "source": "20-AGENTS/Agent-Objectives.md",
-      "target": "CoS \u2014 Chief of Staff"
+      "source": "10-PROPERTIES/Story-Engine/Pipeline",
+      "target": "10-PROPERTIES/Story-Engine/Overview"
     },
     {
-      "source": "20-AGENTS/Agent-Objectives.md",
-      "target": "CoS \u2014 Knowledge Routing"
+      "source": "10-PROPERTIES/Story-Engine/Pipeline",
+      "target": "Pattern: Coherence-Scoring"
     },
     {
-      "source": "20-AGENTS/Agent-Objectives.md",
-      "target": "Story Engine \u2014 Agent Roster"
+      "source": "10-PROPERTIES/Story-Engine/Pipeline",
+      "target": "Pattern: Review-and-Revision"
     },
     {
-      "source": "20-AGENTS/CoS.md",
-      "target": "Daily Log Template"
+      "source": "10-PROPERTIES/Story-Engine/Pipeline",
+      "target": "Pattern: Self-Healing Pipelines"
     },
     {
-      "source": "20-AGENTS/Delegation.md",
-      "target": "CoS \u2014 Chief of Staff"
+      "source": "10-PROPERTIES/Story-Engine/Pipeline",
+      "target": "10-PROPERTIES/Story-Engine/Lessons/"
     },
     {
-      "source": "20-AGENTS/Delegation.md",
-      "target": "Lesson: Rate Limit Management"
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "OctoGentic \u2014 Portfolio"
     },
     {
-      "source": "30-PATTERNS/Coherence-Scoring.md",
-      "target": "Story Engine \u2014 Review System"
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "Bookbrary \u2014 Reader Frontend"
     },
     {
-      "source": "30-PATTERNS/Compounding-Knowledge.md",
-      "target": "Agent Objective Functions"
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "Bookbrary \u2014 Submission Form"
     },
     {
-      "source": "30-PATTERNS/Review-and-Revision.md",
-      "target": "Lesson: Service Key Required"
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "Story-Engine \u2014 Queue Worker"
     },
     {
-      "source": "30-PATTERNS/Self-Healing-Pipelines.md",
-      "target": "Lesson: Dual Queue Desync"
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "Pattern: Compounding Knowledge"
     },
     {
-      "source": "30-PATTERNS/Self-Healing-Pipelines.md",
-      "target": "Lesson: Rate Limit Management"
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "Agent: Architect"
     },
     {
-      "source": "40-LOGS/2026-06-27.md",
-      "target": "Daily Log Template"
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "Agent: Novelist"
     },
     {
-      "source": "40-LOGS/_Template.md",
-      "target": "CoS \u2014 Chief of Staff"
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "Agent: Dev Editor"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "Agent: Biographer"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "Agent: Copy Editor"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "Agent: Audit"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "Agent: Pipeline Orchestrator"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/Story-Engine/Lessons/Coherence-9"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/Story-Engine/Lessons/Chapter-Backfill"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/Story-Engine/Lessons/Cover-Upload"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/Story-Engine/Lessons/Queue-Desync"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "Pattern: Self-Healing Pipelines"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "Pattern: Coherence Scoring"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "Pattern: Queue Dual-Write"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "Pattern: Review-and-Revision"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "Story Engine \u2014 Overview"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "Agent: Architect"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "Agent: Biographer"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "Agent: Novelist"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "Agent: Dev Editor"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "Agent: Copy Editor"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "Agent: Audit"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "Agent: Pipeline Orchestrator"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "Pattern: Self-Healing Pipelines"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "Story-Engine \u2014 Queue Worker"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "Story-Engine \u2014 Watchdog"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "Story-Engine \u2014 Review System"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Review-System",
+      "target": "Pattern: Review-and-Revision"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Review-System",
+      "target": "10-PROPERTIES/Story-Engine/Overview"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Review-System",
+      "target": "Pattern: Coherence-Scoring"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Review-System",
+      "target": "30-PATTERNS/Compounding-Knowledge"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agent-Details",
+      "target": "10-PROPERTIES/Story-Engine/Agents"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agent-Details",
+      "target": "Agent: Architect"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agent-Details",
+      "target": "Agent: Biographer"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agent-Details",
+      "target": "Agent: Novelist"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agent-Details",
+      "target": "Agent: Dev Editor"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agent-Details",
+      "target": "Agent: Copy Editor"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agent-Details",
+      "target": "Agent: Audit"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agent-Details",
+      "target": "Agent: Pipeline Orchestrator"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agent-Details",
+      "target": "Pattern: Self-Healing Pipelines"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Lessons/Coherence-9",
+      "target": "Agent: Dev Editor"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Lessons/Coherence-9",
+      "target": "Pattern: Review-and-Revision"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Lessons/Queue-Desync",
+      "target": "Pattern: Self-Healing Pipelines"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Lessons/Queue-Desync",
+      "target": "Pattern: Compounding Knowledge"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Objectives",
+      "target": "10-PROPERTIES/OctoGentic/Overview"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Objectives",
+      "target": "20-AGENTS/Agent-Objectives"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Objectives",
+      "target": "10-PROPERTIES/OctoGentic/Overview"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Objectives",
+      "target": "10-PROPERTIES/OctoGentic/Key-Takeaways"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Objectives",
+      "target": "40-LOGS/"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Objectives",
+      "target": "00-META/Home"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "10-PROPERTIES/OctoGentic/Overview"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "2026-06-26-The-Agentic-Compound-Effect"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "2026-06-14-Agentic-Memory"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "2026-06-10-Decision-Making"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "2026-06-12-Rise-of-Agentic-AI"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "2026-06-25-The-Agentic-Feedback-Loop"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "2026-06-13-Learn-and-Adapt"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "2026-06-12-Economics-of-Agentic"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "2026-06-18-Orchestration-Tax"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "2026-06-08-Human-Agent-Collaboration"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "2026-06-24-The-Trust-Problem"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "2026-06-21-Agentic-UX"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "2026-06-15-Graceful-Failure"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "2026-06-16-Agentic-Observability"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "2026-06-22-Autonomous-Web-Property"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "2026-06-16-Agentic-Identity"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "2026-06-17-Agentic-Governance"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "Story Engine \u2014 Overview"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "Agent: Dev Editor"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "Agent: Audit"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "Pattern: Self-Healing Pipelines"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "Pattern: Compounding Knowledge"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "Bookbrary"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "OctoGentic \u2014 Portfolio"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-26-The-Agentic-Compound-Effect"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-25-The-Agentic-Feedback-Loop"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-24-The-Trust-Problem"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-23-Agentic-AI-Future-of-Work"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-22-Autonomous-Web-Property"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-21-Agentic-UX"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-20-Agentic-Supply-Chain"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-19-Agentic-API-Design"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-18-Orchestration-Tax"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-17-Agentic-Governance"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-16-Agentic-Identity"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-16-Agentic-Observability"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-15-Graceful-Failure"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-14-Agentic-Memory"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-13-Learn-and-Adapt"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-12-Economics-of-Agentic"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06--of-Agentic-AI"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-11-Agent-Coordination"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-11-Reactive-to-Proactive"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-10-Decision-Making"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-10-Privacy-Security"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-09-Agentic-AI-Future-of-Work"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-08-Human-Agent-Collaboration"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-2UX-Design"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-20-The-Agentic-Supply-Chain"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-26-The-Agentic-Compound-Effect-Duplicate"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-06-12-Rise-of-Agentic-AI"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "2026-0-Agentic-UX"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "202-24-The-Trust-Problem"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Overview",
+      "target": "00-META/Home"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Overview",
+      "target": "Story Engine \u2014 Overview"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Overview",
+      "target": "Bookbrary \u2014 Reader Frontend"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Overview",
+      "target": "RoleFresh \u2014 Talent Platform"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Overview",
+      "target": "Agent: Portfolio Orchestrator"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Overview",
+      "target": "Agent: Signal Feed Generator"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Overview",
+      "target": "Agent: Telemetry Aggregator"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Overview",
+      "target": "Agent: Key Takeaway Currator"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Overview",
+      "target": "KEY: OctoGentic Takeaways"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Blog-Index"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Overview",
+      "target": "KEY: Octo-Compounding-Effect"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop",
+      "target": "10-PROPERTIES/OctoGentic/Blog-Index"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop",
+      "target": "30-PATTERNS/Compounding-Knowledge"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop",
+      "target": "Pattern: Coherence-Scoring"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop",
+      "target": "Pattern: Self-Healing Pipelines"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop",
+      "target": "Pattern: Review-and-Revision"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
+      "target": "10-PROPERTIES/OctoGentic/Blog-Index"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
+      "target": "00-META/Compound-Effect"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
+      "target": "30-PATTERNS/Compounding-Knowledge"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
+      "target": "20-AGENTS/Agent-Objectives"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
+      "target": "30-PATTERNS/"
     }
   ],
-  "meta": {
-    "total_nodes": 33,
-    "total_links": 53,
-    "groups": [
-      "Bookbrary.md",
-      "OctoGentic",
-      "RoleFresh.md",
-      "Story-Engine",
-      "agents",
-      "logs",
-      "meta",
-      "patterns"
+  "analysis": {
+    "timestamp": "2026-06-30T07:00:45.235150",
+    "vault_path": ".",
+    "health": {
+      "score": 86,
+      "grade": "B",
+      "connectivity": 65,
+      "richness": 91,
+      "tagging": 100,
+      "density": 0.1933,
+      "total_notes": 35,
+      "total_links": 230,
+      "orphan_count": 12,
+      "dead_end_count": 3,
+      "untagged_count": 0
+    },
+    "god_notes": [
+      {
+        "title": "OctoGentic Blog Index",
+        "id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "inbound": 3,
+        "outbound": 30,
+        "degree": 33,
+        "group": "OctoGentic"
+      },
+      {
+        "title": "OctoGentic Key Takeaways",
+        "id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "inbound": 2,
+        "outbound": 23,
+        "degree": 25,
+        "group": "OctoGentic"
+      },
+      {
+        "title": "Story Engine \u2014 Architecture Overview",
+        "id": "10-PROPERTIES/Story-Engine/Overview",
+        "inbound": 4,
+        "outbound": 20,
+        "degree": 24,
+        "group": "Story-Engine"
+      },
+      {
+        "title": "Home",
+        "id": "00-META/Home",
+        "inbound": 7,
+        "outbound": 10,
+        "degree": 17,
+        "group": "meta"
+      },
+      {
+        "title": "Story Engine \u2014 Agent Roster",
+        "id": "10-PROPERTIES/Story-Engine/Agents",
+        "inbound": 2,
+        "outbound": 12,
+        "degree": 14,
+        "group": "Story-Engine"
+      }
     ],
-    "last_updated": "static",
-    "vault_path": "/root/projects/obsidian-vault"
+    "clusters": [
+      [
+        "00-META/Home",
+        "00-META/Compound-Effect",
+        "00-META/Architecture",
+        "40-LOGS/_Template",
+        "40-LOGS/2026-06-27",
+        "30-PATTERNS/Coherence-Scoring",
+        "30-PATTERNS/Self-Healing-Pipelines",
+        "30-PATTERNS/Compounding-Knowledge",
+        "20-AGENTS/CoS",
+        "20-AGENTS/Delegation",
+        "20-AGENTS/Agent-Objectives",
+        "10-PROPERTIES/RoleFresh",
+        "10-PROPERTIES/Bookbrary",
+        "10-PROPERTIES/Story-Engine/Objectives",
+        "10-PROPERTIES/Story-Engine/Watchdog",
+        "10-PROPERTIES/Story-Engine/Pipeline",
+        "10-PROPERTIES/Story-Engine/Overview",
+        "10-PROPERTIES/Story-Engine/Agents",
+        "10-PROPERTIES/Story-Engine/Review-System",
+        "10-PROPERTIES/Story-Engine/Agent-Details",
+        "10-PROPERTIES/Story-Engine/Lessons/Chapter-Backfill",
+        "10-PROPERTIES/Story-Engine/Lessons/Coherence-9",
+        "10-PROPERTIES/Story-Engine/Lessons/Queue-Desync",
+        "10-PROPERTIES/Story-Engine/Lessons/Rate-Limits",
+        "10-PROPERTIES/Story-Engine/Lessons/Cover-Upload",
+        "10-PROPERTIES/OctoGentic/Objectives",
+        "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "10-PROPERTIES/OctoGentic/Blog-Index",
+        "10-PROPERTIES/OctoGentic/Overview",
+        "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop",
+        "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect"
+      ],
+      [
+        "40-LOGS/2026-06-28"
+      ],
+      [
+        "40-LOGS/vault-analysis-latest"
+      ],
+      [
+        "40-LOGS/2026-06-29"
+      ],
+      [
+        "30-PATTERNS/Review-and-Revision"
+      ]
+    ],
+    "hubs": [],
+    "orphans": [
+      {
+        "title": "OctoGentic \u2014 Agentic Objectives",
+        "id": "10-PROPERTIES/OctoGentic/Objectives",
+        "group": "OctoGentic",
+        "word_count": 397
+      },
+      {
+        "title": "2026-06-25 The Agentic Feedback Loop",
+        "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop",
+        "group": "OctoGentic",
+        "word_count": 307
+      },
+      {
+        "title": "2026-06-26 The Agentic Compound Effect",
+        "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
+        "group": "OctoGentic",
+        "word_count": 303
+      },
+      {
+        "title": "Story Engine \u2014 Agentic Objectives",
+        "id": "10-PROPERTIES/Story-Engine/Objectives",
+        "group": "Story-Engine",
+        "word_count": 670
+      },
+      {
+        "title": "Story Engine \u2014 Watchdog & Recovery",
+        "id": "10-PROPERTIES/Story-Engine/Watchdog",
+        "group": "Story-Engine",
+        "word_count": 331
+      },
+      {
+        "title": "Story Engine \u2014 Pipeline Architecture",
+        "id": "10-PROPERTIES/Story-Engine/Pipeline",
+        "group": "Story-Engine",
+        "word_count": 302
+      },
+      {
+        "title": "Obsidian Vault \u2014 Knowledge Architecture",
+        "id": "00-META/Architecture",
+        "group": "meta",
+        "word_count": 636
+      },
+      {
+        "title": "Coherence Scoring",
+        "id": "30-PATTERNS/Coherence-Scoring",
+        "group": "patterns",
+        "word_count": 363
+      },
+      {
+        "title": "Self-Healing Pipelines",
+        "id": "30-PATTERNS/Self-Healing-Pipelines",
+        "group": "patterns",
+        "word_count": 366
+      },
+      {
+        "title": "Review and Revision",
+        "id": "30-PATTERNS/Review-and-Revision",
+        "group": "patterns",
+        "word_count": 256
+      },
+      {
+        "title": "RoleFresh \u2014 Job Matching Platform",
+        "id": "10-PROPERTIES/RoleFresh",
+        "group": "properties",
+        "word_count": 145
+      },
+      {
+        "title": "Bookbrary \u2014 Reader-Facing Platform",
+        "id": "10-PROPERTIES/Bookbrary",
+        "group": "properties",
+        "word_count": 246
+      }
+    ],
+    "dead_ends": [
+      {
+        "title": "Lesson: Chapter Content Backfill",
+        "id": "10-PROPERTIES/Story-Engine/Lessons/Chapter-Backfill",
+        "group": "Story-Engine",
+        "word_count": 80
+      },
+      {
+        "title": "Lesson: Rate Limit Management",
+        "id": "10-PROPERTIES/Story-Engine/Lessons/Rate-Limits",
+        "group": "Story-Engine",
+        "word_count": 156
+      },
+      {
+        "title": "Lesson: Cover Upload Gap",
+        "id": "10-PROPERTIES/Story-Engine/Lessons/Cover-Upload",
+        "group": "Story-Engine",
+        "word_count": 108
+      }
+    ],
+    "broken_links": [
+      {
+        "from": "Octo-Compounding-Effect",
+        "from_id": "00-META/Compound-Effect",
+        "missing_target": "2026-06-26-the-Agentic-Compound-Effect"
+      },
+      {
+        "from": "Octo-Compounding-Effect",
+        "from_id": "00-META/Compound-Effect",
+        "missing_target": "30-PATTERNS/"
+      },
+      {
+        "from": "Obsidian Vault \u2014 Knowledge Architecture",
+        "from_id": "00-META/Architecture",
+        "missing_target": "40-LOGS/"
+      },
+      {
+        "from": "Coherence Scoring",
+        "from_id": "30-PATTERNS/Coherence-Scoring",
+        "missing_target": "Story Engine \u2014 Overview"
+      },
+      {
+        "from": "Coherence Scoring",
+        "from_id": "30-PATTERNS/Coherence-Scoring",
+        "missing_target": "10-PROPERTIES/Story-Engine/Lessons"
+      },
+      {
+        "from": "Self-Healing Pipelines",
+        "from_id": "30-PATTERNS/Self-Healing-Pipelines",
+        "missing_target": "Story Engine \u2014 Overview"
+      },
+      {
+        "from": "Compounding Knowledge \u2014 The Core Pattern",
+        "from_id": "30-PATTERNS/Compounding-Knowledge",
+        "missing_target": "2026-06-26-The-Agentic-Compound-Effect"
+      },
+      {
+        "from": "Compounding Knowledge \u2014 The Core Pattern",
+        "from_id": "30-PATTERNS/Compounding-Knowledge",
+        "missing_target": "30-PATTERNS/"
+      },
+      {
+        "from": "Review and Revision",
+        "from_id": "30-PATTERNS/Review-and-Revision",
+        "missing_target": "Story Engine \u2014 Overview"
+      },
+      {
+        "from": "Review and Revision",
+        "from_id": "30-PATTERNS/Review-and-Revision",
+        "missing_target": "Lesson: Service Key Required"
+      },
+      {
+        "from": "CoS \u2014 Chief of Staff",
+        "from_id": "20-AGENTS/CoS",
+        "missing_target": "OctoGentic \u2014 Portfolio"
+      },
+      {
+        "from": "CoS \u2014 Chief of Staff",
+        "from_id": "20-AGENTS/CoS",
+        "missing_target": "40-LOGS/"
+      },
+      {
+        "from": "CoS \u2014 Chief of Staff",
+        "from_id": "20-AGENTS/CoS",
+        "missing_target": "CoS \u2014 Delegation Map"
+      },
+      {
+        "from": "CoS \u2014 Chief of Staff",
+        "from_id": "20-AGENTS/CoS",
+        "missing_target": "30-PATTERNS/"
+      },
+      {
+        "from": "CoS \u2014 Chief of Staff",
+        "from_id": "20-AGENTS/CoS",
+        "missing_target": "Story Engine \u2014 Overview"
+      },
+      {
+        "from": "CoS \u2014 Knowledge Routing",
+        "from_id": "20-AGENTS/Delegation",
+        "missing_target": "40-LOGS/"
+      },
+      {
+        "from": "Agent Objective Functions",
+        "from_id": "20-AGENTS/Agent-Objectives",
+        "missing_target": "30-PATTERNS/"
+      },
+      {
+        "from": "RoleFresh \u2014 Job Matching Platform",
+        "from_id": "10-PROPERTIES/RoleFresh",
+        "missing_target": "Takeaway T-A2"
+      },
+      {
+        "from": "RoleFresh \u2014 Job Matching Platform",
+        "from_id": "10-PROPERTIES/RoleFresh",
+        "missing_target": "Takeaway T-C3"
+      },
+      {
+        "from": "Bookbrary \u2014 Reader-Facing Platform",
+        "from_id": "10-PROPERTIES/Bookbrary",
+        "missing_target": "Takeaway 7.5"
+      },
+      {
+        "from": "Story Engine \u2014 Watchdog & Recovery",
+        "from_id": "10-PROPERTIES/Story-Engine/Watchdog",
+        "missing_target": "10-PROPERTIES/Story-Engine/Lessons/"
+      },
+      {
+        "from": "Story Engine \u2014 Watchdog & Recovery",
+        "from_id": "10-PROPERTIES/Story-Engine/Watchdog",
+        "missing_target": "Lesson: Service Key Required"
+      },
+      {
+        "from": "Story Engine \u2014 Pipeline Architecture",
+        "from_id": "10-PROPERTIES/Story-Engine/Pipeline",
+        "missing_target": "10-PROPERTIES/Story-Engine/Lessons/"
+      },
+      {
+        "from": "Story Engine \u2014 Architecture Overview",
+        "from_id": "10-PROPERTIES/Story-Engine/Overview",
+        "missing_target": "OctoGentic \u2014 Portfolio"
+      },
+      {
+        "from": "Story Engine \u2014 Architecture Overview",
+        "from_id": "10-PROPERTIES/Story-Engine/Overview",
+        "missing_target": "Bookbrary \u2014 Reader Frontend"
+      },
+      {
+        "from": "Story Engine \u2014 Architecture Overview",
+        "from_id": "10-PROPERTIES/Story-Engine/Overview",
+        "missing_target": "Bookbrary \u2014 Submission Form"
+      },
+      {
+        "from": "Story Engine \u2014 Architecture Overview",
+        "from_id": "10-PROPERTIES/Story-Engine/Overview",
+        "missing_target": "Story-Engine \u2014 Queue Worker"
+      },
+      {
+        "from": "Story Engine \u2014 Agent Roster",
+        "from_id": "10-PROPERTIES/Story-Engine/Agents",
+        "missing_target": "Story Engine \u2014 Overview"
+      },
+      {
+        "from": "Story Engine \u2014 Agent Roster",
+        "from_id": "10-PROPERTIES/Story-Engine/Agents",
+        "missing_target": "Story-Engine \u2014 Queue Worker"
+      },
+      {
+        "from": "Story Engine \u2014 Agent Roster",
+        "from_id": "10-PROPERTIES/Story-Engine/Agents",
+        "missing_target": "Story-Engine \u2014 Watchdog"
+      },
+      {
+        "from": "Story Engine \u2014 Agent Roster",
+        "from_id": "10-PROPERTIES/Story-Engine/Agents",
+        "missing_target": "Story-Engine \u2014 Review System"
+      },
+      {
+        "from": "OctoGentic \u2014 Agentic Objectives",
+        "from_id": "10-PROPERTIES/OctoGentic/Objectives",
+        "missing_target": "40-LOGS/"
+      },
+      {
+        "from": "OctoGentic Key Takeaways",
+        "from_id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "missing_target": "2026-06-26-The-Agentic-Compound-Effect"
+      },
+      {
+        "from": "OctoGentic Key Takeaways",
+        "from_id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "missing_target": "2026-06-14-Agentic-Memory"
+      },
+      {
+        "from": "OctoGentic Key Takeaways",
+        "from_id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "missing_target": "2026-06-10-Decision-Making"
+      },
+      {
+        "from": "OctoGentic Key Takeaways",
+        "from_id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "missing_target": "2026-06-12-Rise-of-Agentic-AI"
+      },
+      {
+        "from": "OctoGentic Key Takeaways",
+        "from_id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "missing_target": "2026-06-25-The-Agentic-Feedback-Loop"
+      },
+      {
+        "from": "OctoGentic Key Takeaways",
+        "from_id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "missing_target": "2026-06-13-Learn-and-Adapt"
+      },
+      {
+        "from": "OctoGentic Key Takeaways",
+        "from_id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "missing_target": "2026-06-12-Economics-of-Agentic"
+      },
+      {
+        "from": "OctoGentic Key Takeaways",
+        "from_id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "missing_target": "2026-06-18-Orchestration-Tax"
+      },
+      {
+        "from": "OctoGentic Key Takeaways",
+        "from_id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "missing_target": "2026-06-08-Human-Agent-Collaboration"
+      },
+      {
+        "from": "OctoGentic Key Takeaways",
+        "from_id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "missing_target": "2026-06-24-The-Trust-Problem"
+      },
+      {
+        "from": "OctoGentic Key Takeaways",
+        "from_id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "missing_target": "2026-06-21-Agentic-UX"
+      },
+      {
+        "from": "OctoGentic Key Takeaways",
+        "from_id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "missing_target": "2026-06-15-Graceful-Failure"
+      },
+      {
+        "from": "OctoGentic Key Takeaways",
+        "from_id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "missing_target": "2026-06-16-Agentic-Observability"
+      },
+      {
+        "from": "OctoGentic Key Takeaways",
+        "from_id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "missing_target": "2026-06-22-Autonomous-Web-Property"
+      },
+      {
+        "from": "OctoGentic Key Takeaways",
+        "from_id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "missing_target": "2026-06-16-Agentic-Identity"
+      },
+      {
+        "from": "OctoGentic Key Takeaways",
+        "from_id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "missing_target": "2026-06-17-Agentic-Governance"
+      },
+      {
+        "from": "OctoGentic Key Takeaways",
+        "from_id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+        "missing_target": "Story Engine \u2014 Overview"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "OctoGentic \u2014 Portfolio"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-26-The-Agentic-Compound-Effect"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-25-The-Agentic-Feedback-Loop"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-24-The-Trust-Problem"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-23-Agentic-AI-Future-of-Work"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-22-Autonomous-Web-Property"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-21-Agentic-UX"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-20-Agentic-Supply-Chain"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-19-Agentic-API-Design"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-18-Orchestration-Tax"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-17-Agentic-Governance"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-16-Agentic-Identity"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-16-Agentic-Observability"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-15-Graceful-Failure"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-14-Agentic-Memory"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-13-Learn-and-Adapt"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-12-Economics-of-Agentic"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06--of-Agentic-AI"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-11-Agent-Coordination"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-11-Reactive-to-Proactive"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-10-Decision-Making"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-10-Privacy-Security"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-09-Agentic-AI-Future-of-Work"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-08-Human-Agent-Collaboration"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-2UX-Design"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-20-The-Agentic-Supply-Chain"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-26-The-Agentic-Compound-Effect-Duplicate"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-06-12-Rise-of-Agentic-AI"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "2026-0-Agentic-UX"
+      },
+      {
+        "from": "OctoGentic Blog Index",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog-Index",
+        "missing_target": "202-24-The-Trust-Problem"
+      },
+      {
+        "from": "OctoGentic \u2014 Portfolio Overview",
+        "from_id": "10-PROPERTIES/OctoGentic/Overview",
+        "missing_target": "Story Engine \u2014 Overview"
+      },
+      {
+        "from": "OctoGentic \u2014 Portfolio Overview",
+        "from_id": "10-PROPERTIES/OctoGentic/Overview",
+        "missing_target": "Bookbrary \u2014 Reader Frontend"
+      },
+      {
+        "from": "OctoGentic \u2014 Portfolio Overview",
+        "from_id": "10-PROPERTIES/OctoGentic/Overview",
+        "missing_target": "RoleFresh \u2014 Talent Platform"
+      },
+      {
+        "from": "2026-06-26 The Agentic Compound Effect",
+        "from_id": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
+        "missing_target": "30-PATTERNS/"
+      }
+    ],
+    "tag_gaps": {
+      "untagged_notes": [],
+      "total_tags": 48,
+      "all_tags": [
+        "2026-06",
+        "agent",
+        "agents",
+        "architecture",
+        "blog",
+        "bookbrary",
+        "coherence",
+        "compounding",
+        "coordinator",
+        "cos",
+        "daily-log",
+        "dashboard",
+        "data",
+        "delegation",
+        "feedback",
+        "foundational",
+        "frontend",
+        "index",
+        "infrastructure",
+        "jobs",
+        "learning",
+        "lesson",
+        "media",
+        "meta",
+        "objectives",
+        "octogentic",
+        "ops",
+        "pattern",
+        "pipeline",
+        "portfolio",
+        "post-generation",
+        "property",
+        "quality",
+        "recovery",
+        "reference",
+        "reliability",
+        "review",
+        "revision",
+        "rolefresh",
+        "routing",
+        "self-healing",
+        "standup",
+        "story-engine",
+        "takeaway",
+        "takeaways",
+        "template",
+        "vault",
+        "watchdog"
+      ]
+    },
+    "stale_notes": [],
+    "stale_threshold": 7
+  },
+  "meta": {
+    "total_nodes": 35,
+    "total_links": 230,
+    "last_updated": "2026-06-30T07:00:45.242773",
+    "vault_path": "."
   }
 }
