@@ -1,0 +1,65 @@
+{
+  "_meta": {
+    "description": "Evidence manifest for OctoGentic takeaway implementation tracking. Status is COMPUTED from evidence, never hand-typed. Only add an evidence block when something is actually built.",
+    "updated": "2026-08-13",
+    "repo_root": "/root/projects/story-engine",
+    "db_path": "/root/projects/story-engine/story-engine.db",
+    "rules": {
+      "implemented": "files exist AND (signal seen OR commit tagged)",
+      "partial": "files exist but no signal/commit proof",
+      "in_progress": "commit tagged wip: but files missing/incomplete",
+      "not_started": "no evidence block or no evidence found"
+    }
+  },
+  "takeaways": {
+    "T-CE1": {
+      "name": "Build Compounding Infrastructure Before Features",
+      "source": "2026-06-26",
+      "properties": ["story_engine", "octogentic"],
+      "evidence": {
+        "files": ["core/signals.py"],
+        "signals": ["quality_score", "chapter_completion"],
+        "commit_grep": "Signal Bus"
+      }
+    },
+    "T-MM3": {
+      "name": "Build Memory Architecture First",
+      "source": "2026-06-14",
+      "properties": ["story_engine"],
+      "evidence": {
+        "files": ["core/memory.py", "core/memory_retrieval.py"],
+        "db_tables": ["memory_items"],
+        "commit_grep": "Memory Architecture"
+      }
+    },
+    "T-HA2": {
+      "name": "Show the Agent's Work",
+      "source": "2026-06-08",
+      "properties": ["story_engine", "octogentic"],
+      "evidence": {
+        "files": ["core/audit.py"],
+        "db_tables": ["audit_trail"],
+        "commit_grep": "Audit Trail"
+      }
+    },
+    "T-FL2": {
+      "name": "Log Everything, Query Later",
+      "source": "2026-06-25",
+      "properties": ["story_engine"],
+      "evidence": {
+        "files": ["core/signals.py"],
+        "db_tables": ["signals", "signal_outcomes"]
+      }
+    },
+    "T-AT1": {
+      "name": "Log Every Agent Decision",
+      "source": "2026-07-13",
+      "properties": ["story_engine"],
+      "evidence": {
+        "files": ["core/audit.py"],
+        "db_tables": ["audit_trail"],
+        "commit_grep": "AuditLogger"
+      }
+    }
+  }
+}

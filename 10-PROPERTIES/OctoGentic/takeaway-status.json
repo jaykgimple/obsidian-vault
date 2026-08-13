@@ -1,0 +1,1536 @@
+{
+  "generated": "2026-08-13T22:53:32.959479",
+  "counts": {
+    "implemented": 4,
+    "partial": 1,
+    "in_progress": 0,
+    "not_started": 144
+  },
+  "takeaways": {
+    "T-AA1": {
+      "name": "Map Your Agentic Attack Surface",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AA2": {
+      "name": "Implement Defense in Depth",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AA3": {
+      "name": "Enforce Permissions at the API Level",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AA4": {
+      "name": "Conduct Regular Adversarial Evaluations",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AA5": {
+      "name": "Monitor Agent Behavior, Not Just Inputs",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AB1": {
+      "name": "Define Decision Quality Metrics Before Deployment",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AB2": {
+      "name": "Track Calibration, Not Just Accuracy",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AB3": {
+      "name": "Monitor Behavioral Drift Continuously",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AB4": {
+      "name": "Build Explainability Into Observability",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AB5": {
+      "name": "Connect Decisions to Outcomes",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AC1": {
+      "name": "Design Pipelines for Decision Speed",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AC2": {
+      "name": "Validate at Ingestion, Not at Decision Time",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AC3": {
+      "name": "Enrich Signals Before Delivery to Agents",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AC4": {
+      "name": "Implement Quality Monitoring",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AC5": {
+      "name": "Build Shared Feature Stores",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AD1": {
+      "name": "Restructure Around Outcomes, Not Functions",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AD2": {
+      "name": "Define the Three Agentic Roles",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AD3": {
+      "name": "Invest in Brief-Writing Skills",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AD4": {
+      "name": "Elevate, Don't Eliminate",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AD5": {
+      "name": "Measure Outcome-Based Performance",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AE1": {
+      "name": "Define Inference Boundaries Explicitly",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AE2": {
+      "name": "Implement Graduated Transparency",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AE3": {
+      "name": "Build Preference Decay Into Your Models",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AE4": {
+      "name": "Give Users Control Over Their Profiles",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AE5": {
+      "name": "Track the Creepy-Useful Ratio",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AF1": {
+      "name": "Never Deploy Agents Directly to Full Production",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AF2": {
+      "name": "Implement Graduated Exposure",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AF3": {
+      "name": "Combine Shadow Mode and Sandbox Training",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AF4": {
+      "name": "Track Onboarding Metrics",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AF5": {
+      "name": "Use Human-in-the-Loop as a Learning Mechanism",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AG1": {
+      "name": "Capture Decision Snapshots for Every Significant Decision",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AG2": {
+      "name": "Build What-If Analysis Capabilities",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AG3": {
+      "name": "Use Replay for Incident Investigation",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AG4": {
+      "name": "Implement Model Comparison Through Replay",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AG5": {
+      "name": "Schedule Regular Replay Reviews",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AH1": {
+      "name": "Optimize for Decisional Relevance, Not Just Semantic Similarity",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AH2": {
+      "name": "Enforce Temporal Relevance Through Metadata",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AH3": {
+      "name": "Adapt Retrieval Strategy to Decision Stakes",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AH4": {
+      "name": "Measure Retrieval by Decision Impact",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AH5": {
+      "name": "Build Feedback Loops From Decisions Back to Retrieval",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AI1": {
+      "name": "Define Decision Quality Metrics Before Launch",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AI2": {
+      "name": "Specify Calibration Accuracy Targets",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AI3": {
+      "name": "Create Service Tiers With Clear Thresholds",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AI4": {
+      "name": "Measure Over Sufficient Sample Sizes",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AI5": {
+      "name": "Use SLAs as Trust-Building Mechanisms",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AJ1": {
+      "name": "Monitor Behavioral Patterns, Not Just Technical Metrics",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AJ2": {
+      "name": "Implement Graduated Containment",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AJ3": {
+      "name": "Classify Anomalies for Appropriate Response",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AJ4": {
+      "name": "Build Automated Response Playbooks",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AJ5": {
+      "name": "Extract Learning From Every Anomaly",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AK1": {
+      "name": "Close the Loop for Every Significant Action",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AK2": {
+      "name": "Handle Feedback Latency Appropriately",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AK3": {
+      "name": "Combine Explicit and Implicit Feedback",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AK4": {
+      "name": "Solve the Attribution Problem",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AK5": {
+      "name": "Measure Learning Velocity",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AL1": {
+      "name": "Capture State Snapshots Continuously",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AL2": {
+      "name": "Maintain Detailed Change Logs",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AL3": {
+      "name": "Implement Gradual Rollout With Automated Gates",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AL4": {
+      "name": "Build Selective Rollback Capabilities",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AL5": {
+      "name": "Test Behavior, Not Just Output",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AM1": {
+      "name": "Enforce One-Way Dependencies",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AM2": {
+      "name": "Use Event-Based Communication",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AM3": {
+      "name": "Maintain Signal Catalogs",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AM4": {
+      "name": "Implement Integration Testing",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AM5": {
+      "name": "Plan for Property Independence from Day One",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AN1": {
+      "name": "Build Explanation Generation Into Decision Logging",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AN2": {
+      "name": "Tailor Explanations to the Audience",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AN3": {
+      "name": "Implement Counterfactual Explanations",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AN4": {
+      "name": "Make Explanations a First-Class Product Feature",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AN5": {
+      "name": "Measure Explanation Effectiveness",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AO1": {
+      "name": "Build Comprehensive Cost Models",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AO2": {
+      "name": "Track Unit Economics Religiously",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AO3": {
+      "name": "Optimize Invisible Costs",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AO4": {
+      "name": "Model Costs at Scale",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AO5": {
+      "name": "Review Cost Health Monthly",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AP1": {
+      "name": "Map Agentic Failure Modes",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AP2": {
+      "name": "Implement Graceful Degradation",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AP3": {
+      "name": "Layer Defenses in Depth",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AP4": {
+      "name": "Automate Recovery",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AP5": {
+      "name": "Test Resilience, Not Just Functionality",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AQ1": {
+      "name": "Focus on Compounding, Not Just Features",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AQ2": {
+      "name": "Measure Decision Quality Continuously",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AQ3": {
+      "name": "Design Comprehensive Feedback Mechanisms",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AQ4": {
+      "name": "Invest in Learning Infrastructure",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AQ5": {
+      "name": "Track Moat Depth Over Time",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AR1": {
+      "name": "Prepare for Infrastructure Consolidation",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AR2": {
+      "name": "Build Governance Into Your Architecture",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AR3": {
+      "name": "Invest in the Neural Hub",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AR4": {
+      "name": "Build Deep Personalization Capabilities",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AR5": {
+      "name": "Develop Dynamic Autonomy Calibration",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-AT1": {
+      "name": "Log Every Agent Decision",
+      "source": "2026-07-13",
+      "properties": [
+        "story_engine"
+      ],
+      "status": "implemented",
+      "proof": [
+        "file:core/audit.py:ok",
+        "table:audit_trail:ok",
+        "commit:ok"
+      ],
+      "files": [
+        "core/audit.py"
+      ]
+    },
+    "T-CE1": {
+      "name": "Build Compounding Infrastructure Before Features",
+      "source": "2026-06-26",
+      "properties": [
+        "story_engine",
+        "octogentic"
+      ],
+      "status": "implemented",
+      "proof": [
+        "file:core/signals.py:ok",
+        "signal:quality_score:4",
+        "signal:chapter_completion:2",
+        "commit:ok"
+      ],
+      "files": [
+        "core/signals.py"
+      ]
+    },
+    "T-CE4": {
+      "name": "Track Four Compounding Metrics From Day One",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-CP1": {
+      "name": "Start Simple, Add Agents Incrementally",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-CP2": {
+      "name": "Define Clear Agent Interfaces",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-DD1": {
+      "name": "Engineer Drift Detection Into Your Architecture, Not As an Afterthought",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-DD2": {
+      "name": "Maintain Multi-Dimensional Baselines for Every Agent Component",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-DD3": {
+      "name": "Implement Layered Detection Strategies That Work Simultaneously",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-DD4": {
+      "name": "Build Automated Correction Mechanisms With Human Oversight",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-DD5": {
+      "name": "Continuously Refine Detection Sensitivity Based on Historical Performance",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-EC3": {
+      "name": "Early Movers Have Compounding Advantage",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-FC1": {
+      "name": "Design Failover Into Your Architecture, Not as an Afterthought",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-FC2": {
+      "name": "Understand Cascading Failure Patterns",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-FC3": {
+      "name": "Implement Layered Failover Architecture",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-FC4": {
+      "name": "Automate Failover With Manual Override",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-FC5": {
+      "name": "Test Failover Thoroughly",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-FL1": {
+      "name": "Close the Circuit Between Action and Learning",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-FL2": {
+      "name": "Log Everything, Query Later",
+      "source": "2026-06-25",
+      "properties": [
+        "story_engine"
+      ],
+      "status": "partial",
+      "proof": [
+        "file:core/signals.py:ok",
+        "table:signals:ok",
+        "table:signal_outcomes:ok"
+      ],
+      "files": [
+        "core/signals.py"
+      ]
+    },
+    "T-GF1": {
+      "name": "Maintain a Failure Log",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-GF2": {
+      "name": "Design for the 3 AM Test",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-GF3": {
+      "name": "Compound Trust Through Resilience",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-HA1": {
+      "name": "Design for Augmentation, Not Replacement",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-HA2": {
+      "name": "Show the Agent's Work",
+      "source": "2026-06-08",
+      "properties": [
+        "story_engine",
+        "octogentic"
+      ],
+      "status": "implemented",
+      "proof": [
+        "file:core/audit.py:ok",
+        "table:audit_trail:ok",
+        "commit:ok"
+      ],
+      "files": [
+        "core/audit.py"
+      ]
+    },
+    "T-KG1": {
+      "name": "Design for Dynamic Evolution",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-KG2": {
+      "name": "Semantize Every Data Point",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-KG3": {
+      "name": "Implement Context-Aware Querying Logic",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-KG4": {
+      "name": "Automate Maintenance with Human Guardrails",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-KG5": {
+      "name": "Model Graph Health Through Query Performance",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-LA1": {
+      "name": "Map Feedback Loops Before Choosing Models",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-LA3": {
+      "name": "Make Every Adaptation Traceable",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-MM1": {
+      "name": "Make Memory Editable",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-MM3": {
+      "name": "Build Memory Architecture First",
+      "source": "2026-06-14",
+      "properties": [
+        "story_engine"
+      ],
+      "status": "implemented",
+      "proof": [
+        "file:core/memory.py:ok",
+        "file:core/memory_retrieval.py:ok",
+        "table:memory_items:ok",
+        "commit:ok"
+      ],
+      "files": [
+        "core/memory.py",
+        "core/memory_retrieval.py"
+      ]
+    },
+    "T-OB1": {
+      "name": "Make Every Agent Action Explainable",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-PS1": {
+      "name": "Apply Least Privilege to Agents",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-PS2": {
+      "name": "Hard-Code Agent Boundaries",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-QM1": {
+      "name": "Treat Queues As Active Coordination Engines, Not Passive Buffers",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-QM2": {
+      "name": "Implement Multi-Dimensional Priority Scoring",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-QM3": {
+      "name": "Build Predictive Scheduling Capabilities",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-QM4": {
+      "name": "Implement Multi-Objective Optimization",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-QM5": {
+      "name": "Measure Queue Health Through Multiple Dimensions",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-RI1": {
+      "name": "Apply Agentic Ai Principles",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-RI2": {
+      "name": "",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-RI3": {
+      "name": "Measure What Matters",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-TP1": {
+      "name": "Trust Through Predictability",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-U1": {
+      "name": "Define Autonomy Levels Explicitly",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-U2": {
+      "name": "Map Every Decision to a Level",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-U3": {
+      "name": "Build the Decision Classifier First",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-U4": {
+      "name": "Require Sustained Performance for Graduation",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-XX1": {
+      "name": "Apply Agentic Ai Principles",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-XX2": {
+      "name": "",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-XX3": {
+      "name": "Measure What Matters",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-Y1": {
+      "name": "Replace Dashboards With Intent Briefs",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-Y2": {
+      "name": "Implement Progressive Disclosure",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-Y4": {
+      "name": "Build Explanation Interfaces, Not Just Logs",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-Z1": {
+      "name": "Model Token Costs Before Scale",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-Z2": {
+      "name": "Optimize Input, Not Output",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-Z3": {
+      "name": "Implement Context Compression",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-Z4": {
+      "name": "Deploy Model Tiering by Cost-of-Error",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    },
+    "T-Z5": {
+      "name": "Track Token Unit Economics",
+      "source": "",
+      "properties": [],
+      "status": "not_started",
+      "proof": [
+        "no-evidence-block"
+      ],
+      "files": []
+    }
+  }
+}
