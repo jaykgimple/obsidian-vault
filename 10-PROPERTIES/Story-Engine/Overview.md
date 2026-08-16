@@ -32,13 +32,13 @@ User submits series (→ [[Bookbrary|Bookbrary Submission Form]])
 ```
 
 ## Key Agents
-- → [[Story-Engine/Objectives#Agent: Architect|Agent: Architect]]
-- → [[Story-Engine/Objectives#Agent: Novelist|Agent: Novelist]]
-- → [[Story-Engine/Objectives#Agent: Development Editor|Agent: Dev Editor]]
+- → [[10-PROPERTIES/Story-Engine/Objectives#Agent: Architect|Agent: Architect]]
+- → [[10-PROPERTIES/Story-Engine/Objectives#Agent: Novelist|Agent: Novelist]]
+- → [[10-PROPERTIES/Story-Engine/Objectives#Agent: Development Editor|Agent: Dev Editor]]
 - → [[Agents|Agent: Biographer]]
-- → [[Story-Engine/Objectives#Agent: Copy Editor|Agent: Copy Editor]]
-- → [[Story-Engine/Objectives#Agent: Audit Agent|Agent: Audit]]
-- → [[Story-Engine/Objectives#Agent: Pipeline Orchestrator|Agent: Pipeline Orchestrator]]
+- → [[10-PROPERTIES/Story-Engine/Objectives#Agent: Copy Editor|Agent: Copy Editor]]
+- → [[10-PROPERTIES/Story-Engine/Objectives#Agent: Audit Agent|Agent: Audit]]
+- → [[10-PROPERTIES/Story-Engine/Objectives#Agent: Pipeline Orchestrator|Agent: Pipeline Orchestrator]]
 
 ## Lessons Learned
 - → [[Coherence-9]]

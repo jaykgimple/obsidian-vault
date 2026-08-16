@@ -10,7 +10,7 @@ aliases: [OctoGentic Portfolio, OctoGentic — Portfolio]
 
 > Autonomous web property portfolio. Multiple agentic properties sharing intelligence to compound value.
 > Part of → [[Home]]
-> Related: → [[Implementation-Tracker]], → [[Blog-Index]]
+> Related: → [[Implementation-Tracker]], → [[Blog-Index]], → [[10-PROPERTIES/OctoGentic/Objectives]]
 
 ## Properties in Portfolio
 1. → [[Story Engine — Overview]] — Agentic book generation
@@ -18,10 +18,10 @@ aliases: [OctoGentic Portfolio, OctoGentic — Portfolio]
 3. → [[RoleFresh]] — Role-based matching
 
 ## Agent Roster
-- → [[OctoGentic/Overview|Agent: Portfolio Orchestrator]]
-- → [[OctoGentic/Overview|Agent: Signal Feed Generator]]
-- → [[OctoGentic/Overview|Agent: Telemetry Aggregator]]
-- → [[OctoGentic/Overview|Agent: Key Takeaway Currator]]
+- → [[10-PROPERTIES/OctoGentic/Overview|Agent: Portfolio Orchestrator]]
+- → [[10-PROPERTIES/OctoGentic/Overview|Agent: Signal Feed Generator]]
+- → [[10-PROPERTIES/OctoGentic/Overview|Agent: Telemetry Aggregator]]
+- → [[10-PROPERTIES/OctoGentic/Overview|Agent: Key Takeaway Currator]]
 
 ## Knowledge Assets
 - → [[Key-Takeaways]] — 11 takeaways × 26 blog posts

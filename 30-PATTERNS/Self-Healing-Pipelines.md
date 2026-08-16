@@ -9,7 +9,7 @@ aliases: [Pattern: Self-Healing Pipelines, Watchdog Pattern]
 # Self-Healing Pipelines
 
 > Detect failures, recover automatically, escalate only when truly stuck.
-> Used by → [[Story Engine — Overview]], → [[Story-Engine/Objectives#Agent: Pipeline Orchestrator|Agent: Pipeline Orchestrator]]
+> Used by → [[Story Engine — Overview]], → [[10-PROPERTIES/Story-Engine/Objectives#Agent: Pipeline Orchestrator|Agent: Pipeline Orchestrator]]
 
 ## When To Use
 - Queue-based processing (book generation)

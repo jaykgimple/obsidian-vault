@@ -11,7 +11,7 @@ aliases: [Agent Details, Agent Prompts]
 > Each agent's role, prompt structure, and objective function.
 > Roster: → [[Agents]]
 
-## → [[Story-Engine/Objectives#Agent: Architect|Agent: Architect]]
+## → [[10-PROPERTIES/Story-Engine/Objectives#Agent: Architect|Agent: Architect]]
 
 | Aspect | Detail |
 |--------|--------|
@@ -31,7 +31,7 @@ aliases: [Agent Details, Agent Prompts]
 | **Output** | Structured prose with goal/conflict/disaster beats |
 | **Fallback** | Skeleton draft if full generation fails |
 
-## → [[Story-Engine/Objectives#Agent: Novelist|Agent: Novelist]]
+## → [[10-PROPERTIES/Story-Engine/Objectives#Agent: Novelist|Agent: Novelist]]
 
 | Aspect | Detail |
 |--------|--------|
@@ -42,7 +42,7 @@ aliases: [Agent Details, Agent Prompts]
 | **Revision** | Max 4 attempts; triggers on coherence < 9 |
 | **Objective** | `avg_quality × 0.5 + voice_consistency × 0.3 + goal_advancement × 0.2` |
 
-## → [[Story-Engine/Objectives#Agent: Development Editor|Agent: Dev Editor]]
+## → [[10-PROPERTIES/Story-Engine/Objectives#Agent: Development Editor|Agent: Dev Editor]]
 
 | Aspect | Detail |
 |--------|--------|
@@ -53,7 +53,7 @@ aliases: [Agent Details, Agent Prompts]
 | **Threshold** | < 9 → auto-revision trigger |
 | **Objective** | `avg_quality_delta × 0.6 + structural_improvement × 0.4` |
 
-## → [[Story-Engine/Objectives#Agent: Copy Editor|Agent: Copy Editor]]
+## → [[10-PROPERTIES/Story-Engine/Objectives#Agent: Copy Editor|Agent: Copy Editor]]
 
 | Aspect | Detail |
 |--------|--------|
@@ -62,7 +62,7 @@ aliases: [Agent Details, Agent Prompts]
 | **Success metric** | 0 grammar errors in final output |
 | **Objective** | `error_recall × 0.7 + (1 - false_positive) × 0.3` |
 
-## → [[Story-Engine/Objectives#Agent: Audit Agent|Agent: Audit]]
+## → [[10-PROPERTIES/Story-Engine/Objectives#Agent: Audit Agent|Agent: Audit]]
 
 | Aspect | Detail |
 |--------|--------|
@@ -71,7 +71,7 @@ aliases: [Agent Details, Agent Prompts]
 | **Auto-fix** | Loops up to 5 times until zero critical issues |
 | **Objective** | `issue_detection × 0.5 + autofix_accuracy × 0.5` |
 
-## → [[Story-Engine/Objectives#Agent: Pipeline Orchestrator|Agent: Pipeline Orchestrator]]
+## → [[10-PROPERTIES/Story-Engine/Objectives#Agent: Pipeline Orchestrator|Agent: Pipeline Orchestrator]]
 
 | Aspect | Detail |
 |--------|--------|

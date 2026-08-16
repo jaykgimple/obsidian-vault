@@ -1,15 +1,15 @@
 {
   "meta": {
-    "total_nodes": 38,
-    "total_links": 181,
+    "total_nodes": 39,
+    "total_links": 206,
     "groups": [
       "00-META",
-      "10-PROPERTIES",
       "40-LOGS",
       "30-PATTERNS",
-      "20-AGENTS"
+      "20-AGENTS",
+      "10-PROPERTIES"
     ],
-    "last_updated": "2026-08-16T00:48:51.185371+00:00"
+    "last_updated": "2026-08-16T08:10:13.550108+00:00"
   },
   "nodes": [
     {
@@ -19,10 +19,8 @@
       "tags": [],
       "status": "active",
       "path": "00-META/Home.md",
-      "links_count": 19,
-      "inbound_count": 8,
-      "x": -78.39,
-      "y": -33.74
+      "links_count": 21,
+      "inbound_count": 8
     },
     {
       "id": "00-META/Compound-Effect",
@@ -32,26 +30,35 @@
       "status": "active",
       "path": "00-META/Compound-Effect.md",
       "links_count": 5,
-      "inbound_count": 3,
-      "x": 57.41,
-      "y": -205.13
+      "inbound_count": 3
     },
     {
       "id": "00-META/Architecture",
       "title": "Architecture",
       "group": "00-META",
       "tags": [
-        "decision",
         "agent",
-        "lesson",
-        "pattern"
+        "decision",
+        "pattern",
+        "lesson"
       ],
       "status": "active",
       "path": "00-META/Architecture.md",
       "links_count": 9,
-      "inbound_count": 6,
-      "x": 174.04,
-      "y": 9.13
+      "inbound_count": 5
+    },
+    {
+      "id": "40-LOGS/2026-08-16",
+      "title": "2026-08-16",
+      "group": "40-LOGS",
+      "tags": [
+        "Agent",
+        "1"
+      ],
+      "status": "active",
+      "path": "40-LOGS/2026-08-16.md",
+      "links_count": 11,
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-06-30",
@@ -63,9 +70,7 @@
       "status": "active",
       "path": "40-LOGS/2026-06-30.md",
       "links_count": 0,
-      "inbound_count": 1,
-      "x": -185.77,
-      "y": 132.06
+      "inbound_count": 1
     },
     {
       "id": "40-LOGS/_Template",
@@ -77,9 +82,7 @@
       "status": "active",
       "path": "40-LOGS/_Template.md",
       "links_count": 1,
-      "inbound_count": 2,
-      "x": -95.51,
-      "y": -256.83
+      "inbound_count": 2
     },
     {
       "id": "40-LOGS/2026-06-28",
@@ -91,9 +94,7 @@
       "status": "active",
       "path": "40-LOGS/2026-06-28.md",
       "links_count": 0,
-      "inbound_count": 1,
-      "x": -269.3,
-      "y": 115.34
+      "inbound_count": 1
     },
     {
       "id": "40-LOGS/vault-analysis-latest",
@@ -102,10 +103,8 @@
       "tags": [],
       "status": "active",
       "path": "40-LOGS/vault-analysis-latest.md",
-      "links_count": 12,
-      "inbound_count": 1,
-      "x": -10.66,
-      "y": -34.38
+      "links_count": 0,
+      "inbound_count": 1
     },
     {
       "id": "40-LOGS/2026-06-29",
@@ -117,9 +116,7 @@
       "status": "active",
       "path": "40-LOGS/2026-06-29.md",
       "links_count": 0,
-      "inbound_count": 1,
-      "x": -192.05,
-      "y": -224.99
+      "inbound_count": 1
     },
     {
       "id": "40-LOGS/2026-06-27",
@@ -131,24 +128,20 @@
       "status": "active",
       "path": "40-LOGS/2026-06-27.md",
       "links_count": 1,
-      "inbound_count": 1,
-      "x": -13.11,
-      "y": -279.76
+      "inbound_count": 1
     },
     {
       "id": "40-LOGS/2026-08-15",
       "title": "2026-08-15",
       "group": "40-LOGS",
       "tags": [
-        "1",
-        "Agent"
+        "Agent",
+        "1"
       ],
       "status": "active",
       "path": "40-LOGS/2026-08-15.md",
       "links_count": 50,
-      "inbound_count": 8,
-      "x": 41.34,
-      "y": -83.3
+      "inbound_count": 8
     },
     {
       "id": "30-PATTERNS/Coherence-Scoring",
@@ -160,9 +153,7 @@
       "status": "active",
       "path": "30-PATTERNS/Coherence-Scoring.md",
       "links_count": 8,
-      "inbound_count": 12,
-      "x": 140.86,
-      "y": 93.73
+      "inbound_count": 11
     },
     {
       "id": "30-PATTERNS/Self-Healing-Pipelines",
@@ -174,9 +165,7 @@
       "status": "active",
       "path": "30-PATTERNS/Self-Healing-Pipelines.md",
       "links_count": 5,
-      "inbound_count": 13,
-      "x": 6.73,
-      "y": 158.43
+      "inbound_count": 12
     },
     {
       "id": "30-PATTERNS/Compounding-Knowledge",
@@ -186,9 +175,7 @@
       "status": "active",
       "path": "30-PATTERNS/Compounding-Knowledge.md",
       "links_count": 6,
-      "inbound_count": 23,
-      "x": 45.53,
-      "y": 71.81
+      "inbound_count": 23
     },
     {
       "id": "30-PATTERNS/Review-and-Revision",
@@ -198,9 +185,7 @@
       "status": "active",
       "path": "30-PATTERNS/Review-and-Revision.md",
       "links_count": 3,
-      "inbound_count": 7,
-      "x": 114.65,
-      "y": -43.4
+      "inbound_count": 6
     },
     {
       "id": "20-AGENTS/CoS",
@@ -210,9 +195,7 @@
       "status": "active",
       "path": "20-AGENTS/CoS.md",
       "links_count": 12,
-      "inbound_count": 8,
-      "x": 43.81,
-      "y": -7.29
+      "inbound_count": 9
     },
     {
       "id": "20-AGENTS/Delegation",
@@ -222,9 +205,7 @@
       "status": "active",
       "path": "20-AGENTS/Delegation.md",
       "links_count": 9,
-      "inbound_count": 2,
-      "x": -32.56,
-      "y": -94.43
+      "inbound_count": 2
     },
     {
       "id": "20-AGENTS/Agent-Objectives",
@@ -234,9 +215,7 @@
       "status": "active",
       "path": "20-AGENTS/Agent-Objectives.md",
       "links_count": 4,
-      "inbound_count": 6,
-      "x": 129.03,
-      "y": -130.76
+      "inbound_count": 6
     },
     {
       "id": "10-PROPERTIES/RoleFresh",
@@ -248,9 +227,7 @@
       "status": "active",
       "path": "10-PROPERTIES/RoleFresh.md",
       "links_count": 5,
-      "inbound_count": 4,
-      "x": -157.86,
-      "y": -52.06
+      "inbound_count": 3
     },
     {
       "id": "10-PROPERTIES/Bookbrary",
@@ -262,9 +239,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Bookbrary.md",
       "links_count": 6,
-      "inbound_count": 5,
-      "x": -101.91,
-      "y": -104.57
+      "inbound_count": 4
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Objectives",
@@ -274,9 +249,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Objectives.md",
       "links_count": 3,
-      "inbound_count": 7,
-      "x": 187.95,
-      "y": -74.07
+      "inbound_count": 29
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Watchdog",
@@ -286,9 +259,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Watchdog.md",
       "links_count": 8,
-      "inbound_count": 1,
-      "x": -81.82,
-      "y": 194.73
+      "inbound_count": 0
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Pipeline",
@@ -298,9 +269,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Pipeline.md",
       "links_count": 6,
-      "inbound_count": 6,
-      "x": 93.98,
-      "y": 199.5
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Overview",
@@ -312,9 +281,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Overview.md",
       "links_count": 20,
-      "inbound_count": 13,
-      "x": -109.91,
-      "y": 52.82
+      "inbound_count": 13
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Agents",
@@ -326,9 +293,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Agents.md",
       "links_count": 13,
-      "inbound_count": 8,
-      "x": -30.55,
-      "y": 36.88
+      "inbound_count": 8
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Review-System",
@@ -338,9 +303,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Review-System.md",
       "links_count": 4,
-      "inbound_count": 4,
-      "x": -58.93,
-      "y": 113.51
+      "inbound_count": 4
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Agent-Details",
@@ -352,9 +315,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Agent-Details.md",
       "links_count": 9,
-      "inbound_count": 1,
-      "x": 3.85,
-      "y": -145.75
+      "inbound_count": 1
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Lessons/Chapter-Backfill",
@@ -364,9 +325,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Lessons/Chapter-Backfill.md",
       "links_count": 0,
-      "inbound_count": 2,
-      "x": 12.84,
-      "y": 293.82
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Lessons/Coherence-9",
@@ -378,9 +337,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Lessons/Coherence-9.md",
       "links_count": 2,
-      "inbound_count": 3,
-      "x": 221.71,
-      "y": 74.08
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Lessons/Queue-Desync",
@@ -390,9 +347,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Lessons/Queue-Desync.md",
       "links_count": 2,
-      "inbound_count": 4,
-      "x": -49.39,
-      "y": 256.91
+      "inbound_count": 4
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Lessons/Rate-Limits",
@@ -402,9 +357,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Lessons/Rate-Limits.md",
       "links_count": 0,
-      "inbound_count": 2,
-      "x": 265.03,
-      "y": -72.22
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Lessons/Cover-Upload",
@@ -414,9 +367,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Lessons/Cover-Upload.md",
       "links_count": 0,
-      "inbound_count": 2,
-      "x": -150.92,
-      "y": 307.04
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Objectives",
@@ -426,9 +377,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Objectives.md",
       "links_count": 6,
-      "inbound_count": 0,
-      "x": 62.61,
-      "y": -147.12
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Implementation-Tracker",
@@ -438,9 +387,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Implementation-Tracker.md",
       "links_count": 0,
-      "inbound_count": 1,
-      "x": 243.32,
-      "y": -8.8
+      "inbound_count": 1
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
@@ -450,9 +397,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Key-Takeaways.md",
       "links_count": 1,
-      "inbound_count": 10,
-      "x": -62.3,
-      "y": -184.87
+      "inbound_count": 10
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog-Index",
@@ -462,9 +407,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog-Index.md",
       "links_count": 5,
-      "inbound_count": 3,
-      "x": -188.4,
-      "y": 30.29
+      "inbound_count": 3
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Overview",
@@ -473,10 +416,8 @@
       "tags": [],
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Overview.md",
-      "links_count": 13,
-      "inbound_count": 0,
-      "x": -147.43,
-      "y": -151.82
+      "links_count": 14,
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop",
@@ -486,9 +427,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop.md",
       "links_count": 8,
-      "inbound_count": 1,
-      "x": 107.36,
-      "y": 25.67
+      "inbound_count": 0
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
@@ -498,9 +437,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect.md",
       "links_count": 6,
-      "inbound_count": 1,
-      "x": 79.78,
-      "y": 134.71
+      "inbound_count": 0
     }
   ],
   "links": [
@@ -531,6 +468,11 @@
     },
     {
       "source": "00-META/Home",
+      "target": "40-LOGS/2026-08-16",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
       "target": "00-META/Architecture",
       "type": "wikilink"
     },
@@ -552,6 +494,11 @@
     {
       "source": "00-META/Home",
       "target": "40-LOGS/2026-08-15",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-08-16",
       "type": "wikilink"
     },
     {
@@ -640,68 +587,38 @@
       "type": "wikilink"
     },
     {
-      "source": "40-LOGS/_Template",
+      "source": "40-LOGS/2026-08-16",
       "target": "20-AGENTS/CoS",
       "type": "wikilink"
     },
     {
-      "source": "40-LOGS/vault-analysis-latest",
+      "source": "40-LOGS/2026-08-16",
       "target": "10-PROPERTIES/Story-Engine/Objectives",
       "type": "wikilink"
     },
     {
-      "source": "40-LOGS/vault-analysis-latest",
-      "target": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop",
+      "source": "40-LOGS/2026-08-16",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
-      "source": "40-LOGS/vault-analysis-latest",
-      "target": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
+      "source": "40-LOGS/2026-08-16",
+      "target": "10-PROPERTIES/Story-Engine/Lessons/Coherence-9",
       "type": "wikilink"
     },
     {
-      "source": "40-LOGS/vault-analysis-latest",
-      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "source": "40-LOGS/2026-08-16",
+      "target": "10-PROPERTIES/OctoGentic/Objectives",
       "type": "wikilink"
     },
     {
-      "source": "40-LOGS/vault-analysis-latest",
-      "target": "10-PROPERTIES/Story-Engine/Watchdog",
+      "source": "40-LOGS/2026-08-16",
+      "target": "40-LOGS/2026-08-16",
       "type": "wikilink"
     },
     {
-      "source": "40-LOGS/vault-analysis-latest",
-      "target": "10-PROPERTIES/Story-Engine/Pipeline",
-      "type": "wikilink"
-    },
-    {
-      "source": "40-LOGS/vault-analysis-latest",
-      "target": "00-META/Architecture",
-      "type": "wikilink"
-    },
-    {
-      "source": "40-LOGS/vault-analysis-latest",
-      "target": "30-PATTERNS/Coherence-Scoring",
-      "type": "wikilink"
-    },
-    {
-      "source": "40-LOGS/vault-analysis-latest",
-      "target": "30-PATTERNS/Self-Healing-Pipelines",
-      "type": "wikilink"
-    },
-    {
-      "source": "40-LOGS/vault-analysis-latest",
-      "target": "30-PATTERNS/Review-and-Revision",
-      "type": "wikilink"
-    },
-    {
-      "source": "40-LOGS/vault-analysis-latest",
-      "target": "10-PROPERTIES/RoleFresh",
-      "type": "wikilink"
-    },
-    {
-      "source": "40-LOGS/vault-analysis-latest",
-      "target": "10-PROPERTIES/Bookbrary",
+      "source": "40-LOGS/_Template",
+      "target": "20-AGENTS/CoS",
       "type": "wikilink"
     },
     {
@@ -816,6 +733,11 @@
     },
     {
       "source": "30-PATTERNS/Coherence-Scoring",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "30-PATTERNS/Coherence-Scoring",
       "target": "10-PROPERTIES/Story-Engine/Lessons/Coherence-9",
       "type": "wikilink"
     },
@@ -837,6 +759,16 @@
     {
       "source": "30-PATTERNS/Coherence-Scoring",
       "target": "30-PATTERNS/Compounding-Knowledge",
+      "type": "wikilink"
+    },
+    {
+      "source": "30-PATTERNS/Coherence-Scoring",
+      "target": "10-PROPERTIES/Story-Engine/Lessons/Coherence-9",
+      "type": "wikilink"
+    },
+    {
+      "source": "30-PATTERNS/Self-Healing-Pipelines",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
       "type": "wikilink"
     },
     {
@@ -1011,6 +943,11 @@
     },
     {
       "source": "10-PROPERTIES/RoleFresh",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/RoleFresh",
       "target": "30-PATTERNS/Self-Healing-Pipelines",
       "type": "wikilink"
     },
@@ -1027,6 +964,11 @@
     {
       "source": "10-PROPERTIES/Bookbrary",
       "target": "30-PATTERNS/Review-and-Revision",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Bookbrary",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
       "type": "wikilink"
     },
     {
@@ -1151,7 +1093,37 @@
     },
     {
       "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
       "target": "10-PROPERTIES/Story-Engine/Agents",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
       "type": "wikilink"
     },
     {
@@ -1196,7 +1168,37 @@
     },
     {
       "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
       "target": "10-PROPERTIES/Story-Engine/Agents",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
       "type": "wikilink"
     },
     {
@@ -1241,12 +1243,47 @@
     },
     {
       "source": "10-PROPERTIES/Story-Engine/Agent-Details",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agent-Details",
       "target": "10-PROPERTIES/Story-Engine/Agents",
       "type": "wikilink"
     },
     {
       "source": "10-PROPERTIES/Story-Engine/Agent-Details",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agent-Details",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agent-Details",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agent-Details",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agent-Details",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agent-Details",
       "target": "30-PATTERNS/Self-Healing-Pipelines",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Lessons/Coherence-9",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
       "type": "wikilink"
     },
     {
@@ -1321,12 +1358,37 @@
     },
     {
       "source": "10-PROPERTIES/OctoGentic/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Overview",
       "target": "10-PROPERTIES/Bookbrary",
       "type": "wikilink"
     },
     {
       "source": "10-PROPERTIES/OctoGentic/Overview",
       "target": "10-PROPERTIES/RoleFresh",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {

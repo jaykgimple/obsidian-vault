@@ -43,7 +43,7 @@ aliases: [Bookbrary Platform, Book Library]
 
 ## Agent Relevance
 
-- → [[Story-Engine/Objectives#Agent: Pipeline Orchestrator|Agent: Pipeline Orchestrator]] pushes to Bookbrary's Supabase
+- → [[10-PROPERTIES/Story-Engine/Objectives#Agent: Pipeline Orchestrator|Agent: Pipeline Orchestrator]] pushes to Bookbrary's Supabase
 - → [[Agents|Agent: Cover Artist]] generates covers in Supabase storage
 
 ## Compounding Notes

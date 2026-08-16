@@ -29,7 +29,7 @@ aliases: [RoleFresh Platform, Resume Tool]
 ## Agent Relevance
 
 - Scraping agents (resume/job posting collection) → [[Key-Takeaways|Takeaway T-A2]] (autonomous error recovery)
-- Tailoring agents → [[Story-Engine/Objectives#Agent: Novelist|Agent: Novelist]] equivalent (prose generation)
+- Tailoring agents → [[10-PROPERTIES/Story-Engine/Objectives#Agent: Novelist|Agent: Novelist]] equivalent (prose generation)
 
 ## Compounding Notes
 

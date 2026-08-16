@@ -15,8 +15,8 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-| 1 | 2026-08-16 | The Agentic Compounding Engine: Why Self-Healing Systems Get Smarter With Every Failure | → [[2026-08-16-The-Agentic-Compounding-Engine]] |
-| 2 | 2026-08-15 | Agentic Evaluation: Measuring What Matters in Systems That Measure Themselves | → [[2026-08-15-Agentic-Evaluation]] |
+| 1 | 2026-08-16 | The Agentic Compounding Engine: Why Self-Healing Systems Get Smarter With Every Failure | → 2026-08-16-The-Agentic-Compounding-Engine |
+| 2 | 2026-08-15 | Agentic Evaluation: Measuring What Matters in Systems That Measure Themselves | → 2026-08-15-Agentic-Evaluation |
 | 3 | 2026-06-26 | The Agentic Compound Effect | → [[2026-06-26-The-Agentic-Compound-Effect]] |
 | 2 | 2026-06-25 | The Agentic Feedback Loop | → [[2026-06-25-The-Agentic-Feedback-Loop]] |
 | 3 | 2026-06-24 | The Trust Problem | → 2026-06-24-The-Trust-Problem |

@@ -19,7 +19,7 @@ status: active
 - Novelist had no awareness of prior segment content beyond 400 chars
 
 ## Fix Applied
-- → [[Story-Engine/Objectives#Agent: Development Editor|Agent: Dev Editor]] threshold raised: 7 → 9
+- → [[10-PROPERTIES/Story-Engine/Objectives#Agent: Development Editor|Agent: Dev Editor]] threshold raised: 7 → 9
 - Max revisions increased: 2 → 4
 - `get_story_state()` added: builds running context document for novelist
 

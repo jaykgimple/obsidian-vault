@@ -9,7 +9,7 @@ aliases: [Pattern: Coherence Scoring, Consistency Gate]
 # Coherence Scoring
 
 > Numeric score (1-10) measuring whether a segment contradicts established facts.
-> Owned by → [[Story-Engine/Objectives#Agent: Development Editor|Agent: Dev Editor]]
+> Owned by → [[10-PROPERTIES/Story-Engine/Objectives#Agent: Development Editor|Agent: Dev Editor]]
 > Related: → [[Coherence-9]], → [[Coherence-Scoring]]
 > Used in → [[Story Engine — Overview]], → [[Review-System]]
 
@@ -53,7 +53,7 @@ From → [[Review-System]] review of 200+ chapters:
 
 Each coherence failure generates a signal:
 - What failed? → Logged in review output
-- What pattern? → Create/update [[10-PROPERTIES/Story-Engine/Lessons|Lesson]] note
+- What pattern? → Create/update [[Coherence-9|Lesson: Coherence Threshold]] note
 - What fix? → Update novelist prompt or story_state builder
 
 → More reviews → More patterns → Better prompts → Fewer failures → Compounding.
