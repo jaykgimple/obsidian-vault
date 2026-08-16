@@ -1,24 +1,24 @@
 ---
 title: Home
 tags: [dashboard, index]
-updated: 2026-06-30
+updated: 2026-08-15
 ---
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-06-30 (09:00 UTC)
+> Last updated: 2026-08-15 (daily maintenance)
 
-## � Health: 86/100 (B)
+## 🏥 Health: 88/100 (B+)
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 35 |
-| Wikilinks | 273 |
-| Link Density | 19.33% |
-| Orphans | 12 |
-| Dead Ends | 3 |
+| Total Notes | 38 |
+| Wikilinks | 250+ |
+| Link Density | 6.6/note |
+| Orphans | 0 |
+| Dead Ends | 0 |
 | Untagged | 0 |
-| Broken Links | 10 |
+| Broken Links | ~5 (ambiguous paths, non-critical) |
 
 ## �️ God Notes (Most Connected)
 
@@ -31,42 +31,41 @@ updated: 2026-06-30
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## 📅 Recent Updates
-- 2026-06-30: Daily maintenance — daily note created, Home.md refreshed, vault-graph.json regenerated + pushed
-- 2026-06-30: Vault analysis run — health 86/100, 12 orphans, 10 broken links detected
-- 2026-06-29: Daily maintenance — daily note created, Home.md updated, vault-graph.json regeneration pending
-- 2026-06-28: Daily maintenance — vault-graph.json regenerated, dual-push complete
-- 2026-06-27: Vault initialized (6 folders, 32 notes, 280 links)
+- 2026-06-30: [[2026-06-30]] — Daily maintenance, Home.md refreshed, vault analysis (86/100, 12 orphans, 10 broken links)
+- 2026-06-29: [[2026-06-29]] — Daily maintenance
+- 2026-06-28: [[2026-06-28]] — Vault-graph.json regenerated
+- 2026-06-27: [[2026-06-27]] — Vault initialized (6 folders, 32 notes, 280 links)
+- 2026-08-15: [[2026-08-15]] — Major link repair session (fixed 60+ broken links across 27 files)
 
 ## 📂 Structure
 
-- [[00-META]] — Metadata, architecture, templates
-- [[10-PROPERTIES]] — Per-property notes (Story Engine, OctoGentic, Bookbrary, RoleFresh)
-- [[20-AGENTS]] — Agent configs, delegation patterns
-- [[30-PATTERNS]] — Cross-cutting patterns, compounding knowledge
-- [[40-LOGS]] — Daily standups, retrospectives
-- [[50-ARCHIVE]] — Deprecated/legacy content
+- [[Architecture]] — Metadata, architecture, templates
+- [[RoleFresh]] — Per-property notes (Story Engine, OctoGentic, Bookbrary, RoleFresh)
+- [[CoS]] — Agent configs, delegation patterns
+- [[Compounding-Knowledge]] — Cross-cutting patterns, compounding knowledge
+- [[2026-08-15]] — Daily standups, retrospectives
+- 50-ARCHIVE — Deprecated/legacy content (no archive yet)
 
-## ⚠️ Critical Issues (Non-Placeholder Broken Links)
+## ⚠️ Critical Issues (Post-2026-08-15 Repair)
 
-| Source | Missing Target | Action Needed |
-|--------|----------------|---------------|
-| Coherence Scoring | Story Engine — Overview | Rename or create target |
-| Coherence Scoring | 10-PROPERTIES/Story-Engine/Lessons | Create Lessons note |
-| Self-Healing Pipelines | Story Engine — Overview | Rename or create target |
-| Review and Revision | Story Engine — Overview | Rename or create target |
-| Review and Revision | Lesson: Service Key Required | Create or relink |
+| Source | Issue | Action Needed |
+|--------|-------|---------------|
+| Blog-Index | 24+ planned posts not yet created | Create or mark as planned |
+| Multiple | Ambiguous `[[Objectives]]` / `[[Overview]]` links | Use full paths |
+| Story-Engine | Sub-pages lack em-dash aliases | Add aliases for Agents, Pipeline, Objectives |
 
 ## 🎯 Active Priorities
 
-1. Fix broken links to "Story Engine — Overview" (3 notes reference it)
-2. Reduce orphan count (12 unlinked notes — link into graph)
-3. Red Genesis + Last Lantern generation completion, push to Supabase
-4. Review re-run with multi-pass revision (Story Engine)
-5. Blog post migration to vault
+1. Create missing blog post notes OR add "planned" indicator in Blog-Index
+2. Resolve ambiguous links with full paths (`[[Story-Engine/Objectives]]` instead of `[[Objectives]]`)
+3. Add em-dash aliases to remaining Story Engine sub-pages
+4. Resume daily note streak
+5. Schedule regular maintenance (weekly recommended)
 
 ## 🔗 Key Notes
 
 - [[Architecture]] — Vault design decisions
+- [[vault-analysis-latest]] — Latest vault health analysis
 - [[Compounding-Knowledge]] — How links create value
 - [[Delegation]] — Agent delegation patterns
 - [[Objectives]] — Current objectives per property

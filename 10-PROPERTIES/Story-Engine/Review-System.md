@@ -3,21 +3,21 @@ title: Story Engine — Review System
 created: 2026-06-27
 tags: [story-engine, review, post-generation]
 status: active
-aliases: [Post-Generation Review, Chapter Review]
+aliases: [Post-Generation Review, Chapter Review, Story-Engine — Review System]
 ---
 
 # Story Engine — Review System
 
 > Post-generation chapter review with auto-revision.
 > Script: `scripts/review_series.py`
-> Pattern: → [[Pattern: Review-and-Revision]]
-> Part of → [[10-PROPERTIES/Story-Engine/Overview]]
+> Pattern: → [[Review-and-Revision]]
+> Part of → [[Overview]]
 
 ## Review Pipeline
 
 ```
 1. Pull chapter content from Supabase (via REST API, service role key)
-2. Build story state (→ [[Pattern: Coherence-Scoring]])
+2. Build story state (→ [[Coherence-Scoring]])
 3. Run dev_editor review → consistency score (1-10)
 4. If < 9: revise via novelist agent (max 4 attempts)
 5. Re-review revised content
@@ -51,4 +51,4 @@ aliases: [Post-Generation Review, Chapter Review]
 
 Review → Pattern found → Lesson note created → Agent prompt updated → Fewer failures next time.
 
-→ [[30-PATTERNS/Compounding-Knowledge]]
+→ [[Compounding-Knowledge]]

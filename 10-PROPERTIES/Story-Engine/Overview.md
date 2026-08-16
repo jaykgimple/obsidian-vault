@@ -3,51 +3,51 @@ title: Story Engine — Architecture Overview
 created: 2026-06-27
 tags: [property, story-engine, pipeline]
 status: active
-aliases: [Story Engine, Book Generation Pipeline]
+aliases: [Story Engine, Book Generation Pipeline, Story Engine — Overview]
 ---
 
 # Story Engine
 
 > AI agentic book generation pipeline. 6 specialized agents produce 52-segment novels with coherence scoring.
-> Property of → [[OctoGentic — Portfolio]]
+> Property of → [[Overview]]
 
 ## Stack
 - **Runtime**: Python 3, 64K context window
 - **Entry point**: `main.py run-all`
 - **Queue**: Supabase `generation_queue` + SQLite `generation_queue`
 - **Storage**: Supabase (books, chapters)
-- **Frontend**: → [[Bookbrary — Reader Frontend]]
+- **Frontend**: → [[Bookbrary]]
 
 ## Pipeline Flow
 
 ```
-User submits series (→ [[Bookbrary — Submission Form]])
-  → Worker picks up queue item (→ [[Story-Engine — Queue Worker]])
+User submits series (→ [[Bookbrary|Bookbrary Submission Form]])
+  → Worker picks up queue item (→ [[Pipeline|Story-Engine Queue Worker]])
     → Architect defines outline & arc
       → Biographer generates chapter prose drafts
-        → Novelist writes segment prose (with → [[Pattern: Compounding Knowledge]] context)
+        → Novelist writes segment prose (with → [[Compounding-Knowledge]] context)
           → Dev Editor scores consistency (≥9/10)
             → Copy Editor final polish
               → Push to Supabase
 ```
 
 ## Key Agents
-- → [[Agent: Architect]]
-- → [[Agent: Novelist]]
-- → [[Agent: Dev Editor]]
-- → [[Agent: Biographer]]
-- → [[Agent: Copy Editor]]
-- → [[Agent: Audit]]
-- → [[Agent: Pipeline Orchestrator]]
+- → [[Story-Engine/Objectives#Agent: Architect|Agent: Architect]]
+- → [[Story-Engine/Objectives#Agent: Novelist|Agent: Novelist]]
+- → [[Story-Engine/Objectives#Agent: Development Editor|Agent: Dev Editor]]
+- → [[Agents|Agent: Biographer]]
+- → [[Story-Engine/Objectives#Agent: Copy Editor|Agent: Copy Editor]]
+- → [[Story-Engine/Objectives#Agent: Audit Agent|Agent: Audit]]
+- → [[Story-Engine/Objectives#Agent: Pipeline Orchestrator|Agent: Pipeline Orchestrator]]
 
 ## Lessons Learned
-- → [[Lesson: Coherence Threshold Must Be 9]]
-- → [[Lesson: Chapter Content Backfill]]
-- → [[Lesson: Cover Upload Gap]]
-- → [[Lesson: Dual Queue Desync]]
+- → [[Coherence-9]]
+- → [[Chapter-Backfill]]
+- → [[Cover-Upload]]
+- → [[Queue-Desync]]
 
 ## Related Patterns
-- → [[Pattern: Self-Healing Pipelines]]
-- → [[Pattern: Coherence Scoring]]
-- → [[Pattern: Queue Dual-Write]]
-- → [[Pattern: Review-and-Revision]]
+- → [[Self-Healing-Pipelines]]
+- → [[Coherence-Scoring]]
+- → [[Self-Healing-Pipelines|Pattern: Queue Dual-Write]]
+- → [[Review-and-Revision]]

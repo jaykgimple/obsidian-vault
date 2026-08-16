@@ -7,8 +7,8 @@ aliases: [The Agentic Compound Effect, Compound Effect Post]
 
 # The Agentic Compound Effect
 
-> Source: → [[2026-06-26-the-Agentic-Compound-Effect]] (OctoGentic blog post)
-> Status: → [[KEY: OctoGentic Takeaways]] T-CE1 through T-CE5
+> Source: → [[2026-06-26-The-Agentic-Compound-Effect]] (OctoGentic blog post)
+> Status: → [[Key-Takeaways]] T-CE1 through T-CE5
 
 ## Core Thesis
 
@@ -51,8 +51,8 @@ At `r = 0.10` and `t = 50` cycles: `V(50) = V₀ × 117.39`
 This vault implements T-CE1 through T-CE5:
 1. ✅ Signal infrastructure (daily logs, pattern notes, lessons)
 2. ✅ Structured signals (YAML frontmatter, LINK headers)
-3. ✅ Separated criteria (→ [[20-AGENTS/Agent-Objectives]] vs → [[30-PATTERNS/]])
-4. ✅ Compounding metrics (tracked in → [[Pattern: Compounding Knowledge]])
+3. ✅ Separated criteria (→ [[Agent-Objectives]] vs → [[Compounding-Knowledge]])
+4. ✅ Compounding metrics (tracked in → [[Compounding-Knowledge]])
 5. ✅ Ecosystem-ready (all properties, all agents, one vault)
 
 ## The Moat

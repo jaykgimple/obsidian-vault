@@ -11,13 +11,13 @@ All agents owned by → [[Story Engine — Overview]]
 
 | Agent | Model/Path | Role | Self-Healing |
 |-------|-----------|------|--------------|
-| → [[Agent: Architect]] | `openrouter/owl-alpha` | Series outline, story DNA, character arcs | Auto-retry on 429 |
-| → [[Agent: Biographer]] | `openrouter/owl-alpha` | Chapter prose drafts (300w) | Skeleton fallback |
-| → [[Agent: Novelist]] | `openrouter/owl-alpha` | Segment prose (~800w) | Revision loop (max 4) |
-| → [[Agent: Dev Editor]] | `meta-llama/llama-3.2-3b` | Consistency scoring (≥9) | Auto-fail triggers revision |
-| → [[Agent: Copy Editor]] | `openrouter/owl-alpha` | Grammar, punctuation, style | PASS/FAIL gate |
-| → [[Agent: Audit]] | `openrouter/owl-alpha` | Final review, duplicate titles, cover | Auto-fix loop (max 5) |
-| → [[Agent: Pipeline Orchestrator]] | `openrouter/owl-alpha` | Coordinates all 6 agents | → [[Pattern: Self-Healing Pipelines]] |
+| → [[Story-Engine/Objectives#Agent: Architect|Agent: Architect]] | `openrouter/owl-alpha` | Series outline, story DNA, character arcs | Auto-retry on 429 |
+| → [[Agents|Agent: Biographer]] | `openrouter/owl-alpha` | Chapter prose drafts (300w) | Skeleton fallback |
+| → [[Story-Engine/Objectives#Agent: Novelist|Agent: Novelist]] | `openrouter/owl-alpha` | Segment prose (~800w) | Revision loop (max 4) |
+| → [[Story-Engine/Objectives#Agent: Development Editor|Agent: Dev Editor]] | `meta-llama/llama-3.2-3b` | Consistency scoring (≥9) | Auto-fail triggers revision |
+| → [[Story-Engine/Objectives#Agent: Copy Editor|Agent: Copy Editor]] | `openrouter/owl-alpha` | Grammar, punctuation, style | PASS/FAIL gate |
+| → [[Story-Engine/Objectives#Agent: Audit Agent|Agent: Audit]] | `openrouter/owl-alpha` | Final review, duplicate titles, cover | Auto-fix loop (max 5) |
+| → [[Story-Engine/Objectives#Agent: Pipeline Orchestrator|Agent: Pipeline Orchestrator]] | `openrouter/owl-alpha` | Coordinates all 6 agents | → [[Self-Healing-Pipelines]] |
 
 ## Generation Stats (2026-06)
 - The Chrono-Compass Chronicles: 156 segments, ~51K words
@@ -26,6 +26,7 @@ All agents owned by → [[Story Engine — Overview]]
 - Algetasadoria: 220 segments, ~97K words
 
 ## Infrastructure
-- → [[Story-Engine — Queue Worker]]
+- → [[Agent-Details]] — per-agent deep-dives
+- → [[Pipeline|Story-Engine Queue Worker]]
 - → [[Story-Engine — Watchdog]]
 - → [[Story-Engine — Review System]]

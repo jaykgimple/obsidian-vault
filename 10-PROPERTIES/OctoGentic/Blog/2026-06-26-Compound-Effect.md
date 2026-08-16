@@ -3,14 +3,14 @@ title: 2026-06-26 The Agentic Compound Effect
 created: 2026-06-27
 tags: [blog, octogentic, compounding, foundational]
 status: active
-aliases: [The Agentic Compound Effect, Compound Effect Post]
+aliases: [The Agentic Compound Effect, Compound Effect Post, 2026-06-26-The-Agentic-Compound-Effect]
 ---
 
 # The Agentic Compound Effect
 
 > Source: `octogentic/content/blog/2026-06-26-the-agentic-compound-effect.md`
-> Part of → [[10-PROPERTIES/OctoGentic/Blog-Index]]
-> Related: → [[00-META/Compound-Effect]], → [[30-PATTERNS/Compounding-Knowledge]]
+> Part of → [[Blog-Index]]
+> Related: → [[Compound-Effect]], → [[Compounding-Knowledge]]
 
 ## Core Thesis
 
@@ -52,6 +52,6 @@ At `r = 0.10` and `t = 50` cycles: `V(50) = V₀ × 117.39`
 
 1. ✅ Signal infrastructure (daily logs, pattern notes, lessons)
 2. ✅ Structured signals (YAML frontmatter, LINK headers)
-3. ✅ Separated criteria (→ [[20-AGENTS/Agent-Objectives]] vs → [[30-PATTERNS/]])
-4. ✅ Compounding metrics (tracked in → [[30-PATTERNS/Compounding-Knowledge]])
+3. ✅ Separated criteria (→ [[Agent-Objectives]] vs → [[Compounding-Knowledge]])
+4. ✅ Compounding metrics (tracked in → [[Compounding-Knowledge]])
 5. ✅ Ecosystem-ready (all properties, all agents, one vault)

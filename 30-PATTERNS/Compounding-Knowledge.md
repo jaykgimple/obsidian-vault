@@ -10,7 +10,7 @@ aliases: [Pattern: Compounding Knowledge, The Compounding Loop]
 
 > Every action produces a signal. Every signal improves future actions. The loop accelerates.
 > Source: → [[2026-06-26-The-Agentic-Compound-Effect]] (OctoGentic blog)
-> Part of → [[00-META/Compound-Effect]]
+> Part of → [[Compound-Effect]]
 
 ## The Loop
 
@@ -24,10 +24,10 @@ Each cycle improves the quality of the next cycle's output. The improvement rate
 
 | Metric | What It Measures | Where Tracked |
 |--------|-----------------|---------------|
-| **Learning rate** | Error reduction per cycle | → [[Pattern: Coherence-Scoring]] (fewer failures over time) |
-| **Calibration drift** | Confidence accuracy trend | → [[Pattern: Self-Healing Pipelines]] (fewer false escalations) |
-| **Pattern discovery rate** | New vs repeated observations | → [[30-PATTERNS/]] (new pattern notes over time) |
-| **Marginal action value** | Is each action worth more than the last? | → [[Agent Objective Functions]] (improving scores) |
+| **Learning rate** | Error reduction per cycle | → [[Coherence-Scoring]] (fewer failures over time) |
+| **Calibration drift** | Confidence accuracy trend | → [[Self-Healing-Pipelines]] (fewer false escalations) |
+| **Pattern discovery rate** | New vs repeated observations | → [[Compounding-Knowledge]] (new pattern notes over time) |
+| **Marginal action value** | Is each action worth more than the last? | → [[Agent-Objectives]] (improving scores) |
 
 ## The Compounding Equation
 

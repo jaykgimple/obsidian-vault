@@ -11,7 +11,7 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 > Consolidated signal from all **65** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
-> Part of → [[10-PROPERTIES/OctoGentic/Overview]]
+> Part of → [[Overview]]
 
 ## Compounding Summary
 

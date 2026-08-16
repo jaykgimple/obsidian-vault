@@ -9,9 +9,9 @@ aliases: [Agent Details, Agent Prompts]
 # Story Engine — Agent Deep-Dives
 
 > Each agent's role, prompt structure, and objective function.
-> Roster: → [[Story Engine — Agent Roster]]
+> Roster: → [[Agents]]
 
-## → [[Agent: Architect]]
+## → [[Story-Engine/Objectives#Agent: Architect|Agent: Architect]]
 
 | Aspect | Detail |
 |--------|--------|
@@ -21,7 +21,7 @@ aliases: [Agent Details, Agent Prompts]
 | **Quality gate** | Every chapter must have: goal, conflict, disaster, reaction, dilemma, decision |
 | **Objective** | `continuity_score × 0.4 + chapter_completion × 0.3 + world_rule_consistency × 0.3` |
 
-## → [[Agent: Biographer]]
+## → [[Agents|Agent: Biographer]]
 
 | Aspect | Detail |
 |--------|--------|
@@ -31,7 +31,7 @@ aliases: [Agent Details, Agent Prompts]
 | **Output** | Structured prose with goal/conflict/disaster beats |
 | **Fallback** | Skeleton draft if full generation fails |
 
-## → [[Agent: Novelist]]
+## → [[Story-Engine/Objectives#Agent: Novelist|Agent: Novelist]]
 
 | Aspect | Detail |
 |--------|--------|
@@ -42,7 +42,7 @@ aliases: [Agent Details, Agent Prompts]
 | **Revision** | Max 4 attempts; triggers on coherence < 9 |
 | **Objective** | `avg_quality × 0.5 + voice_consistency × 0.3 + goal_advancement × 0.2` |
 
-## → [[Agent: Dev Editor]]
+## → [[Story-Engine/Objectives#Agent: Development Editor|Agent: Dev Editor]]
 
 | Aspect | Detail |
 |--------|--------|
@@ -53,7 +53,7 @@ aliases: [Agent Details, Agent Prompts]
 | **Threshold** | < 9 → auto-revision trigger |
 | **Objective** | `avg_quality_delta × 0.6 + structural_improvement × 0.4` |
 
-## → [[Agent: Copy Editor]]
+## → [[Story-Engine/Objectives#Agent: Copy Editor|Agent: Copy Editor]]
 
 | Aspect | Detail |
 |--------|--------|
@@ -62,7 +62,7 @@ aliases: [Agent Details, Agent Prompts]
 | **Success metric** | 0 grammar errors in final output |
 | **Objective** | `error_recall × 0.7 + (1 - false_positive) × 0.3` |
 
-## → [[Agent: Audit]]
+## → [[Story-Engine/Objectives#Agent: Audit Agent|Agent: Audit]]
 
 | Aspect | Detail |
 |--------|--------|
@@ -71,13 +71,13 @@ aliases: [Agent Details, Agent Prompts]
 | **Auto-fix** | Loops up to 5 times until zero critical issues |
 | **Objective** | `issue_detection × 0.5 + autofix_accuracy × 0.5` |
 
-## → [[Agent: Pipeline Orchestrator]]
+## → [[Story-Engine/Objectives#Agent: Pipeline Orchestrator|Agent: Pipeline Orchestrator]]
 
 | Aspect | Detail |
 |--------|--------|
 | **Role** | Coordinate all 6 agents through the pipeline |
 | **Optimizes for** | End-to-end pipeline success rate |
-| **Self-healing** | → [[Pattern: Self-Healing Pipelines]] |
+| **Self-healing** | → [[Self-Healing-Pipelines]] |
 | **Watchdog** | 60s health check loop |
 | **Queue** | Supabase `generation_queue` + SQLite `generation_queue` |
 | **Objective** | `completion_rate × 0.4 + pass_rate × 0.3 + time_consistency × 0.3` |

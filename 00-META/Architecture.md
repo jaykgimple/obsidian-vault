@@ -25,7 +25,7 @@ No Obsidian app or MCP server required for core functionality.
 | Convention | Rule | Why |
 |------------|------|-----|
 | **YAML Frontmatter** | Every `.md` file starts with `---` title/tags/status/aliases | Agent parseable |
-| **Wikilinks** | `[[Note Name]]` for all cross-references | Graph relationships |
+|| **Wikilinks** | `[[Note Name]]` (or `[[Note Name|Alias]]`) for all cross-references | Graph relationships |
 | **Tags** | Hyphenated: `#agent`, `#pattern`, `#lesson`, `#decision` | Discoverable |
 | **LINK Headers** | Every note has `> Used by → [[...]]` and `→ [[...]]` at top | Backlink discovery |
 | **Status** | `active`, `draft`, `complete`, `superseded` | Filter by state |
@@ -43,7 +43,7 @@ No Obsidian app or MCP server required for core functionality.
 ### Writing (contributing)
 1. Find correct folder (00-META, 10-PROPERTIES, 20-AGENTS, 30-PATTERNS, 40-LOGS, 50-ARCHIVE)
 2. Create note with full frontmatter
-3. Add LINK header: `> Part of → [[Parent Note]]` and `→ [[Related Note]]`
+3. Add LINK header: `> Part of → [[Architecture]]` and add related links
 4. Use wikilinks throughout content
 5. After creation, update parent's file to link back (bidirectional linking)
 
@@ -65,7 +65,7 @@ No Obsidian app or MCP server required for core functionality.
 
 ## Compounding Metrics Dashboard
 
-Tracked in → [[30-PATTERNS/Compounding-Knowledge]]
+Tracked in → [[Compounding-Knowledge]]
 
 | Metric | Current | 30-day Target |
 |--------|---------|---------------|
@@ -97,7 +97,7 @@ Tracked in → [[30-PATTERNS/Compounding-Knowledge]]
 ## Quick Start for New Agents
 
 1. Read this note
-2. Read [[00-META/Home]] for dashboard
-3. Read [[Agent Objective Functions]] for your scoring
-4. Check [[40-LOGS/]] for today's context
+2. Read [[Home]] for dashboard
+3. Read [[Agent-Objectives]] for your scoring
+4. Check [[2026-08-15]] for today's context
 5. When you learn something: write to appropriate folder, link to related, update dashboard

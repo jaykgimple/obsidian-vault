@@ -9,7 +9,7 @@ aliases: [Pattern: Self-Healing Pipelines, Watchdog Pattern]
 # Self-Healing Pipelines
 
 > Detect failures, recover automatically, escalate only when truly stuck.
-> Used by → [[Story Engine — Overview]], → [[Agent: Pipeline Orchestrator]]
+> Used by → [[Story Engine — Overview]], → [[Story-Engine/Objectives#Agent: Pipeline Orchestrator|Agent: Pipeline Orchestrator]]
 
 ## When To Use
 - Queue-based processing (book generation)
@@ -44,7 +44,7 @@ aliases: [Pattern: Self-Healing Pipelines, Watchdog Pattern]
 - `langchain-openai` dependency added (was missing, silent crash)
 
 ### Known Pitfalls
-- → [[Lesson: Dual Queue Desync]] — Supabase + SQLite must stay in sync→ [[Lesson: Rate Limit Management]] — daily quota exhausted → wait for reset
+- → [[Queue-Desync]] — Supabase + SQLite must stay in sync→ [[Rate-Limits]] — daily quota exhausted → wait for reset
 - Dual workers running simultaneously → duplicate processing risk
 
 ## Connection To Compounding
@@ -54,7 +54,7 @@ Self-healing IS signal generation:
 - Every signal = potential pattern note
 - Every pattern note = preventing future failures
 
-→ [[Pattern: Compounding Knowledge]]
+→ [[Compounding-Knowledge]]
 
 ## Compounding Metrics
 

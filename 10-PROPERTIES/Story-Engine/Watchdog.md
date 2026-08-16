@@ -3,14 +3,14 @@ title: Story Engine — Watchdog & Recovery
 created: 2026-06-27
 tags: [story-engine, watchdog, recovery, self-healing]
 status: active
-aliases: [Watchdog, Queue Worker, Self-Healing]
+aliases: [Watchdog, Queue Worker, Self-Healing, Story Engine Watchdog, Recovery System, Story-Engine — Watchdog]
 ---
 
 # Story Engine — Watchdog & Recovery
 
 > Self-healing infrastructure for the generation pipeline.
-> Pattern: → [[Pattern: Self-Healing Pipelines]]
-> Part of → [[10-PROPERTIES/Story-Engine/Overview]]
+> Pattern: → [[Self-Healing-Pipelines]]
+> Part of → [[Overview]]
 
 ## Watchdog (`scripts/watchdog.py`)
 
@@ -46,9 +46,9 @@ aliases: [Watchdog, Queue Worker, Self-Healing]
 
 | Issue | Fix | Lesson Note |
 |-------|-----|-------------|
-| Stale `processing` never recovered | Added stale fetch to `poll_queue()` | → [[Lesson: Dual Queue Desync]] |
-| Dual queue desync (Supabase ≠ SQLite) | Reuse existing local series | → [[Lesson: Dual Queue Desync]] |
-| `langchain-openai` missing | `pip install langchain-openai` | → [[10-PROPERTIES/Story-Engine/Lessons/]] |
-| Cover not uploaded | Always call `_upload_cover_to_supabase()` | → [[Lesson: Cover Upload Gap]] |
-| Chapter content empty in Supabase | Backfill from `manuscript_chunks` | → [[Lesson: Chapter Content Backfill]] |
-| Review saves failed | Wrong service key (anon vs service role) | → [[Lesson: Service Key Required]] |
+| Stale `processing` never recovered | Added stale fetch to `poll_queue()` | → [[Queue-Desync]] |
+| Dual queue desync (Supabase ≠ SQLite) | Reuse existing local series | → [[Queue-Desync]] |
+| `langchain-openai` missing | `pip install langchain-openai` | → [[Pipeline]] |
+| Cover not uploaded | Always call `_upload_cover_to_supabase()` | → [[Cover-Upload]] |
+| Chapter content empty in Supabase | Backfill from `manuscript_chunks` | → [[Chapter-Backfill]] |
+| Review saves failed | Wrong service key (anon vs service role) | → [[Review-System]] |

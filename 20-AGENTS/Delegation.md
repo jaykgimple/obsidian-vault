@@ -9,19 +9,19 @@ aliases: [Delegation Map, Agent Routing]
 # CoS — Knowledge Routing
 
 > How the Chief of Staff routes signals between agents and properties.
-> Part of → [[CoS — Chief of Staff]]
+> Part of → [[CoS]]
 
 ## Routing Rules
 
 | Signal Type | Route To | Action |
 |-------------|----------|--------|
-| Story Engine failure | → [[Pattern: Self-Healing Pipelines]] | Auto-recover via watchdog |
-| Coherence failure (<9) | → [[Pattern: Coherence-Scoring]] | Trigger novelist revision |
-| Rate limit exhaustion | → [[Lesson: Rate Limit Management]] | Stop all, schedule restart |
-| New takeaway discovered | → [[10-PROPERTIES/OctoGentic/Key-Takeaways]] | Add note, link to source |
-| Cross-property insight | → [[30-PATTERNS/Compounding-Knowledge]] | Create pattern note |
-| Daily standup | → [[40-LOGS/]] + [[00-META/Home]] | Update dashboard |
-| User escalation | → [[CoS — Chief of Staff]] | Evaluate, route, resolve |
+| Story Engine failure | → [[Self-Healing-Pipelines]] | Auto-recover via watchdog |
+| Coherence failure (<9) | → [[Coherence-Scoring]] | Trigger novelist revision |
+| Rate limit exhaustion | → [[Rate-Limits]] | Stop all, schedule restart |
+| New takeaway discovered | → [[Key-Takeaways]] | Add note, link to source |
+| Cross-property insight | → [[Compounding-Knowledge]] | Create pattern note |
+| Daily standup | → [[2026-08-15]] + [[Home]] | Update dashboard |
+| User escalation | → [[CoS]] | Evaluate, route, resolve |
 
 ## Model Routing (Local Multi-Model)
 

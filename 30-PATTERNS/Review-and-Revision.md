@@ -24,7 +24,7 @@ aliases: [Pattern: Review-and-Revision, Post-Generation Review]
 ```
 1. Pull chapter content from Supabase
 2. Build story state (all prior chapter summaries + last 3 segments)
-3. Run dev_editor review (→ [[Pattern: Coherence Scoring]])
+3. Run dev_editor review (→ [[Coherence-Scoring]])
 4. If score < 9: revise via novelist agent
 5. Re-review revised content
 6. Save to Supabase (only if score ≥ 9)
@@ -40,7 +40,7 @@ aliases: [Pattern: Review-and-Revision, Post-Generation Review]
 
 ## Key Lessons (2026-06)
 
-- **Wrong service key**: Write operations need service role key, not anon → [[Lesson: Service Key Required]]
+- **Wrong service key**: Write operations need service role key, not anon → [[Review-System]]
 - **Truncation**: LLM output gets cut off mid-sentence for long chapters → need chunking
 - **Rate limits**: Reviewing 200+ chapters consumes 1000+ LLM calls → batch carefully
 - **Speed ≠ Quality**: First review pass catches ~60% of issues; revision catches 30% more

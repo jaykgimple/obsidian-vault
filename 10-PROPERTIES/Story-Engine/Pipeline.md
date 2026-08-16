@@ -9,7 +9,7 @@ aliases: [Generation Pipeline, Engine Architecture]
 # Story Engine — Pipeline Architecture
 
 > The full generation pipeline: queue → architect → biographer → novelist → dev_editor → copy_editor → audit → push.
-> Part of → [[10-PROPERTIES/Story-Engine/Overview]]
+> Part of → [[Overview]]
 
 ## Pipeline Flow
 
@@ -20,7 +20,7 @@ aliases: [Generation Pipeline, Engine Architecture]
     ↓
 [2. Biographer Agent] → Chapter draft prose (~300w)
     ↓
-[3. Novelist Agent] → Segment prose (~800w) with → [[Pattern: Coherence-Scoring]] context
+[3. Novelist Agent] → Segment prose (~800w) with → [[Coherence-Scoring]] context
     ↓
 [4. Dev Editor Agent] → Consistency review (≥9 threshold)
     ↓ (if <9: revision loop, max 4 attempts)
@@ -59,7 +59,7 @@ aliases: [Generation Pipeline, Engine Architecture]
 
 ## Compounding Integration
 
-- `get_story_state(series_id)` builds running context → [[Pattern: Coherence-Scoring]]
-- Revision loop → [[Pattern: Review-and-Revision]]
-- Watchdog + queue worker → [[Pattern: Self-Healing Pipelines]]
-- Lessons from failures → [[10-PROPERTIES/Story-Engine/Lessons/]]
+- `get_story_state(series_id)` builds running context → [[Coherence-Scoring]]
+- Revision loop → [[Review-and-Revision]]
+- Watchdog + queue worker → [[Self-Healing-Pipelines]]
+- Lessons from failures → [[Pipeline]]

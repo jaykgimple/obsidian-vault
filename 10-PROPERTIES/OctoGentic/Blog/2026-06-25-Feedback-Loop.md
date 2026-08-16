@@ -3,14 +3,14 @@ title: 2026-06-25 The Agentic Feedback Loop
 created: 2026-06-27
 tags: [blog, octogentic, feedback, learning]
 status: active
-aliases: [The Agentic Feedback Loop, Feedback Loop Post]
+aliases: [The Agentic Feedback Loop, Feedback Loop Post, 2026-06-25-The-Agentic-Feedback-Loop]
 ---
 
 # The Agentic Feedback Loop
 
 > Source: `octogentic/content/blog/2026-06-25-the-agentic-feedback-loop.md`
-> Part of → [[10-PROPERTIES/OctoGentic/Blog-Index]]
-> Related: → [[30-PATTERNS/Compounding-Knowledge]], → [[Pattern: Coherence-Scoring]]
+> Part of → [[Blog-Index]]
+> Related: → [[Compounding-Knowledge]], → [[Coherence-Scoring]]
 
 ## Core Thesis
 
@@ -46,13 +46,13 @@ A system without feedback degrades (errors accumulate faster than corrections). 
 
 **T-FL5**: Design for Ecosystem Compounding
 - Structured communication protocols between agents
-- Shared signal store (→ [[30-PATTERNS/Compounding-Knowledge]] implements this)
+- Shared signal store (→ [[Compounding-Knowledge]] implements this)
 
 ## Implementation in This Stack
 
 | Layer | Implementation |
 |-------|---------------|
-| Execution | → [[Pattern: Self-Healing Pipelines]] (watchdog, queue worker) |
-| Outcome | → [[Pattern: Coherence-Scoring]] (dev_editor consistency check) |
-| Pattern | → [[Pattern: Review-and-Revision]] (post-generation audit) |
-| Structural | → [[30-PATTERNS/Compounding-Knowledge]] (lessons → better prompts) |
+| Execution | → [[Self-Healing-Pipelines]] (watchdog, queue worker) |
+| Outcome | → [[Coherence-Scoring]] (dev_editor consistency check) |
+| Pattern | → [[Review-and-Revision]] (post-generation audit) |
+| Structural | → [[Compounding-Knowledge]] (lessons → better prompts) |

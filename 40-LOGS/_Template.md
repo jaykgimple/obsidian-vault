@@ -9,7 +9,7 @@ aliases: [Daily Standup Template]
 # Daily Log Template
 
 > Copy this file to `40-LOGS/YYYY-MM-DD.md` for each day's standup.
-> Maintained by → [[CoS — Chief of Staff]]
+> Maintained by → [[CoS]]
 
 ---
 

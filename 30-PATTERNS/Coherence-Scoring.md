@@ -9,8 +9,9 @@ aliases: [Pattern: Coherence Scoring, Consistency Gate]
 # Coherence Scoring
 
 > Numeric score (1-10) measuring whether a segment contradicts established facts.
-> Owned by → [[Agent: Dev Editor]]
-> Used in → [[Story Engine — Overview]], → [[Story Engine — Review System]]
+> Owned by → [[Story-Engine/Objectives#Agent: Development Editor|Agent: Dev Editor]]
+> Related: → [[Coherence-9]], → [[Coherence-Scoring]]
+> Used in → [[Story Engine — Overview]], → [[Review-System]]
 
 ## Scoring Criteria
 
@@ -38,11 +39,11 @@ aliases: [Pattern: Coherence Scoring, Consistency Gate]
 
 ## Common Failure Modes (2026-06 Review)
 
-From → [[Story Engine — Review System]] review of 200+ chapters:
+From → [[Review-System]] review of 200+ chapters:
 
 | Failure Type | Frequency | Root Cause | Fix Applied |
 |-------------|-----------|------------|-------------|
-| Location teleport | High | Novelist lacks position tracking | → [[Pattern: Compounding Knowledge]] story_state |
+| Location teleport | High | Novelist lacks position tracking | → [[Compounding-Knowledge]] story_state |
 | POV/tense shift | Medium | No consistent voice in prompt | Dev_editor check added |
 | Contradictory new info | High | Characters inventing facts not in story_state | story_state builder + check |
 | Mid-sentence truncation | Medium | Max_tokens too low for chapter output | Increased + chunking |

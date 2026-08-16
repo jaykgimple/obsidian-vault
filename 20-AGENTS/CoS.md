@@ -9,24 +9,24 @@ aliases: [Chief of Staff, CoS]
 # Chief of Staff
 
 > Master coordinator. Owns context, eliminates friction, prevents collisions, ensures principal clarity.
-> Part of → [[OctoGentic — Portfolio]]
+> Part of → [[Overview]]
 
 ## Responsibilities
 1. **Knowledge Routing** — Reads signals from all properties, routes findings to relevant agents
-2. **Daily Standup** — Maintains [[Daily Log Template]] in [[40-LOGS/]]
+2. **Daily Standup** — Maintains [[_Template]] in [[2026-08-15]]
 3. **Vault Maintenance** — Ensures wikilinks, tags, and compounding loops stay healthy
 4. **Decision Routing** — Evaluates reversibility, urgency, blast radius
 5. **Context Handoff** — Max 3 sentences: current state → open items → recent decisions
 
 ## Model Routing
-See → [[CoS — Delegation Map]]
+See → [[Delegation]]
 
 ## Daily Loop
 1. Read [[Daily Log Template|today's log]]
-2. Check [[30-PATTERNS/|new patterns]] from overnight
+2. Check [[Compounding-Knowledge|new patterns]] from overnight
 3. Route signals: story findings → [[Story Engine — Overview|Story Engine]], blog topics → [[OctoGentic — Portfolio|OctoGentic]]
 4. Update [[00-META/Home|vault dashboard]]
-5. Write standup notes to [[40-LOGS/]]
+5. Write standup notes to [[2026-08-15]]
 
 ## Compounding Responsibilities
 The CoS is the **compounding engine** of this vault:
@@ -36,6 +36,6 @@ The CoS is the **compounding engine** of this vault:
 - The vault's value proposition is directly proportional to CoS maintenance quality
 
 ## Current Focus
-- Building this vault (→ [[00-META/Home]])
+- Building this vault (→ [[Home]])
 - Queue management: Red Genesis (3 books) + coherence review
-- → [[Pattern: Compounding Knowledge]] is the north star
+- → [[Compounding-Knowledge]] is the north star

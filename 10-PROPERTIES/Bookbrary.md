@@ -10,7 +10,7 @@ aliases: [Bookbrary Platform, Book Library]
 
 > Reader-facing web platform for consuming generated book content.
 > Repository: `/root/projects/bookbrary`
-> Part of → [[00-META/Home]]
+> Part of → [[Home]]
 
 ## Architecture
 
@@ -39,14 +39,14 @@ aliases: [Bookbrary Platform, Book Library]
 
 1. **Generation**: User submits → queue item → Story Engine picks up → generates → pushes
 2. **Consumption**: User browses → reads chapters → Bookbrary UI renders markdown
-3. **Review**: → [[Pattern: Review-and-Revision]] → updates Supabase chapters
+3. **Review**: → [[Review-and-Revision]] → updates Supabase chapters
 
 ## Agent Relevance
 
-- → [[Agent: Pipeline Orchestrator]] pushes to Bookbrary's Supabase
-- → [[Agent: Cover Artist]] generates covers in Supabase storage
+- → [[Story-Engine/Objectives#Agent: Pipeline Orchestrator|Agent: Pipeline Orchestrator]] pushes to Bookbrary's Supabase
+- → [[Agents|Agent: Cover Artist]] generates covers in Supabase storage
 
 ## Compounding Notes
 
-- Reader feedback (if tracked) could feed back into → [[Pattern: Coherence-Scoring]]
-- Bookbrary's `processing` status display → [[Takeaway 7.5]] from OctoGentic (show the agent's work)
+- Reader feedback (if tracked) could feed back into → [[Coherence-Scoring]]
+- Bookbrary's `processing` status display → [[Key-Takeaways|Takeaway 7.5]] from OctoGentic (show the agent's work)

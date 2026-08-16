@@ -3,31 +3,32 @@ title: OctoGentic — Portfolio Overview
 created: 2026-06-27
 tags: [property, octogentic, portfolio]
 status: active
-aliases: [OctoGentic Portfolio]
+aliases: [OctoGentic Portfolio, OctoGentic — Portfolio]
 ---
 
 # OctoGentic
 
 > Autonomous web property portfolio. Multiple agentic properties sharing intelligence to compound value.
-> Part of → [[00-META/Home]]
+> Part of → [[Home]]
+> Related: → [[Implementation-Tracker]], → [[Blog-Index]]
 
 ## Properties in Portfolio
 1. → [[Story Engine — Overview]] — Agentic book generation
-2. → [[Bookbrary — Reader Frontend]] — Supabase-backed reader
-3. → [[RoleFresh — Talent Platform]] — Role-based matching
+2. → [[Bookbrary]] — Supabase-backed reader
+3. → [[RoleFresh]] — Role-based matching
 
 ## Agent Roster
-- → [[Agent: Portfolio Orchestrator]]
-- → [[Agent: Signal Feed Generator]]
-- → [[Agent: Telemetry Aggregator]]
-- → [[Agent: Key Takeaway Currator]]
+- → [[OctoGentic/Overview|Agent: Portfolio Orchestrator]]
+- → [[OctoGentic/Overview|Agent: Signal Feed Generator]]
+- → [[OctoGentic/Overview|Agent: Telemetry Aggregator]]
+- → [[OctoGentic/Overview|Agent: Key Takeaway Currator]]
 
 ## Knowledge Assets
-- → [[KEY: OctoGentic Takeaways]] — 11 takeaways × 26 blog posts
+- → [[Key-Takeaways]] — 11 takeaways × 26 blog posts
 - Blog posts in → [[OctoGentic Blog Index|Blog/]] folder
 
 ## The Compounding Thesis
-Read: → [[KEY: Octo-Compounding-Effect]]
+Read: → [[Compound-Effect]]
 
 This portfolio is designed for ecosystem compounding:
 - Story Engine generates books → Bookbrary displays them → telemetry feeds back → agents improve

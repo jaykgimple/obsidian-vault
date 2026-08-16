@@ -29,4 +29,4 @@ If you have two sources of truth:
 3. Reconcile on read
 4. Recover from divergence
 
-→ [[Pattern: Self-Healing Pipelines]] | → [[Pattern: Compounding Knowledge]]
+→ [[Self-Healing-Pipelines]] | → [[Compounding-Knowledge]]

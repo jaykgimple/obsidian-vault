@@ -10,7 +10,7 @@ aliases: [RoleFresh Platform, Resume Tool]
 
 > Job matching web platform. Users upload resumes, AI tailors applications.
 > Repository: `/root/projects/rolefresh`
-> Part of → [[00-META/Home]]
+> Part of → [[Home]]
 
 ## Architecture
 
@@ -28,10 +28,10 @@ aliases: [RoleFresh Platform, Resume Tool]
 
 ## Agent Relevance
 
-- Scraping agents (resume/job posting collection) → [[Takeaway T-A2]] (autonomous error recovery)
-- Tailoring agents → [[Agent: Novelist]] equivalent (prose generation)
+- Scraping agents (resume/job posting collection) → [[Key-Takeaways|Takeaway T-A2]] (autonomous error recovery)
+- Tailoring agents → [[Story-Engine/Objectives#Agent: Novelist|Agent: Novelist]] equivalent (prose generation)
 
 ## Compounding Notes
 
-- RoleFresh's scraping retry logic → [[Pattern: Self-Healing Pipelines]]
-- Anti-deskill protection (user noted) → [[Takeaway T-C3]] from OctoGentic
+- RoleFresh's scraping retry logic → [[Self-Healing-Pipelines]]
+- Anti-deskill protection (user noted) → [[Key-Takeaways|Takeaway T-C3]] from OctoGentic

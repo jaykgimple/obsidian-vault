@@ -9,11 +9,11 @@ aliases: [Agent Scoring, Objective Functions]
 # Agent Objective Functions
 
 > Every agent optimizes for something specific. These are the measurable functions.
-> Owned by → [[CoS — Chief of Staff]] | Maintained by → [[CoS — Knowledge Routing]]
+> Owned by → [[CoS]] | Maintained by → [[CoS]]
 
 ## Story Engine Agents
 
-Source: → [[Story Engine — Agent Roster]]
+Source: → [[Agents]]
 
 | Agent | Objective Function | Target |
 |-------|-------------------|--------|
@@ -47,7 +47,7 @@ Source: → [[Story Engine — Agent Roster]]
 ## Compounding Effect
 
 When agents optimize these functions:
-- Errors → pattern notes (→ [[30-PATTERNS/]])
+- Errors → pattern notes (→ [[Compounding-Knowledge]])
 - Pattern notes → better prompts
 - Better prompts → fewer errors
 - Fewer errors → lower costs + higher quality

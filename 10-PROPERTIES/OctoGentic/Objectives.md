@@ -9,8 +9,8 @@ aliases: [OctoGentic Agent Objectives, Portfolio Agent Scoring]
 # OctoGentic — Agentic Objectives
 
 > Source: `octogentic/AGENTIC_OBJECTIVES.md`
-> Part of → [[10-PROPERTIES/OctoGentic/Overview]]
-> Related: → [[Agent Objective Functions]], → [[OctoGentic — Portfolio Overview]]
+> Part of → [[Overview]]
+> Related: → [[Agent-Objectives]], → [[Overview]]
 
 ## Agent: Portfolio Orchestrator
 
@@ -57,6 +57,6 @@ aliases: [OctoGentic Agent Objectives, Portfolio Agent Scoring]
 ## Cross-Property Compounding
 
 These objectives feed the vault's compounding loop:
-- Signal Feed takeaways → [[10-PROPERTIES/OctoGentic/Key-Takeaways]] → inform Story Engine prompts
-- Telemetry signals → [[40-LOGS/]] daily notes → inform CoS decisions
-- Portfolio health → [[00-META/Home]] dashboard → visible to all agents
+- Signal Feed takeaways → [[Key-Takeaways]] → inform Story Engine prompts
+- Telemetry signals → [[2026-08-15]] daily notes → inform CoS decisions
+- Portfolio health → [[Home]] dashboard → visible to all agents
