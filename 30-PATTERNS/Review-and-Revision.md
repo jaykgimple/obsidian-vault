@@ -10,7 +10,7 @@ aliases: [Pattern: Review-and-Revision, Post-Generation Review]
 
 > Post-generation quality gate: audit, score, revise, repeat.
 > Script: `scripts/review_series.py`
-> Used by → [[Story Engine — Overview]]
+> Used by → [[10-PROPERTIES/Story-Engine/Overview|Story Engine — Overview]]
 
 ## Why Separate Review from Generation?
 

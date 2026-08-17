@@ -22,9 +22,9 @@ aliases: [Chief of Staff, CoS]
 See → [[Delegation]]
 
 ## Daily Loop
-1. Read [[Daily Log Template|today's log]]
+1. Read [[40-LOGS/_Template|Daily Log Template|today's log]]
 2. Check [[Compounding-Knowledge|new patterns]] from overnight
-3. Route signals: story findings → [[Story Engine — Overview|Story Engine]], blog topics → [[OctoGentic — Portfolio|OctoGentic]]
+3. Route signals: story findings → [[10-PROPERTIES/Story-Engine/Overview|Story Engine]], blog topics → [[10-PROPERTIES/OctoGentic/Overview|OctoGentic]]
 4. Update [[00-META/Home|vault dashboard]]
 5. Write standup notes to [[2026-08-15]]
 

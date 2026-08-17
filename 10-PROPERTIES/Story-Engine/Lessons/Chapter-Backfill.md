@@ -8,6 +8,7 @@ status: active
 # Lesson: Chapter Content Backfill
 
 > Content lives in `manuscript_chunks`, but Supabase books/chapters are empty until pushed.
+> Part of → [[10-PROPERTIES/Story-Engine/Pipeline|Pipeline]]
 
 ## What Happened
 - After generation, `chapters.current_words = 0` in Supabase

@@ -13,7 +13,7 @@ aliases: [OctoGentic Portfolio, OctoGentic — Portfolio]
 > Related: → [[Implementation-Tracker]], → [[Blog-Index]], → [[10-PROPERTIES/OctoGentic/Objectives]]
 
 ## Properties in Portfolio
-1. → [[Story Engine — Overview]] — Agentic book generation
+1. → [[10-PROPERTIES/Story-Engine/Overview|Story Engine — Overview]] — Agentic book generation
 2. → [[Bookbrary]] — Supabase-backed reader
 3. → [[RoleFresh]] — Role-based matching
 
@@ -25,7 +25,7 @@ aliases: [OctoGentic Portfolio, OctoGentic — Portfolio]
 
 ## Knowledge Assets
 - → [[Key-Takeaways]] — 11 takeaways × 26 blog posts
-- Blog posts in → [[OctoGentic Blog Index|Blog/]] folder
+- Blog posts in → [[10-PROPERTIES/OctoGentic/Blog-Index|OctoGentic Blog Index]] folder
 
 ## The Compounding Thesis
 Read: → [[Compound-Effect]]

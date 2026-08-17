@@ -11,7 +11,7 @@ aliases: [Pattern: Coherence Scoring, Consistency Gate]
 > Numeric score (1-10) measuring whether a segment contradicts established facts.
 > Owned by → [[10-PROPERTIES/Story-Engine/Objectives#Agent: Development Editor|Agent: Dev Editor]]
 > Related: → [[Coherence-9]], → [[Coherence-Scoring]]
-> Used in → [[Story Engine — Overview]], → [[Review-System]]
+> Used in → [[10-PROPERTIES/Story-Engine/Overview|Story Engine — Overview]], → [[10-PROPERTIES/Story-Engine/Review-System|Review-System]]
 
 ## Scoring Criteria
 

@@ -7,7 +7,7 @@ aliases: [The Agentic Compound Effect, Compound Effect Post]
 
 # The Agentic Compound Effect
 
-> Source: → [[2026-06-26-The-Agentic-Compound-Effect]] (OctoGentic blog post)
+> Source: → [[10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect|The Agentic Compound Effect]] (OctoGentic blog post)
 > Status: → [[Key-Takeaways]] T-CE1 through T-CE5
 
 ## Core Thesis

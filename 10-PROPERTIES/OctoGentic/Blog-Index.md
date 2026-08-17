@@ -8,17 +8,18 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 66 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 67 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-| 1 | 2026-08-16 | The Agentic Compounding Engine: Why Self-Healing Systems Get Smarter With Every Failure | → 2026-08-16-The-Agentic-Compounding-Engine |
+| 1 | 2026-08-17 | Agentic Governance: Building Accountability Into Systems That Act Alone | → 2026-08-17-Agentic-Governance |
+| 2 | 2026-08-16 | The Agentic Compounding Engine: Why Self-Healing Systems Get Smarter With Every Failure | → 2026-08-16-The-Agentic-Compounding-Engine |
 | 2 | 2026-08-15 | Agentic Evaluation: Measuring What Matters in Systems That Measure Themselves | → 2026-08-15-Agentic-Evaluation |
-| 3 | 2026-06-26 | The Agentic Compound Effect | → [[2026-06-26-The-Agentic-Compound-Effect]] |
-| 2 | 2026-06-25 | The Agentic Feedback Loop | → [[2026-06-25-The-Agentic-Feedback-Loop]] |
+| 3 | 2026-06-26 | The Agentic Compound Effect | → [[10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect|The Agentic Compound Effect]] |
+| 2 | 2026-06-25 | The Agentic Feedback Loop | → [[10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop|The Agentic Feedback Loop]] |
 | 3 | 2026-06-24 | The Trust Problem | → 2026-06-24-The-Trust-Problem |
 | 4 | 2026-0 | Agentic AI and the Future of Work | → 2026-06-23-Agentic-AI-Future-of-Work |
 | 5 | 2026-06-22 | The Rise of the Autonomous Web Property | → 2026-06-22-Autonomous-Web-Property |
@@ -47,10 +48,10 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### � Architecture
-- → [[2026-06-26-The-Agentic-Compound-Effect]] | → 2026-06-14-Agentic-Memory | → 2026-06-10-Decision-Making | → 2026-06-17-Agentic-Governance | → 2026-06-20-Agentic-Supply-Chain
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect|The Agentic Compound Effect]] | → 2026-06-14-Agentic-Memory | → 2026-06-10-Decision-Making | → 2026-06-17-Agentic-Governance | → 2026-06-20-Agentic-Supply-Chain
 
 ### 🔄 Feedback & Learning
-- → [[2026-06-25-The-Agentic-Feedback-Loop]] | → 2026-06-13-Learn-and-Adapt | → 2026-06-16-Agentic-Observability
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop|The Agentic Feedback Loop]] | → 2026-06-13-Learn-and-Adapt | → 2026-06-16-Agentic-Observability
 
 ### 💰 Economics
 - → 2026-06-12-Economics-of-Agentic | → 2026-06-18-Orchestration-Tax | → 2026-06-12-Rise-of-Agentic-AI

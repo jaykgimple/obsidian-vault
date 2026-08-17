@@ -9,7 +9,7 @@ aliases: [Pattern: Compounding Knowledge, The Compounding Loop]
 # Compounding Knowledge
 
 > Every action produces a signal. Every signal improves future actions. The loop accelerates.
-> Source: → [[2026-06-26-The-Agentic-Compound-Effect]] (OctoGentic blog)
+> Source: → [[10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect|The Agentic Compound Effect]] (OctoGentic blog)
 > Part of → [[Compound-Effect]]
 
 ## The Loop

@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-08-13
+updated: 2026-08-17
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -22,8 +22,8 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 | Economics | 15 | Cost/benefit optimization |
 | Human Interaction | ~20 | Trust and UX patterns |
 | Operations | ~22 | Reliability and failure engineering |
-| Growth & Governance | ~18 | Scaling and governance |
-| **Total** | **239** | |
+| Growth & Governance | ~23 | Scaling and governance |
+| **Total** | **244** | |
 
 ---
 
@@ -650,6 +650,17 @@ Excerpt: The agentic web property landscape is evolving rapidly. The patterns th
 - **T-AR4: Build Deep Personalization Capabilities** — Move beyond surface-level personalization to deep models of user intent, context, and goals. This requires sophisticated intent modeling, context awareness, and goal inference — but it creates user value that competitors can't easily replicate.
 - **T-AR5: Develop Dynamic Autonomy Calibration** — Build systems that can operate at any point on the autonomy spectrum and dynamically calibrate based on context, stakes, and user preference. This maximizes the value of autonomous capabilities while maintaining appropriate human oversight.
 
+### 2026-08-17 — Agentic Governance: Building Accountability Into Systems That Act Alone
+Slug: `agentic-governance-building-accountability-into-systems-that-act-alone` | Tags: agentic-ai, governance, accountability, autonomous-systems, decision-rights
+Excerpt: Autonomy without governance is just automation with deniability. The most sophisticated agentic systems don't just make decisions — they make decisions that are auditable, reversible, and aligned with human intent.
+
+**Takeaways:**
+- **T-GV1: Architect Decision Rights Explicitly** — Classify every decision type by reversibility, impact, and stakeholder sensitivity. Define explicit governance requirements for each classification. The decision rights architecture is the foundation that makes all other governance possible.
+- **T-GV2: Build Tamper-Evident Audit Trails** — Logs that can be rewritten aren't audit trails — they're narratives. Build append-only, cryptographically verifiable audit storage. Every decision must be reconstructable from the audit trail, and the audit trail must be provably unmodified since creation.
+- **T-GV3: Verify Alignment Continuously** — Static alignment checking at launch is necessary but insufficient. Agents that learn and adapt can drift from their original objectives. Build dynamic alignment verification that monitors behavior against intent continuously.
+- **T-GV4: Deploy Dedicated Governance Agents** — Governance isn't a feature you add to existing agents — it's a separate concern that requires dedicated agents. Governance agents monitor other agents for alignment drift, review decision patterns, and escalate anomalies.
+- **T-GV5: Close the Governance Compounding Loop** — Every governance finding must feed back into agent behavior. When alignment drift is detected, update prompts, constraints, or training. Governance that doesn't compound is governance that decays.
+
 ### unknown — The Rise of Agentic AI in 2026: From Assistants to Autonomous Operators
 Slug: `the-rise-of-agentic-ai-in-2026` | Tags: agentic-ai, autonomous-systems, ai-trends
 Excerpt: The shift from AI that responds to AI that acts is reshaping the web. Here's what it means for the next generation of intelligent properties....
@@ -730,6 +741,11 @@ Excerpt: The shift from AI that responds to AI that acts is reshaping the web. H
 | T-U4 | Require Sustained Performance for Graduation | 2026-07-01 |
 | T-AR2 | Build Governance Into Your Architecture | 2026-08-13 |
 | T-AR5 | Develop Dynamic Autonomy Calibration | 2026-08-13 |
+| T-GV1 | Architect Decision Rights Explicitly | 2026-08-17 |
+| T-GV2 | Build Tamper-Evident Audit Trails | 2026-08-17 |
+| T-GV3 | Verify Alignment Continuously | 2026-08-17 |
+| T-GV4 | Deploy Dedicated Governance Agents | 2026-08-17 |
+| T-GV5 | Close the Governance Compounding Loop | 2026-08-17 |
 
 ---
 
@@ -761,6 +777,6 @@ Legend: ✅ Direct application | ⚠️ Partial application | — Not applicable
 
 ---
 
-*Last updated: 2026-08-13*
-*Total blog posts indexed: 65*
-*Total takeaways extracted: 239*
+*Last updated: 2026-08-17*
+*Total blog posts indexed: 66*
+*Total takeaways extracted: 244*

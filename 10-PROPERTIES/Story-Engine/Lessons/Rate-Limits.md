@@ -8,6 +8,7 @@ status: active
 # Lesson: Rate Limit Management
 
 > Daily quota: 1000 LLM requests. Exhaustion causes silent failures, not errors.
+> Part of → [[10-PROPERTIES/Story-Engine/Pipeline|Pipeline]]
 
 ## What Happened
 - Full book generation burns ~1000+ requests

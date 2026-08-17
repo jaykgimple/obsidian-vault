@@ -10,6 +10,7 @@ status: active
 > **AUTO-GENERATED — do not hand-edit.** Regenerate with `python3 scripts/track_takeaways.py`.
 > Status is computed from real evidence (files, DB tables, live signals, git commits).
 > A takeaway is only ✅ Implemented if its artifacts actually exist AND ran.
+> Part of → [[10-PROPERTIES/OctoGentic/Overview|OctoGentic Overview]]
 
 ## Progress
 

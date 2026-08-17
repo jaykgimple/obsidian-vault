@@ -6,7 +6,7 @@ updated: 2026-08-15
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-08-15 (daily maintenance)
+> Last updated: 2026-08-17 (daily maintenance)
 
 ## 🏥 Health: 88/100 (B+)
 
@@ -35,7 +35,8 @@ updated: 2026-08-15
 - 2026-06-29: [[2026-06-29]] — Daily maintenance
 - 2026-06-28: [[2026-06-28]] — Vault-graph.json regenerated
 - 2026-06-27: [[2026-06-27]] — Vault initialized (6 folders, 32 notes, 280 links)
-- 2026-08-15: [[2026-08-15]] ← [[2026-08-16]] — Major link repair session (fixed 60+ broken links across 27 files)
+- 2026-08-17: [[2026-08-17]] — Daily maintenance, published "Agentic Governance" blog post
+- 2026-08-16: [[2026-08-16]] ← [[2026-08-15]] ← [[2026-08-17]] — Daily maintenance, fixed 15 broken links
 
 ## 📂 Structure
 
@@ -43,7 +44,7 @@ updated: 2026-08-15
 - [[RoleFresh]] — Per-property notes (Story Engine, OctoGentic, Bookbrary, RoleFresh)
 - [[CoS]] — Agent configs, delegation patterns
 - [[Compounding-Knowledge]] — Cross-cutting patterns, compounding knowledge
-- [[2026-08-15]] ← [[2026-08-16]] — Daily standups, retrospectives
+- [[2026-08-15]] ← [[2026-08-16]] ← [[2026-08-17]] — Daily standups, retrospectives
 - 50-ARCHIVE — Deprecated/legacy content (no archive yet)
 
 ## ⚠️ Critical Issues (Post-2026-08-15 Repair)

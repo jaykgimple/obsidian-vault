@@ -8,6 +8,7 @@ status: active
 # Lesson: Cover Upload Gap
 
 > `_generate_book_cover` returned early if local PNG existed without uploading to Supabase storage.
+> Part of → [[10-PROPERTIES/Story-Engine/Pipeline|Pipeline]]
 
 ## What Happened
 - Cover PNGs generated locally, sitting in `/covers/`
