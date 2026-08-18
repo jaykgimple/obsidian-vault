@@ -7,7 +7,7 @@ status: active
 
 # Story Engine — Agent Roster
 
-All agents owned by → [[Story Engine — Overview]]
+All agents owned by → [[10-PROPERTIES/Story-Engine/Overview|Story Engine — Overview]]
 
 | Agent | Model/Path | Role | Self-Healing |
 |-------|-----------|------|--------------|
@@ -28,5 +28,5 @@ All agents owned by → [[Story Engine — Overview]]
 ## Infrastructure
 - → [[Agent-Details]] — per-agent deep-dives
 - → [[Pipeline|Story-Engine Queue Worker]]
-- → [[Story-Engine — Watchdog]]
-- → [[Story-Engine — Review System]]
+- → [[10-PROPERTIES/Story-Engine/Watchdog|Story-Engine — Watchdog]]
+- → [[10-PROPERTIES/Story-Engine/Review-System|Story-Engine — Review System]]

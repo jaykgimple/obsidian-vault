@@ -12,9 +12,9 @@ updated: 2026-08-15
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 42 |
-| Wikilinks | 251+ |
-| Link Density | 6.0/note |
+| Total Notes | 44 |
+| Wikilinks | 270+ |
+| Link Density | 6.1/note |
 | Orphans | 0 |
 | Dead Ends | 0 |
 | Untagged | 0 |

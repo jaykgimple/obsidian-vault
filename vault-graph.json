@@ -1,15 +1,15 @@
 {
   "meta": {
-    "total_nodes": 40,
-    "total_links": 243,
+    "total_nodes": 42,
+    "total_links": 271,
     "groups": [
-      "10-PROPERTIES",
-      "20-AGENTS",
       "40-LOGS",
+      "00-META",
+      "10-PROPERTIES",
       "30-PATTERNS",
-      "00-META"
+      "20-AGENTS"
     ],
-    "last_updated": "2026-08-17T05:09:46.315344+00:00"
+    "last_updated": "2026-08-18T05:05:56.869386+00:00"
   },
   "nodes": [
     {
@@ -19,8 +19,8 @@
       "tags": [],
       "status": "active",
       "path": "00-META/Home.md",
-      "links_count": 23,
-      "inbound_count": 8
+      "links_count": 22,
+      "inbound_count": 12
     },
     {
       "id": "00-META/Compound-Effect",
@@ -38,14 +38,14 @@
       "group": "00-META",
       "tags": [
         "lesson",
-        "agent",
         "decision",
+        "agent",
         "pattern"
       ],
       "status": "active",
       "path": "00-META/Architecture.md",
       "links_count": 9,
-      "inbound_count": 5
+      "inbound_count": 6
     },
     {
       "id": "40-LOGS/2026-08-17",
@@ -56,8 +56,8 @@
       ],
       "status": "active",
       "path": "40-LOGS/2026-08-17.md",
-      "links_count": 23,
-      "inbound_count": 2
+      "links_count": 28,
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-08-16",
@@ -81,8 +81,8 @@
       ],
       "status": "active",
       "path": "40-LOGS/2026-06-30.md",
-      "links_count": 0,
-      "inbound_count": 1
+      "links_count": 5,
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/_Template",
@@ -105,8 +105,8 @@
       ],
       "status": "active",
       "path": "40-LOGS/2026-06-28.md",
-      "links_count": 0,
-      "inbound_count": 1
+      "links_count": 5,
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/vault-analysis-latest",
@@ -115,7 +115,7 @@
       "tags": [],
       "status": "active",
       "path": "40-LOGS/vault-analysis-latest.md",
-      "links_count": 6,
+      "links_count": 12,
       "inbound_count": 1
     },
     {
@@ -127,8 +127,20 @@
       ],
       "status": "active",
       "path": "40-LOGS/2026-06-29.md",
-      "links_count": 0,
-      "inbound_count": 1
+      "links_count": 4,
+      "inbound_count": 3
+    },
+    {
+      "id": "40-LOGS/2026-08-18",
+      "title": "2026-08-18",
+      "group": "40-LOGS",
+      "tags": [
+        "1"
+      ],
+      "status": "active",
+      "path": "40-LOGS/2026-08-18.md",
+      "links_count": 11,
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-06-27",
@@ -140,7 +152,7 @@
       "status": "active",
       "path": "40-LOGS/2026-06-27.md",
       "links_count": 1,
-      "inbound_count": 1
+      "inbound_count": 2
     },
     {
       "id": "40-LOGS/2026-08-15",
@@ -153,7 +165,7 @@
       "status": "active",
       "path": "40-LOGS/2026-08-15.md",
       "links_count": 50,
-      "inbound_count": 8
+      "inbound_count": 9
     },
     {
       "id": "30-PATTERNS/Coherence-Scoring",
@@ -207,7 +219,7 @@
       "status": "active",
       "path": "20-AGENTS/CoS.md",
       "links_count": 12,
-      "inbound_count": 10
+      "inbound_count": 12
     },
     {
       "id": "20-AGENTS/Delegation",
@@ -261,7 +273,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Objectives.md",
       "links_count": 3,
-      "inbound_count": 29
+      "inbound_count": 31
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Watchdog",
@@ -271,7 +283,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Watchdog.md",
       "links_count": 8,
-      "inbound_count": 2
+      "inbound_count": 3
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Pipeline",
@@ -315,7 +327,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Review-System.md",
       "links_count": 4,
-      "inbound_count": 8
+      "inbound_count": 9
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Agent-Details",
@@ -409,7 +421,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Key-Takeaways.md",
       "links_count": 1,
-      "inbound_count": 10
+      "inbound_count": 11
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog-Index",
@@ -418,8 +430,8 @@
       "tags": [],
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog-Index.md",
-      "links_count": 5,
-      "inbound_count": 5
+      "links_count": 6,
+      "inbound_count": 6
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Overview",
@@ -429,7 +441,17 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Overview.md",
       "links_count": 14,
-      "inbound_count": 8
+      "inbound_count": 9
+    },
+    {
+      "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance",
+      "title": "2026-08-17-Agentic-Governance",
+      "group": "10-PROPERTIES",
+      "tags": [],
+      "status": "active",
+      "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance.md",
+      "links_count": 3,
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop",
@@ -475,12 +497,22 @@
     },
     {
       "source": "00-META/Home",
-      "target": "40-LOGS/2026-08-15",
+      "target": "40-LOGS/2026-08-18",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-08-17",
       "type": "wikilink"
     },
     {
       "source": "00-META/Home",
       "target": "40-LOGS/2026-08-16",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-08-15",
       "type": "wikilink"
     },
     {
@@ -510,6 +542,11 @@
     },
     {
       "source": "00-META/Home",
+      "target": "40-LOGS/2026-08-18",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
       "target": "40-LOGS/2026-08-15",
       "type": "wikilink"
     },
@@ -521,21 +558,6 @@
     {
       "source": "00-META/Home",
       "target": "40-LOGS/2026-08-17",
-      "type": "wikilink"
-    },
-    {
-      "source": "00-META/Home",
-      "target": "10-PROPERTIES/Story-Engine/Objectives",
-      "type": "wikilink"
-    },
-    {
-      "source": "00-META/Home",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
-      "type": "wikilink"
-    },
-    {
-      "source": "00-META/Home",
-      "target": "10-PROPERTIES/Story-Engine/Objectives",
       "type": "wikilink"
     },
     {
@@ -665,6 +687,21 @@
     },
     {
       "source": "40-LOGS/2026-08-17",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-08-17",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-08-17",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-08-17",
       "target": "10-PROPERTIES/Story-Engine/Overview",
       "type": "wikilink"
     },
@@ -676,6 +713,16 @@
     {
       "source": "40-LOGS/2026-08-17",
       "target": "10-PROPERTIES/Story-Engine/Review-System",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-08-17",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-08-17",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
       "type": "wikilink"
     },
     {
@@ -709,22 +756,102 @@
       "type": "wikilink"
     },
     {
+      "source": "40-LOGS/2026-06-30",
+      "target": "00-META/Home",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-06-30",
+      "target": "40-LOGS/2026-06-29",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-06-30",
+      "target": "40-LOGS/2026-06-28",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-06-30",
+      "target": "00-META/Home",
+      "type": "wikilink"
+    },
+    {
       "source": "40-LOGS/_Template",
       "target": "20-AGENTS/CoS",
       "type": "wikilink"
     },
     {
+      "source": "40-LOGS/2026-06-28",
+      "target": "00-META/Home",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-06-28",
+      "target": "40-LOGS/2026-06-27",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-06-28",
+      "target": "40-LOGS/2026-06-29",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-06-28",
+      "target": "40-LOGS/2026-06-30",
+      "type": "wikilink"
+    },
+    {
       "source": "40-LOGS/vault-analysis-latest",
+      "target": "00-META/Home",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/vault-analysis-latest",
+      "target": "40-LOGS/2026-08-18",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/vault-analysis-latest",
+      "target": "00-META/Architecture",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/vault-analysis-latest",
+      "target": "20-AGENTS/CoS",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-06-29",
+      "target": "40-LOGS/2026-06-28",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-06-29",
+      "target": "40-LOGS/2026-06-30",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-06-29",
+      "target": "40-LOGS/2026-08-15",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-08-18",
+      "target": "20-AGENTS/CoS",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-08-18",
       "target": "10-PROPERTIES/Story-Engine/Overview",
       "type": "wikilink"
     },
     {
-      "source": "40-LOGS/vault-analysis-latest",
+      "source": "40-LOGS/2026-08-18",
       "target": "10-PROPERTIES/Story-Engine/Watchdog",
       "type": "wikilink"
     },
     {
-      "source": "40-LOGS/vault-analysis-latest",
+      "source": "40-LOGS/2026-08-18",
       "target": "10-PROPERTIES/Story-Engine/Review-System",
       "type": "wikilink"
     },
@@ -1315,6 +1442,11 @@
     },
     {
       "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
       "target": "10-PROPERTIES/Story-Engine/Objectives",
       "type": "wikilink"
     },
@@ -1361,6 +1493,16 @@
     {
       "source": "10-PROPERTIES/Story-Engine/Agents",
       "target": "10-PROPERTIES/Story-Engine/Pipeline",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "10-PROPERTIES/Story-Engine/Watchdog",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Agents",
+      "target": "10-PROPERTIES/Story-Engine/Review-System",
       "type": "wikilink"
     },
     {
@@ -1510,6 +1652,11 @@
     },
     {
       "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
       "type": "wikilink"
     },
@@ -1596,6 +1743,21 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Overview",
       "target": "00-META/Compound-Effect",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance",
+      "target": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance",
+      "target": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
