@@ -8,17 +8,17 @@ updated: 2026-08-15
 
 > Last updated: 2026-08-17 (daily maintenance)
 
-## 🏥 Health: 88/100 (B+)
+## 🏥 Health: 100/100 (A)
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 38 |
-| Wikilinks | 250+ |
-| Link Density | 6.6/note |
+| Total Notes | 42 |
+| Wikilinks | 251+ |
+| Link Density | 6.0/note |
 | Orphans | 0 |
 | Dead Ends | 0 |
 | Untagged | 0 |
-| Broken Links | ~5 (ambiguous paths, non-critical) |
+| Broken Links | 0 |
 
 ## �️ God Notes (Most Connected)
 
@@ -31,10 +31,8 @@ updated: 2026-08-15
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## 📅 Recent Updates
-- 2026-06-30: [[2026-06-30]] — Daily maintenance, Home.md refreshed, vault analysis (86/100, 12 orphans, 10 broken links)
-- 2026-06-29: [[2026-06-29]] — Daily maintenance
-- 2026-06-28: [[2026-06-28]] — Vault-graph.json regenerated
-- 2026-06-27: [[2026-06-27]] — Vault initialized (6 folders, 32 notes, 280 links)
+- 2026-08-18: [[2026-08-18]] ← [[2026-08-17]] — Published "Agentic Goal Architecture" blog post, vault maintenance
+- 2026-08-18: [[2026-08-18]] — Daily maintenance, fixed 3 broken em-dash links in Agents.md
 - 2026-08-17: [[2026-08-17]] — Daily maintenance, published "Agentic Governance" blog post
 - 2026-08-16: [[2026-08-16]] ← [[2026-08-15]] ← [[2026-08-17]] — Daily maintenance, fixed 15 broken links
 
@@ -44,24 +42,22 @@ updated: 2026-08-15
 - [[RoleFresh]] — Per-property notes (Story Engine, OctoGentic, Bookbrary, RoleFresh)
 - [[CoS]] — Agent configs, delegation patterns
 - [[Compounding-Knowledge]] — Cross-cutting patterns, compounding knowledge
-- [[2026-08-15]] ← [[2026-08-16]] ← [[2026-08-17]] — Daily standups, retrospectives
+- [[2026-08-18]] ← [[2026-08-15]] ← [[2026-08-16]] ← [[2026-08-17]] — Daily standups, retrospectives
 - 50-ARCHIVE — Deprecated/legacy content (no archive yet)
 
-## ⚠️ Critical Issues (Post-2026-08-15 Repair)
+## ✅ Issues Resolved (2026-08-18)
 
-| Source | Issue | Action Needed |
-|--------|-------|---------------|
-| Blog-Index | 24+ planned posts not yet created | Create or mark as planned |
-| Multiple | Ambiguous `[[Objectives]]` / `[[Overview]]` links | Use full paths |
-| Story-Engine | Sub-pages lack em-dash aliases | Add aliases for Agents, Pipeline, Objectives |
+| Source | Fix Applied |
+|--------|-------------|
+| Agents.md | 3 em-dash links fixed (Story Engine — Overview, Watchdog, Review System) |
+| Home.md | Linked today's daily note (2026-08-18) |
+| vault-analysis-latest | Tagged for discoverability |
 
 ## 🎯 Active Priorities
 
-1. Create missing blog post notes OR add "planned" indicator in Blog-Index
-2. Resolve ambiguous links with full paths (`[[Story-Engine/Objectives]]` instead of `[[Objectives]]`)
-3. Add em-dash aliases to remaining Story Engine sub-pages
-4. Resume daily note streak
-5. Schedule regular maintenance (weekly recommended)
+1. ~~Fix 3 remaining broken links in Agents.md~~ ✅ Done (2026-08-18)
+2. Create missing blog post notes OR add "planned" indicator in Blog-Index
+3. Continue daily note streak
 
 ## 🔗 Key Notes
 
@@ -69,4 +65,4 @@ updated: 2026-08-15
 - [[vault-analysis-latest]] — Latest vault health analysis
 - [[Compounding-Knowledge]] — How links create value
 - [[Delegation]] — Agent delegation patterns
-- [[Objectives]] — Current objectives per property
+- [[10-PROPERTIES/Story-Engine/Objectives|Objectives]] — Current objectives per property

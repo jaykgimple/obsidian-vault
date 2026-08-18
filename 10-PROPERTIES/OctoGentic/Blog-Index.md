@@ -15,7 +15,8 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-| 1 | 2026-08-17 | Agentic Governance: Building Accountability Into Systems That Act Alone | → 2026-08-17-Agentic-Governance |
+| 1 | 2026-08-18 | Agentic Goal Architecture: How Autonomous Systems Define, Refine, and Align Their Own Objectives | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-18-Agentic-Goal-Architecture|Agentic Goal Architecture]] |
+| 2 | 2026-08-17 | Agentic Governance: Building Accountability Into Systems That Act Alone | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance|Agentic Governance]] |
 | 2 | 2026-08-16 | The Agentic Compounding Engine: Why Self-Healing Systems Get Smarter With Every Failure | → 2026-08-16-The-Agentic-Compounding-Engine |
 | 2 | 2026-08-15 | Agentic Evaluation: Measuring What Matters in Systems That Measure Themselves | → 2026-08-15-Agentic-Evaluation |
 | 3 | 2026-06-26 | The Agentic Compound Effect | → [[10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect|The Agentic Compound Effect]] |

@@ -22,8 +22,8 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 | Economics | 15 | Cost/benefit optimization |
 | Human Interaction | ~20 | Trust and UX patterns |
 | Operations | ~22 | Reliability and failure engineering |
-| Growth & Governance | ~23 | Scaling and governance |
-| **Total** | **244** | |
+| Growth & Governance | ~28 | Scaling, governance & goals |
+| **Total** | **249** | |
 
 ---
 
@@ -650,6 +650,17 @@ Excerpt: The agentic web property landscape is evolving rapidly. The patterns th
 - **T-AR4: Build Deep Personalization Capabilities** — Move beyond surface-level personalization to deep models of user intent, context, and goals. This requires sophisticated intent modeling, context awareness, and goal inference — but it creates user value that competitors can't easily replicate.
 - **T-AR5: Develop Dynamic Autonomy Calibration** — Build systems that can operate at any point on the autonomy spectrum and dynamically calibrate based on context, stakes, and user preference. This maximizes the value of autonomous capabilities while maintaining appropriate human oversight.
 
+### 2026-08-18 — Agentic Goal Architecture: How Autonomous Systems Define, Refine, and Align Their Own Objectives
+Slug: `agentic-goal-architecture-how-autonomous-systems-define-refine-and-align-their-own-objectives` | Tags: agentic-ai, goal-architecture, objective-design, alignment, autonomous-systems
+Excerpt: The most dangerous agent isn't one with bad goals — it's one with goals that quietly drift from intent. Agentic goal architecture is the discipline of designing objectives that compound in alignment rather than decay into misdirection.
+
+**Takeaways:**
+- **T-GA1: Decompose Intent Into Measurable Sub-Goals** — High-level intentions like "maximize satisfaction" are not goals. Decompose them into specific, measurable, non-conflicting sub-goals with explicit trade-off rules. Every sub-goal must have a clear metric, a measurement method, and a target range.
+- **T-GA2: Calibrate Targets Against Outcomes, Not Assumptions** — Goal targets are hypotheses, not constants. Measure whether achieving targets actually correlates with intended outcomes. Adjust targets based on observed data.
+- **T-GA3: Build Goal Compounding Loops** — Goals shouldn't just prevent drift; they should get sharper over time. Every outcome signal is a goal-calibration opportunity. When actions don't produce intended outcomes, refine the goals, not just the actions.
+- **T-GA4: Architect Goals as a Separate Layer From Reasoning** — Reasoning logic should be stable; goal criteria should be parameterized and updatable. This separation enables goal-level compounding without model retraining.
+- **T-GA5: Measure Goal Health Continuously** — Track goal drift rates, calibration accuracy, and outcome correlation strength. These metrics reveal whether your objectives are compounding in alignment or silently drifting.
+
 ### 2026-08-17 — Agentic Governance: Building Accountability Into Systems That Act Alone
 Slug: `agentic-governance-building-accountability-into-systems-that-act-alone` | Tags: agentic-ai, governance, accountability, autonomous-systems, decision-rights
 Excerpt: Autonomy without governance is just automation with deniability. The most sophisticated agentic systems don't just make decisions — they make decisions that are auditable, reversible, and aligned with human intent.
@@ -746,6 +757,11 @@ Excerpt: The shift from AI that responds to AI that acts is reshaping the web. H
 | T-GV3 | Verify Alignment Continuously | 2026-08-17 |
 | T-GV4 | Deploy Dedicated Governance Agents | 2026-08-17 |
 | T-GV5 | Close the Governance Compounding Loop | 2026-08-17 |
+| T-GA1 | Decompose Intent Into Measurable Sub-Goals | 2026-08-18 |
+| T-GA2 | Calibrate Targets Against Outcomes | 2026-08-18 |
+| T-GA3 | Build Goal Compounding Loops | 2026-08-18 |
+| T-GA4 | Architect Goals as Separate Layer | 2026-08-18 |
+| T-GA5 | Measure Goal Health Continuously | 2026-08-18 |
 
 ---
 
@@ -777,6 +793,6 @@ Legend: ✅ Direct application | ⚠️ Partial application | — Not applicable
 
 ---
 
-*Last updated: 2026-08-17*
-*Total blog posts indexed: 66*
-*Total takeaways extracted: 244*
+*Last updated: 2026-08-18*
+*Total blog posts indexed: 67*
+*Total takeaways extracted: 249*
