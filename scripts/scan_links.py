@@ -83,10 +83,9 @@ else:
 print("\n--- ORPHAN CHECK ---")
 inbound_counts = {str(f.relative_to(vault_path).with_suffix("")): 0 for f in md_files}
 for src, tgt in all_links:
-    for nid in all_notes:
+    for nid in inbound_counts:
         if nid == tgt or nid.endswith("/" + tgt):
-            if nid in inbound_counts:
-                inbound_counts[nid] += 1
+            inbound_counts[nid] += 1
             break
 
 orphans = [nid for nid, count in inbound_counts.items() if count == 0]
