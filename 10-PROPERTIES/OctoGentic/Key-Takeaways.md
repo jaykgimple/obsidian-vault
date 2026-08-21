@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-08-17
+updated: 2026-08-21
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -9,7 +9,7 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **65** blog posts.
+> Consolidated signal from all **71** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[Overview]]
 
@@ -17,13 +17,13 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 | Dimension | Takeaways | Impact |
 |-----------|-----------|--------|
-| Architecture | ~25 | Foundation for all agent design |
+| Architecture | ~30 | Foundation for all agent design |
 | Feedback & Learning | ~18 | Compounding loop mechanics |
 | Economics | 15 | Cost/benefit optimization |
 | Human Interaction | ~20 | Trust and UX patterns |
 | Operations | ~22 | Reliability and failure engineering |
 | Growth & Governance | ~28 | Scaling, governance & goals |
-| **Total** | **249** | |
+| **Total** | **254** | |
 
 ---
 
@@ -765,6 +765,19 @@ Excerpt: The shift from AI that responds to AI that acts is reshaping the web. H
 
 ---
 
+### 2026-08-21 — Agentic Composition: How Autonomous Systems Combine Capabilities to Solve Problems No Single Agent Can
+Slug: `agentic-composition-how-autonomous-systems-combine-capabilities-to-solve-problems-no-single-agent-can` | Tags: agentic-ai, composition, multi-agent-systems, architecture, autonomous-systems
+Excerpt: The most powerful agentic systems aren't monolithic — they're composed. Agentic composition is the discipline of combining specialized agents, tools, and capabilities into coherent systems that can tackle problems no single agent could solve alone.
+
+**Takeaways:**
+- **T-CO1: Design Interface Contracts Before Agents** — The contract between agents is the most important design decision in a composed system. Define content format, metadata schema, confidence levels, and error conditions before writing agent code. A well-designed contract makes composition work; a poorly designed one makes every handoff a failure point.
+- **T-CO2: Match Composition Pattern to Problem Structure** — Pipeline for sequential problems, parallel for independent dimensions, recursive for unknown structure. Don't force a pattern — let the problem dictate the composition strategy. Using the right pattern reduces coordination overhead and improves output quality.
+- **T-CO3: Control Recursion With Explicit Budgets** — Recursive composition is powerful but can consume resources exponentially. Set depth limits, track cumulative token usage, detect cycles, and switch to simpler strategies when budgets are exceeded. Treat recursion as a finite resource, not an unlimited capability.
+- **T-CO4: Preserve Context Across Every Handoff** — Information decay at agent boundaries is the silent killer of composed systems. Every handoff should carry content plus metadata: confidence levels, rejected alternatives, knowledge gaps, and assumptions. The receiving agent needs to know not just what the sender concluded, but how confidently and with what caveats.
+- **T-CO5: Composition Depends on Metacognition** — Agents that can't calibrate confidence, recognize knowledge gaps, or monitor their own reasoning can't participate effectively in composed systems. Handoff decisions, interface contracts, and merge logic all require metacognitive capability. Build metacognition first — composition amplifies both its presence and its absence.
+
+---
+
 ## Cross-Property Applicability
 
 | Takeaway | Story Engine | RoleFresh | Bookbrary | OctoGentic |
@@ -793,6 +806,6 @@ Legend: ✅ Direct application | ⚠️ Partial application | — Not applicable
 
 ---
 
-*Last updated: 2026-08-18*
-*Total blog posts indexed: 67*
-*Total takeaways extracted: 249*
+*Last updated: 2026-08-21*
+*Total blog posts indexed: 71*
+*Total takeaways extracted: 254*

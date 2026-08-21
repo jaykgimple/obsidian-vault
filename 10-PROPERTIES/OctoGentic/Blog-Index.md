@@ -8,14 +8,15 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 70 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 71 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-| 1 | 2026-08-20 | Agentic Metacognition: Teaching Autonomous Systems to Think About Their Own Thinking | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-20-Agentic-Metacognition|Agentic Metacognition]] |
+| 1 | 2026-08-21 | Agentic Composition: How Autonomous Systems Combine Capabilities to Solve Problems No Single Agent Can | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition|Agentic Composition]] |
+| 2 | 2026-08-20 | Agentic Metacognition: Teaching Autonomous Systems to Think About Their Own Thinking | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-20-Agentic-Metacognition|Agentic Metacognition]] |
 | 2 | 2026-08-18 | Agentic Goal Architecture: How Autonomous Systems Define, Refine, and Align Their Own Objectives | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-18-Agentic-Goal-Architecture|Agentic Goal Architecture]] |
 | 2 | 2026-08-17 | Agentic Governance: Building Accountability Into Systems That Act Alone | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance|Agentic Governance]] |
 | 2 | 2026-08-16 | The Agentic Compounding Engine: Why Self-Healing Systems Get Smarter With Every Failure | → 2026-08-16-The-Agentic-Compounding-Engine |
@@ -52,6 +53,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ### 🏗️ Architecture
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect|The Agentic Compound Effect]] | → 2026-06-14-Agentic-Memory | → 2026-06-10-Decision-Making | → 2026-06-17-Agentic-Governance | → 2026-06-20-Agentic-Supply-Chain
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-08-20-Agentic-Metacognition|Agentic Metacognition]] — Self-awareness, confidence calibration, reasoning monitoring
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition|Agentic Composition]] — Multi-agent composition, interface contracts, pipeline/parallel/recursive patterns
 
 ### 🔄 Feedback & Learning
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop|The Agentic Feedback Loop]] | → 2026-06-13-Learn-and-Adapt | → 2026-06-16-Agentic-Observability
