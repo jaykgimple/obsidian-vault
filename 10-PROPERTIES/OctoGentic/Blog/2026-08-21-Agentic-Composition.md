@@ -8,7 +8,7 @@ aliases: [Agentic Composition Blog Post]
 
 # Agentic Composition: How Autonomous Systems Combine Capabilities
 
-> Part of → [[Overview]]
+> Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 > Related: → [[10-PROPERTIES/OctoGentic/Blog/2026-08-20-Agentic-Metacognition|Agentic Metacognition]], → [[10-PROPERTIES/OctoGentic/Blog/2026-08-18-Agentic-Goal-Architecture|Agentic Goal Architecture]]
 
 ## Metadata

@@ -6,15 +6,15 @@ updated: 2026-08-15
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-08-20 (daily maintenance)
+> Last updated: 2026-08-22 (daily maintenance)
 
 ## 🏥 Health: 100/100 (A)
 
 | Metric | Value |
 |--------|-------|
-|| Total Notes | 47 |
-|| Wikilinks | 291 |
-| Link Density | 6.0/note |
+| Total Notes | 52 |
+| Wikilinks | 274 |
+| Link Density | 6.4/note |
 | Orphans | 0 |
 | Dead Ends | 0 |
 | Untagged | 0 |
@@ -31,12 +31,13 @@ updated: 2026-08-15
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## 📅 Recent Updates
-- 2026-08-20: [[2026-08-20]] ← [[2026-08-19]] — Daily maintenance, 0 broken links, graph regenerated (47 nodes, 291 links)
+- 2026-08-22: [[2026-08-22]] ← [[2026-08-21]] — Daily maintenance, 0 broken links (52 nodes, 274 links)
+- 2026-08-21: [[2026-08-21]] ← [[2026-08-20]] — Published "Agentic Composition" blog post, daily maintenance (49 nodes, 312 links)
+- 2026-08-20: [[2026-08-20]] ← [[2026-08-19]] — Daily maintenance, 0 broken links, graph regenerated (48 nodes, 248 links)
 - 2026-08-19: [[2026-08-19]] ← [[2026-08-18]] — Daily maintenance, 0 new broken links, graph regenerated
 - 2026-08-18: [[2026-08-18]] ← [[2026-08-17]] — Published "Agentic Goal Architecture" blog post, vault maintenance
-- 2026-08-18: [[2026-08-18]] — Daily maintenance, fixed 3 broken em-dash links in Agents.md
 - 2026-08-17: [[2026-08-17]] — Daily maintenance, published "Agentic Governance" blog post
-- 2026-08-16: [[2026-08-16]] ← [[2026-08-15]] ← [[2026-08-17]] — Daily maintenance, fixed 15 broken links
+- 2026-08-16: [[2026-08-16]] ← [[2026-08-15]] — Daily maintenance, fixed 15 broken links
 
 ## 📂 Structure
 
@@ -44,7 +45,7 @@ updated: 2026-08-15
 - [[RoleFresh]] — Per-property notes (Story Engine, OctoGentic, Bookbrary, RoleFresh)
 - [[CoS]] — Agent configs, delegation patterns
 - [[Compounding-Knowledge]] — Cross-cutting patterns, compounding knowledge
-- [[2026-08-20]] ← [[2026-08-19]] ← [[2026-08-18]] ← [[2026-08-15]] ← [[2026-08-16]] ← [[2026-08-17]] — Daily standups, retrospectives
+- [[2026-08-22]] ← [[2026-08-21]] ← [[2026-08-20]] ← [[2026-08-19]] ← [[2026-08-18]] ← [[2026-08-17]] ← [[2026-08-16]] ← [[2026-08-15]] — Daily standups, retrospectives
 - 50-ARCHIVE — Deprecated/legacy content (no archive yet)
 
 ## ✅ Issues Resolved (2026-08-18)
