@@ -8,14 +8,15 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 71 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 72 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-| 1 | 2026-08-21 | Agentic Composition: How Autonomous Systems Combine Capabilities to Solve Problems No Single Agent Can | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition|Agentic Composition]] |
+| 1 | 2026-08-22 | Agentic Operations: How Composed, Self-Aware Systems Run, Detect Failures, and Compound in Production | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-22-Agentic-Operations|Agentic Operations]] |
+| 2 | 2026-08-21 | Agentic Composition: How Autonomous Systems Combine Capabilities to Solve Problems No Single Agent Can | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition|Agentic Composition]] |
 | 2 | 2026-08-20 | Agentic Metacognition: Teaching Autonomous Systems to Think About Their Own Thinking | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-20-Agentic-Metacognition|Agentic Metacognition]] |
 | 2 | 2026-08-18 | Agentic Goal Architecture: How Autonomous Systems Define, Refine, and Align Their Own Objectives | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-18-Agentic-Goal-Architecture|Agentic Goal Architecture]] |
 | 2 | 2026-08-17 | Agentic Governance: Building Accountability Into Systems That Act Alone | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance|Agentic Governance]] |
@@ -64,7 +65,8 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ### � Human Interaction
 | → 2026-06-08-Human-Agent-Collaboration | → 2026-0-Agentic-UX | → 202-24-The-Trust-Problem | → 2026-06-23-Agentic-AI-Future-of-Work
 
-### �️ Operations
+### ⚙️ Operations
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-08-22-Agentic-Operations|Agentic Operations]] — System-level observability, composition-scale self-healing, operational compounding
 - → 2026-06-15-Graceful-Failure | → 2026-06-11-Agent-Coordination | → 2026-06-19-Agentic-API-Design | → 2026-06-16-Agentic-Identity
 
 ### � Growth

@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-08-21
+updated: 2026-08-22
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -9,7 +9,7 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **71** blog posts.
+> Consolidated signal from all **72** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[Overview]]
 
@@ -21,14 +21,24 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 | Feedback & Learning | ~18 | Compounding loop mechanics |
 | Economics | 15 | Cost/benefit optimization |
 | Human Interaction | ~20 | Trust and UX patterns |
-| Operations | ~22 | Reliability and failure engineering |
+| Operations | ~27 | Reliability, self-healing & production engineering |
 | Growth & Governance | ~28 | Scaling, governance & goals |
-| **Total** | **254** | |
+| **Total** | **259** | |
 
 ---
 
 ## All Blog Posts with Takeaways
 
+### 2026-08-22 — Agentic Operations: How Composed, Self-Aware Systems Run, Detect Failures, and Compound in Production
+Slug: `agentic-operations-how-composed-self-aware-systems-run-detect-failures-and-compound-in-production` | Tags: agentic-ai, operations, reliability, self-healing, production-systems
+Excerpt: Composition tells you how to build agents that work together. Metacognition tells you how they think about their work. Agentic operations is what happens when those systems actually run — when composed agents with self-awareness face production reality.
+
+**Takeaways:**
+- **T-OP1: Monitor the System, Not Just the Agents** — Composed systems fail at boundaries, not just within agents. Handoff telemetry, cross-agent correlation, and emergent behavior detection are the metrics that matter.
+- **T-OP2: Heal at Composition Scale, Not Just Agent Scale** — Local healing can create global instability. Self-healing must operate across agent boundaries: handoff repair, composition reconfiguration, and graceful degradation paths.
+- **T-OP3: Convert Incidents Into Compounding Intelligence** — Every production failure is a signal that should make the system stronger. Operations isn't maintenance — it's a compounding engine.
+- **T-OP4: Design Degradation Paths Before You Need Them** — At 3am during an incident is not the time to decide. Pre-defined degradation paths prevent ad-hoc decisions under pressure.
+- **T-OP5: Operations Guides Composition Evolution** — Production telemetry reveals which compositions work and which degrade. Operations provides the signal that drives the system's evolution.
 
 ### 2026-06-08 — The Future of Human-Agent Collaboration: Augmentation, Not Replacement
 Slug: `the-future-of-human-agent-collaboration` | Tags: agentic-ai, human-collaboration, augmentation
@@ -806,6 +816,6 @@ Legend: ✅ Direct application | ⚠️ Partial application | — Not applicable
 
 ---
 
-*Last updated: 2026-08-21*
-*Total blog posts indexed: 71*
-*Total takeaways extracted: 254*
+*Last updated: 2026-08-22*
+*Total blog posts indexed: 72*
+*Total takeaways extracted: 259*
