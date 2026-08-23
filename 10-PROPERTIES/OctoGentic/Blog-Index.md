@@ -8,14 +8,15 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 72 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 73 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-| 1 | 2026-08-22 | Agentic Operations: How Composed, Self-Aware Systems Run, Detect Failures, and Compound in Production | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-22-Agentic-Operations|Agentic Operations]] |
+| 1 | 2026-08-23 | Agentic Adaptation: How Autonomous Systems Rewrite Their Own Rules From Operational Feedback | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-23-Agentic-Adaptation|Agentic Adaptation]] |
+| 2 | 2026-08-22 | Agentic Operations: How Composed, Self-Aware Systems Run, Detect Failures, and Compound in Production | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-22-Agentic-Operations|Agentic Operations]] |
 | 2 | 2026-08-21 | Agentic Composition: How Autonomous Systems Combine Capabilities to Solve Problems No Single Agent Can | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition|Agentic Composition]] |
 | 2 | 2026-08-20 | Agentic Metacognition: Teaching Autonomous Systems to Think About Their Own Thinking | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-20-Agentic-Metacognition|Agentic Metacognition]] |
 | 2 | 2026-08-18 | Agentic Goal Architecture: How Autonomous Systems Define, Refine, and Align Their Own Objectives | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-18-Agentic-Goal-Architecture|Agentic Goal Architecture]] |
@@ -67,6 +68,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 ### ⚙️ Operations
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-08-22-Agentic-Operations|Agentic Operations]] — System-level observability, composition-scale self-healing, operational compounding
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-08-23-Agentic-Adaptation|Agentic Adaptation]] — Decision criteria adaptation, behavioral pattern adaptation, structural adaptation
 - → 2026-06-15-Graceful-Failure | → 2026-06-11-Agent-Coordination | → 2026-06-19-Agentic-API-Design | → 2026-06-16-Agentic-Identity
 
 ### � Growth
@@ -74,4 +76,4 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 ## Compounding Note
 Each post builds on prior. The full reading order IS the compounding path:
-Architecture → Feedback → Economics → Human Interaction → Operations → Growth
+Architecture → Feedback → Economics → Human Interaction → Operations → Adaptation → Growth

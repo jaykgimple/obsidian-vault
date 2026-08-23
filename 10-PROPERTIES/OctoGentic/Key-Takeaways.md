@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-08-22
+updated: 2026-08-23
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -9,7 +9,7 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **72** blog posts.
+> Consolidated signal from all **73** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[Overview]]
 
@@ -28,6 +28,17 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 ---
 
 ## All Blog Posts with Takeaways
+
+### 2026-08-23 — Agentic Adaptation: How Autonomous Systems Rewrite Their Own Rules From Operational Feedback
+Slug: `agentic-adaptation-how-autonomous-systems-rewrite-their-own-rules-from-operational-feedback` | Tags: agentic-ai, adaptation, feedback-loops, operational-intelligence, production-systems
+Excerpt: Static agents degrade the moment production shifts beneath them. Agentic adaptation is the mechanism by which operational feedback rewrites the rules agents use to make decisions.
+
+**Takeaways:**
+- **T-ADP1: Adapt Decision Criteria Before Changing Models** — Most production misalignment is criteria miscalibration, not model incapacity. Adjust trade-off weightings before considering retraining. Criteria adaptation is faster, cheaper, and reversible.
+- **T-ADP2: Require Signal Accumulation Before Criteria Shift** — Single incidents produce noisy signals that cause overcorrection. Require minimum observation thresholds. Bounded adaptation prevents oscillation.
+- **T-ADP3: Coordinate Adaptation Across Agent Boundaries** — Independent adaptation creates composition misalignment. When one agent changes behavior, dependent agents must reconcile. Adaptation must propagate through the composition.
+- **T-ADP4: Experiment Before Committing** — Test adapted behaviors on a fraction of traffic before full rollout. Operational A/B testing catches maladaptive changes before they affect the entire system.
+- **T-ADP5: Let Structural Adaptation Emerge From Persistent Signals** — When the same boundary generates adaptation signals repeatedly, the problem is structural, not behavioral. Don't keep tuning agents at a broken boundary — redesign the composition.
 
 ### 2026-08-22 — Agentic Operations: How Composed, Self-Aware Systems Run, Detect Failures, and Compound in Production
 Slug: `agentic-operations-how-composed-self-aware-systems-run-detect-failures-and-compound-in-production` | Tags: agentic-ai, operations, reliability, self-healing, production-systems
@@ -816,6 +827,6 @@ Legend: ✅ Direct application | ⚠️ Partial application | — Not applicable
 
 ---
 
-*Last updated: 2026-08-22*
-*Total blog posts indexed: 72*
-*Total takeaways extracted: 259*
+*Last updated: 2026-08-23*
+*Total blog posts indexed: 73*
+*Total takeaways extracted: 264*

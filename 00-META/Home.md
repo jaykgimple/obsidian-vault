@@ -31,6 +31,7 @@ updated: 2026-08-15
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## 📅 Recent Updates
+- 2026-08-23: Published "Agentic Adaptation" blog post (T-AD1 through T-AD5)
 - 2026-08-22: [[2026-08-22]] ← [[2026-08-21]] — Daily maintenance, 0 broken links (52 nodes, 274 links)
 - 2026-08-21: [[2026-08-21]] ← [[2026-08-20]] — Published "Agentic Composition" blog post, daily maintenance (49 nodes, 312 links)
 - 2026-08-20: [[2026-08-20]] ← [[2026-08-19]] — Daily maintenance, 0 broken links, graph regenerated (48 nodes, 248 links)
