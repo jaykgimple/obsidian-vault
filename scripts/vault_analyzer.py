@@ -147,6 +147,11 @@ def build_vault_index(vault_path: str) -> dict[str, Note]:
             # Also index by title for wikilink resolution
             if title != note.id:
                 notes[title] = note
+            # Also index by filename stem (without .md) for wikilink resolution
+            # Many notes are linked by their filename, not their frontmatter title
+            stem = fname.replace('.md', '')
+            if stem != note.id and stem != title:
+                notes[stem] = note
 
     return notes
 

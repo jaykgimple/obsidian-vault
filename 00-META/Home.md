@@ -1,24 +1,24 @@
 ---
 title: Home
 tags: [dashboard, index]
-updated: 2026-08-15
+updated: 2026-08-23
 ---
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-08-22 (daily maintenance)
+> Last updated: 2026-08-23 (daily maintenance)
 
-## 🏥 Health: 100/100 (A)
+## 🏥 Health: 89/100 (B)
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 52 |
-| Wikilinks | 274 |
-| Link Density | 6.4/note |
+| Total Notes | 54 |
+| Wikilinks | 335 |
+| Link Density | 6.2/note |
 | Orphans | 0 |
 | Dead Ends | 0 |
 | Untagged | 0 |
-| Broken Links | 0 |
+| Broken Links | 0 (9 false positives in code spans) |
 
 ## �️ God Notes (Most Connected)
 
@@ -49,17 +49,16 @@ updated: 2026-08-15
 - [[2026-08-22]] ← [[2026-08-21]] ← [[2026-08-20]] ← [[2026-08-19]] ← [[2026-08-18]] ← [[2026-08-17]] ← [[2026-08-16]] ← [[2026-08-15]] — Daily standups, retrospectives
 - 50-ARCHIVE — Deprecated/legacy content (no archive yet)
 
-## ✅ Issues Resolved (2026-08-18)
+## ✅ Issues Resolved (2026-08-23)
 
 | Source | Fix Applied |
 |--------|-------------|
-| Agents.md | 3 em-dash links fixed (Story Engine — Overview, Watchdog, Review System) |
-| Home.md | Linked today's daily note (2026-08-18) |
-| vault-analysis-latest | Tagged for discoverability |
+| vault_analyzer.py | Fixed stem-indexing bug: notes now indexed by filename stem, not just frontmatter title. Eliminated 16 false orphan reports |
+| Home.md | Updated health stats (54 notes, 335 links, 0 orphans) |
 
 ## 🎯 Active Priorities
 
-1. ~~Fix 3 remaining broken links in Agents.md~~ ✅ Done (2026-08-18)
+1. ~~Fix analyzer stem-indexing bug~~ ✅ Done (2026-08-23)
 2. Create missing blog post notes OR add "planned" indicator in Blog-Index
 3. Continue daily note streak
 
