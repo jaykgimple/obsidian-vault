@@ -9,9 +9,21 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **73** blog posts.
+> Consolidated signal from all **74** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[Overview]]
+
+---
+
+## 🔷 POST: Agentic Resilience: How Autonomous Systems Absorb Shocks Without Losing Themselves (2026-08-25)
+
+### Key Takeaways
+
+- [ ] **T-RS1: Distinguish Robustness From Resilience** — Robustness resists change; resilience absorbs it. Build for absorption and adaptation, not just resistance.
+- [ ] **T-RS2: Track Coherence Debt Explicitly** — Monitor the ratio of contradictions detected to contradictions resolved.
+- [ ] **T-RS3: Implement Shock-Aware Adaptation** — Adaptation during a shock must be provisional. Distinguish temporary disruption from permanent shift.
+- [ ] **T-RS4: Log Shocks as Structured Signals** — Every shock produces a structured record: what happened, how the system responded, whether it worked.
+- [ ] **T-RS5: Let Resilience Compound** — Build the feedback loop from shock → signal → contract → stronger response.
 
 ## Compounding Summary
 

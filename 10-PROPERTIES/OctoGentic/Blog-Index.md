@@ -8,14 +8,15 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 73 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 74 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-| 1 | 2026-08-23 | Agentic Adaptation: How Autonomous Systems Rewrite Their Own Rules From Operational Feedback | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-23-Agentic-Adaptation|Agentic Adaptation]] |
+| 1 | 2026-08-25 | Agentic Resilience: How Autonomous Systems Absorb Shocks Without Losing Themselves | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-25-Agentic-Resilience|Agentic Resilience]] |
+| 2 | 2026-08-23 | Agentic Adaptation: How Autonomous Systems Rewrite Their Own Rules From Operational Feedback | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-23-Agentic-Adaptation|Agentic Adaptation]] |
 | 2 | 2026-08-22 | Agentic Operations: How Composed, Self-Aware Systems Run, Detect Failures, and Compound in Production | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-22-Agentic-Operations|Agentic Operations]] |
 | 2 | 2026-08-21 | Agentic Composition: How Autonomous Systems Combine Capabilities to Solve Problems No Single Agent Can | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition|Agentic Composition]] |
 | 2 | 2026-08-20 | Agentic Metacognition: Teaching Autonomous Systems to Think About Their Own Thinking | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-20-Agentic-Metacognition|Agentic Metacognition]] |
