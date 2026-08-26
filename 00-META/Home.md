@@ -6,7 +6,7 @@ updated: 2026-08-23
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-08-23 (daily maintenance)
+> Last updated: 2026-08-26 (daily maintenance)
 
 ## 🏥 Health: 100/100 (A)
 
@@ -31,6 +31,7 @@ updated: 2026-08-23
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## 📅 Recent Updates
+- 2026-08-26: [[2026-08-26]] — Published "Agentic Uncertainty" blog post (T-UC1 through T-UC5)
 - 2026-08-25: [[2026-08-25]] — Published "Agentic Resilience" blog post (T-RS1 through T-RS5)
 - 2026-08-24: [[2026-08-24]] — Daily maintenance, 0 broken links (55 nodes, 346 links)
 - 2026-08-23: [[2026-08-23]] ← [[2026-08-22]] — Published "Agentic Adaptation" blog post (T-AD1 through T-AD5)

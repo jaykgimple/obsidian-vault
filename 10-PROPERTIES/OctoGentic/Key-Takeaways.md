@@ -9,11 +9,21 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **74** blog posts.
+> Consolidated signal from all **75** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[Overview]]
 
 ---
+
+## 🔷 POST: Agentic Uncertainty: How Autonomous Systems Know What They Don't Know (2026-08-26)
+
+### Key Takeaways
+
+- [ ] **T-UC1: Distinguish Epistemic From Aleatoric Uncertainty** — Epistemic uncertainty can be reduced by better retrieval. Aleatoric uncertainty requires confidence calibration.
+- [ ] **T-UC2: Check Coverage Before Confidence** — Verify that the system has consulted enough sources before finalizing an output.
+- [ ] **T-UC3: Calibrate Confidence to Input Quality** — Decisions that depend on inherently variable inputs should carry lower confidence.
+- [ ] **T-UC4: Surface Uncertainty as Structured Signal** — Every uncertainty signal should be logged, structured, and fed back into the system.
+- [ ] **T-UC5: Verify Frame Alignment at Composition Boundaries** — Check not just for contradiction but for frame misalignment when agents compose outputs.
 
 ## 🔷 POST: Agentic Resilience: How Autonomous Systems Absorb Shocks Without Losing Themselves (2026-08-25)
 

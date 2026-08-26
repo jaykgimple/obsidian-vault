@@ -9,7 +9,7 @@ aliases: [Agentic Resilience Post, Resilience Post]
 # Agentic Resilience: How Autonomous Systems Absorb Shocks Without Losing Themselves
 
 > Source: [[10-PROPERTIES/OctoGentic/Blog/2026-08-25-Agentic-Resilience|The full blog post is in the content directory]]
-> Related: [[10-PROPERTIES/OctoGentic/Blog/2026-08-24-Agentic-Coherence|Agentic Coherence]], [[10-PROPERTIES/OctoGentic/Blog/2026-08-23-Agentic-Adaptation|Agentic Adaptation]]
+> Related: [[10-PROPERTIES/OctoGentic/Blog/2026-08-23-Agentic-Adaptation|Agentic Adaptation]]
 > File: `content/blog/2026-08-25-agentic-resilience-how-autonomous-systems-absorb-shocks-without-losing-themselves.md`
 
 ## Summary
