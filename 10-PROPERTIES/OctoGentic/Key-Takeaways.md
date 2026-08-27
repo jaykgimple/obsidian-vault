@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-08-23
+updated: 2026-08-27
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -14,6 +14,16 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 > Part of → [[Overview]]
 
 ---
+
+## 🔷 POST: Agentic Trust: How Autonomous Systems Earn Confidence Through Verified Competence (2026-08-27)
+
+### Key Takeaways
+
+- [ ] **T-TR1: Trust Is Earned Through Verified Competence** — Confidence claims must be backed by calibration data, not just internal scores. Log every decision with its confidence and outcome.
+- [ ] **T-TR2: Transparency Without Competence Is Theater** — Surface uncertainty before the user discovers failure. Users forgive uncertainty, not overconfidence.
+- [ ] **T-TR3: Trust Compounds Through Consistency** — Each correct decision with appropriate confidence strengthens trust. Overconfident failures destroy it asymmetrically.
+- [ ] **T-TR4: Graceful Failure Preserves Trust** — Detect failures, surface them clearly, provide a path forward. Failure signals must propagate through composed systems.
+- [ ] **T-TR5: Trust Is the Emergent Property** — Trust cannot be engineered directly. Build evaluation, governance, metacognition, resilience, and uncertainty handling. Trust follows.
 
 ## 🔷 POST: Agentic Uncertainty: How Autonomous Systems Know What They Don't Know (2026-08-26)
 
@@ -45,11 +55,22 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 | Human Interaction | ~20 | Trust and UX patterns |
 | Operations | ~27 | Reliability, self-healing & production engineering |
 | Growth & Governance | ~28 | Scaling, governance & goals |
-| **Total** | **259** | |
+| **Total** | **264** | |
 
 ---
 
 ## All Blog Posts with Takeaways
+
+### 2026-08-27 — Agentic Trust: How Autonomous Systems Earn Confidence Through Verified Competence
+Slug: `agentic-trust-how-autonomous-systems-earn-confidence-through-verified-competence` | Tags: agentic-ai, trust, autonomous-systems, production-systems, reliability
+Excerpt: Trust is not a feature you add to an agentic system. It is the emergent property of every other system working correctly.
+
+**Takeaways:**
+- **T-TR1: Trust Is Earned Through Verified Competence** — Confidence claims must be backed by calibration data, not just internal scores. Log every decision with its confidence and outcome.
+- **T-TR2: Transparency Without Competence Is Theater** — Surface uncertainty before the user discovers failure. Users forgive uncertainty, not overconfidence.
+- **T-TR3: Trust Compounds Through Consistency** — Each correct decision with appropriate confidence strengthens trust. Overconfident failures destroy it asymmetrically.
+- **T-TR4: Graceful Failure Preserves Trust** — Detect failures, surface them clearly, provide a path forward. Failure signals must propagate through composed systems.
+- **T-TR5: Trust Is the Emergent Property** — Trust cannot be engineered directly. Build evaluation, governance, metacognition, resilience, and uncertainty handling. Trust follows.
 
 ### 2026-08-23 — Agentic Adaptation: How Autonomous Systems Rewrite Their Own Rules From Operational Feedback
 Slug: `agentic-adaptation-how-autonomous-systems-rewrite-their-own-rules-from-operational-feedback` | Tags: agentic-ai, adaptation, feedback-loops, operational-intelligence, production-systems

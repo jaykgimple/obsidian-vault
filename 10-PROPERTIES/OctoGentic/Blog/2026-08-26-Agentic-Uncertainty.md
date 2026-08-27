@@ -9,7 +9,7 @@ aliases: [Agentic Uncertainty, Uncertainty in Agentic Systems]
 # Agentic Uncertainty: How Autonomous Systems Know What They Don't Know
 
 > Part of → [[10-PROPERTIES/OctoGentic/Overview|OctoGentic]]
-> Related: → [[10-PROPERTIES/OctoGentic/Blog/2026-08-25-Agentic-Resilience|Agentic Resilience]], → [[10-PROPERTIES/OctoGentic/Blog/2026-08-24-Agentic-Coherence|Agentic Coherence]], → [[10-PROPERTIES/OctoGentic/Blog/2026-08-23-Agentic-Adaptation|Agentic Adaptation]]
+> Related: → [[10-PROPERTIES/OctoGentic/Blog/2026-08-25-Agentic-Resilience|Agentic Resilience]], → [[10-PROPERTIES/OctoGentic/Blog/2026-08-23-Agentic-Adaptation|Agentic Adaptation]]
 > Source: [[10-PROPERTIES/OctoGentic/Blog/2026-08-26-Agentic-Uncertainty|The full blog post is in the content directory]]
 > File: `content/blog/2026-08-26-agentic-uncertainty-how-autonomous-systems-know-what-they-dont-know.md`
 
@@ -36,6 +36,5 @@ This post is part of the OctoGentic deep-dive series on agentic systems:
 - [[10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition|Agentic Composition]] — Combining capabilities
 - [[10-PROPERTIES/OctoGentic/Blog/2026-08-22-Agentic-Operations|Agentic Operations]] — Running in production
 - [[10-PROPERTIES/OctoGentic/Blog/2026-08-23-Agentic-Adaptation|Agentic Adaptation]] — Rewriting rules from feedback
-- [[10-PROPERTIES/OctoGentic/Blog/2026-08-24-Agentic-Coherence|Agentic Coherence]] — Staying consistent
 - [[10-PROPERTIES/OctoGentic/Blog/2026-08-25-Agentic-Resilience|Agentic Resilience]] — Absorbing shocks
 - [[10-PROPERTIES/OctoGentic/Blog/2026-08-26-Agentic-Uncertainty|Agentic Uncertainty]] — Knowing what you don't know (this post)
