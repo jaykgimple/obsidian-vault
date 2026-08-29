@@ -9,9 +9,21 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **75** blog posts.
+> Consolidated signal from all **77** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[Overview]]
+
+---
+
+## 🔷 POST: Agentic Knowledge: How Autonomous Systems Turn Experience Into Compounding Intelligence (2026-08-29)
+
+### Key Takeaways
+
+- [ ] **T-KC1: Treat Knowledge as a First-Class Product** — Knowledge is not a byproduct of operation. It is the asset that makes every future operation better. Design the knowledge lifecycle with the same rigor you design the decision lifecycle.
+- [ ] **T-KC2: Separate Episodic, Semantic, and Procedural Memory** — Each memory type serves a different purpose and requires different representation, retrieval, and ranking logic. Conflating them produces a knowledge base that is comprehensive but useless.
+- [ ] **T-KC3: Classify Retrieval Intent Before Querying** — The system should know what kind of knowledge it needs before searching for it. Different retrieval intents require different ranking logic. One-size-fits-all retrieval produces one-size-fits-all mediocrity.
+- [ ] **T-KC4: Apply Knowledge as a Decision Input, Not a Post-Hoc Justification** — Retrieved knowledge should shape how options are generated and evaluated, not just how decisions are explained. Knowledge that does not change behavior is entertainment, not intelligence.
+- [ ] **T-KC5: Invest in the Weakest Stage, Not the Strongest** — The knowledge compounding loop is only as fast as its weakest link. Diagnose which stage is failing and fix that one first. Optimizing an already-strong stage yields diminishing returns.
 
 ---
 

@@ -31,6 +31,9 @@ updated: 2026-08-23
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## 📅 Recent Updates
+- 2026-08-29: [[2026-08-29]] — Published "Agentic Knowledge" blog post (T-KC1 through T-KC5)
+- 2026-08-28: [[2026-08-28]] — Published "Agentic Evolution" blog post (T-EV1 through T-EV5)
+- 2026-08-27: [[2026-08-27]] — Published "Agentic Trust" blog post (T-TR1 through T-TR5)
 - 2026-08-26: [[2026-08-26]] — Published "Agentic Uncertainty" blog post (T-UC1 through T-UC5)
 - 2026-08-25: [[2026-08-25]] — Published "Agentic Resilience" blog post (T-RS1 through T-RS5)
 - 2026-08-24: [[2026-08-24]] — Daily maintenance, 0 broken links (55 nodes, 346 links)

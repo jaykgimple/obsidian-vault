@@ -8,14 +8,16 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 76 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 78 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-| 1 | 2026-08-27 | Agentic Trust: How Autonomous Systems Earn Confidence Through Verified Competence | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust|Agentic Trust]] |
+| 1 | 2026-08-29 | Agentic Knowledge: How Autonomous Systems Turn Experience Into Compounding Intelligence | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge|Agentic Knowledge]] |
+| 2 | 2026-08-28 | Agentic Evolution: How Autonomous Systems Mature From Reactive Tools Into Self-Improving Ecosystems | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution|Agentic Evolution]] |
+| 3 | 2026-08-27 | Agentic Trust: How Autonomous Systems Earn Confidence Through Verified Competence | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust|Agentic Trust]] |
 | 2 | 2026-08-26 | Agentic Uncertainty: How Autonomous Systems Know What They Don't Know | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-26-Agentic-Uncertainty|Agentic Uncertainty]] |
 | 2 | 2026-08-25 | Agentic Resilience: How Autonomous Systems Absorb Shocks Without Losing Themselves | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-25-Agentic-Resilience|Agentic Resilience]] |
 | 2 | 2026-08-23 | Agentic Adaptation: How Autonomous Systems Rewrite Their Own Rules From Operational Feedback | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-23-Agentic-Adaptation|Agentic Adaptation]] |
