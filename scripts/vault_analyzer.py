@@ -177,6 +177,12 @@ def build_links(notes: dict[str, Note]):
         if fm_match:
             content = content[fm_match.end():]
 
+        # Strip code spans (backtick-delimited) to avoid parsing documentation references
+        content = re.sub(r'`[^`]+`', '', content)
+
+        # Strip code fences (triple backtick blocks)
+        content = re.sub(r'```[\s\S]*?```', '', content)
+
         for match in WIKILINK_RE.finditer(content):
             target_raw = match.group(1).strip()
             # Normalize: strip section anchors (e.g. "Note#Section" -> "Note")

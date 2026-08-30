@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-08-27
+updated: 2026-08-29
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -83,6 +83,17 @@ Excerpt: Trust is not a feature you add to an agentic system. It is the emergent
 - **T-TR3: Trust Compounds Through Consistency** — Each correct decision with appropriate confidence strengthens trust. Overconfident failures destroy it asymmetrically.
 - **T-TR4: Graceful Failure Preserves Trust** — Detect failures, surface them clearly, provide a path forward. Failure signals must propagate through composed systems.
 - **T-TR5: Trust Is the Emergent Property** — Trust cannot be engineered directly. Build evaluation, governance, metacognition, resilience, and uncertainty handling. Trust follows.
+
+### 2026-08-28 — Agentic Evolution: How Autonomous Systems Mature From Reactive Tools Into Self-Improving Ecosystems
+Slug: `agentic-evolution-how-autonomous-systems-mature-from-reactive-tools-into-self-improving-ecosystems` | Tags: agentic-ai, evolution, compounding, production-systems, maturity
+Excerpt: Most agentic systems plateau after deployment. The ones that keep improving follow a specific evolutionary pattern: reactive agents become adaptive systems, and adaptive systems become compounding ecosystems.
+
+**Takeaways:**
+- **T-EV1: Build the Signal-to-Structure Pipeline First** — Before optimizing for current performance, build the pipeline that converts operational signals into structural improvements. The system that can improve itself will eventually outperform the system that was perfectly tuned on day one.
+- **T-EV2: Distinguish Adaptation From Evolution** — Adaptation improves within existing boundaries. Evolution expands those boundaries. Both are necessary, but only evolution produces compounding returns. Design for both.
+- **T-EV3: Let Patterns Drive Structural Change** — Do not restructure based on single incidents. Wait for patterns to emerge. A recurring failure across multiple contexts signals a structural problem that a structural solution will address.
+- **T-EV4: Measure the Improvement Rate, Not Just Current Performance** — The most important metric for an agentic system is not how well it performs today. It is how much better it is than last month. Track the slope, not the intercept.
+- **T-EV5: Treat Architecture as Mutable** — The system's composition, contracts, and decision criteria should all be versioned, testable, and reversible. An evolutionary system treats its own design as a hypothesis to be refined, not a monument to be preserved.
 
 ### 2026-08-23 — Agentic Adaptation: How Autonomous Systems Rewrite Their Own Rules From Operational Feedback
 Slug: `agentic-adaptation-how-autonomous-systems-rewrite-their-own-rules-from-operational-feedback` | Tags: agentic-ai, adaptation, feedback-loops, operational-intelligence, production-systems

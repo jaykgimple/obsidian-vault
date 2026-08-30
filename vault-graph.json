@@ -1,15 +1,15 @@
 {
   "meta": {
-    "total_nodes": 59,
-    "total_links": 373,
+    "total_nodes": 66,
+    "total_links": 441,
     "groups": [
-      "00-META",
-      "40-LOGS",
+      "20-AGENTS",
       "30-PATTERNS",
+      "40-LOGS",
       "10-PROPERTIES",
-      "20-AGENTS"
+      "00-META"
     ],
-    "last_updated": "2026-08-26T08:03:20.008796+00:00"
+    "last_updated": "2026-08-30T08:04:08.799718+00:00"
   },
   "nodes": [
     {
@@ -19,7 +19,7 @@
       "tags": [],
       "status": "active",
       "path": "00-META/Home.md",
-      "links_count": 37,
+      "links_count": 47,
       "inbound_count": 11
     },
     {
@@ -37,8 +37,8 @@
       "title": "Architecture",
       "group": "00-META",
       "tags": [
-        "pattern",
         "agent",
+        "pattern",
         "lesson",
         "decision"
       ],
@@ -64,8 +64,8 @@
       "title": "2026-08-16",
       "group": "40-LOGS",
       "tags": [
-        "Agent",
-        "1"
+        "1",
+        "Agent"
       ],
       "status": "active",
       "path": "40-LOGS/2026-08-16.md",
@@ -104,7 +104,17 @@
       "status": "active",
       "path": "40-LOGS/2026-08-26.md",
       "links_count": 2,
-      "inbound_count": 1
+      "inbound_count": 3
+    },
+    {
+      "id": "40-LOGS/2026-08-28",
+      "title": "2026-08-28",
+      "group": "40-LOGS",
+      "tags": [],
+      "status": "active",
+      "path": "40-LOGS/2026-08-28.md",
+      "links_count": 2,
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/_Template",
@@ -150,7 +160,7 @@
       "status": "active",
       "path": "40-LOGS/2026-08-25.md",
       "links_count": 1,
-      "inbound_count": 2
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-08-21",
@@ -183,7 +193,7 @@
       "tags": [],
       "status": "active",
       "path": "40-LOGS/vault-analysis-latest.md",
-      "links_count": 3,
+      "links_count": 11,
       "inbound_count": 1
     },
     {
@@ -239,13 +249,33 @@
       "title": "2026-08-15",
       "group": "40-LOGS",
       "tags": [
-        "Agent",
-        "1"
+        "1",
+        "Agent"
       ],
       "status": "active",
       "path": "40-LOGS/2026-08-15.md",
       "links_count": 50,
       "inbound_count": 9
+    },
+    {
+      "id": "40-LOGS/2026-08-30",
+      "title": "2026-08-30",
+      "group": "40-LOGS",
+      "tags": [],
+      "status": "active",
+      "path": "40-LOGS/2026-08-30.md",
+      "links_count": 2,
+      "inbound_count": 2
+    },
+    {
+      "id": "40-LOGS/2026-08-27",
+      "title": "2026-08-27",
+      "group": "40-LOGS",
+      "tags": [],
+      "status": "active",
+      "path": "40-LOGS/2026-08-27.md",
+      "links_count": 7,
+      "inbound_count": 4
     },
     {
       "id": "40-LOGS/2026-08-22",
@@ -258,6 +288,16 @@
       "path": "40-LOGS/2026-08-22.md",
       "links_count": 3,
       "inbound_count": 4
+    },
+    {
+      "id": "40-LOGS/2026-08-29",
+      "title": "2026-08-29",
+      "group": "40-LOGS",
+      "tags": [],
+      "status": "active",
+      "path": "40-LOGS/2026-08-29.md",
+      "links_count": 1,
+      "inbound_count": 3
     },
     {
       "id": "30-PATTERNS/Coherence-Scoring",
@@ -522,7 +562,7 @@
       "tags": [],
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog-Index.md",
-      "links_count": 17,
+      "links_count": 21,
       "inbound_count": 9
     },
     {
@@ -533,7 +573,17 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Overview.md",
       "links_count": 14,
-      "inbound_count": 20
+      "inbound_count": 23
+    },
+    {
+      "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "title": "2026-08-29-Agentic-Knowledge",
+      "group": "10-PROPERTIES",
+      "tags": [],
+      "status": "active",
+      "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge.md",
+      "links_count": 17,
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-20-Agentic-Metacognition",
@@ -543,7 +593,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-20-Agentic-Metacognition.md",
       "links_count": 4,
-      "inbound_count": 8
+      "inbound_count": 11
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance",
@@ -553,7 +603,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance.md",
       "links_count": 3,
-      "inbound_count": 9
+      "inbound_count": 12
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-22-Agentic-Operations",
@@ -563,7 +613,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-22-Agentic-Operations.md",
       "links_count": 10,
-      "inbound_count": 5
+      "inbound_count": 8
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-18-Agentic-Goal-Architecture",
@@ -573,7 +623,17 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-18-Agentic-Goal-Architecture.md",
       "links_count": 5,
-      "inbound_count": 8
+      "inbound_count": 11
+    },
+    {
+      "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "title": "2026-08-28-Agentic-Evolution",
+      "group": "10-PROPERTIES",
+      "tags": [],
+      "status": "active",
+      "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution.md",
+      "links_count": 17,
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-23-Agentic-Adaptation",
@@ -583,7 +643,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-23-Agentic-Adaptation.md",
       "links_count": 11,
-      "inbound_count": 5
+      "inbound_count": 8
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop",
@@ -603,7 +663,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-15-Agentic-Evaluation.md",
       "links_count": 2,
-      "inbound_count": 7
+      "inbound_count": 10
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-26-Agentic-Uncertainty",
@@ -613,7 +673,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-26-Agentic-Uncertainty.md",
       "links_count": 14,
-      "inbound_count": 3
+      "inbound_count": 7
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition",
@@ -623,7 +683,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition.md",
       "links_count": 8,
-      "inbound_count": 6
+      "inbound_count": 9
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
@@ -636,6 +696,16 @@
       "inbound_count": 6
     },
     {
+      "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "title": "2026-08-27-Agentic-Trust",
+      "group": "10-PROPERTIES",
+      "tags": [],
+      "status": "active",
+      "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust.md",
+      "links_count": 15,
+      "inbound_count": 8
+    },
+    {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-16-The-Agentic-Compounding-Engine",
       "title": "2026-08-16-The-Agentic-Compounding-Engine",
       "group": "10-PROPERTIES",
@@ -643,7 +713,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-16-The-Agentic-Compounding-Engine.md",
       "links_count": 3,
-      "inbound_count": 8
+      "inbound_count": 11
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-25-Agentic-Resilience",
@@ -653,10 +723,30 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-25-Agentic-Resilience.md",
       "links_count": 2,
-      "inbound_count": 4
+      "inbound_count": 8
     }
   ],
   "links": [
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-08-30",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-08-29",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-08-28",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-08-27",
+      "type": "wikilink"
+    },
     {
       "source": "00-META/Home",
       "target": "40-LOGS/2026-08-26",
@@ -765,6 +855,36 @@
     {
       "source": "00-META/Home",
       "target": "30-PATTERNS/Compounding-Knowledge",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-08-30",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-08-29",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-08-28",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-08-27",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-08-26",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-08-25",
       "type": "wikilink"
     },
     {
@@ -1058,6 +1178,11 @@
       "type": "wikilink"
     },
     {
+      "source": "40-LOGS/2026-08-28",
+      "target": "40-LOGS/2026-08-27",
+      "type": "wikilink"
+    },
+    {
       "source": "40-LOGS/_Template",
       "target": "20-AGENTS/CoS",
       "type": "wikilink"
@@ -1293,6 +1418,21 @@
       "type": "wikilink"
     },
     {
+      "source": "40-LOGS/2026-08-30",
+      "target": "40-LOGS/2026-08-29",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-08-27",
+      "target": "40-LOGS/2026-08-26",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-08-27",
+      "target": "40-LOGS/2026-08-27",
+      "type": "wikilink"
+    },
+    {
       "source": "40-LOGS/2026-08-22",
       "target": "20-AGENTS/CoS",
       "type": "wikilink"
@@ -1305,6 +1445,11 @@
     {
       "source": "40-LOGS/2026-08-22",
       "target": "10-PROPERTIES/OctoGentic/Overview",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-08-29",
+      "target": "40-LOGS/2026-08-28",
       "type": "wikilink"
     },
     {
@@ -1994,6 +2139,21 @@
     },
     {
       "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-26-Agentic-Uncertainty",
       "type": "wikilink"
     },
@@ -2055,6 +2215,11 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Blog-Index",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
       "type": "wikilink"
     },
     {
@@ -2140,6 +2305,91 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Overview",
       "target": "00-META/Compound-Effect",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-15-Agentic-Evaluation",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-16-The-Agentic-Compounding-Engine",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-18-Agentic-Goal-Architecture",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-20-Agentic-Metacognition",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-22-Agentic-Operations",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-23-Agentic-Adaptation",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-25-Agentic-Resilience",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-26-Agentic-Uncertainty",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
       "type": "wikilink"
     },
     {
@@ -2250,6 +2500,91 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-18-Agentic-Goal-Architecture",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-15-Agentic-Evaluation",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-15-Agentic-Evaluation",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-16-The-Agentic-Compounding-Engine",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-18-Agentic-Goal-Architecture",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-20-Agentic-Metacognition",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-22-Agentic-Operations",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-23-Agentic-Adaptation",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-25-Agentic-Resilience",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-26-Agentic-Uncertainty",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
       "type": "wikilink"
     },
     {
@@ -2495,6 +2830,81 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
       "target": "30-PATTERNS/Compounding-Knowledge",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-26-Agentic-Uncertainty",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-25-Agentic-Resilience",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-15-Agentic-Evaluation",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-16-The-Agentic-Compounding-Engine",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-18-Agentic-Goal-Architecture",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-20-Agentic-Metacognition",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-22-Agentic-Operations",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-23-Agentic-Adaptation",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-25-Agentic-Resilience",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-26-Agentic-Uncertainty",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
       "type": "wikilink"
     },
     {

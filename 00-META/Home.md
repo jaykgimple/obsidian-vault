@@ -1,24 +1,24 @@
 ---
 title: Home
 tags: [dashboard, index]
-updated: 2026-08-23
+updated: 2026-08-30
 ---
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-08-26 (daily maintenance)
+> Last updated: 2026-08-30 (daily maintenance)
 
 ## 🏥 Health: 100/100 (A)
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 55 |
-| Wikilinks | 346 |
-| Link Density | 6.3/note |
+| Total Notes | 65 |
+| Wikilinks | 377 |
+| Link Density | ~5.8/note |
 | Orphans | 0 |
 | Dead Ends | 0 |
 | Untagged | 0 |
-| Broken Links | 0 (47 false positives in documentation) |
+| Broken Links | 0 |
 
 ## �️ God Notes (Most Connected)
 
@@ -31,7 +31,8 @@ updated: 2026-08-23
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## 📅 Recent Updates
-- 2026-08-29: [[2026-08-29]] — Published "Agentic Knowledge" blog post (T-KC1 through T-KC5)
+- 2026-08-30: [[2026-08-30]] — Daily maintenance: 65 notes, 377 wikilinks, 0 broken links, graph regenerated
+- 2026-08-29: [[2026-08-29]] — Daily maintenance: created missing Agentic Evolution vault note, backfilled T-EV1 through T-EV5 takeaways, 0 broken links
 - 2026-08-28: [[2026-08-28]] — Published "Agentic Evolution" blog post (T-EV1 through T-EV5)
 - 2026-08-27: [[2026-08-27]] — Published "Agentic Trust" blog post (T-TR1 through T-TR5)
 - 2026-08-26: [[2026-08-26]] — Published "Agentic Uncertainty" blog post (T-UC1 through T-UC5)
@@ -49,10 +50,11 @@ updated: 2026-08-23
 ## 📂 Structure
 
 - [[Architecture]] — Metadata, architecture, templates
+- [[LucentSkill]] — AI upskilling LMS (teams/roles feature in flight)
 - [[RoleFresh]] — Per-property notes (Story Engine, OctoGentic, Bookbrary, RoleFresh)
 - [[CoS]] — Agent configs, delegation patterns
 - [[Compounding-Knowledge]] — Cross-cutting patterns, compounding knowledge
-- [[2026-08-24]] ← [[2026-08-23]] ← [[2026-08-22]] ← [[2026-08-21]] ← [[2026-08-20]] ← [[2026-08-19]] ← [[2026-08-18]] ← [[2026-08-17]] ← [[2026-08-16]] ← [[2026-08-15]] — Daily standups, retrospectives
+- [[2026-08-30]] ← [[2026-08-29]] ← [[2026-08-28]] ← [[2026-08-27]] ← [[2026-08-26]] ← [[2026-08-25]] ← [[2026-08-24]] ← [[2026-08-23]] ← [[2026-08-22]] ← [[2026-08-21]] ← [[2026-08-20]] ← [[2026-08-19]] ← [[2026-08-18]] ← [[2026-08-17]] ← [[2026-08-16]] ← [[2026-08-15]] — Daily standups, retrospectives
 - 50-ARCHIVE — Deprecated/legacy content (no archive yet)
 
 ## ✅ Issues Resolved (2026-08-23)
