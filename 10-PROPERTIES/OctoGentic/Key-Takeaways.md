@@ -9,9 +9,21 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **77** blog posts.
+> Consolidated signal from all **78** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[Overview]]
+
+---
+
+## 🔷 POST: Agentic Execution: How Autonomous Systems Turn Decisions Into Reliable Action (2026-08-31)
+
+### Key Takeaways
+
+- [ ] **T-EX1: Treat Execution as a First-Class System** — Execution is not the final step of a pipeline. It is a system in its own right, with its own design requirements, failure modes, and compounding dynamics. Design it with the same rigor you apply to decision-making.
+- [ ] **T-EX2: Verify Preconditions at Action Time** — Priorities decay. The environment changes. Verify that the conditions justifying a decision still hold at the moment of execution, not just at the moment of decision. Stale priorities produce misaligned actions.
+- [ ] **T-EX3: Decompose Intentions Into Primitive Actions** — Every intention must be broken into specific, executable steps with clear inputs, outputs, and success criteria. The decomposition is context-dependent, not predefined. Different situations require different paths.
+- [ ] **T-EX4: Monitor Mid-Execution, Not Just Post-Execution** — Detect deviations while the action is still in progress. A system that catches drift after the first step saves the effort of executing the remaining steps in a sequence that has already gone wrong.
+- [ ] **T-EX5: Close the Loop With Outcome Verification** — Verify that the outcome matches the intention. This signal feeds back into prioritization, knowledge, and future execution. Without it, the system cannot distinguish activity from progress.
 
 ---
 
@@ -67,7 +79,7 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 | Human Interaction | ~20 | Trust and UX patterns |
 | Operations | ~27 | Reliability, self-healing & production engineering |
 | Growth & Governance | ~28 | Scaling, governance & goals |
-| **Total** | **264** | |
+| **Total** | **269** | |
 
 ---
 

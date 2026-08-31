@@ -31,6 +31,7 @@ updated: 2026-08-30
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## 📅 Recent Updates
+- 2026-08-31: [[2026-08-31]] — Published "Agentic Execution" blog post (T-EX1 through T-EX5)
 - 2026-08-30: [[2026-08-30]] — Daily maintenance: 65 notes, 377 wikilinks, 0 broken links, graph regenerated
 - 2026-08-29: [[2026-08-29]] — Daily maintenance: created missing Agentic Evolution vault note, backfilled T-EV1 through T-EV5 takeaways, 0 broken links
 - 2026-08-28: [[2026-08-28]] — Published "Agentic Evolution" blog post (T-EV1 through T-EV5)
