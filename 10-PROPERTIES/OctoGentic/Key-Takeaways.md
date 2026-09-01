@@ -9,9 +9,21 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **78** blog posts.
+> Consolidated signal from all **80** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[Overview]]
+
+---
+
+## 🔷 POST: Agentic Self-Healing: How Autonomous Systems Detect and Recover From Their Own Failures (2026-09-01)
+
+### Key Takeaways
+
+- [ ] **T-SH1: Detect Anomalies at Multiple Granularities** — Catastrophic failures are easy to detect but rare. Slow degradation is hard to detect but common. Monitor output quality, behavioral consistency, and cross-agent validation to catch both.
+- [ ] **T-SH2: Diagnose Root Causes, Not Symptoms** — A system that treats symptoms will chase the same anomaly repeatedly. Trace backward from symptom through dependencies to root cause. The recovery action must address the cause, not the symptom.
+- [ ] **T-SH3: Make Recovery Actions Narrow and Reversible** — Overcorrecting causes more damage than the original failure. Isolate the failing component, reroute around it, and repair in isolation. Every recovery action should be reversible if verification fails.
+- [ ] **T-SH4: Verify Recovery Before Declaring Success** — A recovery that fixes the triggering anomaly but introduces a new problem is not a recovery. Verify that the system is healthy across all monitored signals, not just the one that triggered the alert.
+- [ ] **T-SH5: Design Self-Healing With Escalation Boundaries** — Self-healing should handle known failures autonomously and escalate novel or ambiguous ones. Define clear boundaries for when the system acts on its own and when it calls for human judgment.
 
 ---
 
@@ -79,11 +91,22 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 | Human Interaction | ~20 | Trust and UX patterns |
 | Operations | ~27 | Reliability, self-healing & production engineering |
 | Growth & Governance | ~28 | Scaling, governance & goals |
-| **Total** | **269** | |
+| **Total** | **274** | |
 
 ---
 
 ## All Blog Posts with Takeaways
+
+### 2026-09-01 — Agentic Self-Healing: How Autonomous Systems Detect and Recover From Their Own Failures
+Slug: `agentic-self-healing-how-autonomous-systems-detect-and-recover-from-their-own-failures` | Tags: agentic-ai, self-healing, reliability, production-systems, recovery
+Excerpt: Resilience absorbs the shock. Self-healing repairs the damage. Here is how autonomous systems detect their own failures, diagnose root causes, and recover without human intervention.
+
+**Takeaways:**
+- **T-SH1: Detect Anomalies at Multiple Granularities** — Catastrophic failures are easy to detect but rare. Slow degradation is hard to detect but common. Monitor output quality, behavioral consistency, and cross-agent validation to catch both.
+- **T-SH2: Diagnose Root Causes, Not Symptoms** — A system that treats symptoms will chase the same anomaly repeatedly. Trace backward from symptom through dependencies to root cause. The recovery action must address the cause, not the symptom.
+- **T-SH3: Make Recovery Actions Narrow and Reversible** — Overcorrecting causes more damage than the original failure. Isolate the failing component, reroute around it, and repair in isolation. Every recovery action should be reversible if verification fails.
+- **T-SH4: Verify Recovery Before Declaring Success** — A recovery that fixes the triggering anomaly but introduces a new problem is not a recovery. Verify that the system is healthy across all monitored signals, not just the one that triggered the alert.
+- **T-SH5: Design Self-Healing With Escalation Boundaries** — Self-healing should handle known failures autonomously and escalate novel or ambiguous ones. Define clear boundaries for when the system acts on its own and when it calls for human judgment.
 
 ### 2026-08-27 — Agentic Trust: How Autonomous Systems Earn Confidence Through Verified Competence
 Slug: `agentic-trust-how-autonomous-systems-earn-confidence-through-verified-competence` | Tags: agentic-ai, trust, autonomous-systems, production-systems, reliability

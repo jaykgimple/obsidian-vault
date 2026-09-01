@@ -1,20 +1,20 @@
 ---
 title: Home
 tags: [dashboard, index]
-updated: 2026-08-30
+updated: 2026-09-01
 ---
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-08-30 (daily maintenance)
+> Last updated: 2026-09-01 (daily maintenance)
 
 ## 🏥 Health: 100/100 (A)
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 65 |
-| Wikilinks | 377 |
-| Link Density | ~5.8/note |
+| Total Notes | 70 |
+| Wikilinks | 402 |
+| Link Density | ~5.7/note |
 | Orphans | 0 |
 | Dead Ends | 0 |
 | Untagged | 0 |
@@ -31,6 +31,8 @@ updated: 2026-08-30
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## 📅 Recent Updates
+- 2026-09-01: [[2026-09-01]] — Published "Agentic Self-Healing" blog post (T-SH1 through T-SH5), 1,274 words
+- 2026-08-31: [[2026-08-31]] — Daily maintenance: fixed 2 broken links (removed non-existent Prioritization post refs), 70 notes, 402 wikilinks, 0 broken
 - 2026-08-31: [[2026-08-31]] — Published "Agentic Execution" blog post (T-EX1 through T-EX5)
 - 2026-08-30: [[2026-08-30]] — Daily maintenance: 65 notes, 377 wikilinks, 0 broken links, graph regenerated
 - 2026-08-29: [[2026-08-29]] — Daily maintenance: created missing Agentic Evolution vault note, backfilled T-EV1 through T-EV5 takeaways, 0 broken links

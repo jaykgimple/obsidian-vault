@@ -8,14 +8,15 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 79 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 80 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-| 1 | 2026-08-31 | Agentic Execution: How Autonomous Systems Turn Decisions Into Reliable Action | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-31-Agentic-Execution|Agentic Execution]] |
+| 1 | 2026-09-01 | Agentic Self-Healing: How Autonomous Systems Detect and Recover From Their Own Failures | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-01-Agentic-Self-Healing|Agentic Self-Healing]] |
+| 2 | 2026-08-31 | Agentic Execution: How Autonomous Systems Turn Decisions Into Reliable Action | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-31-Agentic-Execution|Agentic Execution]] |
 | 2 | 2026-08-29 | Agentic Knowledge: How Autonomous Systems Turn Experience Into Compounding Intelligence | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge|Agentic Knowledge]] |
 | 2 | 2026-08-28 | Agentic Evolution: How Autonomous Systems Mature From Reactive Tools Into Self-Improving Ecosystems | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution|Agentic Evolution]] |
 | 3 | 2026-08-27 | Agentic Trust: How Autonomous Systems Earn Confidence Through Verified Competence | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust|Agentic Trust]] |
