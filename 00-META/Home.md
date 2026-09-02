@@ -31,6 +31,7 @@ updated: 2026-09-01
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## 📅 Recent Updates
+- 2026-09-02: [[2026-09-02]] — Published "Agentic Grounding" blog post (T-GR1 through T-GR5), 1,296 words
 - 2026-09-01: [[2026-09-01]] — Published "Agentic Self-Healing" blog post (T-SH1 through T-SH5), 1,274 words
 - 2026-08-31: [[2026-08-31]] — Daily maintenance: fixed 2 broken links (removed non-existent Prioritization post refs), 70 notes, 402 wikilinks, 0 broken
 - 2026-08-31: [[2026-08-31]] — Published "Agentic Execution" blog post (T-EX1 through T-EX5)
@@ -57,7 +58,7 @@ updated: 2026-09-01
 - [[RoleFresh]] — Per-property notes (Story Engine, OctoGentic, Bookbrary, RoleFresh)
 - [[CoS]] — Agent configs, delegation patterns
 - [[Compounding-Knowledge]] — Cross-cutting patterns, compounding knowledge
-- [[2026-08-30]] ← [[2026-08-29]] ← [[2026-08-28]] ← [[2026-08-27]] ← [[2026-08-26]] ← [[2026-08-25]] ← [[2026-08-24]] ← [[2026-08-23]] ← [[2026-08-22]] ← [[2026-08-21]] ← [[2026-08-20]] ← [[2026-08-19]] ← [[2026-08-18]] ← [[2026-08-17]] ← [[2026-08-16]] ← [[2026-08-15]] — Daily standups, retrospectives
+- [[2026-09-02]] ← [[2026-09-01]] ← [[2026-08-31]] ← [[2026-08-30]] ← [[2026-08-29]] ← [[2026-08-28]] ← [[2026-08-27]] ← [[2026-08-26]] ← [[2026-08-25]] ← [[2026-08-24]] ← [[2026-08-23]] ← [[2026-08-22]] ← [[2026-08-21]] ← [[2026-08-20]] ← [[2026-08-19]] ← [[2026-08-18]] ← [[2026-08-17]] ← [[2026-08-16]] ← [[2026-08-15]] — Daily standups, retrospectives
 - 50-ARCHIVE — Deprecated/legacy content (no archive yet)
 
 ## ✅ Issues Resolved (2026-08-23)

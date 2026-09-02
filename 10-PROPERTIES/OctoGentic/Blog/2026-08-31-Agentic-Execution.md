@@ -9,7 +9,7 @@ aliases: [Agentic Execution, Execution in Autonomous Systems]
 # Agentic Execution: How Autonomous Systems Turn Decisions Into Reliable Action
 
 > Part of → [[10-PROPERTIES/OctoGentic/Overview|OctoGentic]]
-> Related: → [[10-PROPERTIES/OctoGentic/Blog/2026-08-30-Agentic-Prioritization|Agentic Prioritization]], → [[10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge|Agentic Knowledge]]
+|> Related: → [[10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge|Agentic Knowledge]]
 > Source: [[10-PROPERTIES/OctoGentic/Blog/2026-08-31-Agentic-Execution|The full blog post is in the content directory]]
 > File: `content/blog/2026-08-31-agentic-execution-how-autonomous-systems-turn-decisions-into-reliable-action.md`
 
@@ -41,5 +41,4 @@ This post is part of the OctoGentic deep-dive series on agentic systems:
 - [[10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust|Agentic Trust]] — Earning confidence through verified competence
 - [[10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution|Agentic Evolution]] — Maturing from reactive tools into self-improving ecosystems
 - [[10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge|Agentic Knowledge]] — Turning experience into compounding intelligence
-- [[10-PROPERTIES/OctoGentic/Blog/2026-08-30-Agentic-Prioritization|Agentic Prioritization]] — How autonomous systems decide what deserves attention
 - [[10-PROPERTIES/OctoGentic/Blog/2026-08-31-Agentic-Execution|Agentic Execution]] — How autonomous systems turn decisions into reliable action (this post)

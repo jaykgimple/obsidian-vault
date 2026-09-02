@@ -9,9 +9,21 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **80** blog posts.
+> Consolidated signal from all **81** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[Overview]]
+
+---
+
+## 🔷 POST: Agentic Grounding: How Autonomous Systems Verify What They Think They Know (2026-09-02)
+
+### Key Takeaways
+
+- [ ] **T-GR1: Distinguish Internal Consistency From External Accuracy** — An agent can be perfectly consistent and completely wrong. Grounding is the mechanism that bridges the gap between internal reasoning and external reality. Invest in it proportionally to the cost of being wrong.
+- [ ] **T-GR2: Build a Source of Truth Registry** — Every fact the agent uses must have a designated authoritative source. Map fact types to sources, define verification cadences based on volatility, and treat the registry as a first-class component of your architecture.
+- [ ] **T-GR3: Cross-Check Against Independent Sources** — Verification against the same knowledge base that produced the output catches nothing. Cross-check against independent sources of truth that the agent did not consult during reasoning.
+- [ ] **T-GR4: Calibrate Confidence Against Outcomes** — Track the relationship between confidence and accuracy. Use calibration data to tighten the grounding loop over time. An agent that is right 70% of the time when it claims 90% confidence needs a tighter loop.
+- [ ] **T-GR5: Scale Grounding to the Stakes** — Not every decision needs the same level of verification. Define escalation rules based on the cost of being wrong. Risk-based grounding makes verification practical in latency-sensitive applications.
 
 ---
 
@@ -91,11 +103,23 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 | Human Interaction | ~20 | Trust and UX patterns |
 | Operations | ~27 | Reliability, self-healing & production engineering |
 | Growth & Governance | ~28 | Scaling, governance & goals |
-| **Total** | **274** | |
+| Verification & Grounding | 5 | Grounding, calibration & truth |
+| **Total** | **279** | |
 
 ---
 
 ## All Blog Posts with Takeaways
+
+### 2026-09-02 — Agentic Grounding: How Autonomous Systems Verify What They Think They Know
+Slug: `agentic-grounding-how-autonomous-systems-verify-what-they-think-they-know` | Tags: agentic-ai, grounding, verification, reliability, production-systems
+Excerpt: An agent that is internally consistent but factually wrong is not reliable. Here is how autonomous systems build verification loops that keep their outputs tethered to reality.
+
+**Takeaways:**
+- **T-GR1: Distinguish Internal Consistency From External Accuracy** — An agent can be perfectly consistent and completely wrong. Grounding is the mechanism that bridges the gap between internal reasoning and external reality. Invest in it proportionally to the cost of being wrong.
+- **T-GR2: Build a Source of Truth Registry** — Every fact the agent uses must have a designated authoritative source. Map fact types to sources, define verification cadences based on volatility, and treat the registry as a first-class component of your architecture.
+- **T-GR3: Cross-Check Against Independent Sources** — Verification against the same knowledge base that produced the output catches nothing. Cross-check against independent sources of truth that the agent did not consult during reasoning.
+- **T-GR4: Calibrate Confidence Against Outcomes** — Track the relationship between confidence and accuracy. Use calibration data to tighten the grounding loop over time. An agent that is right 70% of the time when it claims 90% confidence needs a tighter loop.
+- **T-GR5: Scale Grounding to the Stakes** — Not every decision needs the same level of verification. Define escalation rules based on the cost of being wrong. Risk-based grounding makes verification practical in latency-sensitive applications.
 
 ### 2026-09-01 — Agentic Self-Healing: How Autonomous Systems Detect and Recover From Their Own Failures
 Slug: `agentic-self-healing-how-autonomous-systems-detect-and-recover-from-their-own-failures` | Tags: agentic-ai, self-healing, reliability, production-systems, recovery
