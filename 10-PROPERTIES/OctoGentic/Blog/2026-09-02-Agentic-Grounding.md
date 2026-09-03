@@ -8,7 +8,7 @@ aliases: [Agentic Grounding Post]
 
 # Agentic Grounding: How Autonomous Systems Verify What They Think They Know
 
-> Source: → [[10-PROPERTIES/OctoGentic/Blog/2026-09-02-agentic-grounding-how-autonomous-systems-verify-what-they-think-they-know|Agentic Grounding blog post]]
+> Source: → [[10-PROPERTIES/OctoGentic/Blog/2026-09-02-Agentic-Grounding|Agentic Grounding blog post]]
 > Status: Published 2026-09-02 | 1,296 words
 > Part of → [[10-PROPERTIES/OctoGentic/Blog-Index|Blog Index]]
 

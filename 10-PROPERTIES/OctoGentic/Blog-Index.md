@@ -8,14 +8,15 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 81 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 82 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-| 1 | 2026-09-02 | Agentic Grounding: How Autonomous Systems Verify What They Think They Know | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-02-Agentic-Grounding|Agentic Grounding]] |
+| 1 | 2026-09-03 | Agentic Memory: How Autonomous Systems Store, Retrieve, and Compound What They Know | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-03-Agentic-Memory|Agentic Memory]] |
+| 2 | 2026-09-02 | Agentic Grounding: How Autonomous Systems Verify What They Think They Know | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-02-Agentic-Grounding|Agentic Grounding]] |
 | 2 | 2026-09-01 | Agentic Self-Healing: How Autonomous Systems Detect and Recover From Their Own Failures | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-01-Agentic-Self-Healing|Agentic Self-Healing]] |
 | 2 | 2026-08-31 | Agentic Execution: How Autonomous Systems Turn Decisions Into Reliable Action | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-31-Agentic-Execution|Agentic Execution]] |
 | 2 | 2026-08-29 | Agentic Knowledge: How Autonomous Systems Turn Experience Into Compounding Intelligence | → [[10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge|Agentic Knowledge]] |
@@ -66,6 +67,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition|Agentic Composition]] — Multi-agent composition, interface contracts, pipeline/parallel/recursive patterns
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust|Agentic Trust]] — Verified competence, transparent reasoning, graceful failure
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-02-Agentic-Grounding|Agentic Grounding]] — Verification loops, source of truth, confidence calibration
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-03-Agentic-Memory|Agentic Memory]] — Storage architecture, retrieval intent, maintenance loops, compounding
 
 ### 🔄 Feedback & Learning
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop|The Agentic Feedback Loop]] | → 2026-06-13-Learn-and-Adapt | → 2026-06-16-Agentic-Observability

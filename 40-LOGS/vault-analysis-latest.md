@@ -1,32 +1,37 @@
 ---
 title: Vault Analysis Report
-date: 2026-09-01
+date: 2026-09-02
 type: vault-health-report
 ---
 
-# Vault Health Report — 2026-09-01
+# Vault Health Report — 2026-09-02
 
 ## Summary
 
-Daily maintenance completed. Vault is clean. 72 notes, 425 navigational wikilinks, 0 broken links.
+Daily maintenance completed. 1 broken link fixed. Vault is clean. 78 notes, 448 navigational wikilinks, 0 broken links.
 
-## Broken Links Fixed: **0**
+## Broken Links Fixed: **1**
 
-No broken wikilinks detected. All 425 navigational links resolve to existing notes.
+| File | Line | Broken Target | Fixed To |
+|------|------|---------------|----------|
+| 10-PROPERTIES/OctoGentic/Blog/2026-09-02-Agentic-Grounding.md | 11 | `[[...Blog/2026-09-02-agentic-grounding-how-autonomous-systems-verify-what-they-think-they-know|...]]` | `[[...Blog/2026-09-02-Agentic-Grounding|...]]` |
 
-## Notes Updated: **3**
+**Root cause:** The wikilink target used a slugified version of the blog post title (`2026-09-02-agentic-grounding-how-autonomous-systems-verify-what-they-think-they-know`) instead of the actual filename (`2026-09-02-Agentic-Grounding`). Fixed by replacing the slug with the correct filename.
+
+## Notes Updated: **2**
 
 | Note | Change |
 |------|--------|
-| 40-LOGS/2026-09-01.md | Updated maintenance section with scan results |
+| 40-LOGS/2026-09-02.md | Updated maintenance section with scan results and fix details |
 | 40-LOGS/vault-analysis-latest.md | Updated to today's report |
+| 10-PROPERTIES/OctoGentic/Blog/2026-09-02-Agentic-Grounding.md | Fixed broken self-referential wikilink |
 
 ## Vault Stats
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 72 |
-| Total Wikilinks | 425 (navigational, excluding inline code) |
+| Total Notes | 78 |
+| Total Wikilinks | 448 (navigational, excluding inline code) |
 | Broken Navigational Links | 0 |
 | Orphans | 0 |
 | Dead Ends | 0 |
@@ -35,14 +40,15 @@ No broken wikilinks detected. All 425 navigational links resolve to existing not
 
 ## Scanner Notes
 
-The scanner correctly filters inline code spans (backtick content) before extracting wikilinks. Previous daily log entries that document past fixes (e.g., "Fixed `[[Old Name]]` → `[[New Name]]`") are correctly ignored because the old names are inside backticks.
+The scanner correctly filters inline code spans (backtick content) before extracting wikilinks. It also strips heading anchors (`#...`) before resolving targets, so links like `[[Objectives#Agent: Novelist|...]]` correctly resolve to the `Objectives` note.
 
 ## Decisions
 
-- No action needed: vault health is at 100%.
-- Continued daily maintenance streak.
+- Fixed the broken link by correcting the target filename rather than changing the link text (preserves author intent).
+- Vault health restored to 100%.
 
 ## Next Steps
 
 1. Continue daily note streak
 2. Next blog post: continue the OctoGentic series (topic TBD)
+3. Consider adding a pre-publish check that validates wikilinks in new blog posts

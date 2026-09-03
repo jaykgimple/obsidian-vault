@@ -9,9 +9,21 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **81** blog posts.
+> Consolidated signal from all **82** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[Overview]]
+
+---
+
+## 🔷 POST: Agentic Memory: How Autonomous Systems Store, Retrieve, and Compound What They Know (2026-09-03)
+
+### Key Takeaways
+
+- [ ] **T-ME1: Design Storage for Retrieval, Not for Storage** — The format in which an agent stores experience determines what it can later retrieve. Capture with structured metadata that anticipates future queries. Storage without classification is storage without retrieval.
+- [ ] **T-ME2: Classify Retrieval Intent Before Querying** — Different retrieval intents require different ranking logic. Exact match for facts, semantic similarity for patterns, sequential retrieval for procedures. One-size-fits-all retrieval produces mediocre results across all intents.
+- [ ] **T-ME3: Maintain Memory Continuously, Not Periodically** — Memory degrades without maintenance. Deduplication, expiration, and compression must run as continuous processes, not monthly batch jobs. A memory store without maintenance becomes a graveyard.
+- [ ] **T-ME4: Measure Retrieval Impact, Not Retrieval Volume** — The metric that matters is whether retrieved memories improve decisions. Track retrieval impact: did the memory change the behavior? Memories that do not change behavior are decoration, not intelligence.
+- [ ] **T-ME5: Connect Memory to Grounding** — Retrieved memories must be verified before use. Staleness failure is the most common memory failure. Cross-check retrieved experience against current reality before applying it. Memory without grounding is archaeology without verification.
 
 ---
 
@@ -104,11 +116,22 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 | Operations | ~27 | Reliability, self-healing & production engineering |
 | Growth & Governance | ~28 | Scaling, governance & goals |
 | Verification & Grounding | 5 | Grounding, calibration & truth |
-| **Total** | **279** | |
+| **Total** | **284** | |
 
 ---
 
 ## All Blog Posts with Takeaways
+
+### 2026-09-03 — Agentic Memory: How Autonomous Systems Store, Retrieve, and Compound What They Know
+Slug: `agentic-memory-how-autonomous-systems-store-retrieve-and-compound-what-they-know` | Tags: agentic-ai, memory, retrieval, compounding, production-systems
+Excerpt: An agent that cannot remember is an agent that cannot compound. Here is how autonomous systems build memory infrastructure that turns experience into accessible intelligence.
+
+**Takeaways:**
+- **T-ME1: Design Storage for Retrieval, Not for Storage** — The format in which an agent stores experience determines what it can later retrieve. Capture with structured metadata that anticipates future queries.
+- **T-ME2: Classify Retrieval Intent Before Querying** — Different retrieval intents require different ranking logic. Exact match for facts, semantic similarity for patterns, sequential retrieval for procedures.
+- **T-ME3: Maintain Memory Continuously, Not Periodically** — Memory degrades without maintenance. Deduplication, expiration, and compression must run as continuous processes.
+- **T-ME4: Measure Retrieval Impact, Not Retrieval Volume** — Track whether retrieved memories improve decisions. Memories that do not change behavior are decoration, not intelligence.
+- **T-ME5: Connect Memory to Grounding** — Retrieved memories must be verified before use. Cross-check retrieved experience against current reality before applying it.
 
 ### 2026-09-02 — Agentic Grounding: How Autonomous Systems Verify What They Think They Know
 Slug: `agentic-grounding-how-autonomous-systems-verify-what-they-think-they-know` | Tags: agentic-ai, grounding, verification, reliability, production-systems
