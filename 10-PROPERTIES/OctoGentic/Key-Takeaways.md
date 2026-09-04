@@ -9,9 +9,21 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **82** blog posts.
+> Consolidated signal from all **83** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[Overview]]
+
+---
+
+## 🔷 POST: Agentic Planning: How Autonomous Systems Decompose Goals Into Actionable Sequences (2026-09-04)
+
+### Key Takeaways
+
+- [ ] **T-P1: Decompose Goals Into Verifiable Steps** — Every action in a plan must have a clear success criterion. Vague outcomes produce vague execution. Decompose iteratively, expanding sub-goals into concrete actions only when ready to execute that branch.
+- [ ] **T-P2: Verify Feasibility Before Execution** — A plan is only as strong as its assumptions. Verify prerequisites, resources, and dependencies at planning time. Assumptions that go unverified become failure points at execution time.
+- [ ] **T-P3: Design Contingencies for Critical Steps** — A plan without contingencies is a chain that breaks at its weakest link. Identify the most likely failure points and prepare specific responses. Contingencies must be as feasible as the primary plan.
+- [ ] **T-P4: Store and Reuse Plans, Not Just Outcomes** — Plans that are used once and discarded do not compound. Index completed plans by goal type and context. Track plan reuse rate: how often does the agent adapt an existing plan instead of building from scratch?
+- [ ] **T-P5: Connect Planning to Memory and Grounding** — Planning does not operate in isolation. It retrieves past plans from memory, verifies assumptions through grounding, and stores successful plans back into memory. These systems are interdependent.
 
 ---
 
@@ -116,11 +128,22 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 | Operations | ~27 | Reliability, self-healing & production engineering |
 | Growth & Governance | ~28 | Scaling, governance & goals |
 | Verification & Grounding | 5 | Grounding, calibration & truth |
-| **Total** | **284** | |
+|| **Total** | **284** | |
 
 ---
 
 ## All Blog Posts with Takeaways
+
+### 2026-09-04 — Agentic Planning: How Autonomous Systems Decompose Goals Into Actionable Sequences
+Slug: `agentic-planning-how-autonomous-systems-decompose-goals-into-actionable-sequences` | Tags: agentic-ai, planning, goal-decomposition, production-systems, autonomous-systems
+Excerpt: An agent that cannot plan is an agent that cannot scale. Here is how autonomous systems break down complex goals into sequences of verifiable, adaptable actions.
+
+**Takeaways:**
+- **T-P1: Decompose Goals Into Verifiable Steps** — Every action in a plan must have a clear success criterion. Vague outcomes produce vague execution. Decompose iteratively, expanding sub-goals into concrete actions only when ready to execute that branch.
+- **T-P2: Verify Feasibility Before Execution** — A plan is only as strong as its assumptions. Verify prerequisites, resources, and dependencies at planning time. Assumptions that go unverified become failure points at execution time.
+- **T-P3: Design Contingencies for Critical Steps** — A plan without contingencies is a chain that breaks at its weakest link. Identify the most likely failure points and prepare specific responses. Contingencies must be as feasible as the primary plan.
+- **T-P4: Store and Reuse Plans, Not Just Outcomes** — Plans that are used once and discarded do not compound. Index completed plans by goal type and context. Track plan reuse rate: how often does the agent adapt an existing plan instead of building from scratch?
+- **T-P5: Connect Planning to Memory and Grounding** — Planning does not operate in isolation. It retrieves past plans from memory, verifies assumptions through grounding, and stores successful plans back into memory. These systems are interdependent.
 
 ### 2026-09-03 — Agentic Memory: How Autonomous Systems Store, Retrieve, and Compound What They Know
 Slug: `agentic-memory-how-autonomous-systems-store-retrieve-and-compound-what-they-know` | Tags: agentic-ai, memory, retrieval, compounding, production-systems
