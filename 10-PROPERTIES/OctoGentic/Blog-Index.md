@@ -8,14 +8,15 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 83 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 84 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-| 1 | 2026-09-04 | Agentic Planning: How Autonomous Systems Decompose Goals Into Actionable Sequences | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-04-Agentic-Planning|Agentic Planning]] |
+|| 1 | 2026-09-05 | Agentic Learning: How Autonomous Systems Convert Experience Into Improved Performance | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-05-Agentic-Learning|Agentic Learning]] |
+|| 2 | 2026-09-04 | Agentic Planning: How Autonomous Systems Decompose Goals Into Actionable Sequences | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-04-Agentic-Planning|Agentic Planning]] |
 | 2 | 2026-09-03 | Agentic Memory: How Autonomous Systems Store, Retrieve, and Compound What They Know | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-03-Agentic-Memory|Agentic Memory]] |
 | 2 | 2026-09-02 | Agentic Grounding: How Autonomous Systems Verify What They Think They Know | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-02-Agentic-Grounding|Agentic Grounding]] |
 | 2 | 2026-09-01 | Agentic Self-Healing: How Autonomous Systems Detect and Recover From Their Own Failures | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-01-Agentic-Self-Healing|Agentic Self-Healing]] |
@@ -70,6 +71,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-02-Agentic-Grounding|Agentic Grounding]] — Verification loops, source of truth, confidence calibration
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-03-Agentic-Memory|Agentic Memory]] — Storage architecture, retrieval intent, maintenance loops, compounding
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-04-Agentic-Planning|Agentic Planning]] — Goal decomposition, feasibility verification, contingency design, plan reuse
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-05-Agentic-Learning|Agentic Learning]] — Experience capture, pattern extraction, behavior update, learning efficacy
 
 ### 🔄 Feedback & Learning
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop|The Agentic Feedback Loop]] | → 2026-06-13-Learn-and-Adapt | → 2026-06-16-Agentic-Observability
