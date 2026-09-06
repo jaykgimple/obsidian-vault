@@ -8,14 +8,15 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 84 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 85 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-|| 1 | 2026-09-05 | Agentic Learning: How Autonomous Systems Convert Experience Into Improved Performance | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-05-Agentic-Learning|Agentic Learning]] |
+|| 1 | 2026-09-06 | Agentic Reasoning: How Autonomous Systems Draw Reliable Conclusions From Incomplete Information | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-06-Agentic-Reasoning|Agentic Reasoning]] |
+|| 2 | 2026-09-05 | Agentic Learning: How Autonomous Systems Convert Experience Into Improved Performance | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-05-Agentic-Learning|Agentic Learning]] |
 || 2 | 2026-09-04 | Agentic Planning: How Autonomous Systems Decompose Goals Into Actionable Sequences | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-04-Agentic-Planning|Agentic Planning]] |
 | 2 | 2026-09-03 | Agentic Memory: How Autonomous Systems Store, Retrieve, and Compound What They Know | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-03-Agentic-Memory|Agentic Memory]] |
 | 2 | 2026-09-02 | Agentic Grounding: How Autonomous Systems Verify What They Think They Know | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-02-Agentic-Grounding|Agentic Grounding]] |
@@ -71,6 +72,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-02-Agentic-Grounding|Agentic Grounding]] — Verification loops, source of truth, confidence calibration
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-03-Agentic-Memory|Agentic Memory]] — Storage architecture, retrieval intent, maintenance loops, compounding
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-04-Agentic-Planning|Agentic Planning]] — Goal decomposition, feasibility verification, contingency design, plan reuse
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-06-Agentic-Reasoning|Agentic Reasoning]] — Premise verification, structured inference, confidence calibration, reasoning traces
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-05-Agentic-Learning|Agentic Learning]] — Experience capture, pattern extraction, behavior update, learning efficacy
 
 ### 🔄 Feedback & Learning

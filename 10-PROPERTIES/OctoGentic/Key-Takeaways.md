@@ -9,7 +9,7 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **83** blog posts.
+> Consolidated signal from all **85** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[Overview]]
 
@@ -24,6 +24,30 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 - [ ] **T-P3: Design Contingencies for Critical Steps** — A plan without contingencies is a chain that breaks at its weakest link. Identify the most likely failure points and prepare specific responses. Contingencies must be as feasible as the primary plan.
 - [ ] **T-P4: Store and Reuse Plans, Not Just Outcomes** — Plans that are used once and discarded do not compound. Index completed plans by goal type and context. Track plan reuse rate: how often does the agent adapt an existing plan instead of building from scratch?
 - [ ] **T-P5: Connect Planning to Memory and Grounding** — Planning does not operate in isolation. It retrieves past plans from memory, verifies assumptions through grounding, and stores successful plans back into memory. These systems are interdependent.
+
+---
+
+## 🔷 POST: Agentic Learning: How Autonomous Systems Convert Experience Into Improved Performance (2026-09-05)
+
+### Key Takeaways
+
+- [ ] **T-LN1: Capture Structured Learning Signals, Not Just Logs** — Record the delta between expected and actual outcomes in structured form. Free-text narratives do not enable pattern extraction. Capture context, expectation, outcome, delta, and confidence at the moment of action.
+- [ ] **T-LN2: Extract Patterns at Both Tactical and Strategic Levels** — Tactical patterns correct specific expectations. Strategic patterns correct systematic biases in how the agent reasons. Both are necessary. Tactical learning without strategic learning produces an agent that fixes symptoms but not causes.
+- [ ] **T-LN3: Validate Behavior Updates Before Deploying Them** — A candidate pattern that explains past data but fails to predict recent outcomes is overfitting. Test updates against holdout experiences. Version every update. Revert updates that degrade performance.
+- [ ] **T-LN4: Measure Learning Efficacy, Not Learning Activity** — The metric that matters is whether behavior updates improve outcomes. Track the delta between expected and actual before and after each update. An agent that extracts patterns and applies updates without improving is churning, not learning.
+- [ ] **T-LN5: Connect Learning to the Full Agentic Stack** — Learning does not operate in isolation. It depends on grounding to provide accurate outcomes, memory to store learning records, and planning to test behavior updates. These systems are interdependent. Learning is what makes the entire stack compound.
+
+---
+
+## 🔷 POST: Agentic Reasoning: How Autonomous Systems Draw Reliable Conclusions From Incomplete Information (2026-09-06)
+
+### Key Takeaways
+
+- [ ] **T-R1: Verify Premises Before Reasoning** — Every premise entering the reasoning pipeline must be checked for relevance, timeliness, and completeness. A valid inference from a false premise is not sound reasoning. Track premise quality scores and use them to weight inputs.
+- [ ] **T-R2: Enforce Structured Inference Chains** — Do not let the agent jump from premises to conclusions. Require explicit reasoning steps with evidence requirements at each level: deductive, inductive, and abductive. The trace is the product, not just the conclusion.
+- [ ] **T-R3: Calibrate Confidence to Reasoning Quality** — Confidence should be a function of premise quality and inference completeness, not a feeling. An agent that is right for the wrong reasons is less reliable than an agent that knows why it is right.
+- [ ] **T-R4: Capture Reasoning Traces as First-Class Data** — Every reasoning episode produces a trace record. These traces are the raw material for improving the reasoning architecture. Without traces, reasoning improvement is guesswork.
+- [ ] **T-R5: Connect Reasoning to the Full Agentic Stack** — Reasoning does not operate in isolation. It depends on memory to supply premises, grounding to verify them, planning to act on conclusions, and learning to improve from outcomes. Reasoning is the connective tissue that turns knowledge into decisions.
 
 ---
 
@@ -133,6 +157,28 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 ---
 
 ## All Blog Posts with Takeaways
+
+### 2026-09-06 — Agentic Reasoning: How Autonomous Systems Draw Reliable Conclusions From Incomplete Information
+Slug: `agentic-reasoning-how-autonomous-systems-draw-reliable-conclusions-from-incomplete-information` | Tags: agentic-ai, reasoning, decision-making, inference, production-systems
+Excerpt: An agent that knows everything but cannot reason about what it knows is just a database with ambition. Here is how autonomous systems build reasoning pipelines that turn stored knowledge into sound decisions under uncertainty.
+
+**Takeaways:**
+- **T-R1: Verify Premises Before Reasoning** — Every premise entering the reasoning pipeline must be checked for relevance, timeliness, and completeness. A valid inference from a false premise is not sound reasoning. Track premise quality scores and use them to weight inputs.
+- **T-R2: Enforce Structured Inference Chains** — Do not let the agent jump from premises to conclusions. Require explicit reasoning steps with evidence requirements at each level: deductive, inductive, and abductive. The trace is the product, not just the conclusion.
+- **T-R3: Calibrate Confidence to Reasoning Quality** — Confidence should be a function of premise quality and inference completeness, not a feeling. An agent that is right for the wrong reasons is less reliable than an agent that knows why it is right.
+- **T-R4: Capture Reasoning Traces as First-Class Data** — Every reasoning episode produces a trace record. These traces are the raw material for improving the reasoning architecture. Without traces, reasoning improvement is guesswork.
+- **T-R5: Connect Reasoning to the Full Agentic Stack** — Reasoning does not operate in isolation. It depends on memory to supply premises, grounding to verify them, planning to act on conclusions, and learning to improve from outcomes. Reasoning is the connective tissue that turns knowledge into decisions.
+
+### 2026-09-05 — Agentic Learning: How Autonomous Systems Convert Experience Into Improved Performance
+Slug: `agentic-learning-how-autonomous-systems-convert-experience-into-improved-performance` | Tags: agentic-ai, learning, improvement, compounding, production-systems
+Excerpt: An agent that executes perfectly but never improves is running in place. Here is how autonomous systems build learning loops that turn every action into a chance to get better.
+
+**Takeaways:**
+- **T-LN1: Capture Structured Learning Signals, Not Just Logs** — Record the delta between expected and actual outcomes in structured form. Free-text narratives do not enable pattern extraction. Capture context, expectation, outcome, delta, and confidence at the moment of action.
+- **T-LN2: Extract Patterns at Both Tactical and Strategic Levels** — Tactical patterns correct specific expectations. Strategic patterns correct systematic biases in how the agent reasons. Both are necessary. Tactical learning without strategic learning produces an agent that fixes symptoms but not causes.
+- **T-LN3: Validate Behavior Updates Before Deploying Them** — A candidate pattern that explains past data but fails to predict recent outcomes is overfitting. Test updates against holdout experiences. Version every update. Revert updates that degrade performance.
+- **T-LN4: Measure Learning Efficacy, Not Learning Activity** — The metric that matters is whether behavior updates improve outcomes. Track the delta between expected and actual before and after each update. An agent that extracts patterns and applies updates without improving is churning, not learning.
+- **T-LN5: Connect Learning to the Full Agentic Stack** — Learning does not operate in isolation. It depends on grounding to provide accurate outcomes, memory to store learning records, and planning to test behavior updates. These systems are interdependent. Learning is what makes the entire stack compound.
 
 ### 2026-09-04 — Agentic Planning: How Autonomous Systems Decompose Goals Into Actionable Sequences
 Slug: `agentic-planning-how-autonomous-systems-decompose-goals-into-actionable-sequences` | Tags: agentic-ai, planning, goal-decomposition, production-systems, autonomous-systems
