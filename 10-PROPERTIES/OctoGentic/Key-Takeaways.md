@@ -9,9 +9,21 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **85** blog posts.
+> Consolidated signal from all **86** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[Overview]]
+
+---
+
+## 🔷 POST: Agentic Communication: How Autonomous Systems Explain Their Decisions to Humans (2026-09-08)
+
+### Key Takeaways
+
+- [ ] **T-CM1: Translate Reasoning Faithfully, Not Conveniently** — The justification must reflect the actual reasoning process, not a post-hoc narrative generated for human consumption. Include everything that would change the user's decision if omitted. The trace is the product.
+- [ ] **T-CM2: Calibrate Depth and Framing to the Audience** — Not every user needs the same explanation. Maintain audience models that track what each user type finds useful. Adapt depth, framing, and tone without stereotyping individuals into fixed categories.
+- [ ] **T-CM3: Express Uncertainty Specifically and Proportionally** — Be specific about the type of uncertainty (missing evidence, conflicting sources, ambiguity, inherent unpredictability). Express it proportionally to actual confidence. Make it actionable by stating what would reduce it.
+- [ ] **T-CM4: Capture Communication Traces as First-Class Data** — Every communication episode produces a trace record: translation choices, calibration decisions, uncertainty expressions, user responses. These traces are the raw material for improving the communication architecture over time.
+- [ ] **T-CM5: Connect Communication to the Full Agentic Stack** — Communication is the interface between the entire agentic system and the outside world. It consumes the outputs of reasoning, synthesis, trust, and uncertainty. Its quality determines whether the rest of the stack earns trust or suspicion. Communication is not a formatting layer. It is the capability that makes every other capability legible.
 
 ---
 
@@ -157,6 +169,17 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 ---
 
 ## All Blog Posts with Takeaways
+
+### 2026-09-08 — Agentic Communication: How Autonomous Systems Explain Their Decisions to Humans
+Slug: `agentic-communication-how-autonomous-systems-explain-their-decisions-to-humans` | Tags: agentic-ai, communication, explainability, trust, production-systems
+Excerpt: An agent that decides well but explains nothing is an agent nobody trusts. Here is how autonomous systems translate internal reasoning into human-readable justification without distorting what actually happened.
+
+**Takeaways:**
+- **T-CM1: Translate Reasoning Faithfully, Not Conveniently** — The justification must reflect the actual reasoning process, not a post-hoc narrative generated for human consumption. Include everything that would change the user's decision if omitted. The trace is the product.
+- **T-CM2: Calibrate Depth and Framing to the Audience** — Not every user needs the same explanation. Maintain audience models that track what each user type finds useful. Adapt depth, framing, and tone without stereotyping individuals into fixed categories.
+- **T-CM3: Express Uncertainty Specifically and Proportionally** — Be specific about the type of uncertainty (missing evidence, conflicting sources, ambiguity, inherent unpredictability). Express it proportionally to actual confidence. Make it actionable by stating what would reduce it.
+- **T-CM4: Capture Communication Traces as First-Class Data** — Every communication episode produces a trace record: translation choices, calibration decisions, uncertainty expressions, user responses. These traces are the raw material for improving the communication architecture over time.
+- **T-CM5: Connect Communication to the Full Agentic Stack** — Communication is the interface between the entire agentic system and the outside world. It consumes the outputs of reasoning, synthesis, trust, and uncertainty. Its quality determines whether the rest of the stack earns trust or suspicion. Communication is not a formatting layer. It is the capability that makes every other capability legible.
 
 ### 2026-09-06 — Agentic Reasoning: How Autonomous Systems Draw Reliable Conclusions From Incomplete Information
 Slug: `agentic-reasoning-how-autonomous-systems-draw-reliable-conclusions-from-incomplete-information` | Tags: agentic-ai, reasoning, decision-making, inference, production-systems

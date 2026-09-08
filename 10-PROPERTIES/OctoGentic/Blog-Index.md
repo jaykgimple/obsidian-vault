@@ -8,14 +8,15 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 85 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 86 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-|| 1 | 2026-09-06 | Agentic Reasoning: How Autonomous Systems Draw Reliable Conclusions From Incomplete Information | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-06-Agentic-Reasoning|Agentic Reasoning]] |
+||| 1 | 2026-09-08 | Agentic Communication: How Autonomous Systems Explain Their Decisions to Humans | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-08-Agentic-Communication|Agentic Communication]] |
+||| 2 | 2026-09-06 | Agentic Reasoning: How Autonomous Systems Draw Reliable Conclusions From Incomplete Information | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-06-Agentic-Reasoning|Agentic Reasoning]] |
 || 2 | 2026-09-05 | Agentic Learning: How Autonomous Systems Convert Experience Into Improved Performance | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-05-Agentic-Learning|Agentic Learning]] |
 || 2 | 2026-09-04 | Agentic Planning: How Autonomous Systems Decompose Goals Into Actionable Sequences | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-04-Agentic-Planning|Agentic Planning]] |
 | 2 | 2026-09-03 | Agentic Memory: How Autonomous Systems Store, Retrieve, and Compound What They Know | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-03-Agentic-Memory|Agentic Memory]] |
@@ -65,6 +66,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-08-Agentic-Communication|Agentic Communication]] — Reasoning translation, audience calibration, uncertainty expression
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect|The Agentic Compound Effect]] | → 2026-06-14-Agentic-Memory | → 2026-06-10-Decision-Making | → 2026-06-17-Agentic-Governance | → 2026-06-20-Agentic-Supply-Chain
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-08-20-Agentic-Metacognition|Agentic Metacognition]] — Self-awareness, confidence calibration, reasoning monitoring
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition|Agentic Composition]] — Multi-agent composition, interface contracts, pipeline/parallel/recursive patterns
