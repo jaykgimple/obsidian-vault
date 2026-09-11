@@ -8,14 +8,15 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 86 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 87 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-||| 1 | 2026-09-08 | Agentic Communication: How Autonomous Systems Explain Their Decisions to Humans | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-08-Agentic-Communication|Agentic Communication]] |
+|||| 1 | 2026-09-11 | Agentic Verification: How Autonomous Systems Check Their Own Work Before Acting | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-11-Agentic-Verification|Agentic Verification]] |
+|||| 2 | 2026-09-08 | Agentic Communication: How Autonomous Systems Explain Their Decisions to Humans | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-08-Agentic-Communication|Agentic Communication]] |
 ||| 2 | 2026-09-06 | Agentic Reasoning: How Autonomous Systems Draw Reliable Conclusions From Incomplete Information | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-06-Agentic-Reasoning|Agentic Reasoning]] |
 || 2 | 2026-09-05 | Agentic Learning: How Autonomous Systems Convert Experience Into Improved Performance | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-05-Agentic-Learning|Agentic Learning]] |
 || 2 | 2026-09-04 | Agentic Planning: How Autonomous Systems Decompose Goals Into Actionable Sequences | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-04-Agentic-Planning|Agentic Planning]] |
