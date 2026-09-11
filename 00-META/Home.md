@@ -6,15 +6,15 @@ updated: 2026-09-01
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-09-01 (daily maintenance)
+> Last updated: 2026-09-11 (daily maintenance)
 
 ## 🏥 Health: 100/100 (A)
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 70 |
-| Wikilinks | 402 |
-| Link Density | ~5.7/note |
+| Total Notes | 96 |
+| Wikilinks | 565 |
+| Link Density | ~5.9/note |
 | Orphans | 0 |
 | Dead Ends | 0 |
 | Untagged | 0 |
@@ -31,6 +31,13 @@ updated: 2026-09-01
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## 📅 Recent Updates
+- 2026-09-11: [[2026-09-11]] — Daily maintenance: created missing 2026-09-09 and 2026-09-10 vault notes, fixed 2 broken links, 96 notes, 565 wikilinks, 0 broken
+- 2026-09-11: [[2026-09-11]] — Published "Agentic Verification" blog post (T-VF1 through T-VF5), 1,044 words
+- 2026-09-10: [[2026-09-10]] — Published "Agentic Decision-Making" blog post (T-DM1 through T-DM5), 1,051 words
+- 2026-09-09: [[2026-09-09]] — Published "Agentic Context" blog post (T-CT1 through T-CT5), 1,212 words
+- 2026-09-07: [[2026-09-07]] — Daily maintenance: 88 notes, 518 wikilinks, 0 broken, graph regenerated
+- 2026-09-07: [[2026-09-07]] — Published "Agentic Synthesis" blog post (T-SY1 through T-SY5)
+- 2026-09-06: [[2026-09-06]] — Published "Agentic Reasoning" blog post (T-R1 through T-R5), 1,296 words
 - 2026-09-02: [[2026-09-02]] — Published "Agentic Grounding" blog post (T-GR1 through T-GR5), 1,296 words
 - 2026-09-01: [[2026-09-01]] — Published "Agentic Self-Healing" blog post (T-SH1 through T-SH5), 1,274 words
 - 2026-08-31: [[2026-08-31]] — Daily maintenance: fixed 2 broken links (removed non-existent Prioritization post refs), 70 notes, 402 wikilinks, 0 broken
@@ -58,6 +65,7 @@ updated: 2026-09-01
 - [[RoleFresh]] — Per-property notes (Story Engine, OctoGentic, Bookbrary, RoleFresh)
 - [[CoS]] — Agent configs, delegation patterns
 - [[Compounding-Knowledge]] — Cross-cutting patterns, compounding knowledge
+- [[10-PROPERTIES/Web-Design/21st-dev-deep-dive|Web Design Research]] — 21st.dev, fuch.ai, UI patterns for Bookbrary
 - [[2026-09-02]] ← [[2026-09-01]] ← [[2026-08-31]] ← [[2026-08-30]] ← [[2026-08-29]] ← [[2026-08-28]] ← [[2026-08-27]] ← [[2026-08-26]] ← [[2026-08-25]] ← [[2026-08-24]] ← [[2026-08-23]] ← [[2026-08-22]] ← [[2026-08-21]] ← [[2026-08-20]] ← [[2026-08-19]] ← [[2026-08-18]] ← [[2026-08-17]] ← [[2026-08-16]] ← [[2026-08-15]] — Daily standups, retrospectives
 - 50-ARCHIVE — Deprecated/legacy content (no archive yet)
 

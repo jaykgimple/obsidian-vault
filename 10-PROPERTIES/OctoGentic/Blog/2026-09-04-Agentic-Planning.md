@@ -9,7 +9,7 @@ aliases: [2026-09-04-Agentic-Planning, Agentic Planning Blog Post]
 # Agentic Planning: How Autonomous Systems Decompose Goals Into Actionable Sequences
 
 > Published 2026-09-04 on the OctoGentic Signal Feed.
-> Part of → [[10-PROPERTIES/OctoGentic/Overview|OctoGentic Overview]]
+> Part of → `10-PROPERTIES/OctoGentic/Overview`
 > Related: → [[10-PROPERTIES/OctoGentic/Blog-Index|Blog Index]] | → [[10-PROPERTIES/OctoGentic/Key-Takeaways|Key Takeaways]]
 
 ## Series Position
@@ -31,5 +31,5 @@ The progression: Knowledge (turning experience into intelligence) → Grounding 
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-03-Agentic-Memory|Agentic Memory]] — Memory stores the plans that planning reuses
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-02-Agentic-Grounding|Agentic Grounding]] — Grounding verifies the assumptions that plans depend on
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-08-31-Agentic-Execution|Agentic Execution]] — Execution carries out the steps that planning produces
-- → [[10-PROPERTIES/OctoGentic/Blog/2026-08-30-Agentic-Prioritization|Agentic Prioritization]] — Prioritization determines which goals deserve planning effort
-- → [[30-PATTERNS/Compounding-Knowledge|Compounding Knowledge]] — Planning is the mechanism that turns knowledge into action
+- → `10-PROPERTIES/OctoGentic/Blog/2026-08-30-Agentic-Prioritization` — Prioritization determines which goals deserve planning effort
+- → `30-PATTERNS/Compounding-Knowledge` — Planning is the mechanism that turns knowledge into action

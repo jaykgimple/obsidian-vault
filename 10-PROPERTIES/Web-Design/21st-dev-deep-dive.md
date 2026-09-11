@@ -1,4 +1,12 @@
+---
+title: 21st.dev Deep Dive - Specific Finds
+tags: [web-design, research, bookbrary, components]
+updated: 2026-09-06
+---
+
 # 21st.dev Deep Dive - Specific Finds
+
+> Research for → [[Bookbrary]] · Part of → [[Home]]
 
 ## Cool Components to Investigate
 

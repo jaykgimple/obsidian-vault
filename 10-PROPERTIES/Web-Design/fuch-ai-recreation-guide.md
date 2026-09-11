@@ -1,4 +1,12 @@
+---
+title: fuch.ai — How to Recreate It
+tags: [web-design, research, 3d, bookbrary]
+updated: 2026-09-06
+---
+
 # fuch.ai — How to Recreate It
+
+> Research for → [[Bookbrary]] · Part of → [[Home]]
 
 **URL**: https://www.fuch.ai  
 **Author**: Sayandeep Bose (Sr. CX/UX Designer, Digital Dubai)  

@@ -11,6 +11,7 @@ aliases: [Bookbrary Platform, Book Library]
 > Reader-facing web platform for consuming generated book content.
 > Repository: `/root/projects/bookbrary`
 > Part of → [[Home]]
+> Design research → [[10-PROPERTIES/Web-Design/21st-dev-deep-dive|21st.dev Deep Dive]] · [[10-PROPERTIES/Web-Design/fuch-ai-recreation-guide|fuch.ai Guide]] · [[10-PROPERTIES/Web-Design/21st-dev-ui-research|UI Research]] · [[10-PROPERTIES/Web-Design/fuch-ai-vs-bookbrary|fuch.ai vs Bookbrary]]
 
 ## Architecture
 

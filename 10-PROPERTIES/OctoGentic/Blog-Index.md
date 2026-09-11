@@ -15,8 +15,10 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-|||| 1 | 2026-09-11 | Agentic Verification: How Autonomous Systems Check Their Own Work Before Acting | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-11-Agentic-Verification|Agentic Verification]] |
-|||| 2 | 2026-09-08 | Agentic Communication: How Autonomous Systems Explain Their Decisions to Humans | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-08-Agentic-Communication|Agentic Communication]] |
+| 1 | 2026-09-11 | Agentic Verification: How Autonomous Systems Check Their Own Work Before Acting | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-11-Agentic-Verification|Agentic Verification]] |
+| 2 | 2026-09-10 | Agentic Decision-Making: How Autonomous Systems Choose Between Competing Options Under Uncertainty | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-10-Agentic-Decision-Making|Agentic Decision-Making]] |
+| 3 | 2026-09-09 | Agentic Context: How Autonomous Systems Maintain Situational Awareness in Changing Environments | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-09-Agentic-Context|Agentic Context]] |
+| 4 | 2026-09-08 | Agentic Communication: How Autonomous Systems Explain Their Decisions to Humans | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-08-Agentic-Communication|Agentic Communication]] |
 ||| 2 | 2026-09-06 | Agentic Reasoning: How Autonomous Systems Draw Reliable Conclusions From Incomplete Information | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-06-Agentic-Reasoning|Agentic Reasoning]] |
 || 2 | 2026-09-05 | Agentic Learning: How Autonomous Systems Convert Experience Into Improved Performance | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-05-Agentic-Learning|Agentic Learning]] |
 || 2 | 2026-09-04 | Agentic Planning: How Autonomous Systems Decompose Goals Into Actionable Sequences | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-04-Agentic-Planning|Agentic Planning]] |
@@ -67,6 +69,9 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-11-Agentic-Verification|Agentic Verification]] — Independent re-verification, structured checklists, confidence calibration
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-10-Agentic-Decision-Making|Agentic Decision-Making]] — Option generation, criteria stabilization, commitment mechanism
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-09-Agentic-Context|Agentic Context]] — Persistent/situational/intentional layers, context window budgeting
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-08-Agentic-Communication|Agentic Communication]] — Reasoning translation, audience calibration, uncertainty expression
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect|The Agentic Compound Effect]] | → 2026-06-14-Agentic-Memory | → 2026-06-10-Decision-Making | → 2026-06-17-Agentic-Governance | → 2026-06-20-Agentic-Supply-Chain
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-08-20-Agentic-Metacognition|Agentic Metacognition]] — Self-awareness, confidence calibration, reasoning monitoring

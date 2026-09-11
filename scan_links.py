@@ -16,20 +16,19 @@ existing_paths = set()
 for f in all_md_files:
     rel = f.relative_to(vault_path)
     existing_paths.add(str(rel))
-    # Various forms Obsidian might resolve
-    existing_notes.add(f.name)  # e.g. "Home.md"
-    existing_notes.add(f.stem)  # e.g. "Home"
-    existing_notes.add(str(rel))  # e.g. "00-META/Home.md"
-    existing_notes.add(str(rel).replace('.md', ''))  # e.g. "00-META/Home"
-    # Also with forward slashes normalized
+    existing_notes.add(f.name)
+    existing_notes.add(f.stem)
+    existing_notes.add(str(rel))
+    existing_notes.add(str(rel).replace('.md', ''))
     existing_notes.add(str(rel).replace('.md', '').replace('\\', '/'))
 
 print(f"\nExisting paths:")
 for p in sorted(existing_paths):
     print(f"  {p}")
 
-# Extract all wikilinks from all files
-wikilink_pattern = re.compile(r'\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]')
+# Wikilink regex: matches [[target]] or [[target#section]] or [[target|alias]]
+# Using character class that excludes ], |, #
+wikilink_pattern = re.compile(r'\[\[([^\[\]|#]+)(?:#[^\[\]|]*)?(?:\|[^\[\]]*)?\]\]')
 
 all_broken = []
 all_links = []
@@ -37,25 +36,38 @@ all_links = []
 for f in all_md_files:
     content = f.read_text()
     rel = str(f.relative_to(vault_path))
+
+    # Strip code spans (backtick-delimited) to avoid parsing documentation references
+    # Handles single, double, and triple backticks
+    content = re.sub(r'`{3}[^`]*`{3}', '', content)  # triple backtick inline
+    content = re.sub(r'`{2}[^`]*`{2}', '', content)  # double backtick inline
+    content = re.sub(r'`[^`]*`', '', content)        # single backtick inline
+
+    # Strip code fences (triple backtick blocks)
+    content = re.sub(r'```[\s\S]*?```', '', content)
+
     for match in wikilink_pattern.finditer(content):
         link_target = match.group(1).strip()
         all_links.append((rel, link_target))
-        
+
+        # Skip placeholder/template patterns
+        if re.match(r'^(\.\.\.|Note Name|Parent Note|Related Note|Child Note|Example Note)$', link_target, re.IGNORECASE):
+            continue
+        if re.match(r'^(KEY:|TODO:|FIXME:)', link_target, re.IGNORECASE):
+            continue
+
         # Check if target exists
         found = False
-        
-        # 1. As-is with .md
+
         if link_target + '.md' in existing_notes:
             found = True
-        # 2. As-is without .md (stem only)
         elif link_target in existing_notes:
             found = True
-        # 3. As relative path in vault
         elif (vault_path / link_target).exists():
             found = True
         elif (vault_path / (link_target + '.md')).exists():
             found = True
-            
+
         if not found:
             all_broken.append((rel, link_target, match.group(0)))
 
