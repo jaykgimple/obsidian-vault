@@ -8,14 +8,15 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 87 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 88 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-| 1 | 2026-09-11 | Agentic Verification: How Autonomous Systems Check Their Own Work Before Acting | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-11-Agentic-Verification|Agentic Verification]] |
+| 1 | 2026-09-12 | Agentic Orchestration: How Autonomous Systems Coordinate Multiple Agents, Tasks, and Dependencies Without Losing Coherence | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-12-Agentic-Orchestration|Agentic Orchestration]] |
+| 2 | 2026-09-11 | Agentic Verification: How Autonomous Systems Check Their Own Work Before Acting | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-11-Agentic-Verification|Agentic Verification]] |
 | 2 | 2026-09-10 | Agentic Decision-Making: How Autonomous Systems Choose Between Competing Options Under Uncertainty | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-10-Agentic-Decision-Making|Agentic Decision-Making]] |
 | 3 | 2026-09-09 | Agentic Context: How Autonomous Systems Maintain Situational Awareness in Changing Environments | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-09-Agentic-Context|Agentic Context]] |
 | 4 | 2026-09-08 | Agentic Communication: How Autonomous Systems Explain Their Decisions to Humans | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-08-Agentic-Communication|Agentic Communication]] |
@@ -69,6 +70,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-12-Agentic-Orchestration|Agentic Orchestration]] — Dependency-aware scheduling, contract-based handoffs, failure containment
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-11-Agentic-Verification|Agentic Verification]] — Independent re-verification, structured checklists, confidence calibration
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-10-Agentic-Decision-Making|Agentic Decision-Making]] — Option generation, criteria stabilization, commitment mechanism
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-09-Agentic-Context|Agentic Context]] — Persistent/situational/intentional layers, context window budgeting

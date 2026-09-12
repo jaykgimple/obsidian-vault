@@ -31,6 +31,7 @@ updated: 2026-09-01
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## 📅 Recent Updates
+- 2026-09-12: [[2026-09-12]] — Published "Agentic Orchestration" blog post (T-OR1 through T-OR5), 1,099 words
 - 2026-09-11: [[2026-09-11]] — Daily maintenance: created missing 2026-09-09 and 2026-09-10 vault notes, fixed 2 broken links, 96 notes, 565 wikilinks, 0 broken
 - 2026-09-11: [[2026-09-11]] — Published "Agentic Verification" blog post (T-VF1 through T-VF5), 1,044 words
 - 2026-09-10: [[2026-09-10]] — Published "Agentic Decision-Making" blog post (T-DM1 through T-DM5), 1,051 words
