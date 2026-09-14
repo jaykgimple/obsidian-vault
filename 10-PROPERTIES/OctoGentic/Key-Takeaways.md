@@ -9,9 +9,33 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **88** blog posts.
+> Consolidated signal from all **90** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[Overview]]
+
+---
+
+## 🔷 POST: Agentic Calibration: How Autonomous Systems Adjust Their Confidence and Behavior to Match Reality (2026-09-13)
+
+### Key Takeaways
+
+- [ ] **T-CA1: Track Confidence and Accuracy as Paired Signals** — Calibration requires knowing both how confident the agent was and whether it was right. Log every decision with its confidence and outcome. Segment by decision type. Aggregate metrics hide segment-level miscalibration.
+- [ ] **T-CA2: Adapt Thresholds Based on Measured Drift, Not Assumptions** — Decision thresholds are not set-and-forget. Measure the gap between confidence and accuracy, then adjust thresholds to close the gap. Apply changes incrementally and verify improvement before the next adjustment.
+- [ ] **T-CA3: Compress Feedback Loops to Minimize Drift Window** — The longer the delay between action and outcome, the longer miscalibration persists. Design workflows for fast outcome visibility. Create proxy signals for slow-moving outcomes. Prioritize calibration feedback in the learning queue.
+- [ ] **T-CA4: Bound Adaptation to Prevent Oscillation** — Unbounded threshold adaptation causes oscillation. Define adaptation limits based on the cost of false positives versus false negatives. Calibration should converge, not swing.
+- **T-CA5: Connect Calibration to the Full Agentic Stack** — Calibration does not operate in isolation. It depends on verification to provide immediate accuracy signals, learning to update decision criteria, and communication to surface confidence accurately to users. Calibration is the honesty layer that makes every other capability trustworthy.
+
+---
+
+## 🔷 POST: Agentic Negotiation: How Autonomous Systems Resolve Conflicts, Find Compromises, and Reach Agreements (2026-09-14)
+
+### Key Takeaways
+
+- [ ] **T-NG1: Model Interests, Not Just Positions** — Distinguish between what the other party says it wants and why it wants it. Maintain a utility model that captures their values, trade-offs, and constraints. Update it continuously as the negotiation reveals new information.
+- [ ] **T-NG2: Generate Options Before Evaluating Them** — Divergent thinking before convergent evaluation produces better agreements. Generate a portfolio of possible agreements before assessing any single one. A larger option set makes mutually acceptable outcomes more likely.
+- [ ] **T-NG3: Link Every Concession to a Reciprocal Gain** — Concessions should never be unilateral. Define flexible and non-negotiable interests before negotiating. Calibrate concession size to the relationship value and the strategic importance of the interaction.
+- [ ] **T-NG4: Verify Agreements for Feasibility and Shared Understanding** — An agreement that cannot be executed is not an agreement. Verify feasibility, completeness, and mutual interpretation before treating a deal as final. Ambiguity at agreement time becomes conflict at execution time.
+- [ ] **T-NG5: Connect Negotiation to the Full Agentic Stack** — Negotiation does not operate in isolation. It depends on communication to express positions and understand counter-parties, reasoning to evaluate trade-offs, context to model the situation, and calibration to assess the value of agreement versus deadlock. Negotiation is the capability that turns conflict into cooperation and individual agents into a functioning ecosystem.
 
 ---
 
@@ -188,11 +212,22 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 | Operations | ~27 | Reliability, self-healing & production engineering |
 | Growth & Governance | ~28 | Scaling, governance & goals |
 | Verification & Grounding | 10 | Grounding, calibration, truth |
-| **Total** | **294** | |
+|| **Total** | **299** | |
 
 ---
 
 ## All Blog Posts with Takeaways
+
+### 2026-09-14 — Agentic Negotiation: How Autonomous Systems Resolve Conflicts, Find Compromises, and Reach Agreements
+Slug: `agentic-negotiation-how-autonomous-systems-resolve-conflicts-find-compromises-and-reach-agreements` | Tags: agentic-ai, negotiation, multi-agent-systems, coordination, conflict-resolution
+Excerpt: An agent that can decide but cannot negotiate is an agent that escalates every conflict. Here is how autonomous systems resolve disagreements, find mutually acceptable outcomes, and preserve relationships while advancing their objectives.
+
+**Takeaways:**
+- **T-NG1: Model Interests, Not Just Positions** — Distinguish between what the other party says it wants and why it wants it. Maintain a utility model that captures their values, trade-offs, and constraints. Update it continuously as the negotiation reveals new information.
+- **T-NG2: Generate Options Before Evaluating Them** — Divergent thinking before convergent evaluation produces better agreements. Generate a portfolio of possible agreements before assessing any single one. A larger option set makes mutually acceptable outcomes more likely.
+- **T-NG3: Link Every Concession to a Reciprocal Gain** — Concessions should never be unilateral. Define flexible and non-negotiable interests before negotiating. Calibrate concession size to the relationship value and the strategic importance of the interaction.
+- **T-NG4: Verify Agreements for Feasibility and Shared Understanding** — An agreement that cannot be executed is not an agreement. Verify feasibility, completeness, and mutual interpretation before treating a deal as final. Ambiguity at agreement time becomes conflict at execution time.
+- **T-NG5: Connect Negotiation to the Full Agentic Stack** — Negotiation does not operate in isolation. It depends on communication to express positions and understand counter-parties, reasoning to evaluate trade-offs, context to model the situation, and calibration to assess the value of agreement versus deadlock. Negotiation is the capability that turns conflict into cooperation and individual agents into a functioning ecosystem.
 
 ### 2026-09-12 — Agentic Orchestration: How Autonomous Systems Coordinate Multiple Agents, Tasks, and Dependencies Without Losing Coherence
 Slug: `agentic-orchestration-how-autonomous-systems-coordinate-multiple-agents-tasks-and-dependencies-without-losing-coherence` | Tags: agentic-ai, orchestration, multi-agent-systems, coordination, production-systems

@@ -8,14 +8,16 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 88 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 90 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-| 1 | 2026-09-12 | Agentic Orchestration: How Autonomous Systems Coordinate Multiple Agents, Tasks, and Dependencies Without Losing Coherence | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-12-Agentic-Orchestration|Agentic Orchestration]] |
+| 1 | 2026-09-14 | Agentic Negotiation: How Autonomous Systems Resolve Conflicts, Find Compromises, and Reach Agreements | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation|Agentic Negotiation]] |
+| 2 | 2026-09-13 | Agentic Calibration: How Autonomous Systems Adjust Their Confidence and Behavior to Match Reality | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration|Agentic Calibration]] |
+| 2 | 2026-09-12 | Agentic Orchestration: How Autonomous Systems Coordinate Multiple Agents, Tasks, and Dependencies Without Losing Coherence | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-12-Agentic-Orchestration|Agentic Orchestration]] |
 | 2 | 2026-09-11 | Agentic Verification: How Autonomous Systems Check Their Own Work Before Acting | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-11-Agentic-Verification|Agentic Verification]] |
 | 2 | 2026-09-10 | Agentic Decision-Making: How Autonomous Systems Choose Between Competing Options Under Uncertainty | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-10-Agentic-Decision-Making|Agentic Decision-Making]] |
 | 3 | 2026-09-09 | Agentic Context: How Autonomous Systems Maintain Situational Awareness in Changing Environments | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-09-Agentic-Context|Agentic Context]] |
@@ -70,6 +72,8 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation|Agentic Negotiation]] — Interest modeling, option generation, concession strategy, agreement verification
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration|Agentic Calibration]] — Confidence-accuracy tracking, threshold adaptation, feedback loop compression
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-12-Agentic-Orchestration|Agentic Orchestration]] — Dependency-aware scheduling, contract-based handoffs, failure containment
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-11-Agentic-Verification|Agentic Verification]] — Independent re-verification, structured checklists, confidence calibration
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-10-Agentic-Decision-Making|Agentic Decision-Making]] — Option generation, criteria stabilization, commitment mechanism

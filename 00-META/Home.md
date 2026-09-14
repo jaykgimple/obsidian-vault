@@ -6,15 +6,15 @@ updated: 2026-09-01
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-09-11 (daily maintenance)
+> Last updated: 2026-09-14 (daily maintenance)
 
-## 🏥 Health: 100/100 (A)
+## Health: 100/100 (A)
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 96 |
-| Wikilinks | 565 |
-| Link Density | ~5.9/note |
+| Total Notes | 102 |
+| Wikilinks | 651 |
+| Link Density | ~6.4/note |
 | Orphans | 0 |
 | Dead Ends | 0 |
 | Untagged | 0 |
@@ -30,7 +30,11 @@ updated: 2026-09-01
 | 4 | Home | 7 | 10 | meta |
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
-## 📅 Recent Updates
+## Recent Updates
+- 2026-09-14: [[2026-09-14]] — Published "Agentic Negotiation" blog post (T-NG1 through T-NG5), 1,136 words
+- 2026-09-13: [[2026-09-13]] — Daily maintenance: 102 notes, 651 wikilinks, 0 broken, graph regenerated
+- 2026-09-13: [[2026-09-13]] — Published "Agentic Calibration" blog post (T-CA1 through T-CA5), 1,099 words
+- 2026-09-12: [[2026-09-12]] — Daily maintenance: 98 notes, 579 wikilinks, 0 broken, graph regenerated
 - 2026-09-12: [[2026-09-12]] — Published "Agentic Orchestration" blog post (T-OR1 through T-OR5), 1,099 words
 - 2026-09-11: [[2026-09-11]] — Daily maintenance: created missing 2026-09-09 and 2026-09-10 vault notes, fixed 2 broken links, 96 notes, 565 wikilinks, 0 broken
 - 2026-09-11: [[2026-09-11]] — Published "Agentic Verification" blog post (T-VF1 through T-VF5), 1,044 words
