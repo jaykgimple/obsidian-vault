@@ -8,14 +8,16 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 90 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 92 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-| 1 | 2026-09-14 | Agentic Negotiation: How Autonomous Systems Resolve Conflicts, Find Compromises, and Reach Agreements | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation|Agentic Negotiation]] |
+| 1 | 2026-09-16 | Agentic Reflection: How Autonomous Systems Examine Their Own Performance and Learn From Experience | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-16-Agentic-Reflection|Agentic Reflection]] |
+| 2 | 2026-09-15 | Agentic Delegation: How Autonomous Systems Decide What to Handle Themselves and What to Pass On | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation|Agentic Delegation]] |
+| 2 | 2026-09-14 | Agentic Negotiation: How Autonomous Systems Resolve Conflicts, Find Compromises, and Reach Agreements | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation|Agentic Negotiation]] |
 | 2 | 2026-09-13 | Agentic Calibration: How Autonomous Systems Adjust Their Confidence and Behavior to Match Reality | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration|Agentic Calibration]] |
 | 2 | 2026-09-12 | Agentic Orchestration: How Autonomous Systems Coordinate Multiple Agents, Tasks, and Dependencies Without Losing Coherence | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-12-Agentic-Orchestration|Agentic Orchestration]] |
 | 2 | 2026-09-11 | Agentic Verification: How Autonomous Systems Check Their Own Work Before Acting | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-11-Agentic-Verification|Agentic Verification]] |
@@ -72,6 +74,8 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-16-Agentic-Reflection|Agentic Reflection]] — Performance reconstruction, causal attribution, insight extraction, reflection integration
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation|Agentic Delegation]] — Capability mapping, delegation routing, quality verification, delegation learning
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation|Agentic Negotiation]] — Interest modeling, option generation, concession strategy, agreement verification
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration|Agentic Calibration]] — Confidence-accuracy tracking, threshold adaptation, feedback loop compression
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-12-Agentic-Orchestration|Agentic Orchestration]] — Dependency-aware scheduling, contract-based handoffs, failure containment
