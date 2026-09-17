@@ -6,17 +6,17 @@ updated: 2026-09-01
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-09-14 (daily maintenance)
+> Last updated: 2026-09-16 (daily maintenance)
 
 ## Health: 100/100 (A)
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 102 |
-| Wikilinks | 651 |
-| Link Density | ~6.4/note |
+| Total Notes | 107 |
+| Wikilinks | 645 |
+| Link Density | ~6.0/note |
 | Orphans | 0 |
-| Dead Ends | 0 |
+| Dead Ends | 3 |
 | Untagged | 0 |
 | Broken Links | 0 |
 
@@ -31,6 +31,8 @@ updated: 2026-09-01
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## Recent Updates
+- 2026-09-16: [[2026-09-16]] — Published "Agentic Reflection" blog post (T-RF1 through T-RF5), 1,135 words
+- 2026-09-15: [[2026-09-15]] — Published "Agentic Delegation" blog post (T-DL1 through T-DL5), 1,180 words
 - 2026-09-14: [[2026-09-14]] — Published "Agentic Negotiation" blog post (T-NG1 through T-NG5), 1,136 words
 - 2026-09-13: [[2026-09-13]] — Daily maintenance: 102 notes, 651 wikilinks, 0 broken, graph regenerated
 - 2026-09-13: [[2026-09-13]] — Published "Agentic Calibration" blog post (T-CA1 through T-CA5), 1,099 words

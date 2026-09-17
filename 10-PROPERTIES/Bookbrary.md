@@ -30,6 +30,8 @@ aliases: [Bookbrary Platform, Book Library]
 
 ## Integration Points
 
+> Story Engine is Bookbrary's book-generation backend (one product, not two separate properties). Bookbrary is the reader frontend; Story Engine generates the books it displays.
+
 | From | To | Mechanism |
 |------|-----|-----------|
 | Story Engine | Supabase `books`/`chapters` | Direct push via `push_series_to_supabase()` |

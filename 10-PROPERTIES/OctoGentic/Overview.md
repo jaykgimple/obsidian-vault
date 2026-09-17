@@ -13,9 +13,15 @@ aliases: [OctoGentic Portfolio, OctoGentic — Portfolio]
 > Related: → [[Implementation-Tracker]], → [[Blog-Index]], → [[10-PROPERTIES/OctoGentic/Objectives]]
 
 ## Properties in Portfolio
-1. → [[10-PROPERTIES/Story-Engine/Overview|Story Engine — Overview]] — Agentic book generation
-2. → [[Bookbrary]] — Supabase-backed reader
+1. → [[Bookbrary]] — Supabase-backed reader (Story Engine is its book-generation backend)
+2. → [[10-PROPERTIES/Story-Engine/Overview|Story Engine]] — Book-generation backend that powers Bookbrary
 3. → [[RoleFresh]] — Role-based matching
+4. → [[10-PROPERTIES/Darcron|Darcron]] — Autonomous AI software factory
+5. → [[10-PROPERTIES/OmniVoke|OmniVoke]] — Video/TTS generation & publishing
+6. → [[10-PROPERTIES/Newtradium|Newtradium]] — AI trading platform
+7. → [[10-PROPERTIES/LucentSkill|LucentSkill]] — AI upskilling LMS + Prism
+
+> Note: Story Engine and Bookbrary are one product. Story Engine is the generation backend; Bookbrary is the reader frontend that displays what it produces.
 
 ## Agent Roster
 - → [[10-PROPERTIES/OctoGentic/Overview|Agent: Portfolio Orchestrator]]

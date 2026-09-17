@@ -1,15 +1,15 @@
 {
   "meta": {
-    "total_nodes": 96,
-    "total_links": 626,
+    "total_nodes": 108,
+    "total_links": 688,
     "groups": [
-      "00-META",
-      "40-LOGS",
-      "30-PATTERNS",
       "20-AGENTS",
-      "10-PROPERTIES"
+      "10-PROPERTIES",
+      "30-PATTERNS",
+      "00-META",
+      "40-LOGS"
     ],
-    "last_updated": "2026-09-11T08:09:54.328253+00:00"
+    "last_updated": "2026-09-16T08:05:11.500148+00:00"
   },
   "nodes": [
     {
@@ -19,8 +19,8 @@
       "tags": [],
       "status": "active",
       "path": "00-META/Home.md",
-      "links_count": 63,
-      "inbound_count": 18
+      "links_count": 70,
+      "inbound_count": 26
     },
     {
       "id": "00-META/Compound-Effect",
@@ -37,10 +37,10 @@
       "title": "Architecture",
       "group": "00-META",
       "tags": [
-        "lesson",
         "decision",
-        "pattern",
-        "agent"
+        "lesson",
+        "agent",
+        "pattern"
       ],
       "status": "active",
       "path": "00-META/Architecture.md",
@@ -172,7 +172,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-11.md",
       "links_count": 5,
-      "inbound_count": 2
+      "inbound_count": 4
     },
     {
       "id": "40-LOGS/2026-08-25",
@@ -225,7 +225,7 @@
       "tags": [],
       "status": "active",
       "path": "40-LOGS/vault-analysis-latest.md",
-      "links_count": 2,
+      "links_count": 0,
       "inbound_count": 1
     },
     {
@@ -285,6 +285,26 @@
       "inbound_count": 3
     },
     {
+      "id": "40-LOGS/2026-09-12",
+      "title": "2026-09-12",
+      "group": "40-LOGS",
+      "tags": [],
+      "status": "active",
+      "path": "40-LOGS/2026-09-12.md",
+      "links_count": 5,
+      "inbound_count": 4
+    },
+    {
+      "id": "40-LOGS/2026-09-16",
+      "title": "2026-09-16",
+      "group": "40-LOGS",
+      "tags": [],
+      "status": "active",
+      "path": "40-LOGS/2026-09-16.md",
+      "links_count": 5,
+      "inbound_count": 1
+    },
+    {
       "id": "40-LOGS/2026-09-02",
       "title": "2026-09-02",
       "group": "40-LOGS",
@@ -340,6 +360,16 @@
       "inbound_count": 9
     },
     {
+      "id": "40-LOGS/2026-09-14",
+      "title": "2026-09-14",
+      "group": "40-LOGS",
+      "tags": [],
+      "status": "active",
+      "path": "40-LOGS/2026-09-14.md",
+      "links_count": 6,
+      "inbound_count": 3
+    },
+    {
       "id": "40-LOGS/2026-08-30",
       "title": "2026-08-30",
       "group": "40-LOGS",
@@ -391,6 +421,26 @@
       "status": "active",
       "path": "40-LOGS/2026-08-22.md",
       "links_count": 3,
+      "inbound_count": 4
+    },
+    {
+      "id": "40-LOGS/2026-09-15",
+      "title": "2026-09-15",
+      "group": "40-LOGS",
+      "tags": [],
+      "status": "active",
+      "path": "40-LOGS/2026-09-15.md",
+      "links_count": 5,
+      "inbound_count": 3
+    },
+    {
+      "id": "40-LOGS/2026-09-13",
+      "title": "2026-09-13",
+      "group": "40-LOGS",
+      "tags": [],
+      "status": "active",
+      "path": "40-LOGS/2026-09-13.md",
+      "links_count": 5,
       "inbound_count": 4
     },
     {
@@ -457,7 +507,7 @@
       "status": "active",
       "path": "30-PATTERNS/Compounding-Knowledge.md",
       "links_count": 6,
-      "inbound_count": 26
+      "inbound_count": 31
     },
     {
       "id": "30-PATTERNS/Review-and-Revision",
@@ -497,7 +547,7 @@
       "status": "active",
       "path": "20-AGENTS/Agent-Objectives.md",
       "links_count": 4,
-      "inbound_count": 8
+      "inbound_count": 13
     },
     {
       "id": "10-PROPERTIES/LucentSkill-Teams-Scoped-Content",
@@ -524,8 +574,8 @@
       "title": "RoleFresh",
       "group": "10-PROPERTIES",
       "tags": [
-        "41324",
-        "Agent"
+        "Agent",
+        "41324"
       ],
       "status": "active",
       "path": "10-PROPERTIES/RoleFresh.md",
@@ -583,7 +633,7 @@
       ],
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Overview.md",
-      "links_count": 20,
+      "links_count": 22,
       "inbound_count": 26
     },
     {
@@ -663,6 +713,18 @@
       "inbound_count": 2
     },
     {
+      "id": "10-PROPERTIES/Story-Engine/Lessons/Gender-Anchor-FIXED",
+      "title": "Gender-Anchor-FIXED",
+      "group": "10-PROPERTIES",
+      "tags": [
+        "1"
+      ],
+      "status": "active",
+      "path": "10-PROPERTIES/Story-Engine/Lessons/Gender-Anchor-FIXED.md",
+      "links_count": 1,
+      "inbound_count": 1
+    },
+    {
       "id": "10-PROPERTIES/Story-Engine/Lessons/Cover-Upload",
       "title": "Cover-Upload",
       "group": "10-PROPERTIES",
@@ -671,6 +733,16 @@
       "path": "10-PROPERTIES/Story-Engine/Lessons/Cover-Upload.md",
       "links_count": 1,
       "inbound_count": 2
+    },
+    {
+      "id": "10-PROPERTIES/Story-Engine/Lessons/Gender-Anchor-Object-Desync",
+      "title": "Gender-Anchor-Object-Desync",
+      "group": "10-PROPERTIES",
+      "tags": [],
+      "status": "active",
+      "path": "10-PROPERTIES/Story-Engine/Lessons/Gender-Anchor-Object-Desync.md",
+      "links_count": 0,
+      "inbound_count": 3
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Objectives",
@@ -700,7 +772,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Key-Takeaways.md",
       "links_count": 1,
-      "inbound_count": 18
+      "inbound_count": 23
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog-Index",
@@ -709,8 +781,8 @@
       "tags": [],
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog-Index.md",
-      "links_count": 41,
-      "inbound_count": 16
+      "links_count": 51,
+      "inbound_count": 20
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Overview",
@@ -751,6 +823,16 @@
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-20-Agentic-Metacognition.md",
       "links_count": 4,
       "inbound_count": 13
+    },
+    {
+      "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-12-Agentic-Orchestration",
+      "title": "2026-09-12-Agentic-Orchestration",
+      "group": "10-PROPERTIES",
+      "tags": [],
+      "status": "active",
+      "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-12-Agentic-Orchestration.md",
+      "links_count": 2,
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-06-Agentic-Reasoning",
@@ -873,6 +955,18 @@
       "inbound_count": 10
     },
     {
+      "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration",
+      "title": "2026-09-13-Agentic-Calibration",
+      "group": "10-PROPERTIES",
+      "tags": [
+        "89"
+      ],
+      "status": "active",
+      "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration.md",
+      "links_count": 4,
+      "inbound_count": 4
+    },
+    {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop",
       "title": "2026-06-25-Feedback-Loop",
       "group": "10-PROPERTIES",
@@ -903,6 +997,18 @@
       "inbound_count": 4
     },
     {
+      "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation",
+      "title": "2026-09-14-Agentic-Negotiation",
+      "group": "10-PROPERTIES",
+      "tags": [
+        "90"
+      ],
+      "status": "active",
+      "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation.md",
+      "links_count": 4,
+      "inbound_count": 4
+    },
+    {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-26-Agentic-Uncertainty",
       "title": "2026-08-26-Agentic-Uncertainty",
       "group": "10-PROPERTIES",
@@ -911,6 +1017,18 @@
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-26-Agentic-Uncertainty.md",
       "links_count": 14,
       "inbound_count": 10
+    },
+    {
+      "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation",
+      "title": "2026-09-15-Agentic-Delegation",
+      "group": "10-PROPERTIES",
+      "tags": [
+        "91"
+      ],
+      "status": "active",
+      "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation.md",
+      "links_count": 4,
+      "inbound_count": 4
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition",
@@ -950,7 +1068,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-10-Agentic-Decision-Making.md",
       "links_count": 7,
-      "inbound_count": 8
+      "inbound_count": 6
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-07-Agentic-Synthesis",
@@ -960,6 +1078,18 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-07-Agentic-Synthesis.md",
       "links_count": 5,
+      "inbound_count": 2
+    },
+    {
+      "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-16-Agentic-Reflection",
+      "title": "2026-09-16-Agentic-Reflection",
+      "group": "10-PROPERTIES",
+      "tags": [
+        "92"
+      ],
+      "status": "active",
+      "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-16-Agentic-Reflection.md",
+      "links_count": 4,
       "inbound_count": 2
     },
     {
@@ -1034,6 +1164,41 @@
     }
   ],
   "links": [
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-09-16",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-09-15",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-09-14",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-09-13",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-09-13",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-09-12",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-META/Home",
+      "target": "40-LOGS/2026-09-12",
+      "type": "wikilink"
+    },
     {
       "source": "00-META/Home",
       "target": "40-LOGS/2026-09-11",
@@ -1700,16 +1865,6 @@
       "type": "wikilink"
     },
     {
-      "source": "40-LOGS/vault-analysis-latest",
-      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-10-Agentic-Decision-Making",
-      "type": "wikilink"
-    },
-    {
-      "source": "40-LOGS/vault-analysis-latest",
-      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-10-Agentic-Decision-Making",
-      "type": "wikilink"
-    },
-    {
       "source": "40-LOGS/2026-09-06",
       "target": "40-LOGS/2026-09-05",
       "type": "wikilink"
@@ -1777,6 +1932,56 @@
     {
       "source": "40-LOGS/2026-08-18",
       "target": "10-PROPERTIES/OctoGentic/Overview",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-12",
+      "target": "00-META/Home",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-12",
+      "target": "40-LOGS/2026-09-11",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-12",
+      "target": "20-AGENTS/Agent-Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-12",
+      "target": "30-PATTERNS/Compounding-Knowledge",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-12",
+      "target": "40-LOGS/2026-09-11",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-16",
+      "target": "00-META/Home",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-16",
+      "target": "40-LOGS/2026-09-15",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-16",
+      "target": "20-AGENTS/Agent-Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-16",
+      "target": "30-PATTERNS/Compounding-Knowledge",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-16",
+      "target": "40-LOGS/2026-09-15",
       "type": "wikilink"
     },
     {
@@ -1930,6 +2135,36 @@
       "type": "wikilink"
     },
     {
+      "source": "40-LOGS/2026-09-14",
+      "target": "00-META/Home",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-14",
+      "target": "40-LOGS/2026-09-13",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-14",
+      "target": "10-PROPERTIES/Story-Engine/Lessons/Gender-Anchor-Object-Desync",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-14",
+      "target": "20-AGENTS/Agent-Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-14",
+      "target": "30-PATTERNS/Compounding-Knowledge",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-14",
+      "target": "40-LOGS/2026-09-13",
+      "type": "wikilink"
+    },
+    {
       "source": "40-LOGS/2026-08-30",
       "target": "40-LOGS/2026-08-29",
       "type": "wikilink"
@@ -1982,6 +2217,56 @@
     {
       "source": "40-LOGS/2026-08-22",
       "target": "10-PROPERTIES/OctoGentic/Overview",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-15",
+      "target": "00-META/Home",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-15",
+      "target": "40-LOGS/2026-09-14",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-15",
+      "target": "20-AGENTS/Agent-Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-15",
+      "target": "30-PATTERNS/Compounding-Knowledge",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-15",
+      "target": "40-LOGS/2026-09-14",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-13",
+      "target": "00-META/Home",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-13",
+      "target": "40-LOGS/2026-09-12",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-13",
+      "target": "20-AGENTS/Agent-Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-13",
+      "target": "30-PATTERNS/Compounding-Knowledge",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-09-13",
+      "target": "40-LOGS/2026-09-12",
       "type": "wikilink"
     },
     {
@@ -2516,6 +2801,16 @@
     },
     {
       "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/Story-Engine/Lessons/Gender-Anchor-Object-Desync",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/Story-Engine/Lessons/Gender-Anchor-FIXED",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/Story-Engine/Overview",
       "target": "30-PATTERNS/Self-Healing-Pipelines",
       "type": "wikilink"
     },
@@ -2695,6 +2990,11 @@
       "type": "wikilink"
     },
     {
+      "source": "10-PROPERTIES/Story-Engine/Lessons/Gender-Anchor-FIXED",
+      "target": "10-PROPERTIES/Story-Engine/Lessons/Gender-Anchor-Object-Desync",
+      "type": "wikilink"
+    },
+    {
       "source": "10-PROPERTIES/Story-Engine/Lessons/Cover-Upload",
       "target": "10-PROPERTIES/Story-Engine/Pipeline",
       "type": "wikilink"
@@ -2742,6 +3042,31 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Blog-Index",
       "target": "10-PROPERTIES/Story-Engine/Overview",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-16-Agentic-Reflection",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-12-Agentic-Orchestration",
       "type": "wikilink"
     },
     {
@@ -2862,6 +3187,31 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Blog-Index",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-16-Agentic-Reflection",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-12-Agentic-Orchestration",
       "type": "wikilink"
     },
     {
@@ -3205,6 +3555,16 @@
       "type": "wikilink"
     },
     {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-12-Agentic-Orchestration",
+      "target": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-12-Agentic-Orchestration",
+      "target": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "type": "wikilink"
+    },
+    {
       "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-06-Agentic-Reasoning",
       "target": "10-PROPERTIES/Story-Engine/Overview",
       "type": "wikilink"
@@ -3645,6 +4005,26 @@
       "type": "wikilink"
     },
     {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration",
+      "target": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration",
+      "target": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration",
+      "target": "00-META/Home",
+      "type": "wikilink"
+    },
+    {
       "source": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop",
       "target": "10-PROPERTIES/OctoGentic/Blog-Index",
       "type": "wikilink"
@@ -3720,6 +4100,26 @@
       "type": "wikilink"
     },
     {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation",
+      "target": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation",
+      "target": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation",
+      "target": "00-META/Home",
+      "type": "wikilink"
+    },
+    {
       "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-26-Agentic-Uncertainty",
       "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
@@ -3787,6 +4187,26 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-26-Agentic-Uncertainty",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-26-Agentic-Uncertainty",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation",
+      "target": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation",
+      "target": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation",
+      "target": "00-META/Home",
       "type": "wikilink"
     },
     {
@@ -4007,6 +4427,26 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-07-Agentic-Synthesis",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-16-Agentic-Reflection",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-16-Agentic-Reflection",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-16-Agentic-Reflection",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-16-Agentic-Reflection",
+      "target": "10-PROPERTIES/OctoGentic/Key-Takeaways",
       "type": "wikilink"
     },
     {

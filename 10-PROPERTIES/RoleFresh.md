@@ -33,6 +33,8 @@ aliases: [RoleFresh Platform, Resume Tool]
 - Supabase project status reports `ACTIVE_HEALTHY` but the `db` service health is `UNHEALTHY`. Auth (GoTrue) still healthy.
 - Matches known Supabase class of issue: Pooler/SQL-runner cannot reach DB over IPv6 (see supabase discussion #41324).
 - **Fix owner:** Jay (needs Supabase-side intervention; not recoverable from local creds).
+- **Status 2026-09-14:** Still down. Fresh Bytes cron run wrote + queued "You Don't Need to Be an AI Engineer..." (Tips & Tricks, 1270 words); confirmed postgREST `PGRST002` (schema-cache, DB unreachable), management-API SQL runner throttled/refusing, stale `sb_secret_ShCb3...` key invalid. 6 posts now queued in `scripts/pending_fresh_bytes_post*.json`. Fix still owned by Jay.
+- **Status 2026-09-15:** Still down. Confirmed at TCP/pooler level: `aws-1-us-east-1.pooler.supabase.com` returns `EAUTHQUERY (authentication query failed: connection to database not available)`, management-API SQL runner still `429 ThrottlerException`. Fresh Bytes cron run wrote + queued "The 2026 Comeback..." (Triumphs, 1258 words) → `scripts/pending_fresh_bytes_post_2026-comeback.json`. 7 posts now queued. Fix still owned by Jay.
 
 ## 📝 Latent issue: stale service_role key
 
@@ -43,6 +45,10 @@ aliases: [RoleFresh Platform, Resume Tool]
 - `scripts/pending_fresh_bytes_post.json` — "Application Fatigue..." (Troubles, ~Sep 1)
 - `scripts/pending_fresh_bytes_post_ghost-jobs.json` — "Ghost Jobs Are Everywhere..." (Industry Trends, 1305 words, Sep 8)
 - `scripts/pending_fresh_bytes_post_recruiter-ghosting.json` — "Radio Silence: Why Recruiters Ghost You..." (Troubles, 1359 words, Sep 9)
+- `scripts/pending_fresh_bytes_post_ai-gatekeeper.json` — "AI Is Now the Gatekeeper..." (Tips & Tricks, 1210 words, Sep 10)
+- `scripts/pending_fresh_bytes_post_ai-redundancy-washing.json` — "AI Didn't Take Your Job..." (Industry Trends, 1222 words, Sep 11)
+- `scripts/pending_fresh_bytes_post_ai-fluency.json` — "You Don't Need to Be an AI Engineer..." (Tips & Tricks, 1270 words, Sep 14)
+- `scripts/pending_fresh_bytes_post_2026-comeback.json` — "The 2026 Comeback..." (Triumphs, 1258 words, Sep 15)
 
 ## Agent Relevance
 

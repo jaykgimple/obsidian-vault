@@ -9,9 +9,44 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **90** blog posts.
+> Consolidated signal from all **93** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[Overview]]
+
+---
+
+## 🔷 POST: Agentic Timing: How Autonomous Systems Decide When to Act (2026-09-17)
+
+### Key Takeaways
+
+- [ ] **T-TM1: Assess Signal Maturity, Not Just Signal Strength** — A strong signal can be immature. Track the signal lifecycle (emergence, maturity, peak, decay) and act when the signal is mature, not when it is loudest.
+- [ ] **T-TM2: Compute the Opportunity Cost of Waiting** — Every timing decision is a comparison between acting now and waiting for a better moment. Model the expected value of both choices explicitly.
+- [ ] **T-TM3: Set Commitment Thresholds to Prevent Oscillation** — Once the agent acts, define how much adverse movement is normal noise versus a broken thesis. Calibrate thresholds to the signal type and update from outcomes.
+- [ ] **T-TM4: Connect Timing to the Full Agentic Stack** — Timing depends on grounding (verify signals are real), reasoning (model future states), calibration (set accurate thresholds), and reflection (learn from timing outcomes).
+
+---
+
+## 🔷 POST: Agentic Reflection: How Autonomous Systems Examine Their Own Performance and Learn From Experience (2026-09-16)
+
+### Key Takeaways
+
+- [ ] **T-RF1: Reconstruct Before Reflecting** — Capture the full decision context before attempting to learn from outcomes.
+- [ ] **T-RF2: Attribute Causality Accurately** — Distinguish between agent-controlled and environmental factors.
+- [ ] **T-RF3: Extract Insights at Multiple Levels** — Tactical insights correct specific errors; strategic insights correct systematic biases.
+- [ ] **T-RF4: Control Integration, Don't Automate It** — Not every insight warrants immediate behavioral change.
+- [ ] **T-RF5: Connect Reflection to the Full Agentic Stack** — Reflection depends on memory, reasoning, calibration, and learning.
+
+---
+
+## 🔷 POST: Agentic Delegation: How Autonomous Systems Decide What to Handle Themselves and What to Pass On (2026-09-15)
+
+### Key Takeaways
+
+- [ ] **T-DL1: Map Capabilities Before Delegating** — Maintain a living capability registry that tracks every agent's specialties, current load, and reliability. Update it continuously as agents demonstrate competence or reveal gaps. An agent that does not know what others can do cannot delegate intelligently.
+- [ ] **T-DL2: Route Based on Fit, Not Just Availability** — Consider task requirements, agent specialties, current load, and reliability history. The most available agent is not always the right one. Routing is a decision that should be evaluated with the same rigor as any other decision in the stack.
+- [ ] **T-DL3: Verify Delegated Work, Do Not Trust It Blindly** — Every delegated task must produce a verifiable output that the delegating agent checks against requirements. Scale verification depth based on delegation distance: lighter for well-known agents, deeper for new agents or novel tasks.
+- [ ] **T-DL4: Update Capability Maps Continuously** — Static delegation maps become stale as agent capabilities shift. An agent that improves its skills should receive more tasks in that domain. An agent that drifts should receive fewer. Let delegation outcomes drive the map.
+- [ ] **T-DL5: Connect Delegation to the Full Agentic Stack** — Delegation does not operate in isolation. It depends on prioritization to determine which tasks deserve attention, orchestration to coordinate multi-agent workflows, verification to validate delegated outputs, and negotiation to resolve conflicts over resource allocation. Delegation is the capability that turns individual agents into a functioning, scalable system.
 
 ---
 
@@ -212,7 +247,7 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 | Operations | ~27 | Reliability, self-healing & production engineering |
 | Growth & Governance | ~28 | Scaling, governance & goals |
 | Verification & Grounding | 10 | Grounding, calibration, truth |
-|| **Total** | **299** | |
+|| **Total** | **303** | |
 
 ---
 

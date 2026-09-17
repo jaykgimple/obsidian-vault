@@ -8,14 +8,15 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 92 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 93 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-| 1 | 2026-09-16 | Agentic Reflection: How Autonomous Systems Examine Their Own Performance and Learn From Experience | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-16-Agentic-Reflection|Agentic Reflection]] |
+| 1 | 2026-09-17 | Agentic Timing: How Autonomous Systems Decide When to Act | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-17-Agentic-Timing|Agentic Timing]] |
+| 2 | 2026-09-16 | Agentic Reflection: How Autonomous Systems Examine Their Own Performance and Learn From Experience | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-16-Agentic-Reflection|Agentic Reflection]] |
 | 2 | 2026-09-15 | Agentic Delegation: How Autonomous Systems Decide What to Handle Themselves and What to Pass On | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation|Agentic Delegation]] |
 | 2 | 2026-09-14 | Agentic Negotiation: How Autonomous Systems Resolve Conflicts, Find Compromises, and Reach Agreements | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation|Agentic Negotiation]] |
 | 2 | 2026-09-13 | Agentic Calibration: How Autonomous Systems Adjust Their Confidence and Behavior to Match Reality | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration|Agentic Calibration]] |
@@ -74,6 +75,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-17-Agentic-Timing|Agentic Timing]] — Signal maturity, opportunity cost of waiting, commitment thresholds
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-16-Agentic-Reflection|Agentic Reflection]] — Performance reconstruction, causal attribution, insight extraction, reflection integration
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation|Agentic Delegation]] — Capability mapping, delegation routing, quality verification, delegation learning
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation|Agentic Negotiation]] — Interest modeling, option generation, concession strategy, agreement verification

@@ -45,6 +45,8 @@ User submits series (→ [[Bookbrary|Bookbrary Submission Form]])
 - → [[Chapter-Backfill]]
 - → [[Cover-Upload]]
 - → [[Queue-Desync]]
+- → [[10-PROPERTIES/Story-Engine/Lessons/Gender-Anchor-Object-Desync|Lesson: Gender Anchor Object Desync]]
+- → [[10-PROPERTIES/Story-Engine/Lessons/Gender-Anchor-FIXED|Lesson: Gender Anchor FIXED]]
 
 ## Related Patterns
 - → [[Self-Healing-Pipelines]]
