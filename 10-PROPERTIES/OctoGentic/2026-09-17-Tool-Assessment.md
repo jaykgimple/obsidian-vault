@@ -7,6 +7,8 @@ status: active
 
 # Tool Assessment vs OctoGentic Goal (2026-09-17)
 
+> Part of → [[10-PROPERTIES/OctoGentic/Overview|OctoGentic Portfolio]] ← [[10-PROPERTIES/OctoGentic/Implementation-Tracker|Implementation Tracker]]
+
 Decided against the OctoGentic thesis: cross-property signal loop, self-healing, compounding value, minimal operator overhead.
 
 ## Scrapling — ADOPTED

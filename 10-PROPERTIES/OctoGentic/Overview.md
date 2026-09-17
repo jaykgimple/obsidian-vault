@@ -32,6 +32,7 @@ aliases: [OctoGentic Portfolio, OctoGentic — Portfolio]
 ## Knowledge Assets
 - → [[Key-Takeaways]] — 11 takeaways × 26 blog posts
 - Blog posts in → [[10-PROPERTIES/OctoGentic/Blog-Index|OctoGentic Blog Index]] folder
+- Tool decisions: → [[10-PROPERTIES/OctoGentic/2026-09-17-Tool-Assessment|Tool Assessment 2026-09-17]]
 
 ## The Compounding Thesis
 Read: → [[Compound-Effect]]

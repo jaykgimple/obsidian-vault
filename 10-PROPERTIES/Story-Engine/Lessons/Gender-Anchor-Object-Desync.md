@@ -8,6 +8,7 @@ status: active
 # Lesson: Forged Memories B1Ch9 surfaced 3 continuity root-causes
 
 > Run: series_id=3 ("Forged Memories"). 2 segments marked 'error', non-blocking.
+> Related: → [[10-PROPERTIES/Story-Engine/Overview|Story Engine]] ← [[10-PROPERTIES/Story-Engine/Pipeline]] ← [[10-PROPERTIES/Story-Engine/Lessons/Gender-Anchor-FIXED|Gender Anchor FIXED]]
 
 ## Findings (segment ids + one-line quote)
 
