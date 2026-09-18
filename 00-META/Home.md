@@ -31,7 +31,8 @@ updated: 2026-09-01
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## Recent Updates
-- 2026-09-16: [[2026-09-16]] — Published "Agentic Reflection" blog post (T-RF1 through T-RF5), 1,135 words
+- 2026-09-18: [[2026-09-18]] — Published "Agentic Handoff" blog post (T-HF1 through T-HF5), 1,152 words
+- 2026-09-17: [[2026-09-17]] — Published "Agentic Timing" blog post (T-TM1 through T-TM4), 1,133 words
 - 2026-09-15: [[2026-09-15]] — Published "Agentic Delegation" blog post (T-DL1 through T-DL5), 1,180 words
 - 2026-09-14: [[2026-09-14]] — Published "Agentic Negotiation" blog post (T-NG1 through T-NG5), 1,136 words
 - 2026-09-13: [[2026-09-13]] — Daily maintenance: 102 notes, 651 wikilinks, 0 broken, graph regenerated
