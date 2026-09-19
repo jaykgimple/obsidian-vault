@@ -9,9 +9,21 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **94** blog posts.
+> Consolidated signal from all **95** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[Overview]]
+
+---
+
+## 🔷 POST: Agentic Restraint: How Autonomous Systems Know When Not to Act (2026-09-19)
+
+### Key Takeaways
+
+- [ ] **T-RT1: Model the Counterfactual Explicitly** — Before acting, estimate what happens if you do not act. Restraint without a counterfactual model is guesswork. Build the model from historical data on unacted situations, even though the data is harder to collect than action outcomes.
+- [ ] **T-RT2: Build Restraint Triggers as a Separate Category** — Do not try to encode restraint as the inverse of action triggers. Restraint triggers should detect specific patterns where action is likely harmful: low confidence with high stakes, conflicting signals, or situations that match past false positives.
+- [ ] **T-RT3: Make the Cost of Unnecessary Action Visible** — Track the cost of actions that should not have been taken. This makes the value of restraint measurable and prevents the system from drifting toward action bias.
+- [ ] **T-RT4: Verify Restraint Decisions Afterward** — After choosing not to act, verify whether restraint was correct. This closes the learning loop and prevents the system from becoming either reckless or paralyzed.
+- [ ] **T-RT5: Connect Restraint to the Full Agentic Stack** — Restraint depends on calibration to assess confidence, grounding to verify the situation, timing to know the moment, and reflection to learn from outcomes. Restraint is what keeps the rest of the stack from acting itself into trouble.
 
 ---
 
@@ -252,18 +264,29 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 | Dimension | Takeaways | Impact |
 |-----------|-----------|--------|
-| Architecture | ~40 | Foundation for all agent design |
+| Architecture | ~45 | Foundation for all agent design |
 | Feedback & Learning | ~18 | Compounding loop mechanics |
 | Economics | 15 | Cost/benefit optimization |
 | Human Interaction | ~20 | Trust and UX patterns |
 | Operations | ~27 | Reliability, self-healing & production engineering |
 | Growth & Governance | ~28 | Scaling, governance & goals |
 | Verification & Grounding | 10 | Grounding, calibration, truth |
-|| **Total** | **308** | |
+|| **Total** | **313** | |
 
 ---
 
 ## All Blog Posts with Takeaways
+
+### 2026-09-19 — Agentic Restraint: How Autonomous Systems Know When Not to Act
+Slug: `agentic-restraint-how-autonomous-systems-know-when-not-to-act` | Tags: agentic-ai, restraint, decision-making, production-systems, autonomy
+Excerpt: An agent that acts on every opportunity is an agent that eventually acts itself into trouble. Restraint is the capability that sits between having the power to act and choosing not to, and most agentic systems build it last.
+
+**Takeaways:**
+- **T-RT1: Model the Counterfactual Explicitly** — Before acting, estimate what happens if you do not act. Build the model from historical data on unacted situations.
+- **T-RT2: Build Restraint Triggers as a Separate Category** — Do not encode restraint as the inverse of action triggers. Detect patterns where action is likely harmful.
+- **T-RT3: Make the Cost of Unnecessary Action Visible** — Track the cost of actions that should not have been taken to make restraint measurable.
+- **T-RT4: Verify Restraint Decisions Afterward** — Verify whether restraint was correct to close the learning loop.
+- **T-RT5: Connect Restraint to the Full Agentic Stack** — Restraint depends on calibration, grounding, timing, and reflection.
 
 ### 2026-09-18 — Agentic Handoff: How Autonomous Systems Transfer Context and Control Between Agents
 Slug: `agentic-handoff-how-autonomous-systems-transfer-context-and-control-between-agents` | Tags: agentic-ai, handoff, multi-agent-systems, coordination, production-systems

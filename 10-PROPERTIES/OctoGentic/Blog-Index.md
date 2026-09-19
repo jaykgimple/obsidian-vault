@@ -8,14 +8,15 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 94 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 95 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-| 1 | 2026-09-18 | Agentic Handoff: How Autonomous Systems Transfer Context and Control Between Agents | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-18-Agentic-Handoff|Agentic Handoff]] |
+| 1 | 2026-09-19 | Agentic Restraint: How Autonomous Systems Know When Not to Act | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-19-Agentic-Restraint|Agentic Restraint]] |
+| 2 | 2026-09-18 | Agentic Handoff: How Autonomous Systems Transfer Context and Control Between Agents | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-18-Agentic-Handoff|Agentic Handoff]] |
 | 2 | 2026-09-17 | Agentic Timing: How Autonomous Systems Decide When to Act | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-17-Agentic-Timing|Agentic Timing]] |
 | 2 | 2026-09-16 | Agentic Reflection: How Autonomous Systems Examine Their Own Performance and Learn From Experience | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-16-Agentic-Reflection|Agentic Reflection]] |
 | 2 | 2026-09-15 | Agentic Delegation: How Autonomous Systems Decide What to Handle Themselves and What to Pass On | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation|Agentic Delegation]] |
@@ -76,6 +77,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-19-Agentic-Restraint|Agentic Restraint]] — Counterfactual modeling, restraint triggers, silence verification
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-18-Agentic-Handoff|Agentic Handoff]] — Context packaging, state synchronization, responsibility contracts
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-17-Agentic-Timing|Agentic Timing]] — Signal maturity, opportunity cost of waiting, commitment thresholds
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-16-Agentic-Reflection|Agentic Reflection]] — Performance reconstruction, causal attribution, insight extraction, reflection integration

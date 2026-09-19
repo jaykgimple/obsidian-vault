@@ -31,6 +31,7 @@ updated: 2026-09-01
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## Recent Updates
+- 2026-09-19: [[2026-09-19]] — Published "Agentic Restraint" blog post (T-RT1 through T-RT5), 1,300 words
 - 2026-09-18: [[2026-09-18]] — Published "Agentic Handoff" blog post (T-HF1 through T-HF5), 1,152 words
 - 2026-09-17: [[2026-09-17]] — Published "Agentic Timing" blog post (T-TM1 through T-TM4), 1,133 words
 - 2026-09-15: [[2026-09-15]] — Published "Agentic Delegation" blog post (T-DL1 through T-DL5), 1,180 words
