@@ -35,6 +35,8 @@ aliases: [RoleFresh Platform, Resume Tool]
 - **Fix owner:** Jay (needs Supabase-side intervention; not recoverable from local creds).
 - **Status 2026-09-14:** Still down. Fresh Bytes cron run wrote + queued "You Don't Need to Be an AI Engineer..." (Tips & Tricks, 1270 words); confirmed postgREST `PGRST002` (schema-cache, DB unreachable), management-API SQL runner throttled/refusing, stale `sb_secret_ShCb3...` key invalid. 6 posts now queued in `scripts/pending_fresh_bytes_post*.json`. Fix still owned by Jay.
 - **Status 2026-09-15:** Still down. Confirmed at TCP/pooler level: `aws-1-us-east-1.pooler.supabase.com` returns `EAUTHQUERY (authentication query failed: connection to database not available)`, management-API SQL runner still `429 ThrottlerException`. Fresh Bytes cron run wrote + queued "The 2026 Comeback..." (Triumphs, 1258 words) → `scripts/pending_fresh_bytes_post_2026-comeback.json`. 7 posts now queued. Fix still owned by Jay.
+- **Status 2026-09-18:** Still down. Project still reports `ACTIVE_HEALTHY` via management API but `db` service unreachable. Re-confirmed all paths fail: management-API SQL runner `429 ThrottlerException` + `ECONNREFUSED 2600:1f18:7d97:f601:a70b:3206:2145:7b95:5432`; pooler `EAUTHQUERY (connection to database not available)`; postgREST anon `503` (schema-cache). Fresh Bytes cron run wrote + queued "The Ghosting Epidemic..." (Troubles, 1268 words) → `scripts/pending_fresh_bytes_post_ghosting-epidemic.json`. 8 posts now queued. Fix still owned by Jay.
+- **Status 2026-09-20:** Still down. `db` health service confirmed `UNHEALTHY` (`ECONNREFUSED 2600:1f18:7d97:f601:a70b:3206:2145:7b95:5432`) even as project reports `ACTIVE_HEALTHY`. All publish paths re-verified failing: management-API SQL runner `429 ThrottlerException`; pooler `EAUTHQUERY (connection to database not available)`; postgREST `PGRST002` (schema-cache). Fresh Bytes cron run wrote + queued "The 2026 Salary Script..." (Tips & Tricks, 1211 words) → `scripts/pending_fresh_bytes_post_salary-script.json`. 9 posts now queued. Fix still owned by Jay.
 
 ## 📝 Latent issue: stale service_role key
 
@@ -49,6 +51,8 @@ aliases: [RoleFresh Platform, Resume Tool]
 - `scripts/pending_fresh_bytes_post_ai-redundancy-washing.json` — "AI Didn't Take Your Job..." (Industry Trends, 1222 words, Sep 11)
 - `scripts/pending_fresh_bytes_post_ai-fluency.json` — "You Don't Need to Be an AI Engineer..." (Tips & Tricks, 1270 words, Sep 14)
 - `scripts/pending_fresh_bytes_post_2026-comeback.json` — "The 2026 Comeback..." (Triumphs, 1258 words, Sep 15)
+- `scripts/pending_fresh_bytes_post_ghosting-epidemic.json` — "The Ghosting Epidemic: Why Recruiters Went Silent..." (Troubles, 1268 words, Sep 18)
+- `scripts/pending_fresh_bytes_post_salary-script.json` — "The 2026 Salary Script: Negotiate Like You Have Leverage..." (Tips & Tricks, 1211 words, Sep 20)
 
 ## Agent Relevance
 

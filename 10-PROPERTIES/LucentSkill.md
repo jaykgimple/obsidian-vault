@@ -39,6 +39,8 @@ aliases: [LucentSkill Platform, lucentskill]
 ## Recent Work
 
 - [[LucentSkill-Teams-Scoped-Content]] — team entity + delegated lead (in flight)
+- [[10-PROPERTIES/LucentSkill/Accessibility-Audit]] — WCAG 2.2 AA audit (2026-09-18)
+- [[10-PROPERTIES/LucentSkill/Daily-Lumen-Blog]] — auto-published daily blog pipeline
 
 ## Notes
 
