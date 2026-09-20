@@ -9,9 +9,23 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **95** blog posts.
+> Consolidated signal from all **96** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[Overview]]
+
+
+
+---
+
+## 🔷 POST: Agentic Alignment: How Autonomous Systems Maintain Purpose While Adapting to Change (2026-09-20)
+
+### Key Takeaways
+
+- [ ] **T-AL1: Anchor Purpose Separately From Process.** Define the agent's objective function as a durable reference point that persists across adaptation cycles. Keep operational parameters flexible. When adaptation occurs, modify parameters, not purpose.
+- [ ] **T-AL2: Verify Alignment Independently.** The same drift that causes misalignment corrupts self-verification. Use independent criteria checking or separate verification agents to evaluate alignment. Trust, but verify from outside the agent's own reasoning chain.
+- [ ] **T-AL3: Log Adaptations Structured by Intent and Outcome.** Every adaptation should produce a record: what changed, why it was expected to help, and whether it actually did. This log is what makes divergence correction precise rather than blunt.
+- [ ] **T-AL4: Distinguish Alignment From Rigidity.** Perfect alignment with a stale purpose is just organized obsolescence. Allow purpose to evolve, but treat purpose evolution as the highest-stakes alignment decision, subject to the same verification as any other change.
+- [ ] **T-AL5: Connect Alignment to the Full Agentic Stack.** Alignment does not operate in isolation. It depends on purpose anchoring from goal architecture, verification from calibration, adaptation logging from memory, and divergence correction from self-healing. Alignment is the capability that keeps the rest of the stack pointed in the right direction.
 
 ---
 
@@ -264,18 +278,29 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 | Dimension | Takeaways | Impact |
 |-----------|-----------|--------|
-| Architecture | ~45 | Foundation for all agent design |
+|| Architecture | ~50 | Foundation for all agent design |
 | Feedback & Learning | ~18 | Compounding loop mechanics |
 | Economics | 15 | Cost/benefit optimization |
 | Human Interaction | ~20 | Trust and UX patterns |
 | Operations | ~27 | Reliability, self-healing & production engineering |
 | Growth & Governance | ~28 | Scaling, governance & goals |
 | Verification & Grounding | 10 | Grounding, calibration, truth |
-|| **Total** | **313** | |
+||| **Total** | **318** | |
 
 ---
 
 ## All Blog Posts with Takeaways
+
+### 2026-09-20 — Agentic Alignment: How Autonomous Systems Maintain Purpose While Adapting to Change
+Slug: `agentic-alignment-how-autonomous-systems-maintain-purpose-while-adapting-to-change` | Tags: agentic-ai, alignment, autonomy, production-systems, decision-making
+Excerpt: An agent that adapts to every signal it receives is an agent that eventually loses itself. Alignment is the capability that keeps autonomous systems true to their purpose while everything around them changes, and it is the capability most teams assume will take care of itself.
+
+**Takeaways:**
+- **T-AL1: Anchor Purpose Separately From Process.** Define the agent's objective function as a durable reference point that persists across adaptation cycles. Keep operational parameters flexible. When adaptation occurs, modify parameters, not purpose.
+- **T-AL2: Verify Alignment Independently.** The same drift that causes misalignment corrupts self-verification. Use independent criteria checking or separate verification agents to evaluate alignment.
+- **T-AL3: Log Adaptations Structured by Intent and Outcome.** Every adaptation should produce a record: what changed, why it was expected to help, and whether it actually did.
+- **T-AL4: Distinguish Alignment From Rigidity.** Perfect alignment with a stale purpose is just organized obsolescence. Allow purpose to evolve, but treat purpose evolution as the highest-stakes alignment decision.
+- **T-AL5: Connect Alignment to the Full Agentic Stack.** Alignment depends on purpose anchoring from goal architecture, verification from calibration, adaptation logging from memory, and divergence correction from self-healing.
 
 ### 2026-09-19 — Agentic Restraint: How Autonomous Systems Know When Not to Act
 Slug: `agentic-restraint-how-autonomous-systems-know-when-not-to-act` | Tags: agentic-ai, restraint, decision-making, production-systems, autonomy
