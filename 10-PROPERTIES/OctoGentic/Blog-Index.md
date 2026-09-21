@@ -15,7 +15,8 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-|| 1 | 2026-09-20 | Agentic Alignment: How Autonomous Systems Maintain Purpose While Adapting to Change | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-20-Agentic-Alignment|Agentic Alignment]] |
+| 1 | 2026-09-21 | Agentic Persistence: How Autonomous Systems Maintain Continuity Across Sessions, Restarts, and Failures | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-21-Agentic-Persistence|Agentic Persistence]] |
+| 1 | 2026-09-20 | Agentic Alignment: How Autonomous Systems Maintain Purpose While Adapting to Change | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-20-Agentic-Alignment|Agentic Alignment]] |
 || 1 | 2026-09-19 | Agentic Restraint: How Autonomous Systems Know When Not to Act | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-19-Agentic-Restraint|Agentic Restraint]] |
 | 2 | 2026-09-18 | Agentic Handoff: How Autonomous Systems Transfer Context and Control Between Agents | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-18-Agentic-Handoff|Agentic Handoff]] |
 | 2 | 2026-09-17 | Agentic Timing: How Autonomous Systems Decide When to Act | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-17-Agentic-Timing|Agentic Timing]] |
@@ -78,6 +79,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-21-Agentic-Persistence|Agentic Persistence]] — State serialization, context reconstruction, recovery protocols
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-20-Agentic-Alignment|Agentic Alignment]] — Purpose anchoring, alignment verification, divergence correction
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-19-Agentic-Restraint|Agentic Restraint]] — Counterfactual modeling, restraint triggers, silence verification
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-18-Agentic-Handoff|Agentic Handoff]] — Context packaging, state synchronization, responsibility contracts
