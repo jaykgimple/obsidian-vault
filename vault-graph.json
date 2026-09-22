@@ -1,15 +1,15 @@
 {
   "meta": {
-    "total_nodes": 126,
+    "total_nodes": 128,
     "total_links": 745,
     "groups": [
-      "40-LOGS",
+      "20-AGENTS",
       "30-PATTERNS",
-      "10-PROPERTIES",
       "00-META",
-      "20-AGENTS"
+      "40-LOGS",
+      "10-PROPERTIES"
     ],
-    "last_updated": "2026-09-21T08:02:36.702673+00:00"
+    "last_updated": "2026-09-22T08:03:38.585426+00:00"
   },
   "nodes": [
     {
@@ -37,8 +37,8 @@
       "title": "Architecture",
       "group": "00-META",
       "tags": [
-        "agent",
         "decision",
+        "agent",
         "lesson",
         "pattern"
       ],
@@ -60,6 +60,16 @@
       "inbound_count": 3
     },
     {
+      "id": "40-LOGS/2026-09-22",
+      "title": "2026-09-22",
+      "group": "40-LOGS",
+      "tags": [],
+      "status": "active",
+      "path": "40-LOGS/2026-09-22.md",
+      "links_count": 0,
+      "inbound_count": 0
+    },
+    {
       "id": "40-LOGS/2026-08-17",
       "title": "2026-08-17",
       "group": "40-LOGS",
@@ -76,8 +86,8 @@
       "title": "2026-08-16",
       "group": "40-LOGS",
       "tags": [
-        "1",
-        "Agent"
+        "Agent",
+        "1"
       ],
       "status": "active",
       "path": "40-LOGS/2026-08-16.md",
@@ -381,8 +391,8 @@
       "title": "2026-08-15",
       "group": "40-LOGS",
       "tags": [
-        "1",
-        "Agent"
+        "Agent",
+        "1"
       ],
       "status": "active",
       "path": "40-LOGS/2026-08-15.md",
@@ -600,6 +610,16 @@
       "path": "20-AGENTS/Agent-Objectives.md",
       "links_count": 4,
       "inbound_count": 13
+    },
+    {
+      "id": "10-PROPERTIES/JEV-Consideration",
+      "title": "JEV-Consideration",
+      "group": "10-PROPERTIES",
+      "tags": [],
+      "status": "active",
+      "path": "10-PROPERTIES/JEV-Consideration.md",
+      "links_count": 0,
+      "inbound_count": 0
     },
     {
       "id": "10-PROPERTIES/LucentSkill-Teams-Scoped-Content",
