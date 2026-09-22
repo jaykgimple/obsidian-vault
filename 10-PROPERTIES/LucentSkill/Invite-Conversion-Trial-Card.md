@@ -30,5 +30,6 @@ The accept page is a TWO-way choice, not a single convert:
 - Secondary: "Keep my Individual plan" = move the Individual account to a different (personal) email (re-encrypt email per createUser, uniqueness-checked, revoke sessions, verify new email), then re-provision the freed org email as a fresh member (set-password invite) into <org>. Requires a new account email-change capability (none exists today).
 
 ## Status
-- Trial card: builder running (deleg_c5a34df1).
-- Conversion flow: spec locked; to be built as a gauntlet piece after mapping the exact onboarding hook point.
+- Trial card: ✅ SHIPPED + LIVE (commit `dd847ab`).
+- Conversion flow (dual option): ✅ SHIPPED + LIVE. `a74aa30` (Individual-plan conversion flow), `2e1d192` (click-to-confirm email change for keep-Individual-plan), `92137d9` (cancel subscription + rate limiting). Accept page = `/join-org` (Join org OR Keep my Individual plan); convert endpoint = `/api/invite/convert`; `needs_conversion` state in roster + CSV import; `dissolveOrganization` + `cancelSubscription` wired. Prod deployed at `d2b78b03` (HEAD).
+- SSO JIT detection: ✅ SHIPPED + LIVE (`14aefa9`). Entra SSO callback now flags Individual-plan holders as `needs_conversion` (via shared `isIndividualPlanHolder` = active sub/trial, not bare `plan_tier`) instead of silent `org_conflict`; CSV import uses the same precise detection (free accounts stay `skipped`).

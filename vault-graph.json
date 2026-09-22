@@ -1,15 +1,15 @@
 {
   "meta": {
-    "total_nodes": 125,
+    "total_nodes": 126,
     "total_links": 745,
     "groups": [
       "40-LOGS",
-      "20-AGENTS",
-      "00-META",
+      "30-PATTERNS",
       "10-PROPERTIES",
-      "30-PATTERNS"
+      "00-META",
+      "20-AGENTS"
     ],
-    "last_updated": "2026-09-20T08:02:31.233429+00:00"
+    "last_updated": "2026-09-21T08:02:36.702673+00:00"
   },
   "nodes": [
     {
@@ -37,10 +37,10 @@
       "title": "Architecture",
       "group": "00-META",
       "tags": [
-        "pattern",
-        "lesson",
+        "agent",
         "decision",
-        "agent"
+        "lesson",
+        "pattern"
       ],
       "status": "active",
       "path": "00-META/Architecture.md",
@@ -76,8 +76,8 @@
       "title": "2026-08-16",
       "group": "40-LOGS",
       "tags": [
-        "Agent",
-        "1"
+        "1",
+        "Agent"
       ],
       "status": "active",
       "path": "40-LOGS/2026-08-16.md",
@@ -117,6 +117,16 @@
       "path": "40-LOGS/2026-08-26.md",
       "links_count": 1,
       "inbound_count": 3
+    },
+    {
+      "id": "40-LOGS/2026-09-21",
+      "title": "2026-09-21",
+      "group": "40-LOGS",
+      "tags": [],
+      "status": "active",
+      "path": "40-LOGS/2026-09-21.md",
+      "links_count": 0,
+      "inbound_count": 0
     },
     {
       "id": "40-LOGS/2026-08-28",
@@ -225,7 +235,7 @@
       "tags": [],
       "status": "active",
       "path": "40-LOGS/vault-analysis-latest.md",
-      "links_count": 0,
+      "links_count": 2,
       "inbound_count": 1
     },
     {
@@ -371,8 +381,8 @@
       "title": "2026-08-15",
       "group": "40-LOGS",
       "tags": [
-        "Agent",
-        "1"
+        "1",
+        "Agent"
       ],
       "status": "active",
       "path": "40-LOGS/2026-08-15.md",
@@ -648,8 +658,8 @@
       "title": "RoleFresh",
       "group": "10-PROPERTIES",
       "tags": [
-        "Agent",
-        "41324"
+        "41324",
+        "Agent"
       ],
       "status": "active",
       "path": "10-PROPERTIES/RoleFresh.md",
@@ -865,7 +875,7 @@
       "tags": [],
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog-Index.md",
-      "links_count": 59,
+      "links_count": 61,
       "inbound_count": 21
     },
     {
