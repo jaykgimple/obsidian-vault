@@ -53,5 +53,6 @@ None. 2 forward references detected (not true broken links):
 ## Deploy
 
 - **Vercel deployment:** READY
+- **Deployment ID:** dpl_4v3oGGYeZJrAkUSNAeFwvefdUyof
 - **URL:** https://octogentic.vercel.app
-- **Graph:** nodes, links (see vault-graph.json)
+- **Graph:** 128 nodes, 745 links
