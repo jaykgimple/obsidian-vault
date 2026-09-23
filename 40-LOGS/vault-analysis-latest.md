@@ -52,5 +52,8 @@ None. 2 forward references detected (not true broken links):
 
 ## Deploy
 
-- **Vercel deployment:** pending
+- **Vercel deployment:** READY
+- **Deployment ID:** dpl_HF95MFTZkdjeDFPaQfHa4cC7vJha
 - **URL:** https://octogentic.vercel.app
+- **Verified:** /blog/2026-09-23-agentic-personalization... → 200 OK
+- **Graph:** 130 nodes, 754 links
