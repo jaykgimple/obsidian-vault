@@ -36,7 +36,7 @@ aliases: [RoleFresh Platform, Resume Tool]
 - **Status 2026-09-14:** Still down. Fresh Bytes cron run wrote + queued "You Don't Need to Be an AI Engineer..." (Tips & Tricks, 1270 words); confirmed postgREST `PGRST002` (schema-cache, DB unreachable), management-API SQL runner throttled/refusing, stale `sb_secret_ShCb3...` key invalid. 6 posts now queued in `scripts/pending_fresh_bytes_post*.json`. Fix still owned by Jay.
 - **Status 2026-09-15:** Still down. Confirmed at TCP/pooler level: `aws-1-us-east-1.pooler.supabase.com` returns `EAUTHQUERY (authentication query failed: connection to database not available)`, management-API SQL runner still `429 ThrottlerException`. Fresh Bytes cron run wrote + queued "The 2026 Comeback..." (Triumphs, 1258 words) → `scripts/pending_fresh_bytes_post_2026-comeback.json`. 7 posts now queued. Fix still owned by Jay.
 - **Status 2026-09-18:** Still down. Project still reports `ACTIVE_HEALTHY` via management API but `db` service unreachable. Re-confirmed all paths fail: management-API SQL runner `429 ThrottlerException` + `ECONNREFUSED 2600:1f18:7d97:f601:a70b:3206:2145:7b95:5432`; pooler `EAUTHQUERY (connection to database not available)`; postgREST anon `503` (schema-cache). Fresh Bytes cron run wrote + queued "The Ghosting Epidemic..." (Troubles, 1268 words) → `scripts/pending_fresh_bytes_post_ghosting-epidemic.json`. 8 posts now queued. Fix still owned by Jay.
-- **Status 2026-09-22:** Still down. `db` service remains `UNHEALTHY` (`ECONNREFUSED 2600:1f18:7d97:f601:a70b:3206:2145:7b95:5432`) even as project reports `ACTIVE_HEALTHY`. Publish paths re-verified failing: management-API SQL runner `429 ThrottlerException` + `ECONNREFUSED`; token itself valid (projects endpoint returns 200). Fresh Bytes cron run wrote + queued "The Job Market Is Not Frozen, It Is Moving in Slow Motion" (Industry Trends, 1211 words) → `scripts/pending_fresh_bytes_post_slow-motion.json`. 10 posts now queued. Fix still owned by Jay.
+- **Status 2026-09-23:** Still down. `db` service remains `UNHEALTHY` (`ECONNREFUSED 2600:1f18:7d97:f601:a70b:3206:2145:7b95:5432`), project still reports `ACTIVE_HEALTHY`. Management-API SQL runner still refuses; `restore` endpoint returns "no longer in a paused state"; direct host resolves IPv6-only and refuses TCP. Fresh Bytes cron run wrote + queued "Ghosted Again: Why Recruiters Vanish and How to Stop Waiting on Silence" (Troubles, 1240 words) → `scripts/pending_fresh_bytes_post_recruiter-ghosting-2.json`. 11 posts now queued. Fix still owned by Jay.
 
 ## 📝 Latent issue: stale service_role key
 
@@ -53,6 +53,7 @@ aliases: [RoleFresh Platform, Resume Tool]
 - `scripts/pending_fresh_bytes_post_2026-comeback.json` — "The 2026 Comeback..." (Triumphs, 1258 words, Sep 15)
 - `scripts/pending_fresh_bytes_post_ghosting-epidemic.json` — "The Ghosting Epidemic: Why Recruiters Went Silent..." (Troubles, 1268 words, Sep 18)
 - `scripts/pending_fresh_bytes_post_salary-script.json` — "The 2026 Salary Script: Negotiate Like You Have Leverage..." (Tips & Tricks, 1211 words, Sep 20)
+- `scripts/pending_fresh_bytes_post_recruiter-ghosting-2.json` — "Ghosted Again: Why Recruiters Vanish..." (Troubles, 1240 words, Sep 23)
 
 ## Agent Relevance
 

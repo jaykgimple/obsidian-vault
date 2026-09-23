@@ -31,7 +31,7 @@ A generic system serves nobody; a fully bespoke one drowns in its own variants. 
 
 ## Related
 
-- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-22-Agentic-Handoff|Agentic Handoff]]
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-18-Agentic-Handoff|Agentic Handoff]]
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration|Agentic Calibration]]
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-02-Agentic-Grounding|Agentic Grounding]]
 - → [[10-PROPERTIES/LucentSkill|LucentSkill]]

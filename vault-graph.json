@@ -1,15 +1,15 @@
 {
   "meta": {
-    "total_nodes": 128,
-    "total_links": 745,
+    "total_nodes": 129,
+    "total_links": 751,
     "groups": [
       "20-AGENTS",
       "30-PATTERNS",
-      "00-META",
       "40-LOGS",
-      "10-PROPERTIES"
+      "10-PROPERTIES",
+      "00-META"
     ],
-    "last_updated": "2026-09-22T08:03:38.585426+00:00"
+    "last_updated": "2026-09-23T07:09:57.936363+00:00"
   },
   "nodes": [
     {
@@ -37,10 +37,10 @@
       "title": "Architecture",
       "group": "00-META",
       "tags": [
-        "decision",
         "agent",
-        "lesson",
-        "pattern"
+        "pattern",
+        "decision",
+        "lesson"
       ],
       "status": "active",
       "path": "00-META/Architecture.md",
@@ -86,8 +86,8 @@
       "title": "2026-08-16",
       "group": "40-LOGS",
       "tags": [
-        "Agent",
-        "1"
+        "1",
+        "Agent"
       ],
       "status": "active",
       "path": "40-LOGS/2026-08-16.md",
@@ -391,8 +391,8 @@
       "title": "2026-08-15",
       "group": "40-LOGS",
       "tags": [
-        "Agent",
-        "1"
+        "1",
+        "Agent"
       ],
       "status": "active",
       "path": "40-LOGS/2026-08-15.md",
@@ -649,7 +649,7 @@
       "status": "active",
       "path": "10-PROPERTIES/LucentSkill.md",
       "links_count": 4,
-      "inbound_count": 5
+      "inbound_count": 6
     },
     {
       "id": "10-PROPERTIES/Darcron",
@@ -678,8 +678,8 @@
       "title": "RoleFresh",
       "group": "10-PROPERTIES",
       "tags": [
-        "41324",
-        "Agent"
+        "Agent",
+        "41324"
       ],
       "status": "active",
       "path": "10-PROPERTIES/RoleFresh.md",
@@ -886,7 +886,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Key-Takeaways.md",
       "links_count": 1,
-      "inbound_count": 27
+      "inbound_count": 28
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog-Index",
@@ -895,7 +895,7 @@
       "tags": [],
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog-Index.md",
-      "links_count": 61,
+      "links_count": 63,
       "inbound_count": 21
     },
     {
@@ -988,7 +988,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-02-Agentic-Grounding.md",
       "links_count": 6,
-      "inbound_count": 12
+      "inbound_count": 13
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-05-Agentic-Learning",
@@ -1126,7 +1126,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration.md",
       "links_count": 4,
-      "inbound_count": 5
+      "inbound_count": 6
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop",
@@ -1273,6 +1273,18 @@
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-16-The-Agentic-Compounding-Engine.md",
       "links_count": 3,
       "inbound_count": 13
+    },
+    {
+      "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-23-Agentic-Personalization",
+      "title": "2026-09-23-Agentic-Personalization",
+      "group": "10-PROPERTIES",
+      "tags": [
+        "99"
+      ],
+      "status": "active",
+      "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-23-Agentic-Personalization.md",
+      "links_count": 5,
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-25-Agentic-Resilience",
@@ -3378,6 +3390,11 @@
     },
     {
       "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-23-Agentic-Personalization",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-20-Agentic-Alignment",
       "type": "wikilink"
     },
@@ -3539,6 +3556,11 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Blog-Index",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-23-Agentic-Personalization",
       "type": "wikilink"
     },
     {
@@ -5014,6 +5036,26 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-16-The-Agentic-Compounding-Engine",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-23-Agentic-Personalization",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-23-Agentic-Personalization",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-02-Agentic-Grounding",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-23-Agentic-Personalization",
+      "target": "10-PROPERTIES/LucentSkill",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-23-Agentic-Personalization",
+      "target": "10-PROPERTIES/OctoGentic/Key-Takeaways",
       "type": "wikilink"
     },
     {
