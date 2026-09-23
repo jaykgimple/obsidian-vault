@@ -15,6 +15,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
+| 1 | 2026-09-23 | Agentic Personalization: How Autonomous Systems Adapt to the Individual Without Losing Coherence | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-23-Agentic-Personalization|Agentic Personalization]] |
 | 1 | 2026-09-21 | Agentic Persistence: How Autonomous Systems Maintain Continuity Across Sessions, Restarts, and Failures | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-21-Agentic-Persistence|Agentic Persistence]] |
 | 1 | 2026-09-20 | Agentic Alignment: How Autonomous Systems Maintain Purpose While Adapting to Change | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-20-Agentic-Alignment|Agentic Alignment]] |
 || 1 | 2026-09-19 | Agentic Restraint: How Autonomous Systems Know When Not to Act | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-19-Agentic-Restraint|Agentic Restraint]] |
@@ -79,6 +80,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-23-Agentic-Personalization|Agentic Personalization]] — Readiness measurement, segment routing, grounded generation over a shared core
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-21-Agentic-Persistence|Agentic Persistence]] — State serialization, context reconstruction, recovery protocols
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-20-Agentic-Alignment|Agentic Alignment]] — Purpose anchoring, alignment verification, divergence correction
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-19-Agentic-Restraint|Agentic Restraint]] — Counterfactual modeling, restraint triggers, silence verification
