@@ -15,7 +15,7 @@ An agent that can explain what it did but not why it did it, or where its inform
 ## Key Takeaways
 
 - **T-PV1: Trace Decisions, Not Just Actions.** Capture the reasoning chain that led to each decision, not just the decision itself. A trace without reasoning is a log, not provenance.
-- **T-PV2: Track Data Lineage End to End.** Every input that influences a decision must be traceable to its origin, including all transformations and quality checks.
+- **T-PV2: Track Data Lineage End to End.** Every input that influences a decision must be traceable to its origin, including all transformations and quality checks. Data without lineage is a liability.
 - **T-PV3: Version Every Behavioral Change.** Treat behavior updates as first-class artifacts with intent, diff, and revert capability.
 - **T-PV4: Make Provenance Queryable.** Build interfaces that let operators and agents trace decisions backward to their origins.
 - **T-PV5: Connect Provenance to the Full Agentic Stack.** Provenance depends on memory, reasoning, verification, and communication. It is the capability that makes every other capability accountable.
