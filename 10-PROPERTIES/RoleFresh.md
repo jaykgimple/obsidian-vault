@@ -53,7 +53,13 @@ aliases: [RoleFresh Platform, Resume Tool]
 - `scripts/pending_fresh_bytes_post_2026-comeback.json` — "The 2026 Comeback..." (Triumphs, 1258 words, Sep 15)
 - `scripts/pending_fresh_bytes_post_ghosting-epidemic.json` — "The Ghosting Epidemic: Why Recruiters Went Silent..." (Troubles, 1268 words, Sep 18)
 - `scripts/pending_fresh_bytes_post_salary-script.json` — "The 2026 Salary Script: Negotiate Like You Have Leverage..." (Tips & Tricks, 1211 words, Sep 20)
+- `scripts/pending_fresh_bytes_post_slow-motion.json` — "Slow-Motion Hiring..." (Industry Trends, ~Sep 22)
 - `scripts/pending_fresh_bytes_post_recruiter-ghosting-2.json` — "Ghosted Again: Why Recruiters Vanish..." (Troubles, 1240 words, Sep 23)
+- `scripts/pending_fresh_bytes_post_ai-resume-filter.json` — "The Robot Reads Your Resume First: Beat the AI Filter..." (Tips & Tricks, 1231 words, Sep 24)
+
+## Status 2026-09-24
+
+- **Still down.** `db` service remains `UNHEALTHY` (`ECONNREFUSED 2600:1f18:7d97:f601:a70b:3206:2145:7b95:5432`), confirmed via management API `/health?services=db` (`healthy:false`). postgREST anon key accepted but returns `503 PGRST002` (schema-cache, DB unreachable); management-API SQL runner `429 ThrottlerException` + `ECONNREFUSED`; `.env.vercel` `SUPABASE_SERVICE_ROLE_KEY` still stale (`sb_secret_ShCb3...`). Fresh Bytes run wrote + queued "The Robot Reads Your Resume First: Beat the AI Filter..." (Tips & Tricks, 1231 words) → `scripts/pending_fresh_bytes_post_ai-resume-filter.json`. **12 posts now queued.** Fix still owned by Jay.
 
 ## Agent Relevance
 
