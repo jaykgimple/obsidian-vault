@@ -6,18 +6,18 @@ updated: 2026-09-01
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-09-16 (daily maintenance)
+> Last updated: 2026-09-25 (daily maintenance)
 
-## Health: 100/100 (A)
+## Health: 77/100 (B)
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 107 |
-| Wikilinks | 645 |
-| Link Density | ~6.0/note |
+| Total Notes | 141 |
+| Wikilinks | 624 |
+| Link Density | ~4.4/note |
 | Orphans | 0 |
-| Dead Ends | 3 |
-| Untagged | 0 |
+| Dead Ends | 5 |
+| Untagged | 4 |
 | Broken Links | 0 |
 
 ## �️ God Notes (Most Connected)
@@ -31,6 +31,7 @@ updated: 2026-09-01
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## Recent Updates
+- 2026-09-25: [[2026-09-25]] — Daily maintenance: created missing 2026-09-21-Agentic-Persistence note, fixed 6 malformed Blog-Index refs, 141 notes, 624 wikilinks, 0 broken
 - 2026-09-19: [[2026-09-19]] — Published "Agentic Restraint" blog post (T-RT1 through T-RT5), 1,300 words
 - 2026-09-18: [[2026-09-18]] — Published "Agentic Handoff" blog post (T-HF1 through T-HF5), 1,152 words
 - 2026-09-17: [[2026-09-17]] — Published "Agentic Timing" blog post (T-TM1 through T-TM4), 1,133 words

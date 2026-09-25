@@ -68,16 +68,16 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 | 14 | 2026-06-14 | Designing Agentic Memory Systems | → 2026-06-14-Agentic-Memory |
 | 15 | 2026-06-13 | How Intelligent Properties Learn | → 2026-06-13-Learn-and-Adapt |
 | 16 | 2026-06-12 | The Economics of Agentic Systems | → 2026-06-12-Economics-of-Agentic |
-| 17 | 2026-06-12 | The Rise of Agentic AI in 2026 | → 2026-06--of-Agentic-AI |
-| 18 | 2026-06-11 | Agent Coord→ 2026-06-11-Agent-Coordination |
-| 19 | 2026-06-11 | From Reactive to Proactive | → 2026-06-11-Reactive-to-Proactive |
+| 17 | 2026-06-12 | The Rise of Agentic AI in 2026 | → [[10-PROPERTIES/OctoGentic/Blog/2026-06-12-Rise-of-Agentic-AI|The Rise of Agentic AI in 2026]] |
+| 18 | 2026-06-11 | Agent Coordination | → [[10-PROPERTIES/OctoGentic/Blog/2026-06-11-Agent-Coordination|Agent Coordination]] |
+| 19 | 2026-06-11 | From Reactive to Proactive | → [[10-PROPERTIES/OctoGentic/Blog/2026-06-11-Reactive-to-Proactive|From Reactive to Proactive]] |
 | 20 | 2026-06-10 | Agentic Decision-Making Architecture | → 2026-06-10-Decision-Making |
 | 21 | 2026-06-10 | Privacy and Security in Agentic Architectures | → 2026-06-10-Privacy-Security |
 | 22 | 2026-06-09 | Agentic AI and the Future of Work | → 2026-06-09-Agentic-AI-Future-of-Work |
 | 23 | 2026-06-08 | Human-Agent Collaboration | → 2026-06-08-Human-Agent-Collaboration |
-| 24 | 2026-06-20 | Agentic UX: Designing Interfaces That Think With You | → 2026-06-2UX-Design |
-| 25 |6-06-20 | The Agentic Supply Chain | → 2026-06-20-The-Agentic-Supply-Chain |
-| 26 | 2026-06-26 | The Agentic Compound Effect | → 2026-06-26-The-Agentic-Compound-Effect-Duplicate |
+| 24 | 2026-06-20 | Agentic UX: Designing Interfaces That Think With You | → [[10-PROPERTIES/OctoGentic/Blog/2026-06-20-Agentic-UX|Agentic UX]] |
+| 25 | 2026-06-20 | The Agentic Supply Chain | → [[10-PROPERTIES/OctoGentic/Blog/2026-06-20-Agentic-Supply-Chain|The Agentic Supply Chain]] |
+| 26 | 2026-06-26 | The Agentic Compound Effect | → [[10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect|The Agentic Compound Effect]] |
 
 ## Topic Map
 
