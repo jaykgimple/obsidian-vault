@@ -8,13 +8,14 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 96 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 97 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
+| 1 | 2026-09-25 | Agentic Coherence: How Autonomous Systems Keep Long-Form Output Consistent From Start to Finish | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-25-Agentic-Coherence|Agentic Coherence]] |
 | 1 | 2026-09-24 | Agentic Provenance: How Autonomous Systems Track the Origin and Evolution of Their Decisions | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-24-Agentic-Provenance|Agentic Provenance]] |
 | 1 | 2026-09-23 | Agentic Personalization: How Autonomous Systems Adapt to the Individual Without Losing Coherence | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-23-Agentic-Personalization|Agentic Personalization]] |
 | 1 | 2026-09-21 | Agentic Persistence: How Autonomous Systems Maintain Continuity Across Sessions, Restarts, and Failures | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-21-Agentic-Persistence|Agentic Persistence]] |
@@ -81,6 +82,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-09-25-Agentic-Coherence|Agentic Coherence]]: Shared story state, weighted coherence scoring, bounded revision with escalation
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-24-Agentic-Provenance|Agentic Provenance]] — Decision tracing, data lineage, behavioral version control
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-23-Agentic-Personalization|Agentic Personalization]] — Readiness measurement, segment routing, grounded generation over a shared core
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-21-Agentic-Persistence|Agentic Persistence]] — State serialization, context reconstruction, recovery protocols
