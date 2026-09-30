@@ -6,15 +6,15 @@ updated: 2026-09-01
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-09-25 (daily maintenance)
+> Last updated: 2026-09-29 (daily maintenance)
 
-## Health: 77/100 (B)
+## Health: 92/100 (A-)
 
 | Metric | Value |
 |--------|-------|
-| Total Notes | 141 |
-| Wikilinks | 624 |
-| Link Density | ~4.4/note |
+| Total Notes | 152 |
+| Wikilinks | 832 |
+| Link Density | ~5.47/note |
 | Orphans | 0 |
 | Dead Ends | 5 |
 | Untagged | 4 |
@@ -31,7 +31,16 @@ updated: 2026-09-01
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## Recent Updates
+- 2026-09-30: [[2026-09-30]] — Published "Agentic Concurrency" blog post (T-AC1 through T-AC5), 1,054 words
+- 2026-09-29: [[2026-09-29]] — Daily maintenance: linked 7 orphan notes (JEV-Consideration, 4 LucentSkill, 2 OmniVoke), 152 notes, 0 broken
+- 2026-09-28: [[2026-09-28]] — Daily maintenance: linked 4 orphan daily notes, linked property orphans (Holleys-Org-Invite, HITL-Review-Redesign), 147 notes, 0 broken
+- 2026-09-27: [[2026-09-27]] — Daily maintenance ran, graph rebuilt, deployed to Vercel
+- 2026-09-26: [[2026-09-26]] — Daily maintenance ran, graph rebuilt, deployed to Vercel
 - 2026-09-25: [[2026-09-25]] — Daily maintenance: created missing 2026-09-21-Agentic-Persistence note, fixed 6 malformed Blog-Index refs, 141 notes, 624 wikilinks, 0 broken
+- 2026-09-23: [[2026-09-23]] — Daily maintenance: 129 notes, 691 wikilinks, 1 broken link fixed, blog post 2026-09-23-Agentic-Personalization published
+- 2026-09-22: [[2026-09-22]] — Daily maintenance: 127 notes, 684 wikilinks, 0 broken, graph rebuilt
+- 2026-09-21: [[2026-09-21]] — Daily maintenance: 684 wikilinks, 2 forward references (planned blog post)
+- 2026-09-20: [[2026-09-20]] — Daily maintenance: 766 wikilinks, vault link health stable
 - 2026-09-19: [[2026-09-19]] — Published "Agentic Restraint" blog post (T-RT1 through T-RT5), 1,300 words
 - 2026-09-18: [[2026-09-18]] — Published "Agentic Handoff" blog post (T-HF1 through T-HF5), 1,152 words
 - 2026-09-17: [[2026-09-17]] — Published "Agentic Timing" blog post (T-TM1 through T-TM4), 1,133 words
@@ -99,3 +108,4 @@ updated: 2026-09-01
 - [[Compounding-Knowledge]] — How links create value
 - [[Delegation]] — Agent delegation patterns
 - [[10-PROPERTIES/Story-Engine/Objectives|Objectives]] — Current objectives per property
+- [[10-PROPERTIES/JEV-Consideration]] — TypeSafe decision model evaluation (cross-property, pending review)
