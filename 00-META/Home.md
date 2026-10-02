@@ -31,7 +31,8 @@ updated: 2026-09-01
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## Recent Updates
-- 2026-09-30: [[2026-09-30]] — Published "Agentic Concurrency" blog post (T-AC1 through T-AC5), 1,054 words
+- 2026-10-02: [[2026-10-02]] — Published "Agentic Budgeting" blog post (T-B1 through T-B5), 1,130 words
+- 2026-10-01: [[2026-10-01]] — Published "Agentic Contracts" blog post (T-C1 through T-C5), ~1,266 words
 - 2026-09-29: [[2026-09-29]] — Daily maintenance: linked 7 orphan notes (JEV-Consideration, 4 LucentSkill, 2 OmniVoke), 152 notes, 0 broken
 - 2026-09-28: [[2026-09-28]] — Daily maintenance: linked 4 orphan daily notes, linked property orphans (Holleys-Org-Invite, HITL-Review-Redesign), 147 notes, 0 broken
 - 2026-09-27: [[2026-09-27]] — Daily maintenance ran, graph rebuilt, deployed to Vercel
