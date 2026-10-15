@@ -15,6 +15,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
+| 1 | 2026-10-15 | Agentic Prioritization: How Autonomous Systems Decide What to Work On When Everything Is Urgent | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-15-Agentic-Prioritization|Agentic Prioritization]] |
 | 1 | 2026-10-02 | Agentic Budgeting: How Autonomous Systems Allocate Finite Resources Across Competing Demands | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-02-Agentic-Budgeting|Agentic Budgeting]] |
 | 1 | 2026-10-01 | Agentic Contracts: How Autonomous Systems Make and Keep Commitments | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-01-Agentic-Contracts|Agentic Contracts]] |
 | 1 | 2026-09-30 | Agentic Concurrency: How Autonomous Systems Handle Multiple Operations Without Colliding | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-30-Agentic-Concurrency|Agentic Concurrency]] |
@@ -87,6 +88,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-10-15-Agentic-Prioritization|Agentic Prioritization]]: Multi-dimensional scoring, aging functions, switching-cost modeling, pre-defined drop rules
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-02-Agentic-Budgeting|Agentic Budgeting]]: Budget definition, real-time tracking, adaptive reallocation
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-01-Agentic-Contracts|Agentic Contracts]]: Explicit commitment encoding, fulfillment verification, breach handling
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-30-Agentic-Concurrency|Agentic Concurrency]]: Queue serialization, optimistic versioning, scope partitioning
