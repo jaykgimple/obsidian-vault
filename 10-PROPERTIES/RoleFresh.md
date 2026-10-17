@@ -56,10 +56,27 @@ aliases: [RoleFresh Platform, Resume Tool]
 - `scripts/pending_fresh_bytes_post_slow-motion.json` — "Slow-Motion Hiring..." (Industry Trends, ~Sep 22)
 - `scripts/pending_fresh_bytes_post_recruiter-ghosting-2.json` — "Ghosted Again: Why Recruiters Vanish..." (Troubles, 1240 words, Sep 23)
 - `scripts/pending_fresh_bytes_post_ai-resume-filter.json` — "The Robot Reads Your Resume First: Beat the AI Filter..." (Tips & Tricks, 1231 words, Sep 24)
+- `scripts/pending_fresh_bytes_post_ai-skills-layoff-insurance.json` — "AI Skills Are Your Layoff Insurance..." (Tips & Tricks, 1352 words, ~Sep 26)
+- `scripts/pending_fresh_bytes_post_ai-fluency-new-filter.json` — "AI Fluency Just Became the New Filter..." (Industry Trends, 1236 words, Sep 30)
+- `scripts/pending_fresh_bytes_post_rto-remote-hybrid.json` — "Return-to-Office Is Back: How to Turn the Remote Debate Into Your Hiring Advantage" (Industry Trends, 1209 words, Oct 2)
+
+## Status 2026-10-02
+
+- **Still down** (day ~26). Re-confirmed all paths fail: management-API SQL runner `429 ThrottlerException` (throttle persists across a 60s wait), then `ECONNREFUSED 2600:1f18:7d97:f601:a70b:3206:2145:7b95:5432`; postgREST anon `503 PGRST002` (schema-cache, DB unreachable); `restore` endpoint returns "no longer in a paused state, ACTIVE_HEALTHY" but `db` service still unreachable; `.env.vercel` `SUPABASE_SERVICE_ROLE_KEY` (`sb_secret_ShCb3...`) `401 Invalid API key`; hardcoded `insert_via_rest.py` key also `401`. Project name revealed as **jobbox-os** (`sabexijntgtwflthkzdh`). Wrote + queued the RTO/remote-hybrid post above → `scripts/pending_fresh_bytes_post_rto-remote-hybrid.json`. **16 posts now queued.** Fix still owned by Jay.
 
 ## Status 2026-09-24
 
 - **Still down.** `db` service remains `UNHEALTHY` (`ECONNREFUSED 2600:1f18:7d97:f601:a70b:3206:2145:7b95:5432`), confirmed via management API `/health?services=db` (`healthy:false`). postgREST anon key accepted but returns `503 PGRST002` (schema-cache, DB unreachable); management-API SQL runner `429 ThrottlerException` + `ECONNREFUSED`; `.env.vercel` `SUPABASE_SERVICE_ROLE_KEY` still stale (`sb_secret_ShCb3...`). Fresh Bytes run wrote + queued "The Robot Reads Your Resume First: Beat the AI Filter..." (Tips & Tricks, 1231 words) → `scripts/pending_fresh_bytes_post_ai-resume-filter.json`. **12 posts now queued.** Fix still owned by Jay.
+
+## Status 2026-09-27
+
+- **Still down** (day 21+). Re-confirmed: direct DB `ECONNREFUSED` (IPv6 `2600:1f18:...:7b95:5432`), postgREST `503 PGRST002` schema-cache, management-API SQL runner `429 ThrottlerException`, login-role creation fails `ECONNREFUSED`. Prod `/api/jobs/search` and `/api/stats` both 500. Pooler TCP accepts but auth query unavailable. Supabase platform status: "Partially Degraded Service", unresolved incident "401 errors due to JWT rejections" (since Aug 14, status: identified).
+- **CoS cleanup:** killed 34 zombie `scrape_cron.sh` processes (accumulated since Sep 3 in unbounded retry loops, ~7.5MB error logs each). `scrape_cron.sh` has NO flock/timeout guard, hardening patch queued pending go.
+- Fresh Bytes queue: **13 posts** now queued (newest: "AI Skills Are Your Layoff Insurance...", 1352 words). Fix still owned by Jay.
+
+## Status 2026-09-30
+
+- **Still down** (day 24+). Fresh Bytes cron run re-confirmed all paths fail: `db` service `UNHEALTHY` (`connect ECONNREFUSED 2600:1f18:7d97:f601:a70b:3206:2145:7b95:5432` via `/health?services=db`), management-API SQL runner `429 ThrottlerException` + `ECONNREFUSED`, postgREST anon `503 PGRST002` (schema-cache, DB unreachable), stale `sb_secret_ShCb3...` key `401 Invalid API key`. Wrote + queued "AI Fluency Just Became the New Filter: Here's How to Clear It Without a Tech Degree" (Industry Trends, 1236 words) → `scripts/pending_fresh_bytes_post_ai-fluency-new-filter.json`. **15 posts now queued.** Fix still owned by Jay.
 
 ## Agent Relevance
 

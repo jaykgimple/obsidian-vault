@@ -8,7 +8,7 @@ aliases: [Agentic Concurrency Post, 2026-09-30 Blog Post]
 
 # Agentic Concurrency
 
-> Part of → [[10-PROPERTIES/OctoGentic/Blog-Index|Blog Index]] ← [[10-PROPERTIES/OctoGentic|OctoGentic]]
+> Part of → [[10-PROPERTIES/OctoGentic/Blog-Index|Blog Index]] ← [[10-PROPERTIES/OctoGentic/Overview|OctoGentic]]
 > Published: 2026-09-30
 > Word count: ~1,054
 

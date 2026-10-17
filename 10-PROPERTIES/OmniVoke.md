@@ -35,6 +35,11 @@ aliases: [OmniVoke Platform, omnivoke]
 - **Queue:** Postgres `FOR UPDATE SKIP LOCKED`, no broker.
 - **Attribution:** UTM + `personalization_id`, A/B variant resolution.
 
+## Recent Work
+- [[10-PROPERTIES/OmniVoke/Bluesky-Connect-Fix]] — verify-on-save + credential field mismatch + handle normalization (deployed 2026-09-29)
+- [[10-PROPERTIES/OmniVoke/HITL-Test-2026-09-29]] — HITL test findings: Bluesky junction fix + silent-success mask fix (deployed 2026-09-29)
+- [[10-PROPERTIES/OmniVoke/HITL-Review-Redesign]] — collapsed summary + expandable rows + asset slot for multi-platform review surface (2026-09-26)
+
 ## Notes
 
 - Pitfall: the picker is PLATFORMS, not content-types; no file picker for YouTube Short (it generates the short).

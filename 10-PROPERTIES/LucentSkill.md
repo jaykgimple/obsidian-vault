@@ -38,9 +38,14 @@ aliases: [LucentSkill Platform, lucentskill]
 
 ## Recent Work
 
+- [[10-PROPERTIES/LucentSkill/Billing-Pricing-Gauntlet]] — locked pricing spec (3 tiers, usage meters, add-ons, trial, DPA)
+- [[10-PROPERTIES/LucentSkill/Course-Generation-Failure-Fix]] — visual union + correct-index drift fix (2026-09-24)
+- [[10-PROPERTIES/LucentSkill/Invite-Conversion-Trial-Card]] — free-trial card + Individual-to-org invite conversion spec
+- [[10-PROPERTIES/LucentSkill/Security-Gauntlet-Encryption]] — 8-item security backlog done, encryption-at-rest + MFA + SSO + GDPR live
 - [[LucentSkill-Teams-Scoped-Content]] — team entity + delegated lead (in flight)
 - [[10-PROPERTIES/LucentSkill/Accessibility-Audit]] — WCAG 2.2 AA audit (2026-09-18)
 - [[10-PROPERTIES/LucentSkill/Daily-Lumen-Blog]] — auto-published daily blog pipeline
+- [[10-PROPERTIES/LucentSkill/Holleys-Org-Invite]] — Holleys org provisioned + on-demand invite sender (2026-09-28)
 
 ## Notes
 
