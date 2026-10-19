@@ -9,7 +9,7 @@ aliases: [Agentic Reasoning Post, 2026-09-06 Agentic Reasoning]
 # Agentic Reasoning: How Autonomous Systems Draw Reliable Conclusions From Incomplete Information
 
 > Published 2026-09-06 on the OctoGentic Signal Feed.
-> Part of → [[Overview]]
+> Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 > Related: → [[10-PROPERTIES/OctoGentic/Blog/2026-09-05-Agentic-Learning|Agentic Learning]], → [[10-PROPERTIES/OctoGentic/Blog/2026-09-04-Agentic-Planning|Agentic Planning]]
 > Takeaways: → [[Key-Takeaways]] T-R1 through T-R5
 

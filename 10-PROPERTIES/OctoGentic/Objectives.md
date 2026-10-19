@@ -9,8 +9,8 @@ aliases: [OctoGentic Agent Objectives, Portfolio Agent Scoring]
 # OctoGentic — Agentic Objectives
 
 > Source: `octogentic/AGENTIC_OBJECTIVES.md`
-> Part of → [[Overview]]
-> Related: → [[Agent-Objectives]], → [[Overview]]
+> Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+> Related: → [[Agent-Objectives]], → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## Agent: Portfolio Orchestrator
 

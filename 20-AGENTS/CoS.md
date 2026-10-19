@@ -9,7 +9,7 @@ aliases: [Chief of Staff, CoS]
 # Chief of Staff
 
 > Master coordinator. Owns context, eliminates friction, prevents collisions, ensures principal clarity.
-> Part of → [[Overview]]
+> Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## Responsibilities
 1. **Knowledge Routing** — Reads signals from all properties, routes findings to relevant agents

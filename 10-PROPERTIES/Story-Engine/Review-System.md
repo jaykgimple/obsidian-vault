@@ -11,7 +11,7 @@ aliases: [Post-Generation Review, Chapter Review, Story-Engine — Review System
 > Post-generation chapter review with auto-revision.
 > Script: `scripts/review_series.py`
 > Pattern: → [[Review-and-Revision]]
-> Part of → [[Overview]]
+> Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## Review Pipeline
 

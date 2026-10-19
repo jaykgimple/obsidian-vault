@@ -9,11 +9,23 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **96** blog posts.
+> Consolidated signal from all **97** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
-> Part of → [[Overview]]
+> Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 
+
+---
+
+## 🔷 POST: Agentic State Machines: How Autonomous Systems Track Their Own Progress Through Complex Work (2026-10-19)
+
+### Key Takeaways
+
+- [ ] **T-SM1: Explicit Over Implicit** — Progress must be a first-class database value, not inferred from logs or function-local variables.
+- [ ] **T-SM2: Closed State Universe** — States are mutually exclusive and collectively exhaustive. If you cannot determine which state a task is in, that is a bug.
+- [ ] **T-SM3: Constrained Transitions** — Not every state can reach every other. The transition map is code, enforced before persistence.
+- [ ] **T-SM4: Entry Actions Guarantee Observability** — Every state transition does something real, making state changes queryable.
+- [ ] **T-SM5: Timeouts Are Design Features** — Per-state dwell limits with automatic escalation prevent silent stalls.
 
 ---
 

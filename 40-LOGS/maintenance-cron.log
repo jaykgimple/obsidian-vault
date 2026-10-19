@@ -1,0 +1,178 @@
+Total markdown files: 166
+Total wikilink occurrences found: 995
+
+Resolved links: 947
+Broken/ambiguous links: 48
+
+--- BROKEN/AMBIGUOUS LINKS ---
+  00-META/Architecture:28 -> [[Note Name]] -- NO_MATCH
+    Line: || **Wikilinks** | `[[Note Name]]` (or `[[Note Name|Alias]]`) for all cross-references | Graph relationships |
+  00-META/Architecture:28 -> [[Note Name]] -- NO_MATCH
+    Line: || **Wikilinks** | `[[Note Name]]` (or `[[Note Name|Alias]]`) for all cross-references | Graph relationships |
+  00-META/Architecture:30 -> [[...]] -- NO_MATCH
+    Line: | **LINK Headers** | Every note has `> Used by → [[...]]` and `→ [[...]]` at top | Backlink discovery |
+  00-META/Architecture:30 -> [[...]] -- NO_MATCH
+    Line: | **LINK Headers** | Every note has `> Used by → [[...]]` and `→ [[...]]` at top | Backlink discovery |
+  10-PROPERTIES/OctoGentic/Blog-Index:18 -> [[10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split]] -- NO_MATCH
+    Line: | 2 | 2026-10-16 | The Builder-Critic Split: Why Autonomous Systems Must Separate Creation from Evaluation | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split|Builder-Critic Split]] |
+  10-PROPERTIES/OctoGentic/Blog-Index:92 -> [[10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split]] -- NO_MATCH
+    Line: - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split|Builder-Critic Split]]: Independent generation, blind evaluation, adversarial selection, win rate tracking
+  40-LOGS/2026-08-15:85 -> [[Note Name]] -- NO_MATCH
+    Line: | Architecture.md code examples | `[[Note Name]]`, `[[...]]` in backticks (not real links) | False positive |
+  40-LOGS/2026-08-15:85 -> [[...]] -- NO_MATCH
+    Line: | Architecture.md code examples | `[[Note Name]]`, `[[...]]` in backticks (not real links) | False positive |
+  40-LOGS/2026-08-18:56 -> [[Note Name]] -- NO_MATCH
+    Line: - **Architecture.md**: `[[Note Name]]`, `[[Note Name|Alias]]`, `[[...]]` — template syntax examples in vault architecture docs
+  40-LOGS/2026-08-18:56 -> [[Note Name]] -- NO_MATCH
+    Line: - **Architecture.md**: `[[Note Name]]`, `[[Note Name|Alias]]`, `[[...]]` — template syntax examples in vault architecture docs
+  40-LOGS/2026-08-18:56 -> [[...]] -- NO_MATCH
+    Line: - **Architecture.md**: `[[Note Name]]`, `[[Note Name|Alias]]`, `[[...]]` — template syntax examples in vault architecture docs
+  40-LOGS/2026-08-19:50 -> [[Note Name]] -- NO_MATCH
+    Line: - Architecture.md: template syntax examples (`[[Note Name]]`, `[[...]]`)
+  40-LOGS/2026-08-19:50 -> [[...]] -- NO_MATCH
+    Line: - Architecture.md: template syntax examples (`[[Note Name]]`, `[[...]]`)
+  40-LOGS/2026-08-27:25 -> [[Note Name]] -- NO_MATCH
+    Line: - No fixes needed: all real navigational wikilinks resolve correctly. 4 remaining "broken" matches in Architecture.md are template syntax examples (`[[Note Name]]`, `[[...]]`), not navigational links.
+  40-LOGS/2026-08-27:25 -> [[...]] -- NO_MATCH
+    Line: - No fixes needed: all real navigational wikilinks resolve correctly. 4 remaining "broken" matches in Architecture.md are template syntax examples (`[[Note Name]]`, `[[...]]`), not navigational links.
+  40-LOGS/2026-08-27:32 -> [[Note Name]] -- NO_MATCH
+    Line: The 4 remaining scanner hits in `00-META/Architecture.md` are template syntax documentation (`[[Note Name]]`, `[[Note Name|Alias]]`, `[[...]]`) — not navigational links. No action needed.
+  40-LOGS/2026-08-27:32 -> [[Note Name]] -- NO_MATCH
+    Line: The 4 remaining scanner hits in `00-META/Architecture.md` are template syntax documentation (`[[Note Name]]`, `[[Note Name|Alias]]`, `[[...]]`) — not navigational links. No action needed.
+  40-LOGS/2026-08-27:32 -> [[...]] -- NO_MATCH
+    Line: The 4 remaining scanner hits in `00-META/Architecture.md` are template syntax documentation (`[[Note Name]]`, `[[Note Name|Alias]]`, `[[...]]`) — not navigational links. No action needed.
+  40-LOGS/2026-08-28:31 -> [[...]] -- NO_MATCH
+    Line: All 255 real navigational wikilinks resolve to existing notes. The 19 remaining scanner hits were all inside code spans (`[[...]]` inside backticks) in daily log files — documentation of past fixes, not navigational links.
+  40-LOGS/2026-08-30:30 -> [[...]] -- NO_MATCH
+    Line: All 377 real navigational wikilinks resolve to existing notes. The 65 remaining scanner hits from the naive scanner are all inside code spans (`[[...]]` inside backticks) — documentation of template syntax and past fixes, not navigational links.
+  40-LOGS/2026-09-24:16 -> [[2026-09-22-Agentic-Handoff]] -- NO_MATCH
+    Line: - Fixed false positive: 40-LOGS/2026-09-23.md line 16 — `[[2026-09-22-Agentic-Handoff]]` was descriptive prose about a past fix, not a live link; wrapped in backticks
+  40-LOGS/2026-09-24:25 -> [[...]] -- NO_MATCH
+    Line: - False-positive fix: descriptive `[[...]]` text in log files should be backtick-escaped to avoid scanner matching
+  40-LOGS/2026-09-30:43 -> [[...]] -- NO_MATCH
+    Line: - Broken links: 0 (2 fixed: backtick-escaped false-positive [[...]] in 2026-09-24, repaired OctoGentic Overview link in 2026-09-30 blog post)
+  40-LOGS/2026-09-30:48 -> [[...]] -- NO_MATCH
+    Line: - Backtick-escaped [[...]] documentation text in 2026-09-24 daily log (was false-positive scanner hit)
+  40-LOGS/vault-analysis-latest:15 -> [[Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 10-PROPERTIES/OctoGentic/Blog-Index:12 — [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  40-LOGS/vault-analysis-latest:16 -> [[Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 10-PROPERTIES/OctoGentic/Blog/2026-09-05-Agentic-Learning:11 — [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  40-LOGS/vault-analysis-latest:17 -> [[Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 10-PROPERTIES/OctoGentic/Blog/2026-09-06-Agentic-Reasoning:12 — [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  40-LOGS/vault-analysis-latest:18 -> [[Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 10-PROPERTIES/OctoGentic/Key-Takeaways:14 — [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  40-LOGS/vault-analysis-latest:19 -> [[Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 10-PROPERTIES/OctoGentic/Objectives:12 — [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  40-LOGS/vault-analysis-latest:20 -> [[Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 10-PROPERTIES/OctoGentic/Objectives:13 — [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  40-LOGS/vault-analysis-latest:21 -> [[Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 10-PROPERTIES/Story-Engine/Objectives:12 — [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  40-LOGS/vault-analysis-latest:22 -> [[Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 10-PROPERTIES/Story-Engine/Overview:12 — [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  40-LOGS/vault-analysis-latest:23 -> [[Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 10-PROPERTIES/Story-Engine/Pipeline:12 — [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  40-LOGS/vault-analysis-latest:24 -> [[Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 10-PROPERTIES/Story-Engine/Review-System:14 — [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  40-LOGS/vault-analysis-latest:25 -> [[Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 10-PROPERTIES/Story-Engine/Watchdog:13 — [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  40-LOGS/vault-analysis-latest:26 -> [[Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 20-AGENTS/CoS:12 — [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  40-LOGS/vault-analysis-latest:27 -> [[Story-Engine/Objectives]] -- AMBIGUOUS: ['10-PROPERTIES/Story-Engine/Objectives', '10-PROPERTIES/OctoGentic/Objectives']
+    Line: - 40-LOGS/2026-08-15:52 — [[Story-Engine/Objectives]] -> [[10-PROPERTIES/OctoGentic/Objectives|Story-Engine/Objectives]]
+  40-LOGS/vault-analysis-latest:28 -> [[OctoGentic/Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 40-LOGS/2026-08-15:54 — [[OctoGentic/Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|OctoGentic/Overview]]
+  40-LOGS/vault-analysis-latest:29 -> [[Objectives]] -- AMBIGUOUS: ['10-PROPERTIES/Story-Engine/Objectives', '10-PROPERTIES/OctoGentic/Objectives']
+    Line: - 40-LOGS/2026-08-15:82 — [[Objectives]] -> [[10-PROPERTIES/OctoGentic/Objectives|Objectives]]
+  40-LOGS/vault-analysis-latest:30 -> [[Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 40-LOGS/2026-08-15:83 — [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  40-LOGS/vault-analysis-latest:31 -> [[Objectives]] -- AMBIGUOUS: ['10-PROPERTIES/Story-Engine/Objectives', '10-PROPERTIES/OctoGentic/Objectives']
+    Line: - 40-LOGS/2026-08-15:107 — [[Objectives]] -> [[10-PROPERTIES/OctoGentic/Objectives|Objectives]]
+  40-LOGS/vault-analysis-latest:32 -> [[Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 40-LOGS/2026-08-15:107 — [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  40-LOGS/vault-analysis-latest:33 -> [[OctoGentic/Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 40-LOGS/2026-08-16:54 — [[OctoGentic/Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|OctoGentic/Overview]]
+  40-LOGS/vault-analysis-latest:34 -> [[Objectives]] -- AMBIGUOUS: ['10-PROPERTIES/Story-Engine/Objectives', '10-PROPERTIES/OctoGentic/Objectives']
+    Line: - 40-LOGS/2026-08-17:67 — [[Objectives]] -> [[10-PROPERTIES/OctoGentic/Objectives|Objectives]]
+  40-LOGS/vault-analysis-latest:35 -> [[Objectives]] -- AMBIGUOUS: ['10-PROPERTIES/Story-Engine/Objectives', '10-PROPERTIES/OctoGentic/Objectives']
+    Line: - 40-LOGS/2026-08-17:83 — [[Objectives]] -> [[10-PROPERTIES/OctoGentic/Objectives|Objectives]]
+  40-LOGS/vault-analysis-latest:36 -> [[Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 40-LOGS/2026-08-21:39 — [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  40-LOGS/vault-analysis-latest:37 -> [[Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 40-LOGS/2026-08-21:54 — [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  40-LOGS/vault-analysis-latest:38 -> [[Overview]] -- AMBIGUOUS: ['10-PROPERTIES/OctoGentic/Overview', '10-PROPERTIES/Story-Engine/Overview']
+    Line: - 40-LOGS/2026-08-22:16 — [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  UNFIXED (no match found): 00-META/Architecture:28 [[Note Name]]
+  UNFIXED (no match found): 00-META/Architecture:28 [[Note Name]]
+  UNFIXED (no match found): 00-META/Architecture:30 [[...]]
+  UNFIXED (no match found): 00-META/Architecture:30 [[...]]
+  UNFIXED (no match found): 10-PROPERTIES/OctoGentic/Blog-Index:18 [[10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split]]
+  UNFIXED (no match found): 10-PROPERTIES/OctoGentic/Blog-Index:92 [[10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split]]
+  UNFIXED (no match found): 40-LOGS/2026-08-15:85 [[Note Name]]
+  UNFIXED (no match found): 40-LOGS/2026-08-15:85 [[...]]
+  UNFIXED (no match found): 40-LOGS/2026-08-18:56 [[Note Name]]
+  UNFIXED (no match found): 40-LOGS/2026-08-18:56 [[Note Name]]
+  UNFIXED (no match found): 40-LOGS/2026-08-18:56 [[...]]
+  UNFIXED (no match found): 40-LOGS/2026-08-19:50 [[Note Name]]
+  UNFIXED (no match found): 40-LOGS/2026-08-19:50 [[...]]
+  UNFIXED (no match found): 40-LOGS/2026-08-27:25 [[Note Name]]
+  UNFIXED (no match found): 40-LOGS/2026-08-27:25 [[...]]
+  UNFIXED (no match found): 40-LOGS/2026-08-27:32 [[Note Name]]
+  UNFIXED (no match found): 40-LOGS/2026-08-27:32 [[Note Name]]
+  UNFIXED (no match found): 40-LOGS/2026-08-27:32 [[...]]
+  UNFIXED (no match found): 40-LOGS/2026-08-28:31 [[...]]
+  UNFIXED (no match found): 40-LOGS/2026-08-30:30 [[...]]
+  UNFIXED (no match found): 40-LOGS/2026-09-24:16 [[2026-09-22-Agentic-Handoff]]
+  UNFIXED (no match found): 40-LOGS/2026-09-24:25 [[...]]
+  UNFIXED (no match found): 40-LOGS/2026-09-30:43 [[...]]
+  UNFIXED (no match found): 40-LOGS/2026-09-30:48 [[...]]
+  FIXED: 40-LOGS/vault-analysis-latest:15 [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  FIXED: 40-LOGS/vault-analysis-latest:16 [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  FIXED: 40-LOGS/vault-analysis-latest:17 [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  FIXED: 40-LOGS/vault-analysis-latest:18 [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  FIXED: 40-LOGS/vault-analysis-latest:19 [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  FIXED: 40-LOGS/vault-analysis-latest:20 [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  FIXED: 40-LOGS/vault-analysis-latest:21 [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  FIXED: 40-LOGS/vault-analysis-latest:22 [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  FIXED: 40-LOGS/vault-analysis-latest:23 [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  FIXED: 40-LOGS/vault-analysis-latest:24 [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  FIXED: 40-LOGS/vault-analysis-latest:25 [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  FIXED: 40-LOGS/vault-analysis-latest:26 [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  FIXED: 40-LOGS/vault-analysis-latest:27 [[Story-Engine/Objectives]] -> [[10-PROPERTIES/OctoGentic/Objectives|Story-Engine/Objectives]]
+  FIXED: 40-LOGS/vault-analysis-latest:28 [[OctoGentic/Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|OctoGentic/Overview]]
+  FIXED: 40-LOGS/vault-analysis-latest:29 [[Objectives]] -> [[10-PROPERTIES/OctoGentic/Objectives|Objectives]]
+  FIXED: 40-LOGS/vault-analysis-latest:30 [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  FIXED: 40-LOGS/vault-analysis-latest:31 [[Objectives]] -> [[10-PROPERTIES/OctoGentic/Objectives|Objectives]]
+  FIXED: 40-LOGS/vault-analysis-latest:32 [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  FIXED: 40-LOGS/vault-analysis-latest:33 [[OctoGentic/Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|OctoGentic/Overview]]
+  FIXED: 40-LOGS/vault-analysis-latest:34 [[Objectives]] -> [[10-PROPERTIES/OctoGentic/Objectives|Objectives]]
+  FIXED: 40-LOGS/vault-analysis-latest:35 [[Objectives]] -> [[10-PROPERTIES/OctoGentic/Objectives|Objectives]]
+  FIXED: 40-LOGS/vault-analysis-latest:36 [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  FIXED: 40-LOGS/vault-analysis-latest:37 [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+  FIXED: 40-LOGS/vault-analysis-latest:38 [[Overview]] -> [[10-PROPERTIES/OctoGentic/Overview|Overview]]
+
+Daily note already exists: /root/projects/obsidian-vault/00-DAILY/2026-10-18.md
+Saved maintenance log to: /root/projects/obsidian-vault/40-LOGS/vault-analysis-latest.md
+
+=== VAULT MAINTENANCE COMPLETE ===
+Notes: 166
+Links scanned: 995
+Fixes applied: 24
+Daily note: 2026-10-18 created
+Log: vault-analysis-latest.md updated
+
+---
+
+Session: 2026-10-18 (cron run 2)
+Date: 2026-10-18
+Notes: 167 (+1 created)
+Links scanned: 198 unique targets
+Fixes applied: 1
+  - Created missing blog note: 10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split.md (referenced by Blog-Index.md:18 and :92, vault mirror was missing)
+False positives confirmed (no action):
+  - 00-META/Architecture.md:28: [[Note Name]], [[...]] template documentation in table cells
+  - 40-LOGS/vault-analysis-latest.md: descriptions of past fixes in log entries
+  - 40-LOGS/2026-09-24.md:16: [[2026-09-22-Agentic-Handoff]] prose inside backticks
+Daily note: 2026-10-18.md updated with vault maintenance entry
+Log: vault-analysis-latest.md updated
+Deploy: octogentic.com rebuilt (167 nodes, 934 links) and deployed READY
+Verification: https://octogentic.com → HTTP 200, Builder-Critic Split visible

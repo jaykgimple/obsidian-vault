@@ -9,7 +9,7 @@ aliases: [Generation Pipeline, Engine Architecture]
 # Story Engine — Pipeline Architecture
 
 > The full generation pipeline: queue → architect → biographer → novelist → dev_editor → copy_editor → audit → push.
-> Part of → [[Overview]]
+> Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## Pipeline Flow
 

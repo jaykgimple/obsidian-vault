@@ -9,7 +9,7 @@ aliases: [Story Engine, Book Generation Pipeline, Story Engine — Overview]
 # Story Engine
 
 > AI agentic book generation pipeline. 6 specialized agents produce 52-segment novels with coherence scoring.
-> Property of → [[Overview]]
+> Property of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## Stack
 - **Runtime**: Python 3, 64K context window

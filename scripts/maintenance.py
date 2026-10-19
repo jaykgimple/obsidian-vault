@@ -8,7 +8,8 @@ from pathlib import Path
 from datetime import datetime, timezone, timedelta
 
 VAULT = Path('/root/projects/obsidian-vault')
-TODAY = '2026-10-17'
+TODAY = datetime.now().strftime('%Y-%m-%d')
+YESTERDAY = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
 
 # --- Step 1: Collect all markdown files and their note names ---
 all_md_files = {}
@@ -154,7 +155,7 @@ for src, line, target, reason, full_match, line_text in broken:
 daily_note_path = VAULT / '00-DAILY' / f'{TODAY}.md'
 if not daily_note_path.exists():
     # Read yesterday's note for context
-    yesterday_path = VAULT / '00-DAILY' / '2026-10-16.md'
+    yesterday_path = VAULT / '00-DAILY' / f'{YESTERDAY}.md'
     yesterday_content = ''
     if yesterday_path.exists():
         yesterday_content = open(yesterday_path).read()
@@ -163,7 +164,7 @@ if not daily_note_path.exists():
 
 _Part of → [[Home]]_
 _Maintained by → [[CoS]]_
-_Created: {TODAY} (Saturday)_
+_Created: {TODAY}_
 
 ## Today's #1 Priority
 - [ ] Awaiting principal direction
@@ -184,7 +185,7 @@ _Created: {TODAY} (Saturday)_
 - {TODAY}: [[{TODAY}]] — Daily maintenance cron ran
 
 ---
-← [[2026-10-16]] | → [[2026-09-29]]
+← [[{YESTERDAY}]]
 """
     daily_note_path.write_text(daily_content, encoding='utf-8')
     print(f"\nCreated daily note: {daily_note_path}")
@@ -207,7 +208,7 @@ log_content = f"""# Vault Maintenance Log: {TODAY}
 - Resolved links: {len(resolved)}
 - Broken/ambiguous links found: {len(broken)}
 - Fixes applied: {len(fixes_made)}
-- Daily note created: {not (VAULT / '00-DAILY' / '2026-10-16.md').exists()}
+- Daily note created: {not (VAULT / '00-DAILY' / f'{TODAY}.md').exists()}
 
 ## Fixes Applied
 """

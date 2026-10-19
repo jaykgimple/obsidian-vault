@@ -1,17 +1,17 @@
 {
   "meta": {
-    "total_nodes": 164,
-    "total_links": 914,
+    "total_nodes": 167,
+    "total_links": 934,
     "groups": [
-      "unknown",
-      "20-AGENTS",
       "40-LOGS",
+      "20-AGENTS",
       "00-META",
-      "30-PATTERNS",
+      "00-DAILY",
       "10-PROPERTIES",
-      "00-DAILY"
+      "30-PATTERNS",
+      "unknown"
     ],
-    "last_updated": "2026-10-16T08:07:23.798632+00:00"
+    "last_updated": "2026-10-18T08:05:17.848929+00:00"
   },
   "nodes": [
     {
@@ -31,8 +31,8 @@
       "tags": [],
       "status": "active",
       "path": "00-META/Home.md",
-      "links_count": 84,
-      "inbound_count": 50
+      "links_count": 85,
+      "inbound_count": 51
     },
     {
       "id": "00-META/Compound-Effect",
@@ -49,10 +49,10 @@
       "title": "Architecture",
       "group": "00-META",
       "tags": [
-        "agent",
-        "lesson",
         "decision",
-        "pattern"
+        "lesson",
+        "pattern",
+        "agent"
       ],
       "status": "active",
       "path": "00-META/Architecture.md",
@@ -132,8 +132,8 @@
       "title": "2026-08-16",
       "group": "40-LOGS",
       "tags": [
-        "1",
-        "Agent"
+        "Agent",
+        "1"
       ],
       "status": "active",
       "path": "40-LOGS/2026-08-16.md",
@@ -327,7 +327,7 @@
       "tags": [],
       "status": "active",
       "path": "40-LOGS/vault-analysis-latest.md",
-      "links_count": 2,
+      "links_count": 9,
       "inbound_count": 10
     },
     {
@@ -509,8 +509,7 @@
       "title": "2026-08-15",
       "group": "40-LOGS",
       "tags": [
-        "1",
-        "Agent"
+        "1"
       ],
       "status": "active",
       "path": "40-LOGS/2026-08-15.md",
@@ -731,7 +730,7 @@
       "status": "active",
       "path": "20-AGENTS/CoS.md",
       "links_count": 12,
-      "inbound_count": 18
+      "inbound_count": 20
     },
     {
       "id": "20-AGENTS/Delegation",
@@ -763,6 +762,28 @@
       "status": "active",
       "path": "00-DAILY/2026-10-16.md",
       "links_count": 1,
+      "inbound_count": 0
+    },
+    {
+      "id": "00-DAILY/2026-10-17",
+      "title": "2026-10-17",
+      "group": "00-DAILY",
+      "tags": [
+        "1"
+      ],
+      "status": "active",
+      "path": "00-DAILY/2026-10-17.md",
+      "links_count": 1,
+      "inbound_count": 2
+    },
+    {
+      "id": "00-DAILY/2026-10-18",
+      "title": "2026-10-18",
+      "group": "00-DAILY",
+      "tags": [],
+      "status": "active",
+      "path": "00-DAILY/2026-10-18.md",
+      "links_count": 7,
       "inbound_count": 0
     },
     {
@@ -815,7 +836,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Darcron.md",
       "links_count": 1,
-      "inbound_count": 3
+      "inbound_count": 4
     },
     {
       "id": "10-PROPERTIES/OmniVoke",
@@ -825,20 +846,17 @@
       "status": "active",
       "path": "10-PROPERTIES/OmniVoke.md",
       "links_count": 4,
-      "inbound_count": 2
+      "inbound_count": 3
     },
     {
       "id": "10-PROPERTIES/RoleFresh",
       "title": "RoleFresh",
       "group": "10-PROPERTIES",
-      "tags": [
-        "Agent",
-        "41324"
-      ],
+      "tags": [],
       "status": "active",
       "path": "10-PROPERTIES/RoleFresh.md",
-      "links_count": 5,
-      "inbound_count": 4
+      "links_count": 4,
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/Podsona",
@@ -870,7 +888,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Objectives.md",
       "links_count": 3,
-      "inbound_count": 32
+      "inbound_count": 28
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Watchdog",
@@ -902,7 +920,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Overview.md",
       "links_count": 22,
-      "inbound_count": 30
+      "inbound_count": 14
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Agents",
@@ -1030,7 +1048,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Objectives.md",
       "links_count": 6,
-      "inbound_count": 2
+      "inbound_count": 7
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Implementation-Tracker",
@@ -1050,7 +1068,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Key-Takeaways.md",
       "links_count": 1,
-      "inbound_count": 29
+      "inbound_count": 28
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog-Index",
@@ -1060,7 +1078,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog-Index.md",
       "links_count": 87,
-      "inbound_count": 35
+      "inbound_count": 36
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Overview",
@@ -1070,7 +1088,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Overview.md",
       "links_count": 19,
-      "inbound_count": 36
+      "inbound_count": 56
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-31-Agentic-Execution",
@@ -1090,7 +1108,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-10-02-Agentic-Budgeting.md",
       "links_count": 9,
-      "inbound_count": 4
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-10-15-Agentic-Prioritization",
@@ -1100,7 +1118,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-10-15-Agentic-Prioritization.md",
       "links_count": 7,
-      "inbound_count": 3
+      "inbound_count": 4
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
@@ -1234,7 +1252,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-29-Agentic-Criticism.md",
       "links_count": 5,
-      "inbound_count": 2
+      "inbound_count": 3
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-11-Reactive-to-Proactive",
@@ -1477,6 +1495,16 @@
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation.md",
       "links_count": 4,
       "inbound_count": 5
+    },
+    {
+      "id": "10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split",
+      "title": "2026-10-16-Builder-Critic-Split",
+      "group": "10-PROPERTIES",
+      "tags": [],
+      "status": "active",
+      "path": "10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split.md",
+      "links_count": 7,
+      "inbound_count": 3
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition",
@@ -1760,10 +1788,15 @@
       "status": "active",
       "path": "10-PROPERTIES/RoleFresh/Fresh-Bytes-Publish-Blocked-DB-Outage-2026-09-28.md",
       "links_count": 0,
-      "inbound_count": 4
+      "inbound_count": 5
     }
   ],
   "links": [
+    {
+      "source": "00-META/Home",
+      "target": "00-DAILY/2026-10-17",
+      "type": "wikilink"
+    },
     {
       "source": "00-META/Home",
       "target": "40-LOGS/2026-10-15",
@@ -2356,7 +2389,7 @@
     },
     {
       "source": "40-LOGS/2026-08-17",
-      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "target": "10-PROPERTIES/OctoGentic/Objectives",
       "type": "wikilink"
     },
     {
@@ -2386,7 +2419,7 @@
     },
     {
       "source": "40-LOGS/2026-08-17",
-      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "target": "10-PROPERTIES/OctoGentic/Objectives",
       "type": "wikilink"
     },
     {
@@ -2407,6 +2440,11 @@
     {
       "source": "40-LOGS/2026-08-16",
       "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-08-16",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
@@ -2606,7 +2644,7 @@
     },
     {
       "source": "40-LOGS/2026-08-21",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
@@ -2616,7 +2654,7 @@
     },
     {
       "source": "40-LOGS/2026-08-21",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
@@ -2642,6 +2680,16 @@
     {
       "source": "40-LOGS/2026-09-01",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-01-Agentic-Self-Healing",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/vault-analysis-latest",
+      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/vault-analysis-latest",
+      "target": "10-PROPERTIES/Story-Engine/Objectives",
       "type": "wikilink"
     },
     {
@@ -2961,7 +3009,17 @@
     },
     {
       "source": "40-LOGS/2026-08-15",
+      "target": "10-PROPERTIES/OctoGentic/Objectives",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-08-15",
       "target": "10-PROPERTIES/Story-Engine/Agents",
+      "type": "wikilink"
+    },
+    {
+      "source": "40-LOGS/2026-08-15",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
@@ -3011,22 +3069,22 @@
     },
     {
       "source": "40-LOGS/2026-08-15",
-      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "target": "10-PROPERTIES/OctoGentic/Objectives",
       "type": "wikilink"
     },
     {
       "source": "40-LOGS/2026-08-15",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
       "source": "40-LOGS/2026-08-15",
-      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "target": "10-PROPERTIES/OctoGentic/Objectives",
       "type": "wikilink"
     },
     {
       "source": "40-LOGS/2026-08-15",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
@@ -3131,7 +3189,7 @@
     },
     {
       "source": "40-LOGS/2026-08-22",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
@@ -3391,7 +3449,7 @@
     },
     {
       "source": "20-AGENTS/CoS",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
@@ -3520,6 +3578,36 @@
       "type": "wikilink"
     },
     {
+      "source": "00-DAILY/2026-10-17",
+      "target": "20-AGENTS/CoS",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-18",
+      "target": "00-META/Home",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-18",
+      "target": "20-AGENTS/CoS",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-18",
+      "target": "10-PROPERTIES/RoleFresh",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-18",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-18",
+      "target": "00-DAILY/2026-10-17",
+      "type": "wikilink"
+    },
+    {
       "source": "10-PROPERTIES/LucentSkill-Teams-Scoped-Content",
       "target": "10-PROPERTIES/LucentSkill",
       "type": "wikilink"
@@ -3606,22 +3694,17 @@
     },
     {
       "source": "10-PROPERTIES/RoleFresh",
-      "target": "10-PROPERTIES/OctoGentic/Key-Takeaways",
+      "target": "10-PROPERTIES/RoleFresh/Fresh-Bytes-Publish-Blocked-DB-Outage-2026-09-28",
       "type": "wikilink"
     },
     {
       "source": "10-PROPERTIES/RoleFresh",
-      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "target": "10-PROPERTIES/OctoGentic/Key-Takeaways",
       "type": "wikilink"
     },
     {
       "source": "10-PROPERTIES/RoleFresh",
       "target": "30-PATTERNS/Self-Healing-Pipelines",
-      "type": "wikilink"
-    },
-    {
-      "source": "10-PROPERTIES/RoleFresh",
-      "target": "10-PROPERTIES/OctoGentic/Key-Takeaways",
       "type": "wikilink"
     },
     {
@@ -3676,7 +3759,7 @@
     },
     {
       "source": "10-PROPERTIES/Story-Engine/Objectives",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
@@ -3696,7 +3779,7 @@
     },
     {
       "source": "10-PROPERTIES/Story-Engine/Watchdog",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
@@ -3731,7 +3814,7 @@
     },
     {
       "source": "10-PROPERTIES/Story-Engine/Pipeline",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
@@ -3761,7 +3844,7 @@
     },
     {
       "source": "10-PROPERTIES/Story-Engine/Overview",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
@@ -3941,7 +4024,7 @@
     },
     {
       "source": "10-PROPERTIES/Story-Engine/Review-System",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
@@ -4066,7 +4149,7 @@
     },
     {
       "source": "10-PROPERTIES/OctoGentic/Objectives",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
@@ -4076,7 +4159,7 @@
     },
     {
       "source": "10-PROPERTIES/OctoGentic/Objectives",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
@@ -4101,12 +4184,17 @@
     },
     {
       "source": "10-PROPERTIES/OctoGentic/Key-Takeaways",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
       "source": "10-PROPERTIES/OctoGentic/Blog-Index",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split",
       "type": "wikilink"
     },
     {
@@ -4352,6 +4440,11 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Blog-Index",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split",
       "type": "wikilink"
     },
     {
@@ -4906,7 +4999,7 @@
     },
     {
       "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-06-Agentic-Reasoning",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
@@ -5076,7 +5169,7 @@
     },
     {
       "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-05-Agentic-Learning",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
       "type": "wikilink"
     },
     {
@@ -5842,6 +5935,41 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation",
       "target": "00-META/Home",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split",
+      "target": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split",
+      "target": "10-PROPERTIES/Darcron",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split",
+      "target": "10-PROPERTIES/OmniVoke",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-15-Agentic-Prioritization",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-02-Agentic-Budgeting",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-29-Agentic-Criticism",
       "type": "wikilink"
     },
     {

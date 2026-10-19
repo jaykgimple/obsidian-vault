@@ -1,6 +1,7 @@
 # RoleFresh: Fresh Bytes Publish Blocked By Supabase DB Outage
 
 Date: 2026-09-28
+**Status: RESOLVED (Oct 2026)** — RoleFresh migrated off Supabase to Neon Postgres. This note is historical; the outage root cause never got a Supabase-side fix and was instead bypassed by migrating.
 
 ## What happened
 The Fresh Bytes cron (Chief Content Officer) wrote a ready-to-publish post (1258 words, category "Troubles") but could not publish it because the RoleFresh Supabase database is unreachable.

@@ -9,7 +9,7 @@ aliases: [Story Engine Agent Objectives, Book Generation Agent Scoring]
 # Story Engine — Agentic Objectives
 
 > Source: `story-engine/AGENTIC_OBJECTIVES.md`
-> Part of → [[Overview]]
+> Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 > Related: → [[Agent-Objectives]], → [[10-PROPERTIES/Story-Engine/Agent-Details|Story Engine — Agent Deep-Dives]]
 
 ## Agent: Architect

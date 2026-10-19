@@ -10,7 +10,7 @@ aliases: [Watchdog, Queue Worker, Self-Healing, Story Engine Watchdog, Recovery 
 
 > Self-healing infrastructure for the generation pipeline.
 > Pattern: → [[Self-Healing-Pipelines]]
-> Part of → [[Overview]]
+> Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## Watchdog (`scripts/watchdog.py`)
 

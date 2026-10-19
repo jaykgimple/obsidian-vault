@@ -8,7 +8,7 @@ aliases: [Agentic Learning Post, 2026-09-05 Agentic Learning]
 
 # Agentic Learning: How Autonomous Systems Convert Experience Into Improved Performance
 
-> Part of → [[Overview]]
+> Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 > Related: → [[10-PROPERTIES/OctoGentic/Blog/2026-09-04-Agentic-Planning|Agentic Planning]], → [[10-PROPERTIES/OctoGentic/Blog/2026-09-03-Agentic-Memory|Agentic Memory]]
 > Takeaways: → [[Key-Takeaways]] T-LN1 through T-LN5
 
