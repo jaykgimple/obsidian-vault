@@ -32,7 +32,7 @@ An autonomous system that cannot represent its own progress stalls silently, rep
 
 ## Related
 
-- → [[10-PROPERTIES/OctoGentic/Blog/2026-10-18-Agentic-Thresholds|Agentic Thresholds]]
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split|Builder Critic Split]]
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-27-Agentic-Degradation|Agentic Degradation]]
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-01-Agentic-Self-Healing|Agentic Self-Healing]]
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance|Agentic Governance]]

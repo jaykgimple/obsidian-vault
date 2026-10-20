@@ -15,7 +15,7 @@ aliases: [OctoGentic Portfolio, OctoGentic — Portfolio]
 ## Properties in Portfolio
 1. → [[Bookbrary]] — Supabase-backed reader (Story Engine is its book-generation backend)
 2. → [[10-PROPERTIES/Story-Engine/Overview|Story Engine]] — Book-generation backend that powers Bookbrary
-3. → [[RoleFresh]] — Role-based matching
+3. → [[10-PROPERTIES/RoleFresh|RoleFresh]] — Role-based matching
 4. → [[10-PROPERTIES/Darcron|Darcron]] — Autonomous AI software factory
 5. → [[10-PROPERTIES/OmniVoke|OmniVoke]] — Video/TTS generation & publishing
 6. → [[10-PROPERTIES/Newtradium|Newtradium]] — AI trading platform

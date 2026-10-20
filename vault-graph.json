@@ -1,17 +1,17 @@
 {
   "meta": {
-    "total_nodes": 167,
-    "total_links": 934,
+    "total_nodes": 170,
+    "total_links": 946,
     "groups": [
-      "40-LOGS",
       "20-AGENTS",
-      "00-META",
-      "00-DAILY",
       "10-PROPERTIES",
+      "00-DAILY",
+      "unknown",
       "30-PATTERNS",
-      "unknown"
+      "40-LOGS",
+      "00-META"
     ],
-    "last_updated": "2026-10-18T08:05:17.848929+00:00"
+    "last_updated": "2026-10-19T08:02:33.485539+00:00"
   },
   "nodes": [
     {
@@ -32,7 +32,7 @@
       "status": "active",
       "path": "00-META/Home.md",
       "links_count": 85,
-      "inbound_count": 51
+      "inbound_count": 52
     },
     {
       "id": "00-META/Compound-Effect",
@@ -50,9 +50,9 @@
       "group": "00-META",
       "tags": [
         "decision",
-        "lesson",
         "pattern",
-        "agent"
+        "agent",
+        "lesson"
       ],
       "status": "active",
       "path": "00-META/Architecture.md",
@@ -132,8 +132,8 @@
       "title": "2026-08-16",
       "group": "40-LOGS",
       "tags": [
-        "Agent",
-        "1"
+        "1",
+        "Agent"
       ],
       "status": "active",
       "path": "40-LOGS/2026-08-16.md",
@@ -327,7 +327,7 @@
       "tags": [],
       "status": "active",
       "path": "40-LOGS/vault-analysis-latest.md",
-      "links_count": 9,
+      "links_count": 4,
       "inbound_count": 10
     },
     {
@@ -730,7 +730,7 @@
       "status": "active",
       "path": "20-AGENTS/CoS.md",
       "links_count": 12,
-      "inbound_count": 20
+      "inbound_count": 21
     },
     {
       "id": "20-AGENTS/Delegation",
@@ -777,6 +777,18 @@
       "inbound_count": 2
     },
     {
+      "id": "00-DAILY/2026-10-19",
+      "title": "2026-10-19",
+      "group": "00-DAILY",
+      "tags": [
+        "1"
+      ],
+      "status": "active",
+      "path": "00-DAILY/2026-10-19.md",
+      "links_count": 4,
+      "inbound_count": 1
+    },
+    {
       "id": "00-DAILY/2026-10-18",
       "title": "2026-10-18",
       "group": "00-DAILY",
@@ -784,7 +796,7 @@
       "status": "active",
       "path": "00-DAILY/2026-10-18.md",
       "links_count": 7,
-      "inbound_count": 0
+      "inbound_count": 1
     },
     {
       "id": "10-PROPERTIES/JEV-Consideration",
@@ -814,7 +826,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Newtradium.md",
       "links_count": 1,
-      "inbound_count": 7
+      "inbound_count": 8
     },
     {
       "id": "10-PROPERTIES/LucentSkill",
@@ -836,7 +848,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Darcron.md",
       "links_count": 1,
-      "inbound_count": 4
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/OmniVoke",
@@ -846,7 +858,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OmniVoke.md",
       "links_count": 4,
-      "inbound_count": 3
+      "inbound_count": 4
     },
     {
       "id": "10-PROPERTIES/RoleFresh",
@@ -888,7 +900,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Objectives.md",
       "links_count": 3,
-      "inbound_count": 28
+      "inbound_count": 27
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Watchdog",
@@ -920,7 +932,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Overview.md",
       "links_count": 22,
-      "inbound_count": 14
+      "inbound_count": 13
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Agents",
@@ -1077,7 +1089,7 @@
       "tags": [],
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog-Index.md",
-      "links_count": 87,
+      "links_count": 89,
       "inbound_count": 36
     },
     {
@@ -1210,7 +1222,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance.md",
       "links_count": 3,
-      "inbound_count": 14
+      "inbound_count": 15
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-02-Agentic-Grounding",
@@ -1376,7 +1388,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-27-Agentic-Degradation.md",
       "links_count": 7,
-      "inbound_count": 6
+      "inbound_count": 7
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-19-Agentic-Restraint",
@@ -1504,7 +1516,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split.md",
       "links_count": 7,
-      "inbound_count": 3
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition",
@@ -1544,7 +1556,17 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-01-Agentic-Self-Healing.md",
       "links_count": 18,
-      "inbound_count": 8
+      "inbound_count": 9
+    },
+    {
+      "id": "10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines",
+      "title": "2026-10-19-Agentic-State-Machines",
+      "group": "10-PROPERTIES",
+      "tags": [],
+      "status": "active",
+      "path": "10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines.md",
+      "links_count": 7,
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-10-Agentic-Decision-Making",
@@ -1789,6 +1811,19 @@
       "path": "10-PROPERTIES/RoleFresh/Fresh-Bytes-Publish-Blocked-DB-Outage-2026-09-28.md",
       "links_count": 0,
       "inbound_count": 5
+    },
+    {
+      "id": "10-PROPERTIES/RoleFresh/RoleFresh",
+      "title": "RoleFresh",
+      "group": "10-PROPERTIES",
+      "tags": [
+        "10b981",
+        "34d399"
+      ],
+      "status": "active",
+      "path": "10-PROPERTIES/RoleFresh/RoleFresh.md",
+      "links_count": 0,
+      "inbound_count": 0
     }
   ],
   "links": [
@@ -2684,12 +2719,7 @@
     },
     {
       "source": "40-LOGS/vault-analysis-latest",
-      "target": "10-PROPERTIES/Story-Engine/Overview",
-      "type": "wikilink"
-    },
-    {
-      "source": "40-LOGS/vault-analysis-latest",
-      "target": "10-PROPERTIES/Story-Engine/Objectives",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split",
       "type": "wikilink"
     },
     {
@@ -3583,6 +3613,26 @@
       "type": "wikilink"
     },
     {
+      "source": "00-DAILY/2026-10-19",
+      "target": "00-META/Home",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-19",
+      "target": "20-AGENTS/CoS",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-19",
+      "target": "00-DAILY/2026-10-19",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-19",
+      "target": "00-DAILY/2026-10-18",
+      "type": "wikilink"
+    },
+    {
       "source": "00-DAILY/2026-10-18",
       "target": "00-META/Home",
       "type": "wikilink"
@@ -4194,6 +4244,11 @@
     },
     {
       "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split",
       "type": "wikilink"
     },
@@ -4440,6 +4495,11 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Blog-Index",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines",
       "type": "wikilink"
     },
     {
@@ -6145,6 +6205,41 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Blog/2026-09-01-Agentic-Self-Healing",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-01-Agentic-Self-Healing",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines",
+      "target": "10-PROPERTIES/Newtradium",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines",
+      "target": "10-PROPERTIES/Darcron",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines",
+      "target": "10-PROPERTIES/OmniVoke",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-27-Agentic-Degradation",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-01-Agentic-Self-Healing",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance",
       "type": "wikilink"
     },
     {

@@ -6,15 +6,15 @@ updated: 2026-09-01
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-10-17 (daily maintenance)
+> Last updated: 2026-10-20 (daily maintenance)
 
 ## Health: 92/100 (A-)
 
 | Metric | Value |
 |--------|-------|
-|| Total Notes | 165 |
-|| Wikilinks | 856 |
-| Link Density | ~5.47/note |
+| Total Notes | 171 |
+| Wikilinks | 978 |
+| Link Density | ~5.72/note |
 | Orphans | 0 |
 | Dead Ends | 5 |
 | Untagged | 4 |
@@ -31,6 +31,7 @@ updated: 2026-09-01
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## Recent Updates
+- 2026-10-20: [[2026-10-20]] — Daily maintenance: 171 notes, 978 wikilinks, 0 broken, graph rebuilt + deployed
 - 2026-10-17: [[2026-10-17]] — Published "Agentic Memory" blog post (T-ME1 through T-ME5), 1,122 words
 - 2026-10-15: [[2026-10-15]] — Published "Agentic Prioritization" blog post (T-PR1 through T-PR5), ~1,450 words
 - 2026-10-02: [[2026-10-02]] — Published "Agentic Budgeting" blog post (T-B1 through T-B5), 1,130 words
@@ -83,7 +84,7 @@ updated: 2026-09-01
 
 - [[Architecture]] — Metadata, architecture, templates
 - [[LucentSkill]] — AI upskilling LMS (teams/roles feature in flight)
-- [[RoleFresh]] — Per-property notes (Story Engine, OctoGentic, Bookbrary, RoleFresh)
+- [[10-PROPERTIES/RoleFresh|RoleFresh]] — Per-property notes (Story Engine, OctoGentic, Bookbrary, RoleFresh)
 - [[CoS]] — Agent configs, delegation patterns
 - [[Compounding-Knowledge]] — Cross-cutting patterns, compounding knowledge
 - [[10-PROPERTIES/Web-Design/21st-dev-deep-dive|Web Design Research]] — 21st.dev, fuch.ai, UI patterns for Bookbrary
