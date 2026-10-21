@@ -31,7 +31,7 @@ updated: 2026-09-01
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## Recent Updates
-- 2026-10-20: [[2026-10-20]] — Daily maintenance: 171 notes, 978 wikilinks, 0 broken, graph rebuilt + deployed
+- 2026-10-20: [[40-LOGS/2026-10-20|2026-10-20]] — Daily maintenance: 171 notes, 978 wikilinks, 0 broken, graph rebuilt + deployed
 - 2026-10-17: [[2026-10-17]] — Published "Agentic Memory" blog post (T-ME1 through T-ME5), 1,122 words
 - 2026-10-15: [[2026-10-15]] — Published "Agentic Prioritization" blog post (T-PR1 through T-PR5), ~1,450 words
 - 2026-10-02: [[2026-10-02]] — Published "Agentic Budgeting" blog post (T-B1 through T-B5), 1,130 words

@@ -405,3 +405,113 @@ Links scanned: 973
 Fixes applied: 2
 Daily note: 2026-10-20 created
 Log: vault-analysis-latest.md updated
+Total markdown files: 172
+Total wikilink occurrences found: 986
+
+Resolved links: 955
+Broken/ambiguous links: 31
+
+--- BROKEN/AMBIGUOUS LINKS ---
+  00-DAILY/2026-10-18:32 -> [[Note Name]] -- NO_MATCH
+    Line: - Confirmed 0 truly broken navigational wikilinks. All "broken" scanner hits are template documentation ([[Note Name]], [[...]] in Architecture.md) or log prose describing past fixes.
+  00-DAILY/2026-10-18:32 -> [[...]] -- NO_MATCH
+    Line: - Confirmed 0 truly broken navigational wikilinks. All "broken" scanner hits are template documentation ([[Note Name]], [[...]] in Architecture.md) or log prose describing past fixes.
+  00-DAILY/2026-10-20:22 -> [[Note Name]] -- NO_MATCH
+    Line: - Template placeholders ([[Note Name]], [[...]]) in old daily notes are not real broken links, left as-is
+  00-DAILY/2026-10-20:22 -> [[...]] -- NO_MATCH
+    Line: - Template placeholders ([[Note Name]], [[...]]) in old daily notes are not real broken links, left as-is
+  00-DAILY/2026-10-20:23 -> [[2026-09-22-Agentic-Handoff]] -- NO_MATCH
+    Line: - [[2026-09-22-Agentic-Handoff]] in 2026-09-24.md is backtick-escaped prose, not a live link
+  00-DAILY/2026-10-20:30 -> [[2026-10-20]] -- AMBIGUOUS: ['40-LOGS/2026-10-20', '00-DAILY/2026-10-20']
+    Line: - 2026-10-20: [[2026-10-20]] — Daily maintenance cron ran, all systems nominal
+  00-META/Architecture:28 -> [[Note Name]] -- NO_MATCH
+    Line: || **Wikilinks** | `[[Note Name]]` (or `[[Note Name|Alias]]`) for all cross-references | Graph relationships |
+  00-META/Architecture:28 -> [[Note Name]] -- NO_MATCH
+    Line: || **Wikilinks** | `[[Note Name]]` (or `[[Note Name|Alias]]`) for all cross-references | Graph relationships |
+  00-META/Architecture:30 -> [[...]] -- NO_MATCH
+    Line: | **LINK Headers** | Every note has `> Used by → [[...]]` and `→ [[...]]` at top | Backlink discovery |
+  00-META/Architecture:30 -> [[...]] -- NO_MATCH
+    Line: | **LINK Headers** | Every note has `> Used by → [[...]]` and `→ [[...]]` at top | Backlink discovery |
+  00-META/Home:34 -> [[2026-10-20]] -- AMBIGUOUS: ['40-LOGS/2026-10-20', '00-DAILY/2026-10-20']
+    Line: - 2026-10-20: [[2026-10-20]] — Daily maintenance: 171 notes, 978 wikilinks, 0 broken, graph rebuilt + deployed
+  40-LOGS/2026-08-15:85 -> [[Note Name]] -- NO_MATCH
+    Line: | Architecture.md code examples | `[[Note Name]]`, `[[...]]` in backticks (not real links) | False positive |
+  40-LOGS/2026-08-15:85 -> [[...]] -- NO_MATCH
+    Line: | Architecture.md code examples | `[[Note Name]]`, `[[...]]` in backticks (not real links) | False positive |
+  40-LOGS/2026-08-18:56 -> [[Note Name]] -- NO_MATCH
+    Line: - **Architecture.md**: `[[Note Name]]`, `[[Note Name|Alias]]`, `[[...]]` — template syntax examples in vault architecture docs
+  40-LOGS/2026-08-18:56 -> [[Note Name]] -- NO_MATCH
+    Line: - **Architecture.md**: `[[Note Name]]`, `[[Note Name|Alias]]`, `[[...]]` — template syntax examples in vault architecture docs
+  40-LOGS/2026-08-18:56 -> [[...]] -- NO_MATCH
+    Line: - **Architecture.md**: `[[Note Name]]`, `[[Note Name|Alias]]`, `[[...]]` — template syntax examples in vault architecture docs
+  40-LOGS/2026-08-19:50 -> [[Note Name]] -- NO_MATCH
+    Line: - Architecture.md: template syntax examples (`[[Note Name]]`, `[[...]]`)
+  40-LOGS/2026-08-19:50 -> [[...]] -- NO_MATCH
+    Line: - Architecture.md: template syntax examples (`[[Note Name]]`, `[[...]]`)
+  40-LOGS/2026-08-27:25 -> [[Note Name]] -- NO_MATCH
+    Line: - No fixes needed: all real navigational wikilinks resolve correctly. 4 remaining "broken" matches in Architecture.md are template syntax examples (`[[Note Name]]`, `[[...]]`), not navigational links.
+  40-LOGS/2026-08-27:25 -> [[...]] -- NO_MATCH
+    Line: - No fixes needed: all real navigational wikilinks resolve correctly. 4 remaining "broken" matches in Architecture.md are template syntax examples (`[[Note Name]]`, `[[...]]`), not navigational links.
+  40-LOGS/2026-08-27:32 -> [[Note Name]] -- NO_MATCH
+    Line: The 4 remaining scanner hits in `00-META/Architecture.md` are template syntax documentation (`[[Note Name]]`, `[[Note Name|Alias]]`, `[[...]]`) — not navigational links. No action needed.
+  40-LOGS/2026-08-27:32 -> [[Note Name]] -- NO_MATCH
+    Line: The 4 remaining scanner hits in `00-META/Architecture.md` are template syntax documentation (`[[Note Name]]`, `[[Note Name|Alias]]`, `[[...]]`) — not navigational links. No action needed.
+  40-LOGS/2026-08-27:32 -> [[...]] -- NO_MATCH
+    Line: The 4 remaining scanner hits in `00-META/Architecture.md` are template syntax documentation (`[[Note Name]]`, `[[Note Name|Alias]]`, `[[...]]`) — not navigational links. No action needed.
+  40-LOGS/2026-08-28:31 -> [[...]] -- NO_MATCH
+    Line: All 255 real navigational wikilinks resolve to existing notes. The 19 remaining scanner hits were all inside code spans (`[[...]]` inside backticks) in daily log files — documentation of past fixes, not navigational links.
+  40-LOGS/2026-08-30:30 -> [[...]] -- NO_MATCH
+    Line: All 377 real navigational wikilinks resolve to existing notes. The 65 remaining scanner hits from the naive scanner are all inside code spans (`[[...]]` inside backticks) — documentation of template syntax and past fixes, not navigational links.
+  40-LOGS/2026-09-24:16 -> [[2026-09-22-Agentic-Handoff]] -- NO_MATCH
+    Line: - Fixed false positive: 40-LOGS/2026-09-23.md line 16 — `[[2026-09-22-Agentic-Handoff]]` was descriptive prose about a past fix, not a live link; wrapped in backticks
+  40-LOGS/2026-09-24:25 -> [[...]] -- NO_MATCH
+    Line: - False-positive fix: descriptive `[[...]]` text in log files should be backtick-escaped to avoid scanner matching
+  40-LOGS/2026-09-30:43 -> [[...]] -- NO_MATCH
+    Line: - Broken links: 0 (2 fixed: backtick-escaped false-positive [[...]] in 2026-09-24, repaired OctoGentic Overview link in 2026-09-30 blog post)
+  40-LOGS/2026-09-30:48 -> [[...]] -- NO_MATCH
+    Line: - Backtick-escaped [[...]] documentation text in 2026-09-24 daily log (was false-positive scanner hit)
+  40-LOGS/vault-analysis-latest:29 -> [[RoleFresh]] -- AMBIGUOUS: ['10-PROPERTIES/RoleFresh/RoleFresh', '10-PROPERTIES/RoleFresh']
+    Line: - [[RoleFresh]] — [RoleFresh]
+  40-LOGS/vault-analysis-latest:30 -> [[2026-10-20]] -- AMBIGUOUS: ['40-LOGS/2026-10-20', '00-DAILY/2026-10-20']
+    Line: - [[2026-10-20]] — [other]
+  UNFIXED (no match found): 00-DAILY/2026-10-18:32 [[Note Name]]
+  UNFIXED (no match found): 00-DAILY/2026-10-18:32 [[...]]
+  UNFIXED (no match found): 00-DAILY/2026-10-20:22 [[Note Name]]
+  UNFIXED (no match found): 00-DAILY/2026-10-20:22 [[...]]
+  UNFIXED (no match found): 00-DAILY/2026-10-20:23 [[2026-09-22-Agentic-Handoff]]
+  FIXED: 00-DAILY/2026-10-20:30 [[2026-10-20]] -> [[40-LOGS/2026-10-20|2026-10-20]]
+  UNFIXED (no match found): 00-META/Architecture:28 [[Note Name]]
+  UNFIXED (no match found): 00-META/Architecture:28 [[Note Name]]
+  UNFIXED (no match found): 00-META/Architecture:30 [[...]]
+  UNFIXED (no match found): 00-META/Architecture:30 [[...]]
+  FIXED: 00-META/Home:34 [[2026-10-20]] -> [[40-LOGS/2026-10-20|2026-10-20]]
+  UNFIXED (no match found): 40-LOGS/2026-08-15:85 [[Note Name]]
+  UNFIXED (no match found): 40-LOGS/2026-08-15:85 [[...]]
+  UNFIXED (no match found): 40-LOGS/2026-08-18:56 [[Note Name]]
+  UNFIXED (no match found): 40-LOGS/2026-08-18:56 [[Note Name]]
+  UNFIXED (no match found): 40-LOGS/2026-08-18:56 [[...]]
+  UNFIXED (no match found): 40-LOGS/2026-08-19:50 [[Note Name]]
+  UNFIXED (no match found): 40-LOGS/2026-08-19:50 [[...]]
+  UNFIXED (no match found): 40-LOGS/2026-08-27:25 [[Note Name]]
+  UNFIXED (no match found): 40-LOGS/2026-08-27:25 [[...]]
+  UNFIXED (no match found): 40-LOGS/2026-08-27:32 [[Note Name]]
+  UNFIXED (no match found): 40-LOGS/2026-08-27:32 [[Note Name]]
+  UNFIXED (no match found): 40-LOGS/2026-08-27:32 [[...]]
+  UNFIXED (no match found): 40-LOGS/2026-08-28:31 [[...]]
+  UNFIXED (no match found): 40-LOGS/2026-08-30:30 [[...]]
+  UNFIXED (no match found): 40-LOGS/2026-09-24:16 [[2026-09-22-Agentic-Handoff]]
+  UNFIXED (no match found): 40-LOGS/2026-09-24:25 [[...]]
+  UNFIXED (no match found): 40-LOGS/2026-09-30:43 [[...]]
+  UNFIXED (no match found): 40-LOGS/2026-09-30:48 [[...]]
+  FIXED: 40-LOGS/vault-analysis-latest:29 [[RoleFresh]] -> [[10-PROPERTIES/RoleFresh|RoleFresh]]
+  FIXED: 40-LOGS/vault-analysis-latest:30 [[2026-10-20]] -> [[40-LOGS/2026-10-20|2026-10-20]]
+
+Created daily note: /root/projects/obsidian-vault/00-DAILY/2026-10-21.md
+Saved maintenance log to: /root/projects/obsidian-vault/40-LOGS/vault-analysis-latest.md
+
+=== VAULT MAINTENANCE COMPLETE ===
+Notes: 172
+Links scanned: 986
+Fixes applied: 4
+Daily note: 2026-10-21 created
+Log: vault-analysis-latest.md updated
