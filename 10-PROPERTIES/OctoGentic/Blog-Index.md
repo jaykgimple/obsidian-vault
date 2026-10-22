@@ -15,7 +15,8 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-| 1 | 2026-10-19 | Agentic State Machines: How Autonomous Systems Track Their Own Progress Through Complex Work | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines|Agentic State Machines]] |
+|| 1 | 2026-10-22 | Agentic Caching: How Autonomous Systems Know When to Remember and When to Recompute | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching|Agentic Caching]] |
+|| 2 | 2026-10-19 | Agentic State Machines: How Autonomous Systems Track Their Own Progress Through Complex Work | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines|Agentic State Machines]] |
 | 2 | 2026-10-16 | The Builder-Critic Split: Why Autonomous Systems Must Separate Creation from Evaluation | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split|Builder-Critic Split]] |
 | 2 | 2026-10-15 | Agentic Prioritization: How Autonomous Systems Decide What to Work On When Everything Is Urgent | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-15-Agentic-Prioritization|Agentic Prioritization]] |
 | 1 | 2026-10-02 | Agentic Budgeting: How Autonomous Systems Allocate Finite Resources Across Competing Demands | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-02-Agentic-Budgeting|Agentic Budgeting]] |
@@ -90,6 +91,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching|Agentic Caching]]: Four cache layers, signal-based invalidation, confidence-weighted TTL, negative caching
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines|Agentic State Machines]]: Defined states, valid transitions, entry actions, per-state timeouts
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split|Builder-Critic Split]]: Independent generation, blind evaluation, adversarial selection, win rate tracking
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-15-Agentic-Prioritization|Agentic Prioritization]]: Multi-dimensional scoring, aging functions, switching-cost modeling, pre-defined drop rules
