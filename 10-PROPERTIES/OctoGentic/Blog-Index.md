@@ -8,14 +8,15 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 101 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 102 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-|| 1 | 2026-10-22 | Agentic Caching: How Autonomous Systems Know When to Remember and When to Recompute | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching|Agentic Caching]] |
+| 1 | 2026-10-23 | Agentic Taste: Why Correct Output Is Not Enough | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-23-Agentic-Taste|Agentic Taste]] |
+| 2 | 2026-10-22 | Agentic Caching: How Autonomous Systems Know When to Remember and When to Recompute | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching|Agentic Caching]] |
 || 2 | 2026-10-19 | Agentic State Machines: How Autonomous Systems Track Their Own Progress Through Complex Work | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines|Agentic State Machines]] |
 | 2 | 2026-10-16 | The Builder-Critic Split: Why Autonomous Systems Must Separate Creation from Evaluation | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split|Builder-Critic Split]] |
 | 2 | 2026-10-15 | Agentic Prioritization: How Autonomous Systems Decide What to Work On When Everything Is Urgent | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-15-Agentic-Prioritization|Agentic Prioritization]] |

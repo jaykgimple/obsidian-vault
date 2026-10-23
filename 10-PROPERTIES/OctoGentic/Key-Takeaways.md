@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-08-29
+updated: 2026-10-23
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -9,11 +9,23 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **97** blog posts.
+> Consolidated signal from all **98** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 
+
+---
+
+## 🔷 POST: Agentic Taste: Why Correct Output Is Not Enough (2026-10-23)
+
+### Key Takeaways
+
+- [ ] **T-TT1: Distinguish Correctness From Taste** — Correctness gates should be automatic and binary. Taste gates should be comparative, constraint-based, and regularly updated.
+- [ ] **T-TT2: Feed Contrast, Not Just Good Examples** — Show weak output alongside strong output. The contrast is the training signal.
+- [ ] **T-TT3: Encode Negative Constraints Explicitly** — Define what the output must avoid, not just what it must achieve. Negative constraints outlive positive specs.
+- [ ] **T-TT4: Use Comparative Judgment Over Absolute Scoring** — "Which is better?" is more reliable than "How good is this?" Build evaluation around relative judgment.
+- [ ] **T-TT5: Let Taste Compound Through Exposure, Not Scoring** — Do not reduce taste to a single metric. Grow it through accumulated examples, refined constraints, and repeated comparative judgment.
 
 ---
 

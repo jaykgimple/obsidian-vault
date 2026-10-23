@@ -1,17 +1,17 @@
 {
   "meta": {
-    "total_nodes": 172,
-    "total_links": 959,
+    "total_nodes": 175,
+    "total_links": 972,
     "groups": [
       "10-PROPERTIES",
-      "30-PATTERNS",
       "00-META",
-      "20-AGENTS",
+      "30-PATTERNS",
       "00-DAILY",
+      "unknown",
       "40-LOGS",
-      "unknown"
+      "20-AGENTS"
     ],
-    "last_updated": "2026-10-20T08:03:37.019386+00:00"
+    "last_updated": "2026-10-22T08:04:45.241979+00:00"
   },
   "nodes": [
     {
@@ -22,7 +22,7 @@
       "status": "active",
       "path": "Open-Source-Toolkit-ArtCraft.md",
       "links_count": 0,
-      "inbound_count": 1
+      "inbound_count": 0
     },
     {
       "id": "00-META/Home",
@@ -32,7 +32,7 @@
       "status": "active",
       "path": "00-META/Home.md",
       "links_count": 86,
-      "inbound_count": 54
+      "inbound_count": 56
     },
     {
       "id": "00-META/Compound-Effect",
@@ -49,10 +49,10 @@
       "title": "Architecture",
       "group": "00-META",
       "tags": [
+        "lesson",
         "decision",
-        "pattern",
         "agent",
-        "lesson"
+        "pattern"
       ],
       "status": "active",
       "path": "00-META/Architecture.md",
@@ -132,8 +132,8 @@
       "title": "2026-08-16",
       "group": "40-LOGS",
       "tags": [
-        "Agent",
-        "1"
+        "1",
+        "Agent"
       ],
       "status": "active",
       "path": "40-LOGS/2026-08-16.md",
@@ -327,7 +327,7 @@
       "tags": [],
       "status": "active",
       "path": "40-LOGS/vault-analysis-latest.md",
-      "links_count": 6,
+      "links_count": 4,
       "inbound_count": 11
     },
     {
@@ -742,7 +742,7 @@
       "status": "active",
       "path": "20-AGENTS/CoS.md",
       "links_count": 12,
-      "inbound_count": 22
+      "inbound_count": 24
     },
     {
       "id": "20-AGENTS/Delegation",
@@ -774,7 +774,19 @@
       "status": "active",
       "path": "00-DAILY/2026-10-16.md",
       "links_count": 1,
-      "inbound_count": 1
+      "inbound_count": 0
+    },
+    {
+      "id": "00-DAILY/2026-10-21",
+      "title": "2026-10-21",
+      "group": "00-DAILY",
+      "tags": [
+        "1"
+      ],
+      "status": "active",
+      "path": "00-DAILY/2026-10-21.md",
+      "links_count": 4,
+      "inbound_count": 0
     },
     {
       "id": "00-DAILY/2026-10-17",
@@ -801,6 +813,18 @@
       "inbound_count": 2
     },
     {
+      "id": "00-DAILY/2026-10-22",
+      "title": "2026-10-22",
+      "group": "00-DAILY",
+      "tags": [
+        "1"
+      ],
+      "status": "active",
+      "path": "00-DAILY/2026-10-22.md",
+      "links_count": 4,
+      "inbound_count": 0
+    },
+    {
       "id": "00-DAILY/2026-10-20",
       "title": "2026-10-20",
       "group": "00-DAILY",
@@ -809,7 +833,7 @@
       ],
       "status": "active",
       "path": "00-DAILY/2026-10-20.md",
-      "links_count": 4,
+      "links_count": 7,
       "inbound_count": 0
     },
     {
@@ -850,7 +874,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Newtradium.md",
       "links_count": 1,
-      "inbound_count": 8
+      "inbound_count": 9
     },
     {
       "id": "10-PROPERTIES/LucentSkill",
@@ -860,7 +884,7 @@
       "status": "active",
       "path": "10-PROPERTIES/LucentSkill.md",
       "links_count": 9,
-      "inbound_count": 11
+      "inbound_count": 12
     },
     {
       "id": "10-PROPERTIES/Darcron",
@@ -882,7 +906,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OmniVoke.md",
       "links_count": 4,
-      "inbound_count": 4
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/RoleFresh",
@@ -892,7 +916,7 @@
       "status": "active",
       "path": "10-PROPERTIES/RoleFresh.md",
       "links_count": 4,
-      "inbound_count": 6
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/Podsona",
@@ -902,7 +926,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Podsona.md",
       "links_count": 0,
-      "inbound_count": 1
+      "inbound_count": 0
     },
     {
       "id": "10-PROPERTIES/Bookbrary",
@@ -1113,8 +1137,8 @@
       "tags": [],
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog-Index.md",
-      "links_count": 89,
-      "inbound_count": 36
+      "links_count": 91,
+      "inbound_count": 37
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Overview",
@@ -1124,7 +1148,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Overview.md",
       "links_count": 19,
-      "inbound_count": 56
+      "inbound_count": 57
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-31-Agentic-Execution",
@@ -1135,6 +1159,16 @@
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-31-Agentic-Execution.md",
       "links_count": 17,
       "inbound_count": 8
+    },
+    {
+      "id": "10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching",
+      "title": "2026-10-22-Agentic-Caching",
+      "group": "10-PROPERTIES",
+      "tags": [],
+      "status": "active",
+      "path": "10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching.md",
+      "links_count": 7,
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-10-02-Agentic-Budgeting",
@@ -1236,7 +1270,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-18-Agentic-Handoff.md",
       "links_count": 4,
-      "inbound_count": 7
+      "inbound_count": 10
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance",
@@ -1412,7 +1446,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-27-Agentic-Degradation.md",
       "links_count": 7,
-      "inbound_count": 7
+      "inbound_count": 8
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-19-Agentic-Restraint",
@@ -1590,7 +1624,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines.md",
       "links_count": 7,
-      "inbound_count": 2
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-10-Agentic-Decision-Making",
@@ -1804,7 +1838,7 @@
       "status": "active",
       "path": "10-PROPERTIES/LucentSkill/Daily-Lumen-Reliability-Fix.md",
       "links_count": 0,
-      "inbound_count": 1
+      "inbound_count": 0
     },
     {
       "id": "10-PROPERTIES/LucentSkill/Daily-Lumen-Blog",
@@ -2748,32 +2782,12 @@
     },
     {
       "source": "40-LOGS/vault-analysis-latest",
-      "target": "10-PROPERTIES/LucentSkill/Daily-Lumen-Reliability-Fix",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-18-Agentic-Handoff",
       "type": "wikilink"
     },
     {
       "source": "40-LOGS/vault-analysis-latest",
-      "target": "10-PROPERTIES/RoleFresh",
-      "type": "wikilink"
-    },
-    {
-      "source": "40-LOGS/vault-analysis-latest",
-      "target": "40-LOGS/2026-10-20",
-      "type": "wikilink"
-    },
-    {
-      "source": "40-LOGS/vault-analysis-latest",
-      "target": "00-DAILY/2026-10-16",
-      "type": "wikilink"
-    },
-    {
-      "source": "40-LOGS/vault-analysis-latest",
-      "target": "10-PROPERTIES/Podsona",
-      "type": "wikilink"
-    },
-    {
-      "source": "40-LOGS/vault-analysis-latest",
-      "target": "Open-Source-Toolkit-ArtCraft",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines",
       "type": "wikilink"
     },
     {
@@ -3677,6 +3691,21 @@
       "type": "wikilink"
     },
     {
+      "source": "00-DAILY/2026-10-21",
+      "target": "00-META/Home",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-21",
+      "target": "20-AGENTS/CoS",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-21",
+      "target": "40-LOGS/2026-10-20",
+      "type": "wikilink"
+    },
+    {
       "source": "00-DAILY/2026-10-17",
       "target": "20-AGENTS/CoS",
       "type": "wikilink"
@@ -3702,6 +3731,26 @@
       "type": "wikilink"
     },
     {
+      "source": "00-DAILY/2026-10-22",
+      "target": "00-META/Home",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-22",
+      "target": "20-AGENTS/CoS",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-22",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-18-Agentic-Handoff",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-22",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines",
+      "type": "wikilink"
+    },
+    {
       "source": "00-DAILY/2026-10-20",
       "target": "00-META/Home",
       "type": "wikilink"
@@ -3709,6 +3758,11 @@
     {
       "source": "00-DAILY/2026-10-20",
       "target": "20-AGENTS/CoS",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-20",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-18-Agentic-Handoff",
       "type": "wikilink"
     },
     {
@@ -4333,6 +4387,11 @@
     },
     {
       "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines",
       "type": "wikilink"
     },
@@ -4584,6 +4643,11 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Blog-Index",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching",
       "type": "wikilink"
     },
     {
@@ -4949,6 +5013,41 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Blog/2026-08-31-Agentic-Execution",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-08-31-Agentic-Execution",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching",
+      "target": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching",
+      "target": "10-PROPERTIES/OmniVoke",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching",
+      "target": "10-PROPERTIES/LucentSkill",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching",
+      "target": "10-PROPERTIES/Newtradium",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-27-Agentic-Degradation",
       "type": "wikilink"
     },
     {

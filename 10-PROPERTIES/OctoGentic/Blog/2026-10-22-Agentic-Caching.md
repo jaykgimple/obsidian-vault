@@ -33,7 +33,6 @@ Every autonomous system faces a tension: recomputation is expensive but fresh, c
 
 ## Related
 
-- → [[10-PROPERTIES/OctoGentic/Blog/2026-10-21-Agentic-State-Machines|Agentic State Machines]]
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines|Agentic State Machines]]
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-09-27-Agentic-Degradation|Agentic Degradation]]
 
