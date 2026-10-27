@@ -8,14 +8,16 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 104 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 106 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## All Posts (by date, newest first)
 
-|| # | Date | Title | Wiki Link |
-|---|------|-------|-----------|
-||| 1 | 2026-10-25 | Agentic Braking: How Autonomous Systems Build Deliberate Friction Into Their Decision Pipelines | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-25-Agentic-Braking|Agentic Braking]] |
+||| # | Date | Title | Wiki Link |
+||---|------|-------|-----------|
+||| 1 | 2026-10-27 | Agentic Framing: How Autonomous Systems Decide What to Emphasize and What to Leave Out | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-27-Agentic-Framing|Agentic Framing]] |
+||| 1 | 2026-10-26 | Agentic Forgetting: How Autonomous Systems Know What to Unlearn | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-26-Agentic-Forgetting|Agentic Forgetting]] |
+|||| 1 | 2026-10-25 | Agentic Braking: How Autonomous Systems Build Deliberate Friction Into Their Decision Pipelines | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-25-Agentic-Braking|Agentic Braking]] |
 ||| 1 | 2026-10-24 | Agentic Revision: How Autonomous Systems Improve Their Own Output Without Human Intervention | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-24-Agentic-Revision|Agentic Revision]] |
 ||| 1 | 2026-10-23 | Agentic Taste: Why Correct Output Is Not Enough | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-23-Agentic-Taste|Agentic Taste]] |
 | 2 | 2026-10-22 | Agentic Caching: How Autonomous Systems Know When to Remember and When to Recompute | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching|Agentic Caching]] |
@@ -94,7 +96,9 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-10-27-Agentic-Framing|Agentic Framing]]: Salience ranking, proportional emphasis, negative framing constraints, framing audit
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-25-Agentic-Braking|Agentic Braking]]: Commitment point identification, escalating friction, verification over hesitation, audit trail for prevented actions
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-10-26-Agentic-Forgetting|Agentic Forgetting]]: Decay functions, invalidation triggers, bounded retention, scope-based forgetting, archive-before-delete
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-24-Agentic-Revision|Agentic Revision]]: Gap analysis, constrained regeneration, progressive evaluation, explicit stopping conditions
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching|Agentic Caching]]: Four cache layers, signal-based invalidation, confidence-weighted TTL, negative caching
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines|Agentic State Machines]]: Defined states, valid transitions, entry actions, per-state timeouts
