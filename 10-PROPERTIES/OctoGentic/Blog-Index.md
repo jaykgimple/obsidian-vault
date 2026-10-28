@@ -8,14 +8,15 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 106 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 107 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## All Posts (by date, newest first)
 
-||| # | Date | Title | Wiki Link |
-||---|------|-------|-----------|
-||| 1 | 2026-10-27 | Agentic Framing: How Autonomous Systems Decide What to Emphasize and What to Leave Out | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-27-Agentic-Framing|Agentic Framing]] |
+|||| # | Date | Title | Wiki Link |
+|||---|------|-------|-----------|
+|||| 1 | 2026-10-28 | Agentic Translation: How Autonomous Systems Convert Meaning Across Platform and Format Boundaries | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-28-Agentic-Translation|Agentic Translation]] |
+|||| 1 | 2026-10-27 | Agentic Framing: How Autonomous Systems Decide What to Emphasize and What to Leave Out | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-27-Agentic-Framing|Agentic Framing]] |
 ||| 1 | 2026-10-26 | Agentic Forgetting: How Autonomous Systems Know What to Unlearn | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-26-Agentic-Forgetting|Agentic Forgetting]] |
 |||| 1 | 2026-10-25 | Agentic Braking: How Autonomous Systems Build Deliberate Friction Into Their Decision Pipelines | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-25-Agentic-Braking|Agentic Braking]] |
 ||| 1 | 2026-10-24 | Agentic Revision: How Autonomous Systems Improve Their Own Output Without Human Intervention | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-24-Agentic-Revision|Agentic Revision]] |
@@ -96,6 +97,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-10-28-Agentic-Translation|Agentic Translation]]: Intent extraction, platform grammar mapping, bidirectional fidelity check, provenance tracking
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-27-Agentic-Framing|Agentic Framing]]: Salience ranking, proportional emphasis, negative framing constraints, framing audit
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-25-Agentic-Braking|Agentic Braking]]: Commitment point identification, escalating friction, verification over hesitation, audit trail for prevented actions
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-26-Agentic-Forgetting|Agentic Forgetting]]: Decay functions, invalidation triggers, bounded retention, scope-based forgetting, archive-before-delete

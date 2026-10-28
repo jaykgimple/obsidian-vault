@@ -9,11 +9,23 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **98** blog posts.
+> Consolidated signal from all **99** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 
+
+---
+
+## 🔷 POST: Agentic Translation: How Autonomous Systems Convert Meaning Across Platform and Format Boundaries (2026-10-28)
+
+### Key Takeaways
+
+- [ ] **T-TL1: Extract intent before adapting format.** The core message must be identified independently of any platform's constraints so it can serve as the fidelity reference for every translation.
+- [ ] **T-TL2: Map platform grammar explicitly.** Define format rules as structural constraints the translation engine applies deterministically. Inference from examples produces averages. Explicit mapping produces requirements.
+- [ ] **T-TL3: Check fidelity in two directions.** Verify that translated output preserves the source intent and satisfies the target platform's grammar. Both must pass.
+- [ ] **T-TL4: Track what drops during translation.** Record what was lost and why. The provenance log prevents silent message drift and makes translation decisions reversible.
+- [ ] **T-TL5: Scale through platform adapters, not through smarter generation.** Each new platform is a new grammar to map, not a new model to train.
 
 ---
 
@@ -309,7 +321,7 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 | Operations | ~27 | Reliability, self-healing & production engineering |
 | Growth & Governance | ~28 | Scaling, governance & goals |
 | Verification & Grounding | 10 | Grounding, calibration, truth |
-||| **Total** | **318** | |
+||| **Total** | **323** | |
 
 ---
 
