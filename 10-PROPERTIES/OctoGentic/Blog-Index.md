@@ -98,6 +98,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-10-29-Cold-Start|Cold Start]]: Signal extraction from minimal input, calibrated first moves, rapid feedback integration, graceful escalation
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-28-Agentic-Translation|Agentic Translation]]: Intent extraction, platform grammar mapping, bidirectional fidelity check, provenance tracking
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-27-Agentic-Framing|Agentic Framing]]: Salience ranking, proportional emphasis, negative framing constraints, framing audit
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-25-Agentic-Braking|Agentic Braking]]: Commitment point identification, escalating friction, verification over hesitation, audit trail for prevented actions
