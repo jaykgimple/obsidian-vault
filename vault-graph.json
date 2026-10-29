@@ -1,17 +1,17 @@
 {
   "meta": {
-    "total_nodes": 183,
-    "total_links": 1023,
+    "total_nodes": 186,
+    "total_links": 1038,
     "groups": [
-      "20-AGENTS",
-      "00-META",
-      "00-DAILY",
-      "10-PROPERTIES",
       "30-PATTERNS",
+      "10-PROPERTIES",
+      "20-AGENTS",
+      "00-DAILY",
+      "00-META",
       "unknown",
       "40-LOGS"
     ],
-    "last_updated": "2026-10-27T08:04:31.738587+00:00"
+    "last_updated": "2026-10-28T09:02:02.269062+00:00"
   },
   "nodes": [
     {
@@ -22,9 +22,7 @@
       "status": "active",
       "path": "Open-Source-Toolkit-ArtCraft.md",
       "links_count": 0,
-      "inbound_count": 0,
-      "x": 152.29,
-      "y": 684.91
+      "inbound_count": 0
     },
     {
       "id": "00-META/Home",
@@ -34,9 +32,7 @@
       "status": "active",
       "path": "00-META/Home.md",
       "links_count": 86,
-      "inbound_count": 60,
-      "x": 6.847034077972927e+92,
-      "y": 1.3655969778101108e+92
+      "inbound_count": 62
     },
     {
       "id": "00-META/Compound-Effect",
@@ -46,26 +42,22 @@
       "status": "active",
       "path": "00-META/Compound-Effect.md",
       "links_count": 5,
-      "inbound_count": 3,
-      "x": 2.583468287068161e+89,
-      "y": 5.152553867953795e+88
+      "inbound_count": 3
     },
     {
       "id": "00-META/Architecture",
       "title": "Architecture",
       "group": "00-META",
       "tags": [
-        "decision",
         "lesson",
         "pattern",
-        "agent"
+        "agent",
+        "decision"
       ],
       "status": "active",
       "path": "00-META/Architecture.md",
       "links_count": 9,
-      "inbound_count": 5,
-      "x": -1.4375950164703918e+91,
-      "y": -2.8671910225554203e+90
+      "inbound_count": 5
     },
     {
       "id": "40-LOGS/2026-10-02",
@@ -77,9 +69,7 @@
       "status": "active",
       "path": "40-LOGS/2026-10-02.md",
       "links_count": 6,
-      "inbound_count": 2,
-      "x": -1.4612429823070741e+91,
-      "y": -2.914355373109327e+90
+      "inbound_count": 2
     },
     {
       "id": "40-LOGS/2026-09-26",
@@ -91,9 +81,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-26.md",
       "links_count": 3,
-      "inbound_count": 2,
-      "x": -9.473174625260228e+90,
-      "y": -1.8893639244088284e+90
+      "inbound_count": 2
     },
     {
       "id": "40-LOGS/2026-09-08",
@@ -105,9 +93,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-08.md",
       "links_count": 4,
-      "inbound_count": 3,
-      "x": 2.3760355443070632e+89,
-      "y": 4.738842573961362e+88
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-09-22",
@@ -117,9 +103,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-22.md",
       "links_count": 1,
-      "inbound_count": 1,
-      "x": -9.371555209602263e+90,
-      "y": -1.869096584506257e+90
+      "inbound_count": 1
     },
     {
       "id": "40-LOGS/2026-09-24",
@@ -129,9 +113,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-24.md",
       "links_count": 1,
-      "inbound_count": 1,
-      "x": 6.438866768275418e+88,
-      "y": 1.2841828852445004e+88
+      "inbound_count": 1
     },
     {
       "id": "40-LOGS/2026-08-17",
@@ -143,24 +125,20 @@
       "status": "active",
       "path": "40-LOGS/2026-08-17.md",
       "links_count": 18,
-      "inbound_count": 3,
-      "x": -1.6000063155243448e+91,
-      "y": -3.191109930539818e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-08-16",
       "title": "2026-08-16",
       "group": "40-LOGS",
       "tags": [
-        "1",
-        "Agent"
+        "Agent",
+        "1"
       ],
       "status": "active",
       "path": "40-LOGS/2026-08-16.md",
       "links_count": 10,
-      "inbound_count": 3,
-      "x": -9.673840637913861e+90,
-      "y": -1.9293854719418405e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-09-25",
@@ -172,9 +150,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-25.md",
       "links_count": 3,
-      "inbound_count": 1,
-      "x": -9.43995300505181e+90,
-      "y": -1.8827380855921059e+90
+      "inbound_count": 1
     },
     {
       "id": "40-LOGS/2026-06-30",
@@ -186,9 +162,7 @@
       "status": "active",
       "path": "40-LOGS/2026-06-30.md",
       "links_count": 5,
-      "inbound_count": 2,
-      "x": -9.60186664132628e+90,
-      "y": -1.9150307205702373e+90
+      "inbound_count": 2
     },
     {
       "id": "40-LOGS/2026-08-23",
@@ -200,9 +174,7 @@
       "status": "active",
       "path": "40-LOGS/2026-08-23.md",
       "links_count": 1,
-      "inbound_count": 2,
-      "x": -9.321655762564675e+90,
-      "y": -1.8591444602243519e+90
+      "inbound_count": 2
     },
     {
       "id": "40-LOGS/2026-08-26",
@@ -212,9 +184,7 @@
       "status": "active",
       "path": "40-LOGS/2026-08-26.md",
       "links_count": 1,
-      "inbound_count": 3,
-      "x": -9.371552790219344e+90,
-      "y": -1.8690961019757336e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-09-21",
@@ -224,9 +194,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-21.md",
       "links_count": 1,
-      "inbound_count": 1,
-      "x": -9.371555209602263e+90,
-      "y": -1.869096584506257e+90
+      "inbound_count": 1
     },
     {
       "id": "40-LOGS/2026-08-28",
@@ -236,9 +204,7 @@
       "status": "active",
       "path": "40-LOGS/2026-08-28.md",
       "links_count": 2,
-      "inbound_count": 3,
-      "x": -9.371553521263326e+90,
-      "y": -1.869096247777802e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/_Template",
@@ -250,9 +216,7 @@
       "status": "active",
       "path": "40-LOGS/_Template.md",
       "links_count": 1,
-      "inbound_count": 4,
-      "x": 4.5981575007420295e+89,
-      "y": 9.170722120352057e+88
+      "inbound_count": 4
     },
     {
       "id": "40-LOGS/2026-06-28",
@@ -264,9 +228,7 @@
       "status": "active",
       "path": "40-LOGS/2026-06-28.md",
       "links_count": 5,
-      "inbound_count": 2,
-      "x": -4.680532412273395e+90,
-      "y": -9.335022109615303e+89
+      "inbound_count": 2
     },
     {
       "id": "40-LOGS/2026-08-20",
@@ -278,9 +240,7 @@
       "status": "active",
       "path": "40-LOGS/2026-08-20.md",
       "links_count": 1,
-      "inbound_count": 3,
-      "x": -1.4137135611288055e+91,
-      "y": -2.8195609934208678e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-09-30",
@@ -292,9 +252,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-30.md",
       "links_count": 7,
-      "inbound_count": 1,
-      "x": -4.6516687860983705e+90,
-      "y": -9.277455460693188e+89
+      "inbound_count": 1
     },
     {
       "id": "40-LOGS/2026-09-23",
@@ -306,9 +264,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-23.md",
       "links_count": 2,
-      "inbound_count": 1,
-      "x": -9.400587742598565e+90,
-      "y": -1.8748869367516058e+90
+      "inbound_count": 1
     },
     {
       "id": "40-LOGS/2026-09-11",
@@ -318,9 +274,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-11.md",
       "links_count": 5,
-      "inbound_count": 4,
-      "x": -1.4354498068055881e+91,
-      "y": -2.862912539630502e+90
+      "inbound_count": 4
     },
     {
       "id": "40-LOGS/2026-08-25",
@@ -330,9 +284,7 @@
       "status": "active",
       "path": "40-LOGS/2026-08-25.md",
       "links_count": 1,
-      "inbound_count": 3,
-      "x": -9.371903871835743e+90,
-      "y": -1.869166122949484e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-08-21",
@@ -344,9 +296,7 @@
       "status": "active",
       "path": "40-LOGS/2026-08-21.md",
       "links_count": 6,
-      "inbound_count": 3,
-      "x": -1.4381264160535189e+91,
-      "y": -2.8682508647020313e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-08-19",
@@ -358,9 +308,7 @@
       "status": "active",
       "path": "40-LOGS/2026-08-19.md",
       "links_count": 3,
-      "inbound_count": 3,
-      "x": -1.4137135611288055e+91,
-      "y": -2.8195609934208678e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-09-01",
@@ -370,9 +318,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-01.md",
       "links_count": 2,
-      "inbound_count": 3,
-      "x": -9.400417736713122e+90,
-      "y": -1.874853030190254e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/vault-analysis-latest",
@@ -381,10 +327,8 @@
       "tags": [],
       "status": "active",
       "path": "40-LOGS/vault-analysis-latest.md",
-      "links_count": 4,
-      "inbound_count": 11,
-      "x": -4.264187541545144e+90,
-      "y": -8.504649000953026e+89
+      "links_count": 0,
+      "inbound_count": 11
     },
     {
       "id": "40-LOGS/2026-09-06",
@@ -394,9 +338,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-06.md",
       "links_count": 2,
-      "inbound_count": 2,
-      "x": -4.682780472041863e+90,
-      "y": -9.33950572076039e+89
+      "inbound_count": 2
     },
     {
       "id": "40-LOGS/2026-06-29",
@@ -408,9 +350,7 @@
       "status": "active",
       "path": "40-LOGS/2026-06-29.md",
       "links_count": 4,
-      "inbound_count": 2,
-      "x": 3.110313417916955e+89,
-      "y": 6.203312642979499e+88
+      "inbound_count": 2
     },
     {
       "id": "40-LOGS/2026-08-24",
@@ -422,9 +362,7 @@
       "status": "active",
       "path": "40-LOGS/2026-08-24.md",
       "links_count": 1,
-      "inbound_count": 3,
-      "x": -9.32130711700424e+90,
-      "y": -1.8590749251063715e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-09-05",
@@ -434,9 +372,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-05.md",
       "links_count": 2,
-      "inbound_count": 1,
-      "x": 3.3609212511444516e+88,
-      "y": 6.703064184465903e+87
+      "inbound_count": 1
     },
     {
       "id": "40-LOGS/2026-09-28",
@@ -448,9 +384,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-28.md",
       "links_count": 6,
-      "inbound_count": 2,
-      "x": -1.449771990620891e+91,
-      "y": -2.891477215548017e+90
+      "inbound_count": 2
     },
     {
       "id": "40-LOGS/2026-10-01",
@@ -462,9 +396,7 @@
       "status": "active",
       "path": "40-LOGS/2026-10-01.md",
       "links_count": 6,
-      "inbound_count": 2,
-      "x": -4.537095659047478e+90,
-      "y": -9.048946715529506e+89
+      "inbound_count": 2
     },
     {
       "id": "40-LOGS/2026-08-18",
@@ -476,9 +408,7 @@
       "status": "active",
       "path": "40-LOGS/2026-08-18.md",
       "links_count": 8,
-      "inbound_count": 3,
-      "x": -1.4514470388428814e+91,
-      "y": -2.8948179916187737e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-09-12",
@@ -488,9 +418,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-12.md",
       "links_count": 5,
-      "inbound_count": 4,
-      "x": -1.4282720051237171e+91,
-      "y": -2.8485968750989177e+90
+      "inbound_count": 4
     },
     {
       "id": "40-LOGS/2026-10-20",
@@ -502,9 +430,7 @@
       "status": "active",
       "path": "40-LOGS/2026-10-20.md",
       "links_count": 3,
-      "inbound_count": 3,
-      "x": -9.439541278932763e+90,
-      "y": -1.8826559694616898e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-09-16",
@@ -514,9 +440,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-16.md",
       "links_count": 5,
-      "inbound_count": 1,
-      "x": -4.548870070544454e+90,
-      "y": -9.072430024243747e+89
+      "inbound_count": 1
     },
     {
       "id": "40-LOGS/2026-09-29",
@@ -528,9 +452,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-29.md",
       "links_count": 4,
-      "inbound_count": 2,
-      "x": -9.47267937005326e+90,
-      "y": -1.8892651489390414e+90
+      "inbound_count": 2
     },
     {
       "id": "40-LOGS/2026-09-02",
@@ -540,9 +462,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-02.md",
       "links_count": 3,
-      "inbound_count": 3,
-      "x": -9.566587681384044e+90,
-      "y": -1.9079945585442057e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-09-03",
@@ -552,9 +472,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-03.md",
       "links_count": 2,
-      "inbound_count": 1,
-      "x": 6.758997646726357e+88,
-      "y": 1.348030935747546e+88
+      "inbound_count": 1
     },
     {
       "id": "40-LOGS/2026-06-27",
@@ -566,9 +484,7 @@
       "status": "active",
       "path": "40-LOGS/2026-06-27.md",
       "links_count": 1,
-      "inbound_count": 1,
-      "x": 2.888404282399356e+88,
-      "y": 5.760659416762748e+87
+      "inbound_count": 1
     },
     {
       "id": "40-LOGS/2026-09-18",
@@ -578,9 +494,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-18.md",
       "links_count": 6,
-      "inbound_count": 1,
-      "x": -9.467196827905523e+90,
-      "y": -1.8881716910854863e+90
+      "inbound_count": 1
     },
     {
       "id": "40-LOGS/2026-09-20",
@@ -590,9 +504,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-20.md",
       "links_count": 1,
-      "inbound_count": 1,
-      "x": -9.371555209602263e+90,
-      "y": -1.869096584506257e+90
+      "inbound_count": 1
     },
     {
       "id": "40-LOGS/2026-08-31",
@@ -602,9 +514,7 @@
       "status": "active",
       "path": "40-LOGS/2026-08-31.md",
       "links_count": 3,
-      "inbound_count": 4,
-      "x": -1.4424841257973918e+91,
-      "y": -2.8769420371316474e+90
+      "inbound_count": 4
     },
     {
       "id": "40-LOGS/2026-08-15",
@@ -616,9 +526,7 @@
       "status": "active",
       "path": "40-LOGS/2026-08-15.md",
       "links_count": 25,
-      "inbound_count": 9,
-      "x": -1.0023858861641993e+91,
-      "y": -1.9991943589944946e+90
+      "inbound_count": 9
     },
     {
       "id": "40-LOGS/2026-09-14",
@@ -628,9 +536,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-14.md",
       "links_count": 6,
-      "inbound_count": 3,
-      "x": -9.43125896664112e+90,
-      "y": -1.8810041154615657e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-08-30",
@@ -640,9 +546,7 @@
       "status": "active",
       "path": "40-LOGS/2026-08-30.md",
       "links_count": 2,
-      "inbound_count": 3,
-      "x": -9.336491391269099e+90,
-      "y": -1.8621033311018977e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-08-27",
@@ -652,9 +556,7 @@
       "status": "active",
       "path": "40-LOGS/2026-08-27.md",
       "links_count": 7,
-      "inbound_count": 4,
-      "x": -9.371555238103818e+90,
-      "y": -1.869096590190813e+90
+      "inbound_count": 4
     },
     {
       "id": "40-LOGS/2026-09-17",
@@ -664,9 +566,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-17.md",
       "links_count": 5,
-      "inbound_count": 3,
-      "x": -9.565239302394965e+90,
-      "y": -1.9077256330044147e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-09-10",
@@ -676,9 +576,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-10.md",
       "links_count": 5,
-      "inbound_count": 3,
-      "x": -9.433291499755881e+90,
-      "y": -1.881409491139545e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-09-09",
@@ -690,9 +588,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-09.md",
       "links_count": 0,
-      "inbound_count": 4,
-      "x": -4.621545389666523e+90,
-      "y": -9.217376281353151e+89
+      "inbound_count": 4
     },
     {
       "id": "40-LOGS/2026-09-19",
@@ -704,9 +600,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-19.md",
       "links_count": 0,
-      "inbound_count": 2,
-      "x": -4.621175399597244e+90,
-      "y": -9.216638359932625e+89
+      "inbound_count": 2
     },
     {
       "id": "40-LOGS/2026-08-22",
@@ -718,9 +612,7 @@
       "status": "active",
       "path": "40-LOGS/2026-08-22.md",
       "links_count": 3,
-      "inbound_count": 4,
-      "x": -1.4256161814962025e+91,
-      "y": -2.8433000053221958e+90
+      "inbound_count": 4
     },
     {
       "id": "40-LOGS/2026-10-15",
@@ -732,9 +624,7 @@
       "status": "active",
       "path": "40-LOGS/2026-10-15.md",
       "links_count": 7,
-      "inbound_count": 2,
-      "x": -1.4487072769462894e+91,
-      "y": -2.8893537124091096e+90
+      "inbound_count": 2
     },
     {
       "id": "40-LOGS/2026-09-15",
@@ -744,9 +634,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-15.md",
       "links_count": 5,
-      "inbound_count": 3,
-      "x": -9.504598670058734e+90,
-      "y": -1.8956312483569893e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-09-13",
@@ -756,9 +644,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-13.md",
       "links_count": 5,
-      "inbound_count": 4,
-      "x": -1.4354527287120396e+91,
-      "y": -2.862918367185242e+90
+      "inbound_count": 4
     },
     {
       "id": "40-LOGS/2026-09-07",
@@ -770,9 +656,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-07.md",
       "links_count": 4,
-      "inbound_count": 3,
-      "x": -9.675919203664982e+90,
-      "y": -1.9298000286472513e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-08-29",
@@ -782,9 +666,7 @@
       "status": "active",
       "path": "40-LOGS/2026-08-29.md",
       "links_count": 1,
-      "inbound_count": 3,
-      "x": -9.371798510961986e+90,
-      "y": -1.869145109399729e+90
+      "inbound_count": 3
     },
     {
       "id": "40-LOGS/2026-09-04",
@@ -794,9 +676,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-04.md",
       "links_count": 3,
-      "inbound_count": 1,
-      "x": 4.417610972786711e+87,
-      "y": 8.809867497842447e+86
+      "inbound_count": 1
     },
     {
       "id": "40-LOGS/2026-09-27",
@@ -808,9 +688,7 @@
       "status": "active",
       "path": "40-LOGS/2026-09-27.md",
       "links_count": 3,
-      "inbound_count": 2,
-      "x": -9.37071386471552e+90,
-      "y": -1.8689287836710448e+90
+      "inbound_count": 2
     },
     {
       "id": "30-PATTERNS/Coherence-Scoring",
@@ -822,9 +700,7 @@
       "status": "active",
       "path": "30-PATTERNS/Coherence-Scoring.md",
       "links_count": 8,
-      "inbound_count": 12,
-      "x": 2.858420912864862e+89,
-      "y": 5.700929220525057e+88
+      "inbound_count": 12
     },
     {
       "id": "30-PATTERNS/Self-Healing-Pipelines",
@@ -836,9 +712,7 @@
       "status": "active",
       "path": "30-PATTERNS/Self-Healing-Pipelines.md",
       "links_count": 5,
-      "inbound_count": 15,
-      "x": 4.0769361200338096e+89,
-      "y": 8.13117955509266e+88
+      "inbound_count": 15
     },
     {
       "id": "30-PATTERNS/Compounding-Knowledge",
@@ -848,9 +722,7 @@
       "status": "active",
       "path": "30-PATTERNS/Compounding-Knowledge.md",
       "links_count": 6,
-      "inbound_count": 31,
-      "x": -1.0803047377555683e+91,
-      "y": -2.154598504736992e+90
+      "inbound_count": 31
     },
     {
       "id": "30-PATTERNS/Review-and-Revision",
@@ -860,9 +732,7 @@
       "status": "active",
       "path": "30-PATTERNS/Review-and-Revision.md",
       "links_count": 3,
-      "inbound_count": 6,
-      "x": 6.626376118440066e+87,
-      "y": 1.3215107422114433e+87
+      "inbound_count": 6
     },
     {
       "id": "20-AGENTS/CoS",
@@ -872,9 +742,7 @@
       "status": "active",
       "path": "20-AGENTS/CoS.md",
       "links_count": 12,
-      "inbound_count": 28,
-      "x": -1.661315060196841e+91,
-      "y": -3.3133862834471064e+90
+      "inbound_count": 30
     },
     {
       "id": "20-AGENTS/Delegation",
@@ -884,9 +752,7 @@
       "status": "active",
       "path": "20-AGENTS/Delegation.md",
       "links_count": 9,
-      "inbound_count": 2,
-      "x": -9.482504328303252e+90,
-      "y": -1.891224673782094e+90
+      "inbound_count": 2
     },
     {
       "id": "20-AGENTS/Agent-Objectives",
@@ -896,9 +762,19 @@
       "status": "active",
       "path": "20-AGENTS/Agent-Objectives.md",
       "links_count": 4,
-      "inbound_count": 13,
-      "x": 1.176524159599401e+90,
-      "y": 2.3465011116182216e+89
+      "inbound_count": 13
+    },
+    {
+      "id": "00-DAILY/2026-10-28",
+      "title": "2026-10-28",
+      "group": "00-DAILY",
+      "tags": [
+        "1"
+      ],
+      "status": "active",
+      "path": "00-DAILY/2026-10-28.md",
+      "links_count": 4,
+      "inbound_count": 1
     },
     {
       "id": "00-DAILY/2026-10-16",
@@ -910,9 +786,7 @@
       "status": "active",
       "path": "00-DAILY/2026-10-16.md",
       "links_count": 1,
-      "inbound_count": 0,
-      "x": 1.1291907474501748e+89,
-      "y": 2.252090690033435e+88
+      "inbound_count": 0
     },
     {
       "id": "00-DAILY/2026-10-21",
@@ -924,9 +798,7 @@
       "status": "active",
       "path": "00-DAILY/2026-10-21.md",
       "links_count": 3,
-      "inbound_count": 0,
-      "x": -4.538545488073467e+90,
-      "y": -9.051838307476013e+89
+      "inbound_count": 0
     },
     {
       "id": "00-DAILY/2026-10-17",
@@ -938,9 +810,7 @@
       "status": "active",
       "path": "00-DAILY/2026-10-17.md",
       "links_count": 1,
-      "inbound_count": 2,
-      "x": -4.572123369834559e+90,
-      "y": -9.118807236443923e+89
+      "inbound_count": 2
     },
     {
       "id": "00-DAILY/2026-10-24",
@@ -952,9 +822,7 @@
       "status": "active",
       "path": "00-DAILY/2026-10-24.md",
       "links_count": 5,
-      "inbound_count": 2,
-      "x": -4.572086838884294e+90,
-      "y": -9.118734377808332e+89
+      "inbound_count": 2
     },
     {
       "id": "00-DAILY/2026-10-23",
@@ -966,9 +834,7 @@
       "status": "active",
       "path": "00-DAILY/2026-10-23.md",
       "links_count": 4,
-      "inbound_count": 2,
-      "x": -4.571896994570997e+90,
-      "y": -9.118355745519782e+89
+      "inbound_count": 2
     },
     {
       "id": "00-DAILY/2026-10-19",
@@ -980,9 +846,19 @@
       "status": "active",
       "path": "00-DAILY/2026-10-19.md",
       "links_count": 4,
-      "inbound_count": 2,
-      "x": -4.5723880323230535e+90,
-      "y": -9.1193350887822e+89
+      "inbound_count": 2
+    },
+    {
+      "id": "00-DAILY/2026-10-27",
+      "title": "2026-10-27",
+      "group": "00-DAILY",
+      "tags": [
+        "1"
+      ],
+      "status": "active",
+      "path": "00-DAILY/2026-10-27.md",
+      "links_count": 5,
+      "inbound_count": 2
     },
     {
       "id": "00-DAILY/2026-10-22",
@@ -994,9 +870,7 @@
       "status": "active",
       "path": "00-DAILY/2026-10-22.md",
       "links_count": 4,
-      "inbound_count": 1,
-      "x": -4.599255399110599e+90,
-      "y": -9.172920326081638e+89
+      "inbound_count": 1
     },
     {
       "id": "00-DAILY/2026-10-20",
@@ -1008,9 +882,7 @@
       "status": "active",
       "path": "00-DAILY/2026-10-20.md",
       "links_count": 7,
-      "inbound_count": 0,
-      "x": -4.533979216865291e+90,
-      "y": -9.042731172492194e+89
+      "inbound_count": 0
     },
     {
       "id": "00-DAILY/2026-10-18",
@@ -1020,9 +892,7 @@
       "status": "active",
       "path": "00-DAILY/2026-10-18.md",
       "links_count": 7,
-      "inbound_count": 1,
-      "x": -4.566592814018144e+90,
-      "y": -9.107776897737236e+89
+      "inbound_count": 1
     },
     {
       "id": "00-DAILY/2026-10-26",
@@ -1034,9 +904,7 @@
       "status": "active",
       "path": "00-DAILY/2026-10-26.md",
       "links_count": 5,
-      "inbound_count": 1,
-      "x": -4.572085521524522e+90,
-      "y": -9.118731750418127e+89
+      "inbound_count": 2
     },
     {
       "id": "00-DAILY/2026-10-25",
@@ -1048,9 +916,7 @@
       "status": "active",
       "path": "00-DAILY/2026-10-25.md",
       "links_count": 4,
-      "inbound_count": 3,
-      "x": -4.5720855029862875e+90,
-      "y": -9.118731713445683e+89
+      "inbound_count": 3
     },
     {
       "id": "10-PROPERTIES/JEV-Consideration",
@@ -1060,9 +926,7 @@
       "status": "active",
       "path": "10-PROPERTIES/JEV-Consideration.md",
       "links_count": 0,
-      "inbound_count": 1,
-      "x": -4.653928624479704e+90,
-      "y": -9.281962563704184e+89
+      "inbound_count": 1
     },
     {
       "id": "10-PROPERTIES/LucentSkill-Teams-Scoped-Content",
@@ -1072,9 +936,7 @@
       "status": "active",
       "path": "10-PROPERTIES/LucentSkill-Teams-Scoped-Content.md",
       "links_count": 1,
-      "inbound_count": 1,
-      "x": 1.4719721055526358e+89,
-      "y": 2.935746096661768e+88
+      "inbound_count": 1
     },
     {
       "id": "10-PROPERTIES/Newtradium",
@@ -1084,9 +946,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Newtradium.md",
       "links_count": 1,
-      "inbound_count": 11,
-      "x": -4.978047115611805e+90,
-      "y": -9.928396077558785e+89
+      "inbound_count": 11
     },
     {
       "id": "10-PROPERTIES/LucentSkill",
@@ -1096,9 +956,7 @@
       "status": "active",
       "path": "10-PROPERTIES/LucentSkill.md",
       "links_count": 9,
-      "inbound_count": 14,
-      "x": -1.0754540813927271e+91,
-      "y": -2.1449241821199783e+90
+      "inbound_count": 14
     },
     {
       "id": "10-PROPERTIES/Darcron",
@@ -1110,9 +968,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Darcron.md",
       "links_count": 1,
-      "inbound_count": 7,
-      "x": -4.839551909807417e+90,
-      "y": -9.652176284592435e+89
+      "inbound_count": 7
     },
     {
       "id": "10-PROPERTIES/OmniVoke",
@@ -1122,9 +978,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OmniVoke.md",
       "links_count": 4,
-      "inbound_count": 6,
-      "x": -4.911818075187511e+90,
-      "y": -9.796306511030902e+89
+      "inbound_count": 7
     },
     {
       "id": "10-PROPERTIES/RoleFresh",
@@ -1134,9 +988,7 @@
       "status": "active",
       "path": "10-PROPERTIES/RoleFresh.md",
       "links_count": 4,
-      "inbound_count": 5,
-      "x": -9.706665705275935e+90,
-      "y": -1.9359322208827676e+90
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/Podsona",
@@ -1146,9 +998,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Podsona.md",
       "links_count": 0,
-      "inbound_count": 0,
-      "x": -1229.12,
-      "y": -81.99
+      "inbound_count": 0
     },
     {
       "id": "10-PROPERTIES/Bookbrary",
@@ -1160,9 +1010,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Bookbrary.md",
       "links_count": 10,
-      "inbound_count": 10,
-      "x": -4.838830703440034e+90,
-      "y": -9.650737885646393e+89
+      "inbound_count": 10
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Objectives",
@@ -1172,9 +1020,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Objectives.md",
       "links_count": 3,
-      "inbound_count": 27,
-      "x": -5.39015174251715e+90,
-      "y": -1.075031229539366e+90
+      "inbound_count": 27
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Watchdog",
@@ -1184,9 +1030,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Watchdog.md",
       "links_count": 8,
-      "inbound_count": 3,
-      "x": 2.5203745447346806e+89,
-      "y": 5.026717444581898e+88
+      "inbound_count": 3
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Pipeline",
@@ -1196,9 +1040,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Pipeline.md",
       "links_count": 6,
-      "inbound_count": 9,
-      "x": 9.470012256279664e+88,
-      "y": 1.8887253926107905e+88
+      "inbound_count": 9
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Overview",
@@ -1210,9 +1052,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Overview.md",
       "links_count": 22,
-      "inbound_count": 14,
-      "x": 1.1164380154261597e+90,
-      "y": 2.2266631579019673e+89
+      "inbound_count": 14
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Agents",
@@ -1224,9 +1064,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Agents.md",
       "links_count": 13,
-      "inbound_count": 8,
-      "x": 3.976166342836813e+89,
-      "y": 7.930200695110603e+88
+      "inbound_count": 8
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Review-System",
@@ -1236,9 +1074,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Review-System.md",
       "links_count": 4,
-      "inbound_count": 9,
-      "x": 5.729085753449401e+89,
-      "y": 1.1426285904457756e+89
+      "inbound_count": 9
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Agent-Details",
@@ -1250,9 +1086,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Agent-Details.md",
       "links_count": 9,
-      "inbound_count": 3,
-      "x": 3.8296407623552223e+89,
-      "y": 7.637964835900966e+88
+      "inbound_count": 3
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Lessons/Chapter-Backfill",
@@ -1262,9 +1096,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Lessons/Chapter-Backfill.md",
       "links_count": 1,
-      "inbound_count": 2,
-      "x": -1.0082754894719919e+88,
-      "y": -2.011018165867604e+87
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Lessons/Coherence-9",
@@ -1276,9 +1108,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Lessons/Coherence-9.md",
       "links_count": 2,
-      "inbound_count": 6,
-      "x": 1.6937364301695128e+89,
-      "y": 3.378040804270828e+88
+      "inbound_count": 6
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Lessons/Queue-Desync",
@@ -1288,9 +1118,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Lessons/Queue-Desync.md",
       "links_count": 2,
-      "inbound_count": 4,
-      "x": 5.887175724739785e+88,
-      "y": 1.1741516485043803e+88
+      "inbound_count": 4
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Lessons/Rate-Limits",
@@ -1300,9 +1128,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Lessons/Rate-Limits.md",
       "links_count": 1,
-      "inbound_count": 2,
-      "x": 6.18784881365785e+88,
-      "y": 1.2341189658816247e+88
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Lessons/Gender-Anchor-FIXED",
@@ -1314,9 +1140,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Lessons/Gender-Anchor-FIXED.md",
       "links_count": 1,
-      "inbound_count": 2,
-      "x": -8.383943633561076e+87,
-      "y": -1.6722011677231165e+87
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Lessons/Cover-Upload",
@@ -1326,9 +1150,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Lessons/Cover-Upload.md",
       "links_count": 1,
-      "inbound_count": 2,
-      "x": -1.0082754894719919e+88,
-      "y": -2.011018165867604e+87
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/Story-Engine/Lessons/Gender-Anchor-Object-Desync",
@@ -1338,9 +1160,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Story-Engine/Lessons/Gender-Anchor-Object-Desync.md",
       "links_count": 3,
-      "inbound_count": 3,
-      "x": 5.009984939998856e+88,
-      "y": 9.992015796189094e+87
+      "inbound_count": 3
     },
     {
       "id": "10-PROPERTIES/OctoGentic/2026-09-17-Tool-Assessment",
@@ -1350,9 +1170,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/2026-09-17-Tool-Assessment.md",
       "links_count": 2,
-      "inbound_count": 2,
-      "x": 1.4377556503927193e+89,
-      "y": 2.867503583755276e+88
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Objectives",
@@ -1362,9 +1180,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Objectives.md",
       "links_count": 6,
-      "inbound_count": 7,
-      "x": -4.351878835686516e+90,
-      "y": -8.67954365449229e+89
+      "inbound_count": 7
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Implementation-Tracker",
@@ -1374,9 +1190,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Implementation-Tracker.md",
       "links_count": 1,
-      "inbound_count": 2,
-      "x": 7.640974800938626e+88,
-      "y": 1.5239356220914923e+88
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Key-Takeaways",
@@ -1386,9 +1200,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Key-Takeaways.md",
       "links_count": 1,
-      "inbound_count": 28,
-      "x": 7.807073273562321e+89,
-      "y": 1.5570698625630543e+89
+      "inbound_count": 28
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog-Index",
@@ -1397,10 +1209,8 @@
       "tags": [],
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog-Index.md",
-      "links_count": 100,
-      "inbound_count": 42,
-      "x": 1.6708152188650613e+91,
-      "y": 3.332333757667303e+90
+      "links_count": 102,
+      "inbound_count": 43
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Overview",
@@ -1410,9 +1220,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Overview.md",
       "links_count": 19,
-      "inbound_count": 61,
-      "x": -5.61635861611956e+90,
-      "y": -1.1201467444360994e+90
+      "inbound_count": 62
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-31-Agentic-Execution",
@@ -1422,9 +1230,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-31-Agentic-Execution.md",
       "links_count": 17,
-      "inbound_count": 8,
-      "x": 1.572272093843825e+89,
-      "y": 3.1357878722627444e+88
+      "inbound_count": 8
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching",
@@ -1434,9 +1240,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching.md",
       "links_count": 7,
-      "inbound_count": 4,
-      "x": -1.6819066541149433e+89,
-      "y": -3.3544629408326285e+88
+      "inbound_count": 4
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-10-02-Agentic-Budgeting",
@@ -1446,9 +1250,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-10-02-Agentic-Budgeting.md",
       "links_count": 9,
-      "inbound_count": 5,
-      "x": 1.8522925767625034e+88,
-      "y": 3.6941973176331576e+87
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-10-15-Agentic-Prioritization",
@@ -1458,9 +1260,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-10-15-Agentic-Prioritization.md",
       "links_count": 7,
-      "inbound_count": 4,
-      "x": -1.44642416123419e+89,
-      "y": -2.8848082290597843e+88
+      "inbound_count": 4
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge",
@@ -1470,9 +1270,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-29-Agentic-Knowledge.md",
       "links_count": 17,
-      "inbound_count": 11,
-      "x": -7.14133348262025e+88,
-      "y": -1.4243009557760529e+88
+      "inbound_count": 11
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-20-Agentic-Metacognition",
@@ -1482,9 +1280,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-20-Agentic-Metacognition.md",
       "links_count": 4,
-      "inbound_count": 13,
-      "x": -3.7070784393615197e+89,
-      "y": -7.393538033386228e+88
+      "inbound_count": 13
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-12-Agentic-Orchestration",
@@ -1494,9 +1290,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-12-Agentic-Orchestration.md",
       "links_count": 2,
-      "inbound_count": 2,
-      "x": -3.532050201911498e+89,
-      "y": -7.044455435182553e+88
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-06-Agentic-Reasoning",
@@ -1506,9 +1300,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-06-Agentic-Reasoning.md",
       "links_count": 9,
-      "inbound_count": 6,
-      "x": -1.6123911857840363e+89,
-      "y": -3.2158186669374954e+88
+      "inbound_count": 6
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-30-Agentic-Concurrency",
@@ -1518,9 +1310,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-30-Agentic-Concurrency.md",
       "links_count": 6,
-      "inbound_count": 2,
-      "x": -2.2048502392502434e+89,
-      "y": -4.39744034247022e+88
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-12-Rise-of-Agentic-AI",
@@ -1530,9 +1320,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-06-12-Rise-of-Agentic-AI.md",
       "links_count": 3,
-      "inbound_count": 1,
-      "x": -2.293439695288018e+89,
-      "y": -4.5741261867375904e+88
+      "inbound_count": 1
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-20-Agentic-UX",
@@ -1542,9 +1330,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-06-20-Agentic-UX.md",
       "links_count": 3,
-      "inbound_count": 1,
-      "x": -2.293439695288018e+89,
-      "y": -4.5741261867375904e+88
+      "inbound_count": 1
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-18-Agentic-Handoff",
@@ -1556,9 +1342,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-18-Agentic-Handoff.md",
       "links_count": 4,
-      "inbound_count": 9,
-      "x": -5.158244849256554e+90,
-      "y": -1.0287788928305634e+90
+      "inbound_count": 9
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance",
@@ -1568,9 +1352,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-17-Agentic-Governance.md",
       "links_count": 3,
-      "inbound_count": 15,
-      "x": -8.520008501448784e+88,
-      "y": -1.69926898058069e+88
+      "inbound_count": 15
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-02-Agentic-Grounding",
@@ -1580,9 +1362,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-02-Agentic-Grounding.md",
       "links_count": 6,
-      "inbound_count": 13,
-      "x": -2.173224016146949e+89,
-      "y": -4.3343638766197454e+88
+      "inbound_count": 13
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-05-Agentic-Learning",
@@ -1592,9 +1372,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-05-Agentic-Learning.md",
       "links_count": 4,
-      "inbound_count": 6,
-      "x": -1.9920415320307864e+89,
-      "y": -3.9730069055732916e+88
+      "inbound_count": 6
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-21-Agentic-Persistence",
@@ -1604,9 +1382,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-21-Agentic-Persistence.md",
       "links_count": 3,
-      "inbound_count": 5,
-      "x": -3.5072442922199625e+89,
-      "y": -6.994981642820561e+88
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-29-Agentic-Criticism",
@@ -1618,9 +1394,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-29-Agentic-Criticism.md",
       "links_count": 5,
-      "inbound_count": 3,
-      "x": -2.011848374391629e+89,
-      "y": -4.012510381869979e+88
+      "inbound_count": 3
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-11-Reactive-to-Proactive",
@@ -1630,9 +1404,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-06-11-Reactive-to-Proactive.md",
       "links_count": 3,
-      "inbound_count": 1,
-      "x": -2.3131837438168396e+89,
-      "y": -4.6135044225193936e+88
+      "inbound_count": 1
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-17-Agentic-Timing",
@@ -1644,9 +1416,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-17-Agentic-Timing.md",
       "links_count": 4,
-      "inbound_count": 4,
-      "x": -1.3374108252872906e+89,
-      "y": -2.667388001233418e+88
+      "inbound_count": 4
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-04-Agentic-Planning",
@@ -1656,9 +1426,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-04-Agentic-Planning.md",
       "links_count": 6,
-      "inbound_count": 8,
-      "x": -3.689768032398942e+89,
-      "y": -7.359013530969885e+88
+      "inbound_count": 8
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-10-25-Agentic-Braking",
@@ -1668,9 +1436,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-10-25-Agentic-Braking.md",
       "links_count": 8,
-      "inbound_count": 2,
-      "x": -1.694211147857854e+89,
-      "y": -3.37900346454482e+88
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-08-Agentic-Communication",
@@ -1680,9 +1446,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-08-Agentic-Communication.md",
       "links_count": 2,
-      "inbound_count": 5,
-      "x": -3.5748288771670606e+89,
-      "y": -7.129774758761081e+88
+      "inbound_count": 6
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-22-Agentic-Operations",
@@ -1692,9 +1456,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-22-Agentic-Operations.md",
       "links_count": 10,
-      "inbound_count": 10,
-      "x": -2.037758047659438e+89,
-      "y": -4.0641855660791984e+88
+      "inbound_count": 10
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-20-Agentic-Alignment",
@@ -1706,9 +1468,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-20-Agentic-Alignment.md",
       "links_count": 4,
-      "inbound_count": 5,
-      "x": -2.0268100239185604e+89,
-      "y": -4.042350429147835e+88
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-09-Agentic-Context",
@@ -1718,9 +1478,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-09-Agentic-Context.md",
       "links_count": 7,
-      "inbound_count": 3,
-      "x": -3.4675493205448494e+89,
-      "y": -6.915812565774882e+88
+      "inbound_count": 3
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-03-Agentic-Memory",
@@ -1730,9 +1488,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-03-Agentic-Memory.md",
       "links_count": 8,
-      "inbound_count": 8,
-      "x": -2.4681318753096434e+89,
-      "y": -4.922538662355025e+88
+      "inbound_count": 8
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-24-Agentic-Provenance",
@@ -1742,9 +1498,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-24-Agentic-Provenance.md",
       "links_count": 1,
-      "inbound_count": 3,
-      "x": -3.4542734266909275e+89,
-      "y": -6.889334648241283e+88
+      "inbound_count": 3
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-18-Agentic-Goal-Architecture",
@@ -1754,9 +1508,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-18-Agentic-Goal-Architecture.md",
       "links_count": 5,
-      "inbound_count": 13,
-      "x": -1.2021700252697961e+89,
-      "y": -2.3976587781856136e+88
+      "inbound_count": 13
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution",
@@ -1766,9 +1518,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-28-Agentic-Evolution.md",
       "links_count": 17,
-      "inbound_count": 7,
-      "x": -7.10594133227294e+88,
-      "y": -1.4172422224612982e+88
+      "inbound_count": 7
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-27-Agentic-Degradation",
@@ -1778,9 +1528,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-27-Agentic-Degradation.md",
       "links_count": 7,
-      "inbound_count": 8,
-      "x": -2.6014617002318523e+89,
-      "y": -5.1884564369885895e+88
+      "inbound_count": 8
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-19-Agentic-Restraint",
@@ -1792,9 +1540,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-19-Agentic-Restraint.md",
       "links_count": 4,
-      "inbound_count": 5,
-      "x": -2.007043121856569e+89,
-      "y": -4.0029266122505105e+88
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-23-Agentic-Adaptation",
@@ -1804,9 +1550,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-23-Agentic-Adaptation.md",
       "links_count": 11,
-      "inbound_count": 11,
-      "x": -2.066308994679906e+89,
-      "y": -4.121128599040533e+88
+      "inbound_count": 11
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-10-24-Agentic-Revision",
@@ -1816,9 +1560,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-10-24-Agentic-Revision.md",
       "links_count": 7,
-      "inbound_count": 3,
-      "x": -2.89694956573842e+89,
-      "y": -5.777788000751421e+88
+      "inbound_count": 3
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-10-01-Agentic-Contracts",
@@ -1828,9 +1570,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-10-01-Agentic-Contracts.md",
       "links_count": 9,
-      "inbound_count": 4,
-      "x": -8.96497135579224e+88,
-      "y": -1.7880140944018947e+88
+      "inbound_count": 4
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration",
@@ -1842,9 +1582,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-13-Agentic-Calibration.md",
       "links_count": 4,
-      "inbound_count": 6,
-      "x": -5.2466968004780805e+90,
-      "y": -1.0464200664008095e+90
+      "inbound_count": 6
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop",
@@ -1854,9 +1592,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-06-25-Feedback-Loop.md",
       "links_count": 8,
-      "inbound_count": 8,
-      "x": -1.173640966464568e+88,
-      "y": -2.340832978465989e+87
+      "inbound_count": 8
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-15-Agentic-Evaluation",
@@ -1866,9 +1602,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-15-Agentic-Evaluation.md",
       "links_count": 2,
-      "inbound_count": 12,
-      "x": -4.20338400517298e+88,
-      "y": -8.383458097460936e+87
+      "inbound_count": 12
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-11-Agentic-Verification",
@@ -1878,9 +1612,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-11-Agentic-Verification.md",
       "links_count": 5,
-      "inbound_count": 5,
-      "x": -3.4855943251078216e+89,
-      "y": -6.951802170700973e+88
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-11-Agent-Coordination",
@@ -1890,9 +1622,17 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-06-11-Agent-Coordination.md",
       "links_count": 3,
-      "inbound_count": 1,
-      "x": -2.3131837438168396e+89,
-      "y": -4.6135044225193936e+88
+      "inbound_count": 1
+    },
+    {
+      "id": "10-PROPERTIES/OctoGentic/Blog/2026-10-28-Agentic-Translation",
+      "title": "2026-10-28-Agentic-Translation",
+      "group": "10-PROPERTIES",
+      "tags": [],
+      "status": "active",
+      "path": "10-PROPERTIES/OctoGentic/Blog/2026-10-28-Agentic-Translation.md",
+      "links_count": 6,
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation",
@@ -1904,9 +1644,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-14-Agentic-Negotiation.md",
       "links_count": 4,
-      "inbound_count": 4,
-      "x": -5.174916241064915e+90,
-      "y": -1.0321038947454783e+90
+      "inbound_count": 4
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-10-23-Agentic-Taste",
@@ -1916,9 +1654,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-10-23-Agentic-Taste.md",
       "links_count": 8,
-      "inbound_count": 3,
-      "x": -4.454917193230305e+88,
-      "y": -8.885126147786037e+87
+      "inbound_count": 3
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-26-Agentic-Uncertainty",
@@ -1928,9 +1664,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-26-Agentic-Uncertainty.md",
       "links_count": 14,
-      "inbound_count": 10,
-      "x": -6.849978936339181e+88,
-      "y": -1.3661921626497418e+88
+      "inbound_count": 10
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation",
@@ -1942,9 +1676,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-15-Agentic-Delegation.md",
       "links_count": 4,
-      "inbound_count": 5,
-      "x": -5.210637902302244e+90,
-      "y": -1.0392283507019366e+90
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-10-26-Agentic-Forgetting",
@@ -1954,9 +1686,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-10-26-Agentic-Forgetting.md",
       "links_count": 6,
-      "inbound_count": 2,
-      "x": -3.9867223898791814e+89,
-      "y": -7.951270046816732e+88
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split",
@@ -1966,9 +1696,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split.md",
       "links_count": 7,
-      "inbound_count": 6,
-      "x": -2.1780920507805014e+89,
-      "y": -4.344072853589416e+88
+      "inbound_count": 6
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition",
@@ -1978,9 +1706,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-21-Agentic-Composition.md",
       "links_count": 8,
-      "inbound_count": 12,
-      "x": -2.017453023042474e+89,
-      "y": -4.023688499465229e+88
+      "inbound_count": 12
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-20-Agentic-Supply-Chain",
@@ -1990,9 +1716,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-06-20-Agentic-Supply-Chain.md",
       "links_count": 3,
-      "inbound_count": 1,
-      "x": -2.293439695288018e+89,
-      "y": -4.5741261867375904e+88
+      "inbound_count": 1
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
@@ -2002,9 +1726,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect.md",
       "links_count": 6,
-      "inbound_count": 9,
-      "x": -6.616577713530887e+88,
-      "y": -1.3196422172794316e+88
+      "inbound_count": 9
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-01-Agentic-Self-Healing",
@@ -2014,9 +1736,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-01-Agentic-Self-Healing.md",
       "links_count": 18,
-      "inbound_count": 9,
-      "x": 7.676722685464043e+87,
-      "y": 1.530994581775011e+87
+      "inbound_count": 9
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines",
@@ -2026,9 +1746,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines.md",
       "links_count": 7,
-      "inbound_count": 4,
-      "x": -9.745965398018371e+88,
-      "y": -1.9437782107597867e+88
+      "inbound_count": 4
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-10-Agentic-Decision-Making",
@@ -2038,9 +1756,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-10-Agentic-Decision-Making.md",
       "links_count": 7,
-      "inbound_count": 8,
-      "x": -3.501106187956276e+89,
-      "y": -6.982739586031479e+88
+      "inbound_count": 8
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-07-Agentic-Synthesis",
@@ -2050,9 +1766,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-07-Agentic-Synthesis.md",
       "links_count": 5,
-      "inbound_count": 2,
-      "x": 6.518510902056987e+88,
-      "y": 1.3000674000627679e+88
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-16-Agentic-Reflection",
@@ -2064,9 +1778,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-16-Agentic-Reflection.md",
       "links_count": 4,
-      "inbound_count": 4,
-      "x": -1.3008793363500917e+89,
-      "y": -2.5945282895023295e+88
+      "inbound_count": 4
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-25-Agentic-Coherence",
@@ -2076,9 +1788,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-25-Agentic-Coherence.md",
       "links_count": 7,
-      "inbound_count": 7,
-      "x": -3.402408030952043e+89,
-      "y": -6.785892462811217e+88
+      "inbound_count": 7
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust",
@@ -2088,9 +1798,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-27-Agentic-Trust.md",
       "links_count": 15,
-      "inbound_count": 11,
-      "x": -2.047292260314972e+89,
-      "y": -4.0832009446577536e+88
+      "inbound_count": 11
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-16-The-Agentic-Compounding-Engine",
@@ -2100,9 +1808,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-16-The-Agentic-Compounding-Engine.md",
       "links_count": 3,
-      "inbound_count": 13,
-      "x": -4.277191194309812e+88,
-      "y": -8.530661763736704e+87
+      "inbound_count": 13
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-09-23-Agentic-Personalization",
@@ -2114,9 +1820,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-09-23-Agentic-Personalization.md",
       "links_count": 5,
-      "inbound_count": 3,
-      "x": -8.898957706561018e+88,
-      "y": -1.774847960017326e+88
+      "inbound_count": 4
     },
     {
       "id": "10-PROPERTIES/OctoGentic/Blog/2026-08-25-Agentic-Resilience",
@@ -2126,9 +1830,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OctoGentic/Blog/2026-08-25-Agentic-Resilience.md",
       "links_count": 2,
-      "inbound_count": 10,
-      "x": -1.1567572544759477e+89,
-      "y": -2.3070859269105815e+88
+      "inbound_count": 10
     },
     {
       "id": "10-PROPERTIES/OmniVoke/HITL-Test-2026-09-29",
@@ -2138,9 +1840,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OmniVoke/HITL-Test-2026-09-29.md",
       "links_count": 0,
-      "inbound_count": 1,
-      "x": 3.338513339667659e+88,
-      "y": 6.658373023311975e+87
+      "inbound_count": 1
     },
     {
       "id": "10-PROPERTIES/OmniVoke/HITL-Review-Redesign",
@@ -2150,9 +1850,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OmniVoke/HITL-Review-Redesign.md",
       "links_count": 0,
-      "inbound_count": 1,
-      "x": 3.338513339667659e+88,
-      "y": 6.658373023311975e+87
+      "inbound_count": 1
     },
     {
       "id": "10-PROPERTIES/OmniVoke/Bluesky-Connect-Fix",
@@ -2162,9 +1860,7 @@
       "status": "active",
       "path": "10-PROPERTIES/OmniVoke/Bluesky-Connect-Fix.md",
       "links_count": 0,
-      "inbound_count": 1,
-      "x": 3.338513339667659e+88,
-      "y": 6.658373023311975e+87
+      "inbound_count": 1
     },
     {
       "id": "10-PROPERTIES/Web-Design/21st-dev-deep-dive",
@@ -2174,9 +1870,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Web-Design/21st-dev-deep-dive.md",
       "links_count": 2,
-      "inbound_count": 3,
-      "x": -9.468111631674572e+90,
-      "y": -1.8883541428519037e+90
+      "inbound_count": 3
     },
     {
       "id": "10-PROPERTIES/Web-Design/fuch-ai-recreation-guide",
@@ -2186,9 +1880,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Web-Design/fuch-ai-recreation-guide.md",
       "links_count": 2,
-      "inbound_count": 2,
-      "x": -4.651615601659094e+90,
-      "y": -9.277349388222654e+89
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/Web-Design/21st-dev-ui-research",
@@ -2198,9 +1890,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Web-Design/21st-dev-ui-research.md",
       "links_count": 2,
-      "inbound_count": 2,
-      "x": -4.651615601659094e+90,
-      "y": -9.277349388222654e+89
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/Web-Design/fuch-ai-vs-bookbrary",
@@ -2210,9 +1900,7 @@
       "status": "active",
       "path": "10-PROPERTIES/Web-Design/fuch-ai-vs-bookbrary.md",
       "links_count": 5,
-      "inbound_count": 1,
-      "x": -4.617486012006791e+90,
-      "y": -9.209280113294922e+89
+      "inbound_count": 1
     },
     {
       "id": "10-PROPERTIES/LucentSkill/Course-Generation-Failure-Fix",
@@ -2222,9 +1910,7 @@
       "status": "active",
       "path": "10-PROPERTIES/LucentSkill/Course-Generation-Failure-Fix.md",
       "links_count": 0,
-      "inbound_count": 1,
-      "x": 7.309811194472988e+88,
-      "y": 1.4578871578949048e+88
+      "inbound_count": 1
     },
     {
       "id": "10-PROPERTIES/LucentSkill/Security-Gauntlet-Encryption",
@@ -2234,9 +1920,7 @@
       "status": "active",
       "path": "10-PROPERTIES/LucentSkill/Security-Gauntlet-Encryption.md",
       "links_count": 0,
-      "inbound_count": 1,
-      "x": 7.309811194472988e+88,
-      "y": 1.4578871578949048e+88
+      "inbound_count": 1
     },
     {
       "id": "10-PROPERTIES/LucentSkill/Invite-Conversion-Trial-Card",
@@ -2246,9 +1930,7 @@
       "status": "active",
       "path": "10-PROPERTIES/LucentSkill/Invite-Conversion-Trial-Card.md",
       "links_count": 0,
-      "inbound_count": 1,
-      "x": 7.309811194472988e+88,
-      "y": 1.4578871578949048e+88
+      "inbound_count": 1
     },
     {
       "id": "10-PROPERTIES/LucentSkill/Billing-Pricing-Gauntlet",
@@ -2258,9 +1940,7 @@
       "status": "active",
       "path": "10-PROPERTIES/LucentSkill/Billing-Pricing-Gauntlet.md",
       "links_count": 0,
-      "inbound_count": 1,
-      "x": 7.309811194472988e+88,
-      "y": 1.4578871578949048e+88
+      "inbound_count": 1
     },
     {
       "id": "10-PROPERTIES/LucentSkill/Holleys-Org-Invite",
@@ -2270,9 +1950,7 @@
       "status": "active",
       "path": "10-PROPERTIES/LucentSkill/Holleys-Org-Invite.md",
       "links_count": 0,
-      "inbound_count": 2,
-      "x": 1.7281370909275898e+89,
-      "y": 3.446650710532286e+88
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/LucentSkill/Daily-Lumen-Reliability-Fix",
@@ -2282,9 +1960,7 @@
       "status": "active",
       "path": "10-PROPERTIES/LucentSkill/Daily-Lumen-Reliability-Fix.md",
       "links_count": 0,
-      "inbound_count": 0,
-      "x": -311.43,
-      "y": 137.99
+      "inbound_count": 0
     },
     {
       "id": "10-PROPERTIES/LucentSkill/Daily-Lumen-Blog",
@@ -2294,9 +1970,7 @@
       "status": "active",
       "path": "10-PROPERTIES/LucentSkill/Daily-Lumen-Blog.md",
       "links_count": 2,
-      "inbound_count": 2,
-      "x": -4.535873887735632e+90,
-      "y": -9.046509972198173e+89
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/LucentSkill/Accessibility-Audit",
@@ -2306,9 +1980,7 @@
       "status": "active",
       "path": "10-PROPERTIES/LucentSkill/Accessibility-Audit.md",
       "links_count": 2,
-      "inbound_count": 2,
-      "x": -4.535873887735632e+90,
-      "y": -9.046509972198173e+89
+      "inbound_count": 2
     },
     {
       "id": "10-PROPERTIES/RoleFresh/Fresh-Bytes-Publish-Blocked-DB-Outage-2026-09-28",
@@ -2318,9 +1990,7 @@
       "status": "active",
       "path": "10-PROPERTIES/RoleFresh/Fresh-Bytes-Publish-Blocked-DB-Outage-2026-09-28.md",
       "links_count": 0,
-      "inbound_count": 5,
-      "x": 2.995013379875401e+89,
-      "y": 5.973354116371911e+88
+      "inbound_count": 5
     },
     {
       "id": "10-PROPERTIES/RoleFresh/RoleFresh",
@@ -2333,9 +2003,7 @@
       "status": "active",
       "path": "10-PROPERTIES/RoleFresh/RoleFresh.md",
       "links_count": 0,
-      "inbound_count": 0,
-      "x": 1060.63,
-      "y": -50.38
+      "inbound_count": 0
     }
   ],
   "links": [
@@ -4130,6 +3798,26 @@
       "type": "wikilink"
     },
     {
+      "source": "00-DAILY/2026-10-28",
+      "target": "00-META/Home",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-28",
+      "target": "20-AGENTS/CoS",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-28",
+      "target": "00-DAILY/2026-10-28",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-28",
+      "target": "00-DAILY/2026-10-27",
+      "type": "wikilink"
+    },
+    {
       "source": "00-DAILY/2026-10-16",
       "target": "20-AGENTS/CoS",
       "type": "wikilink"
@@ -4217,6 +3905,26 @@
     {
       "source": "00-DAILY/2026-10-19",
       "target": "00-DAILY/2026-10-18",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-27",
+      "target": "00-META/Home",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-27",
+      "target": "20-AGENTS/CoS",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-27",
+      "target": "00-DAILY/2026-10-27",
+      "type": "wikilink"
+    },
+    {
+      "source": "00-DAILY/2026-10-27",
+      "target": "00-DAILY/2026-10-26",
       "type": "wikilink"
     },
     {
@@ -4916,6 +4624,11 @@
     },
     {
       "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-28-Agentic-Translation",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-26-Agentic-Forgetting",
       "type": "wikilink"
     },
@@ -5192,6 +4905,11 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Blog-Index",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-10-28-Agentic-Translation",
       "type": "wikilink"
     },
     {
@@ -6712,6 +6430,31 @@
     {
       "source": "10-PROPERTIES/OctoGentic/Blog/2026-06-11-Agent-Coordination",
       "target": "10-PROPERTIES/OctoGentic/Blog/2026-06-26-Compound-Effect",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-28-Agentic-Translation",
+      "target": "10-PROPERTIES/OctoGentic/Blog-Index",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-28-Agentic-Translation",
+      "target": "10-PROPERTIES/OctoGentic/Overview",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-28-Agentic-Translation",
+      "target": "10-PROPERTIES/OmniVoke",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-28-Agentic-Translation",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-08-Agentic-Communication",
+      "type": "wikilink"
+    },
+    {
+      "source": "10-PROPERTIES/OctoGentic/Blog/2026-10-28-Agentic-Translation",
+      "target": "10-PROPERTIES/OctoGentic/Blog/2026-09-23-Agentic-Personalization",
       "type": "wikilink"
     },
     {
