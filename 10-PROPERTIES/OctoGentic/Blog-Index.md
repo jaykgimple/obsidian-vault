@@ -15,7 +15,8 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 |||| # | Date | Title | Wiki Link |
 |||---|------|-------|-----------|
-|||| 1 | 2026-10-29 | The Cold Start Problem: How Autonomous Systems Bootstrap Good Decisions From Zero History | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-29-Cold-Start|Cold Start]] |
+||||| 1 | 2026-10-30 | Agentic Reversal: How Autonomous Systems Change Their Mind Without Losing Credibility | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-30-Agentic-Reversal|Agentic Reversal]] |
+||||| 1 | 2026-10-29 | The Cold Start Problem: How Autonomous Systems Bootstrap Good Decisions From Zero History | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-29-Cold-Start|Cold Start]] |
 | 1 | 2026-10-28 | Agentic Translation: How Autonomous Systems Convert Meaning Across Platform and Format Boundaries | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-28-Agentic-Translation|Agentic Translation]] |
 |||| 1 | 2026-10-27 | Agentic Framing: How Autonomous Systems Decide What to Emphasize and What to Leave Out | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-27-Agentic-Framing|Agentic Framing]] |
 ||| 1 | 2026-10-26 | Agentic Forgetting: How Autonomous Systems Know What to Unlearn | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-26-Agentic-Forgetting|Agentic Forgetting]] |
