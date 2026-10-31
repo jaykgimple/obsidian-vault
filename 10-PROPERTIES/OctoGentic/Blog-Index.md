@@ -8,13 +8,14 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 107 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 108 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## All Posts (by date, newest first)
 
-|||| # | Date | Title | Wiki Link |
-|||---|------|-------|-----------|
+||||| # | Date | Title | Wiki Link |
+||||---|------|-------|-----------|
+||||| 1 | 2026-10-31 | The Blind Critic: Why Autonomous Systems Must Evaluate Their Own Output Without Knowing Who Made It | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-31-Blind-Critic|Blind Critic]] |
 ||||| 1 | 2026-10-30 | Agentic Reversal: How Autonomous Systems Change Their Mind Without Losing Credibility | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-30-Agentic-Reversal|Agentic Reversal]] |
 ||||| 1 | 2026-10-29 | The Cold Start Problem: How Autonomous Systems Bootstrap Good Decisions From Zero History | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-29-Cold-Start|Cold Start]] |
 | 1 | 2026-10-28 | Agentic Translation: How Autonomous Systems Convert Meaning Across Platform and Format Boundaries | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-28-Agentic-Translation|Agentic Translation]] |
@@ -99,6 +100,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-10-31-Blind-Critic|Blind Critic]]: Provenance stripping, spec-bound criteria, critic rotation, adversarial calibration, disagreement as diagnostic signal
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-29-Cold-Start|Cold Start]]: Signal extraction from minimal input, calibrated first moves, rapid feedback integration, graceful escalation
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-28-Agentic-Translation|Agentic Translation]]: Intent extraction, platform grammar mapping, bidirectional fidelity check, provenance tracking
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-27-Agentic-Framing|Agentic Framing]]: Salience ranking, proportional emphasis, negative framing constraints, framing audit

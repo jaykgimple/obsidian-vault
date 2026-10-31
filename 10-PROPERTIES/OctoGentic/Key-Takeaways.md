@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-10-23
+updated: 2026-10-31
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -9,11 +9,23 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **99** blog posts.
+> Consolidated signal from all **108** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 
+
+---
+
+## 🔷 POST: The Blind Critic: Why Autonomous Systems Must Evaluate Their Own Output Without Knowing Who Made It (2026-10-31)
+
+### Key Takeaways
+
+- [ ] **T-BC1: Strip provenance before evaluation.** Remove creator identity, design history, and rejected alternatives before the artifact reaches the critic. Blindness must be architectural, not procedural.
+- [ ] **T-BC2: Evaluate against the spec, not against intent.** The specification is the only shared reference between creator and critic. Criteria bound to the spec are deterministic and auditable.
+- [ ] **T-BC3: Rotate critics to prevent calibration drift.** A critic that always evaluates the same creator learns to predict rather than inspect. Rotation keeps evaluation fresh.
+- [ ] **T-BC4: Detect bias through inter-critic disagreement.** When two critics evaluate the same output differently, the disagreement is a diagnostic signal. Track agreement rates and flag divergences.
+- [ ] **T-BC5: Calibrate critics with seeded known-good and known-bad outputs.** Invisible calibration checks prevent criteria from drifting too loose or too tight. Refresh the calibration set regularly.
 
 ---
 
