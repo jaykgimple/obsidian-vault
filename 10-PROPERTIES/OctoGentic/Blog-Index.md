@@ -8,14 +8,15 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 109 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 110 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## All Posts (by date, newest first)
 
-|||||| # | Date | Title | Wiki Link |
-|||||---|------|-------|-----------|
-|||||| 1 | 2026-11-02 | Agentic Taste in Error: Why the Way an Autonomous System Fails Matters More Than How Often | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-02-Taste-in-Error|Taste in Error]] |
+||||||| # | Date | Title | Wiki Link |
+||||||---|------|-------|-----------|
+||||||| 1 | 2026-11-03 | Agentic Backfill: How Autonomous Systems Repair Gaps Without Rewriting Everything | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-03-Agentic-Backfill|Agentic Backfill]] |
+||||||| 1 | 2026-11-02 | Agentic Taste in Error: Why the Way an Autonomous System Fails Matters More Than How Often | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-02-Taste-in-Error|Taste in Error]] |
 |||||| 1 | 2026-10-31 | The Blind Critic: Why Autonomous Systems Must Evaluate Their Own Output Without Knowing Who Made It | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-31-Blind-Critic|Blind Critic]] |
 ||||| 1 | 2026-10-30 | Agentic Reversal: How Autonomous Systems Change Their Mind Without Losing Credibility | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-30-Agentic-Reversal|Agentic Reversal]] |
 ||||| 1 | 2026-10-29 | The Cold Start Problem: How Autonomous Systems Bootstrap Good Decisions From Zero History | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-29-Cold-Start|Cold Start]] |
@@ -101,6 +102,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-11-03-Agentic-Backfill|Agentic Backfill]]: Drift detection, source-of-truth repair, idempotent targeted backfill, edge verification
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-02-Taste-in-Error|Taste in Error]]: Failure classification, fallback design, context preservation, recovery signaling, failure quality as trust metric
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-31-Blind-Critic|Blind Critic]]: Provenance stripping, spec-bound criteria, critic rotation, adversarial calibration, disagreement as diagnostic signal
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-10-29-Cold-Start|Cold Start]]: Signal extraction from minimal input, calibrated first moves, rapid feedback integration, graceful escalation

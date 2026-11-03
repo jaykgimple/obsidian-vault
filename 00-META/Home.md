@@ -31,6 +31,7 @@ updated: 2026-09-01
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## Recent Updates
+- 2026-11-03: [[2026-11-03]] — Published "Agentic Backfill" blog post (T-BF1 through T-BF5), 1,177 words
 - 2026-10-31: [[2026-10-31]] — Published "The Blind Critic" blog post (T-BC1 through T-BC5), 1,271 words
 - 2026-10-30: [[10-PROPERTIES/OctoGentic/Blog/2026-10-30-Agentic-Reversal|Agentic Reversal]] — Published "Agentic Reversal" blog post (T-AR1 through T-AR4), ~1,300 words
 - 2026-10-17: [[2026-10-17]] — Published "Agentic Memory" blog post (T-ME1 through T-ME5), 1,122 words
