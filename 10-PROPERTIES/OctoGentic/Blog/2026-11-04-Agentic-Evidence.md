@@ -17,11 +17,11 @@ A system can be grounded, calibrated, and verified, and still overclaim. Evidenc
 
 ## Key Takeaways
 
-- **T-EV1: Bind every claim to its evidence.** A claim is a function of specific inputs, not of general confidence. Record which evidence sources may move each output field.
-- **T-EV2: Update only the dimensions a signal supports.** Correlation is not causation, and convenience is not justification. Scoped updates prevent a strong answer from inflating scores it has nothing to do with.
-- **T-EV3: Surface negative evidence.** Absence of proof is data. Flag what the source does not support instead of smoothing it into a vague strength.
-- **T-EV4: Audit proportionality after generation.** A separate pass checks that no claim exceeds its reference. Unreferenced claims are downgraded, qualified, or removed.
-- **T-EV5: Treat coherence as an output quality, not a source of truth.** A plausible story is not evidence. When the source is silent, the system says so.
+- **T-EP1: Bind every claim to its evidence.** A claim is a function of specific inputs, not of general confidence. Record which evidence sources may move each output field.
+- **T-EP2: Update only the dimensions a signal supports.** Correlation is not causation, and convenience is not justification. Scoped updates prevent a strong answer from inflating scores it has nothing to do with.
+- **T-EP3: Surface negative evidence.** Absence of proof is data. Flag what the source does not support instead of smoothing it into a vague strength.
+- **T-EP4: Audit proportionality after generation.** A separate pass checks that no claim exceeds its reference. Unreferenced claims are downgraded, qualified, or removed.
+- **T-EP5: Treat coherence as an output quality, not a source of truth.** A plausible story is not evidence. When the source is silent, the system says so.
 
 ## Properties Referenced
 
