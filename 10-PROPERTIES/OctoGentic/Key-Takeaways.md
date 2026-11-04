@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-10-31
+updated: 2026-11-04
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -9,11 +9,23 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **108** blog posts.
+> Consolidated signal from all **111** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 
+
+---
+
+## 🔷 POST: Agentic Evidence: How Autonomous Systems Keep Claims Proportional to Proof (2026-11-04)
+
+### Key Takeaways
+
+- [ ] **T-EV1: Bind every claim to its evidence.** A claim is a function of specific inputs, not of general confidence. Record which evidence sources may move each output field.
+- [ ] **T-EV2: Update only the dimensions a signal supports.** Correlation is not causation, and convenience is not justification. Scoped updates prevent a strong answer from inflating scores it has nothing to do with.
+- [ ] **T-EV3: Surface negative evidence.** Absence of proof is data. Flag what the source does not support instead of smoothing it into a vague strength.
+- [ ] **T-EV4: Audit proportionality after generation.** A separate pass checks that no claim exceeds its reference. Unreferenced claims are downgraded, qualified, or removed.
+- [ ] **T-EV5: Treat coherence as an output quality, not a source of truth.** A plausible story is not evidence. When the source is silent, the system says so.
 
 ---
 
