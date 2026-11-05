@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-11-04
+updated: 2026-11-05
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -9,11 +9,23 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **111** blog posts.
+> Consolidated signal from all **112** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 
+
+---
+
+## 🔷 POST: Agentic Consent: How Autonomous Systems Earn the Right to Act (2026-11-05)
+
+### Key Takeaways
+
+- [ ] **T-CN1: Treat capability and consent as separate layers.** An agent's tools describe what it can do. Its grants describe what it may do. Conflating the two is how helpful systems become unauthorized ones.
+- [ ] **T-CN2: Scope every grant to a resource, an action, and a duration.** A grant narrow enough to enforce is narrow enough to audit. Breadth is the enemy of consent.
+- [ ] **T-CN3: Enforce at action time, not at login.** Check the grant when the action is taken. A check that happens once and is trusted for the rest of the session is memory, not enforcement.
+- [ ] **T-CN4: Make revocation and receipts first-class.** Record which grant authorized each action, and make grants withdrawable. Consent without a record is just trust.
+- [ ] **T-CN5: Give agents the capability to detect, not the consent to punish.** When a system finds a problem it was not authorized to resolve, it should escalate to a human rather than act on its own.
 
 ---
 

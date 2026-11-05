@@ -8,27 +8,28 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 111 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 112 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## All Posts (by date, newest first)
 
-|||||||| # | Date | Title | Wiki Link |
-|||||||---|------|-------|-----------|
-|||||||| 1 | 2026-11-04 | Agentic Evidence: How Autonomous Systems Keep Claims Proportional to Proof | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-04-Agentic-Evidence|Agentic Evidence]] |
-|||||||| 1 | 2026-11-03 | Agentic Backfill: How Autonomous Systems Repair Gaps Without Rewriting Everything | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-03-Agentic-Backfill|Agentic Backfill]] |
-||||||| 1 | 2026-11-02 | Agentic Taste in Error: Why the Way an Autonomous System Fails Matters More Than How Often | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-02-Taste-in-Error|Taste in Error]] |
-|||||| 1 | 2026-10-31 | The Blind Critic: Why Autonomous Systems Must Evaluate Their Own Output Without Knowing Who Made It | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-31-Blind-Critic|Blind Critic]] |
-||||| 1 | 2026-10-30 | Agentic Reversal: How Autonomous Systems Change Their Mind Without Losing Credibility | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-30-Agentic-Reversal|Agentic Reversal]] |
-||||| 1 | 2026-10-29 | The Cold Start Problem: How Autonomous Systems Bootstrap Good Decisions From Zero History | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-29-Cold-Start|Cold Start]] |
+| # | Date | Title | Wiki Link |
+|---|------|-------|-----------|
+| 1 | 2026-11-05 | Agentic Consent: How Autonomous Systems Earn the Right to Act | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-05-Agentic-Consent|Agentic Consent]] |
+| 1 | 2026-11-04 | Agentic Evidence: How Autonomous Systems Keep Claims Proportional to Proof | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-04-Agentic-Evidence|Agentic Evidence]] |
+| 1 | 2026-11-03 | Agentic Backfill: How Autonomous Systems Repair Gaps Without Rewriting Everything | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-03-Agentic-Backfill|Agentic Backfill]] |
+| 1 | 2026-11-02 | Agentic Taste in Error: Why the Way an Autonomous System Fails Matters More Than How Often | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-02-Taste-in-Error|Taste in Error]] |
+| 1 | 2026-10-31 | The Blind Critic: Why Autonomous Systems Must Evaluate Their Own Output Without Knowing Who Made It | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-31-Blind-Critic|Blind Critic]] |
+| 1 | 2026-10-30 | Agentic Reversal: How Autonomous Systems Change Their Mind Without Losing Credibility | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-30-Agentic-Reversal|Agentic Reversal]] |
+| 1 | 2026-10-29 | The Cold Start Problem: How Autonomous Systems Bootstrap Good Decisions From Zero History | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-29-Cold-Start|Cold Start]] |
 | 1 | 2026-10-28 | Agentic Translation: How Autonomous Systems Convert Meaning Across Platform and Format Boundaries | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-28-Agentic-Translation|Agentic Translation]] |
-|||| 1 | 2026-10-27 | Agentic Framing: How Autonomous Systems Decide What to Emphasize and What to Leave Out | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-27-Agentic-Framing|Agentic Framing]] |
-||| 1 | 2026-10-26 | Agentic Forgetting: How Autonomous Systems Know What to Unlearn | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-26-Agentic-Forgetting|Agentic Forgetting]] |
-|||| 1 | 2026-10-25 | Agentic Braking: How Autonomous Systems Build Deliberate Friction Into Their Decision Pipelines | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-25-Agentic-Braking|Agentic Braking]] |
-||| 1 | 2026-10-24 | Agentic Revision: How Autonomous Systems Improve Their Own Output Without Human Intervention | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-24-Agentic-Revision|Agentic Revision]] |
-||| 1 | 2026-10-23 | Agentic Taste: Why Correct Output Is Not Enough | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-23-Agentic-Taste|Agentic Taste]] |
+| 1 | 2026-10-27 | Agentic Framing: How Autonomous Systems Decide What to Emphasize and What to Leave Out | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-27-Agentic-Framing|Agentic Framing]] |
+| 1 | 2026-10-26 | Agentic Forgetting: How Autonomous Systems Know What to Unlearn | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-26-Agentic-Forgetting|Agentic Forgetting]] |
+| 1 | 2026-10-25 | Agentic Braking: How Autonomous Systems Build Deliberate Friction Into Their Decision Pipelines | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-25-Agentic-Braking|Agentic Braking]] |
+| 1 | 2026-10-24 | Agentic Revision: How Autonomous Systems Improve Their Own Output Without Human Intervention | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-24-Agentic-Revision|Agentic Revision]] |
+| 1 | 2026-10-23 | Agentic Taste: Why Correct Output Is Not Enough | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-23-Agentic-Taste|Agentic Taste]] |
 | 2 | 2026-10-22 | Agentic Caching: How Autonomous Systems Know When to Remember and When to Recompute | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-22-Agentic-Caching|Agentic Caching]] |
-|| 2 | 2026-10-19 | Agentic State Machines: How Autonomous Systems Track Their Own Progress Through Complex Work | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines|Agentic State Machines]] |
+| 2 | 2026-10-19 | Agentic State Machines: How Autonomous Systems Track Their Own Progress Through Complex Work | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-19-Agentic-State-Machines|Agentic State Machines]] |
 | 2 | 2026-10-16 | The Builder-Critic Split: Why Autonomous Systems Must Separate Creation from Evaluation | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-16-Builder-Critic-Split|Builder-Critic Split]] |
 | 2 | 2026-10-15 | Agentic Prioritization: How Autonomous Systems Decide What to Work On When Everything Is Urgent | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-15-Agentic-Prioritization|Agentic Prioritization]] |
 | 1 | 2026-10-02 | Agentic Budgeting: How Autonomous Systems Allocate Finite Resources Across Competing Demands | → [[10-PROPERTIES/OctoGentic/Blog/2026-10-02-Agentic-Budgeting|Agentic Budgeting]] |
@@ -42,7 +43,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 | 1 | 2026-09-23 | Agentic Personalization: How Autonomous Systems Adapt to the Individual Without Losing Coherence | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-23-Agentic-Personalization|Agentic Personalization]] |
 | 1 | 2026-09-21 | Agentic Persistence: How Autonomous Systems Maintain Continuity Across Sessions, Restarts, and Failures | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-21-Agentic-Persistence|Agentic Persistence]] |
 | 1 | 2026-09-20 | Agentic Alignment: How Autonomous Systems Maintain Purpose While Adapting to Change | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-20-Agentic-Alignment|Agentic Alignment]] |
-|| 1 | 2026-09-19 | Agentic Restraint: How Autonomous Systems Know When Not to Act | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-19-Agentic-Restraint|Agentic Restraint]] |
+| 1 | 2026-09-19 | Agentic Restraint: How Autonomous Systems Know When Not to Act | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-19-Agentic-Restraint|Agentic Restraint]] |
 | 2 | 2026-09-18 | Agentic Handoff: How Autonomous Systems Transfer Context and Control Between Agents | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-18-Agentic-Handoff|Agentic Handoff]] |
 | 2 | 2026-09-17 | Agentic Timing: How Autonomous Systems Decide When to Act | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-17-Agentic-Timing|Agentic Timing]] |
 | 2 | 2026-09-16 | Agentic Reflection: How Autonomous Systems Examine Their Own Performance and Learn From Experience | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-16-Agentic-Reflection|Agentic Reflection]] |
@@ -54,9 +55,9 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 | 2 | 2026-09-10 | Agentic Decision-Making: How Autonomous Systems Choose Between Competing Options Under Uncertainty | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-10-Agentic-Decision-Making|Agentic Decision-Making]] |
 | 3 | 2026-09-09 | Agentic Context: How Autonomous Systems Maintain Situational Awareness in Changing Environments | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-09-Agentic-Context|Agentic Context]] |
 | 4 | 2026-09-08 | Agentic Communication: How Autonomous Systems Explain Their Decisions to Humans | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-08-Agentic-Communication|Agentic Communication]] |
-||| 2 | 2026-09-06 | Agentic Reasoning: How Autonomous Systems Draw Reliable Conclusions From Incomplete Information | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-06-Agentic-Reasoning|Agentic Reasoning]] |
-|| 2 | 2026-09-05 | Agentic Learning: How Autonomous Systems Convert Experience Into Improved Performance | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-05-Agentic-Learning|Agentic Learning]] |
-|| 2 | 2026-09-04 | Agentic Planning: How Autonomous Systems Decompose Goals Into Actionable Sequences | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-04-Agentic-Planning|Agentic Planning]] |
+| 2 | 2026-09-06 | Agentic Reasoning: How Autonomous Systems Draw Reliable Conclusions From Incomplete Information | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-06-Agentic-Reasoning|Agentic Reasoning]] |
+| 2 | 2026-09-05 | Agentic Learning: How Autonomous Systems Convert Experience Into Improved Performance | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-05-Agentic-Learning|Agentic Learning]] |
+| 2 | 2026-09-04 | Agentic Planning: How Autonomous Systems Decompose Goals Into Actionable Sequences | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-04-Agentic-Planning|Agentic Planning]] |
 | 2 | 2026-09-03 | Agentic Memory: How Autonomous Systems Store, Retrieve, and Compound What They Know | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-03-Agentic-Memory|Agentic Memory]] |
 | 2 | 2026-09-02 | Agentic Grounding: How Autonomous Systems Verify What They Think They Know | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-02-Agentic-Grounding|Agentic Grounding]] |
 | 2 | 2026-09-01 | Agentic Self-Healing: How Autonomous Systems Detect and Recover From Their Own Failures | → [[10-PROPERTIES/OctoGentic/Blog/2026-09-01-Agentic-Self-Healing|Agentic Self-Healing]] |
@@ -104,6 +105,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-11-05-Agentic-Consent|Agentic Consent]]: Capability vs consent, scope-limited grants, action-time enforcement, revocable receipts
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-04-Agentic-Evidence|Agentic Evidence]]: Claim-to-evidence mapping, scoped updates, negative evidence surfacing, proportionality audit
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-03-Agentic-Backfill|Agentic Backfill]]: Drift detection, source-of-truth repair, idempotent targeted backfill, edge verification
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-02-Taste-in-Error|Taste in Error]]: Failure classification, fallback design, context preservation, recovery signaling, failure quality as trust metric
