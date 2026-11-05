@@ -91,6 +91,53 @@ account per rolling 365 days. Redeemed via `GET /api/success-share?redeem=<code>
 self-attested (no partner API); the gift-only + rate-limit rules are what make
 that safe (a fake "landed" only discounts a future sale, never pays cash).
 
+## Free tools hub (shipped Nov 2026, gauntlet loop)
+
+`/tools` hub + 5 deterministic, client-only free tools (no server/LLM, no
+secret-sauce leak), each ending in a signup CTA:
+
+- `/tools/resume-match` — paste JD + resume -> 0-100 match score + generic
+  signal tones. Never reveals WHICH keywords are missing (paid value).
+- `/tools/job-decision` — 7-slider weighted scorecard. Starts unrated.
+- `/tools/offer-calculator` — total-comp + honest net-pay estimate.
+- `/tools/ats-checklist` — self-audit of ATS-hostile formatting.
+- `/tools/compare-offers` — two-offer winner + delta.
+
+Shared logic in `src/lib/free-tools.ts` (deterministic, all unit-tested).
+Bars: Jobscan, Levels.fyi, Teal HQ. 3 critic passes; final verdict OURS_WINS on
+all 5. "Free tools" navbar now -> `/tools`.
+
+Key honesty rules baked in (critics forced each): CTAs may promise ONLY a real
+capability (never "save this scorecard / build a negotiation plan" — the free
+tools don't persist state); no fabricated stats ("$10K+", "3x"); net-pay =
+salary+bonus cash only (401k match + equity shown separately, not "take-home").
+
+## SEO / GEO layer (shipped Nov 2026)
+
+Machine-facing surfaces, all regenerating from ONE source of truth so they never
+go stale as content is added:
+
+- `src/lib/site.ts` = single source (site identity, FREE_TOOLS, CORE_PAGES,
+  PRICING_FAQ, AUTHOR="RoleFresh team"). Add/reword a tool or core page HERE.
+- `src/lib/jsonld.ts` = JSON-LD builders (Organization, WebSite, Article,
+  FAQPage, SoftwareApplication, CollectionPage), rendered via
+  `src/components/JsonLd.tsx`.
+- `/llms.txt` + `/llms-full.txt` (dynamic route handlers reading live blog +
+  site.ts + pricing.ts). Full dump includes every post's complete markdown.
+- Article schema on `/blog/[slug]`; author = stored `BlogPost.author` (default
+  "RoleFresh team"), column added via manual DDL; `publish_blog.py` writes it.
+- FAQPage + SoftwareApplication on `/pricing`; Organization + WebSite in root
+  layout; CollectionPage on `/tools`.
+- `sitemap.ts` (dynamic) now includes blog posts + free tools + /blog + /tools;
+  stale `public/sitemap.xml` and `public/robots.txt` deleted.
+- `robots.ts` declares AI crawlers (OAI-SearchBot, GPTBot, ChatGPT-User,
+  ClaudeBot/Claude-User, PerplexityBot, Google-Extended) + full private disallow.
+- FRESHNESS RULE: when adding content (new tool, new blog post byline, new plan,
+  new FAQ), update `lib/site.ts` (and `lib/pricing.ts` for prices) — not page
+  copies — and sitemap/llms/JSON-LD all regenerate from it.
+- Author byline: "RoleFresh team" (Jay chose team, not a named individual). Tag
+  still empty for sameAs/socials in `site.ts`.
+
 ## Key gotchas
 
 - Vercel builds run `prisma generate` only — **schema changes are NOT applied to

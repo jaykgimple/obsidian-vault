@@ -36,6 +36,7 @@ aliases: [OmniVoke Platform, omnivoke]
 - **Attribution:** UTM + `personalization_id`, A/B variant resolution.
 
 ## Recent Work
+- [[10-PROPERTIES/OmniVoke/Caption-Sync-Fix]] — word-boundary caption timing + preserved punctuation (deployed 2026-11-05)
 - [[10-PROPERTIES/OmniVoke/Bluesky-Connect-Fix]] — verify-on-save + credential field mismatch + handle normalization (deployed 2026-09-29)
 - [[10-PROPERTIES/OmniVoke/HITL-Test-2026-09-29]] — HITL test findings: Bluesky junction fix + silent-success mask fix (deployed 2026-09-29)
 - [[10-PROPERTIES/OmniVoke/HITL-Review-Redesign]] — collapsed summary + expandable rows + asset slot for multi-platform review surface (2026-09-26)
