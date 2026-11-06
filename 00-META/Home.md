@@ -6,7 +6,7 @@ updated: 2026-09-01
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-11-05 (daily maintenance)
+> Last updated: 2026-11-06 (daily maintenance)
 
 ## Health: 92/100 (A-)
 
@@ -31,6 +31,7 @@ updated: 2026-09-01
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## Recent Updates
+- 2026-11-06: [[2026-11-06]] — Published "Agentic Escalation" blog post (T-ES1 through T-ES5), 1,188 words
 - 2026-11-05: [[2026-11-05]] — Published "Agentic Consent" blog post (T-CN1 through T-CN5), 1,264 words
 - 2026-11-04: [[2026-11-04]] — Published "Agentic Evidence" blog post (T-EP1 through T-EP5), 1,223 words
 - 2026-11-03: [[2026-11-03]] — Published "Agentic Backfill" blog post (T-BF1 through T-BF5), 1,177 words

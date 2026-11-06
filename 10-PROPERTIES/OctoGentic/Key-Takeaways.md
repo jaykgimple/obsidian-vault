@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-11-05
+updated: 2026-11-06
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -9,11 +9,23 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **112** blog posts.
+> Consolidated signal from all **113** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 
+
+---
+
+## 🔷 POST: Agentic Escalation: How Autonomous Systems Know When to Hand the Decision Back (2026-11-06)
+
+### Key Takeaways
+
+- [ ] **T-ES1: Treat escalation as a first-class decision path.** Escalation is not a failure handler or an exception. It is a designed route that decisions take when they exceed the agent's mandate, evidence, or competence.
+- [ ] **T-ES2: Define escalation triggers explicitly.** Name the conditions that move a decision to a human: production environment, critical files, security context, novel patterns, irreversible actions. An agent cannot be trusted to recognize its own limits in the moment.
+- [ ] **T-ES3: Package context, not questions.** An escalation carries evidence, options, a recommendation, and the specific decision required. The human should receive a decision surface, not a ticket.
+- [ ] **T-ES4: Track escalation through closure.** Every escalation has a lifecycle: pending, acknowledged, resolved. Without closure, the system cannot learn, and the same question returns forever.
+- [ ] **T-ES5: Bound autonomy with a circuit breaker.** Retries are finite, and consecutive failure triggers a stop and an alert. A system that retries forever is not persistent. It is just slow to ask for help.
 
 ---
 

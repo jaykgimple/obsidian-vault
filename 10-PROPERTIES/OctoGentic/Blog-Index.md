@@ -8,13 +8,14 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 112 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 113 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
+| 1 | 2026-11-06 | Agentic Escalation: How Autonomous Systems Know When to Hand the Decision Back | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-06-Agentic-Escalation|Agentic Escalation]] |
 | 1 | 2026-11-05 | Agentic Consent: How Autonomous Systems Earn the Right to Act | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-05-Agentic-Consent|Agentic Consent]] |
 | 1 | 2026-11-04 | Agentic Evidence: How Autonomous Systems Keep Claims Proportional to Proof | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-04-Agentic-Evidence|Agentic Evidence]] |
 | 1 | 2026-11-03 | Agentic Backfill: How Autonomous Systems Repair Gaps Without Rewriting Everything | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-03-Agentic-Backfill|Agentic Backfill]] |
@@ -105,6 +106,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-11-06-Agentic-Escalation|Agentic Escalation]]: First-class escalation path, explicit triggers, packaged context, tracked closure, circuit breaker
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-05-Agentic-Consent|Agentic Consent]]: Capability vs consent, scope-limited grants, action-time enforcement, revocable receipts
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-04-Agentic-Evidence|Agentic Evidence]]: Claim-to-evidence mapping, scoped updates, negative evidence surfacing, proportionality audit
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-03-Agentic-Backfill|Agentic Backfill]]: Drift detection, source-of-truth repair, idempotent targeted backfill, edge verification
