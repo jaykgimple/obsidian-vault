@@ -9,11 +9,23 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **113** blog posts.
+> Consolidated signal from all **136** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 
+
+---
+
+## 🔷 POST: Agentic Reversibility: How Autonomous Systems Price the Cost of Being Wrong (2026-11-07)
+
+### Key Takeaways
+
+- [ ] **T-HY1: Classify every action by its undo cost before you gate it.** Ask what the smallest undo is, who can perform it, and how long the window stays open. A tool is not the unit of risk; an invocation is.
+- [ ] **T-HY2: Scale the gate to the undo cost, not to the tool.** The same publishing tool can produce a draft or a live post, and those two invocations deserve different gates. A reversible action gets a light gate and a fast path; an irreversible one gets a heavy gate and a human in the loop.
+- [ ] **T-HY3: Make the reversible path the default and the irreversible path the exception.** The autonomy you grant should be the largest autonomy that keeps irreversible actions rare. A system that cannot act reversibly is slow; a system that treats irreversible actions as reversible is reckless.
+- [ ] **T-HY4: Separate "technically reversible" from "socially permanent."** A post can be deleted but the screenshot exists. Systems that model only the technical undo will under-gate public actions.
+- [ ] **T-HY5: Put the undo in human hands for anything expensive.** An agent that can undo its own mistake will hide it. An agent that needs a human to undo it has to surface the mistake, which is the behavior you want.
 
 ---
 

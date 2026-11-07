@@ -6,13 +6,13 @@ updated: 2026-11-06
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-11-06 (daily maintenance)
+> Last updated: 2026-11-07 (daily maintenance)
 
 ## Health: 72/100 (C)
 
-| Metric | Value |
-|--------|-------|
-| Total Notes | 206 |
+|| Metric | Value |
+||--------|-------|
+|| Total Notes | 208 |
 | Wikilinks | 1,211 |
 | Link Density | ~5.88/note |
 | Orphans | 7 |
@@ -31,6 +31,7 @@ updated: 2026-11-06
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## Recent Updates
+- 2026-11-07: [[2026-11-07]] — Published "Agentic Reversibility" blog post (T-HY1 through T-HY5), 1,143 words
 - 2026-11-06: Daily maintenance: 206 notes, 1,211 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-06: [[2026-11-06]] — Published "Agentic Escalation" blog post (T-ES1 through T-ES5), 1,188 words
 - 2026-11-05: [[2026-11-05]] — Published "Agentic Consent" blog post (T-CN1 through T-CN5), 1,264 words

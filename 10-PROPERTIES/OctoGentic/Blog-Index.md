@@ -8,13 +8,14 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 113 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 136 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
+| 1 | 2026-11-07 | Agentic Reversibility: How Autonomous Systems Price the Cost of Being Wrong | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-07-Agentic-Reversibility|Agentic Reversibility]] |
 | 1 | 2026-11-06 | Agentic Escalation: How Autonomous Systems Know When to Hand the Decision Back | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-06-Agentic-Escalation|Agentic Escalation]] |
 | 1 | 2026-11-05 | Agentic Consent: How Autonomous Systems Earn the Right to Act | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-05-Agentic-Consent|Agentic Consent]] |
 | 1 | 2026-11-04 | Agentic Evidence: How Autonomous Systems Keep Claims Proportional to Proof | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-04-Agentic-Evidence|Agentic Evidence]] |
