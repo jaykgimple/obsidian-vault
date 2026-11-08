@@ -8,13 +8,14 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 136 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 137 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
+| 1 | 2026-11-08 | Agentic Termination: How Autonomous Systems Know When the Work Is Done | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-08-Agentic-Termination|Agentic Termination]] |
 | 1 | 2026-11-07 | Agentic Reversibility: How Autonomous Systems Price the Cost of Being Wrong | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-07-Agentic-Reversibility|Agentic Reversibility]] |
 | 1 | 2026-11-06 | Agentic Escalation: How Autonomous Systems Know When to Hand the Decision Back | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-06-Agentic-Escalation|Agentic Escalation]] |
 | 1 | 2026-11-05 | Agentic Consent: How Autonomous Systems Earn the Right to Act | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-05-Agentic-Consent|Agentic Consent]] |
@@ -108,6 +109,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 ### 🏗️ Architecture
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-06-Agentic-Escalation|Agentic Escalation]]: First-class escalation path, explicit triggers, packaged context, tracked closure, circuit breaker
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-11-08-Agentic-Termination|Agentic Termination]]: Completion contract, outcome evidence over tool success, failure-shape gates, completion vs perfection, miss-path design
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-05-Agentic-Consent|Agentic Consent]]: Capability vs consent, scope-limited grants, action-time enforcement, revocable receipts
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-04-Agentic-Evidence|Agentic Evidence]]: Claim-to-evidence mapping, scoped updates, negative evidence surfacing, proportionality audit
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-03-Agentic-Backfill|Agentic Backfill]]: Drift detection, source-of-truth repair, idempotent targeted backfill, edge verification
