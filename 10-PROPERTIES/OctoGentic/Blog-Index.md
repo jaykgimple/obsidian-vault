@@ -15,7 +15,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
-| 1 | 2026-11-09 | Agentic Drift: How Autonomous Systems Detect Slow Divergence From Their Own Intent | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-09-Agentic-Drift|Agentic Drift]] |
+| 1 | 2026-11-09 | Agentic Slack: Why Autonomous Systems Need Reserve Capacity to Absorb Surprise | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-09-Agentic-Slack|Agentic Slack]] |
 | 1 | 2026-11-08 | Agentic Termination: How Autonomous Systems Know When the Work Is Done | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-08-Agentic-Termination|Agentic Termination]] |
 | 1 | 2026-11-07 | Agentic Reversibility: How Autonomous Systems Price the Cost of Being Wrong | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-07-Agentic-Reversibility|Agentic Reversibility]] |
 | 1 | 2026-11-06 | Agentic Escalation: How Autonomous Systems Know When to Hand the Decision Back | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-06-Agentic-Escalation|Agentic Escalation]] |
@@ -109,7 +109,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
-- → [[10-PROPERTIES/OctoGentic/Blog/2026-11-09-Agentic-Drift|Agentic Drift]]: Spec-anchored detection, criteria vs regime drift, rate-of-change alerts, independent metric, fail-closed obsolescence
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-11-09-Agentic-Slack|Agentic Slack]]: Capacity vs commitment slack, time-to-absorb, burn-rate tuning, slack at the constraint
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-06-Agentic-Escalation|Agentic Escalation]]: First-class escalation path, explicit triggers, packaged context, tracked closure, circuit breaker
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-08-Agentic-Termination|Agentic Termination]]: Completion contract, outcome evidence over tool success, failure-shape gates, completion vs perfection, miss-path design
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-05-Agentic-Consent|Agentic Consent]]: Capability vs consent, scope-limited grants, action-time enforcement, revocable receipts
