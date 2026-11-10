@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-11-06
+updated: 2026-11-10
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -9,11 +9,23 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **136** blog posts.
+> Consolidated signal from all **137** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 
+
+---
+
+## 🔷 POST: Agentic Watchdogs: Why Liveness Is Not Health (2026-11-10)
+
+### Key Takeaways
+
+- [ ] **T-WD1: Check progress, not presence.** Liveness proves a process exists. Freshness, transitions, and output prove work is happening. Monitor the work product, not the process table.
+- [ ] **T-WD2: Treat a silent log as an alarm.** A log that has not moved is not quiet, it is stuck. Freshness is the cheapest external progress signal.
+- [ ] **T-WD3: Put a clock on every state.** A task that stays in the same state past its dwell limit is sick even while its process is perfect. Health is measured by transitions.
+- [ ] **T-WD4: Make the heartbeat carry evidence.** A heartbeat that reports what the worker last completed can be verified by a third party. A heartbeat that only says "I am here" is liveness in disguise.
+- [ ] **T-WD5: Monitor the monitor.** A watchdog that can fail silently is a single point of failure. Use a dead man's switch, and make detection carry a recovery path and an escalation.
 
 ---
 
