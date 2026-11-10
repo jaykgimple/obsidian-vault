@@ -1,23 +1,23 @@
 ---
 title: Home
 tags: [dashboard, index]
-updated: 2026-11-09
+updated: 2026-11-10
 ---
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-11-09 (daily maintenance)
+> Last updated: 2026-11-10 (daily maintenance)
 
 ## Health: 71/100 (C)
 
 || Metric | Value |
 ||--------|-------|
-|| Total Notes | 212 |
-|| Wikilinks | 1,257 |
-|| Link Density | ~5.93/note |
+|| Total Notes | 214 |
+|| Wikilinks | 1,178 |
+|| Link Density | ~5.50/note |
 || Orphans | 8 |
 || Dead Ends | 15 |
-|| Untagged | 33 |
+|| Untagged | 34 |
 || Broken Links | 0 |
 
 ## �️ God Notes (Most Connected)
@@ -31,6 +31,7 @@ updated: 2026-11-09
 | 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
 
 ## Recent Updates
+- 2026-11-10: Daily maintenance: 214 notes, 1,178 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-09: Daily maintenance: 212 notes, 1,257 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-08: Daily maintenance: 210 notes, 1,242 wikilinks, 0 broken links, created missing Agentic Termination blog note, graph rebuilt + deployed
 - 2026-11-07: Daily maintenance: 208 notes, 1,226 wikilinks, 0 broken links, graph rebuilt + deployed
