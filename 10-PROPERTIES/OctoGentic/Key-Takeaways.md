@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-11-10
+updated: 2026-11-11
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -9,11 +9,23 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **137** blog posts.
+> Consolidated signal from all **138** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 
+
+---
+
+## 🔷 POST: Agentic Assumptions: The Invisible Preconditions That Decide Whether Autonomous Systems Work (2026-11-11)
+
+### Key Takeaways
+
+- [ ] **T-AS1: Write the preconditions down.** An assumption that is not explicit cannot be checked, and an unchecked assumption is a future incident.
+- [ ] **T-AS2: Separate decay from violation from contradiction.** Decay is caught by re-verification, violation by health checks, contradiction by invariant testing.
+- [ ] **T-AS3: Attach a health check to every load-bearing assumption.** The check must answer a question that can be false, not confirm a state that is assumed.
+- [ ] **T-AS4: Give assumptions a shelf life.** An assumption that is never re-checked is a memory, not a fact.
+- [ ] **T-AS5: Fail closed on a violated assumption.** Stopping and reporting a broken premise beats proceeding on it, because the cost of a confident wrong action is always higher than the cost of a pause.
 
 ---
 

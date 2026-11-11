@@ -15,6 +15,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
+| 1 | 2026-11-11 | Agentic Assumptions: The Invisible Preconditions That Decide Whether Autonomous Systems Work | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-11-Agentic-Assumptions|Agentic Assumptions]] |
 | 1 | 2026-11-10 | Agentic Watchdogs: Why Liveness Is Not Health | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-10-Agentic-Watchdogs|Agentic Watchdogs]] |
 | 1 | 2026-11-09 | Agentic Slack: Why Autonomous Systems Need Reserve Capacity to Absorb Surprise | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-09-Agentic-Slack|Agentic Slack]] |
 | 1 | 2026-11-08 | Agentic Termination: How Autonomous Systems Know When the Work Is Done | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-08-Agentic-Termination|Agentic Termination]] |
@@ -110,6 +111,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-11-11-Agentic-Assumptions|Agentic Assumptions]]: Explicit preconditions, decay vs violation vs contradiction, health checks on assumptions, shelf life, fail-closed
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-10-Agentic-Watchdogs|Agentic Watchdogs]]: Liveness vs health, freshness/progress/evidence signals, dead man's switch, bounded restart, dwell-limit calibration
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-09-Agentic-Slack|Agentic Slack]]: Capacity vs commitment slack, time-to-absorb, burn-rate tuning, slack at the constraint
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-06-Agentic-Escalation|Agentic Escalation]]: First-class escalation path, explicit triggers, packaged context, tracked closure, circuit breaker
