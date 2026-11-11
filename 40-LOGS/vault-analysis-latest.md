@@ -1,19 +1,19 @@
 ---
-title: Vault Analysis — 2026-11-10 10:06
+title: Vault Analysis — 2026-11-11 10:01
 tags: [vault, maintenance, analysis]
-updated: 2026-11-10
+updated: 2026-11-11
 ---
 
 # Vault Analysis Report
 
-**Generated:** 2026-11-10 10:06:57
-**Total notes scanned:** 213
-**Total unique notes:** 214
-**Total wikilinks found (excl. code spans):** 1178
+**Generated:** 2026-11-11 10:01:56
+**Total notes scanned:** 215
+**Total unique notes:** 216
+**Total wikilinks found (excl. code spans):** 1191
 
 ## Summary
 
-- Valid links: **1172**
+- Valid links: **1185**
 - Broken links (file not found): **0**
 - Template placeholders: **6**
 - Files with broken links: **0**
@@ -38,9 +38,9 @@ No broken wikilinks found. Vault is clean.
 
 ## Maintenance Run
 
-- **Daily note:** `00-DAILY/2026-11-10.md` (already present, updated with maintenance entry)
+- **Daily note:** `00-DAILY/2026-11-11.md` (present, updated with maintenance entry)
 - **Fixes applied:** 0 (0 real broken links; 6 template placeholders are documentation only, left as-is)
-- **Graph rebuild:** 214 nodes, 1239 links (`public/vault-graph.json` + vault `vault-graph.json`)
-- **Deploy:** git push auto-deploy, commit `3ef54c8`, deployment `dpl_5fwgAXZFxpegQZyn6tfJnCJEk9if` READY
-- **Production verify:** https://octogentic.com/vault-graph.json serves 214 nodes / 1239 links
-- **Home.md:** health stats refreshed (214 notes, 1,178 wikilinks, 0 broken)
+- **Graph rebuild:** 216 nodes, 1252 links (`public/vault-graph.json` + vault `vault-graph.json`)
+- **Deploy:** git push auto-deploy, commit `66f500b`, production verified
+- **Production verify:** https://octogentic.vercel.app/vault-graph.json serves 216 nodes / 1252 links; https://octogentic.com/vault-graph.json matches
+- **Home.md:** health stats refreshed (216 notes, 1,278 wikilinks, 0 broken)

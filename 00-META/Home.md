@@ -1,36 +1,37 @@
 ---
 title: Home
 tags: [dashboard, index]
-updated: 2026-11-10
+updated: 2026-11-11
 ---
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-11-10 (daily maintenance)
+> Last updated: 2026-11-11 (daily maintenance)
 
 ## Health: 71/100 (C)
 
 || Metric | Value |
-||--------|-------|
-|| Total Notes | 214 |
-|| Wikilinks | 1,178 |
-|| Link Density | ~5.50/note |
+|--------|-------|
+|| Total Notes | 216 |
+|| Wikilinks | 1,278 |
+|| Link Density | ~5.92/note |
 || Orphans | 8 |
 || Dead Ends | 15 |
-|| Untagged | 34 |
+|| Untagged | 35 |
 || Broken Links | 0 |
 
 ## �️ God Notes (Most Connected)
 
-| # | Note | In | Out | Group |
-|---|------|----|-----|-------|
-| 1 | OctoGentic Blog Index | 3 | 30 | OctoGentic |
-| 2 | OctoGentic Key Takeaways | 2 | 23 | OctoGentic |
-| 3 | Story Engine — Architecture Overview | 4 | 20 | Story-Engine |
-| 4 | Home | 7 | 10 | meta |
-| 5 | Story Engine — Agent Roster | 2 | 12 | Story-Engine |
+|| # | Note | In | Out | Group |
+||---|------|----|-----|-------|
+|| 1 | Home | 72 | 60 | meta |
+|| 2 | OctoGentic Blog Index | 57 | 72 | OctoGentic |
+|| 3 | OctoGentic — Portfolio Overview | 59 | 16 | OctoGentic |
+|| 4 | CoS — Chief of Staff | 41 | 9 | agents |
+|| 5 | Story Engine — Architecture Overview | 16 | 13 | Story-Engine |
 
 ## Recent Updates
+- 2026-11-11: Daily maintenance: 216 notes, 1,278 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-10: Daily maintenance: 214 notes, 1,178 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-09: Daily maintenance: 212 notes, 1,257 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-08: Daily maintenance: 210 notes, 1,242 wikilinks, 0 broken links, created missing Agentic Termination blog note, graph rebuilt + deployed
