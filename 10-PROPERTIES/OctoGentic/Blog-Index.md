@@ -8,13 +8,14 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 138 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 139 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
+| 1 | 2026-11-12 | Agentic Debt: Why Autonomous Systems Borrow Against Their Own Future | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-12-Agentic-Debt|Agentic Debt]] |
 | 1 | 2026-11-11 | Agentic Assumptions: The Invisible Preconditions That Decide Whether Autonomous Systems Work | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-11-Agentic-Assumptions|Agentic Assumptions]] |
 | 1 | 2026-11-10 | Agentic Watchdogs: Why Liveness Is Not Health | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-10-Agentic-Watchdogs|Agentic Watchdogs]] |
 | 1 | 2026-11-09 | Agentic Slack: Why Autonomous Systems Need Reserve Capacity to Absorb Surprise | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-09-Agentic-Slack|Agentic Slack]] |

@@ -6,7 +6,7 @@ updated: 2026-11-11
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-11-11 (daily maintenance)
+> Last updated: 2026-11-12 (daily maintenance)
 
 ## Health: 71/100 (C)
 
@@ -31,6 +31,7 @@ updated: 2026-11-11
 || 5 | Story Engine — Architecture Overview | 16 | 13 | Story-Engine |
 
 ## Recent Updates
+- 2026-11-12: [[2026-11-12]] — Published "Agentic Debt" blog post (T-DT1 through T-DT5), 1,148 words
 - 2026-11-11: Daily maintenance: 216 notes, 1,278 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-10: Daily maintenance: 214 notes, 1,178 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-09: Daily maintenance: 212 notes, 1,257 wikilinks, 0 broken links, graph rebuilt + deployed
