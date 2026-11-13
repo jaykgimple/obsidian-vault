@@ -1,22 +1,31 @@
 ---
-title: Vault Analysis — 2026-11-12 10:01
+title: Vault Analysis — 2026-11-13 10:07
 tags: [vault, maintenance, analysis]
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # Vault Analysis Report
 
-**Generated:** 2026-11-12 10:01:55
-**Total notes scanned:** 217
-**Total unique notes:** 218
-**Total wikilinks found (excl. code spans):** 1204
+**Generated:** 2026-11-13 10:07:03
+**Total notes scanned:** 219
+**Total unique notes:** 220
+**Total wikilinks found (excl. code spans):** 1217
 
 ## Summary
 
-- Valid links: **1198**
+- Valid links: **1211**
 - Broken links (file not found): **0**
 - Template placeholders: **6**
 - Files with broken links: **0**
+
+## Maintenance Actions (2026-11-13)
+
+- Daily note `00-DAILY/2026-11-13.md`: already present from an earlier run; content refreshed with final stats
+- Broken links fixed: **1**
+  - `10-PROPERTIES/OctoGentic/Blog/2026-11-13-Agentic-Compression.md:29` — `[[10-PROPERTIES/Story-Engine]]` → `[[10-PROPERTIES/Story-Engine/Overview|Story Engine]]`
+  - Rationale: the target note did not exist. An earlier naive pass had redirected it to a lesson note; corrected to the property overview, matching every other blog note.
+- Notes updated: `00-DAILY/2026-11-13.md`, `00-META/Home.md`
+- Graph: rebuilt and deployed to OctoGentic
 
 ## Broken Wikilinks
 

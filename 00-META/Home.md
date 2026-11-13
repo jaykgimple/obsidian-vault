@@ -1,20 +1,20 @@
 ---
 title: Home
 tags: [dashboard, index]
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-11-12 (daily maintenance)
+> Last updated: 2026-11-13 (daily maintenance)
 
 ## Health: 71/100 (C)
 
 || Metric | Value |
 |--------|-------|
-| Total Notes | 218 |
-| Wikilinks | 1,297 |
-|| Link Density | ~5.92/note |
+| Total Notes | 220 |
+| Wikilinks | 1,311 |
+| Link Density | ~5.96/note |
 || Orphans | 8 |
 || Dead Ends | 15 |
 || Untagged | 35 |
@@ -31,6 +31,7 @@ updated: 2026-11-12
 || 5 | Story Engine — Architecture Overview | 16 | 13 | Story-Engine |
 
 ## Recent Updates
+- 2026-11-13: Daily maintenance: 220 notes, 1,311 wikilinks, 0 broken links, corrected Story-Engine link in Agentic Compression post, graph rebuilt + deployed
 - 2026-11-12: Daily maintenance: 218 notes, 1,297 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-12: [[2026-11-12]] — Published "Agentic Debt" blog post (T-DT1 through T-DT5), 1,148 words
 - 2026-11-11: Daily maintenance: 216 notes, 1,278 wikilinks, 0 broken links, graph rebuilt + deployed

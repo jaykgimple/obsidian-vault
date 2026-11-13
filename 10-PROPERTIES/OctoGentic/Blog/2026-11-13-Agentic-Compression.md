@@ -26,7 +26,7 @@ Every autonomous system is drowning in more signal than it can carry, so it comp
 ## Properties Referenced
 
 - [[10-PROPERTIES/Darcron|Darcron]]: The autonomous AI software factory compresses on both sides of its gauntlet loop. A spec and a codebase become a build, and a build and a diff become a critic's verdict. The failure mode is a confident verdict that compresses away an architectural flaw because it is not visible in any single line. The fidelity contract for the critic names the flaw classes it checked for and the ones it cannot see.
-- [[10-PROPERTIES/Story-Engine|Story Engine]] and [[10-PROPERTIES/Bookbrary|Bookbrary]]: Story Engine compresses a premise into a book, a decompression that must preserve the premise's intent. The failure mode is drift, a coherent book that is not the book the premise described. Bookbrary compresses the book into a page, and its reader is the probe that detects a compression failure the aggregator cannot see.
+- [[10-PROPERTIES/Story-Engine/Overview|Story Engine]] and [[10-PROPERTIES/Bookbrary|Bookbrary]]: Story Engine compresses a premise into a book, a decompression that must preserve the premise's intent. The failure mode is drift, a coherent book that is not the book the premise described. Bookbrary compresses the book into a page, and its reader is the probe that detects a compression failure the aggregator cannot see.
 
 ## Related
 
