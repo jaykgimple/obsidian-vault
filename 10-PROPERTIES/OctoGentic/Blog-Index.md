@@ -8,13 +8,14 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 140 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 141 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
+| 1 | 2026-11-14 | Agentic Ownership: Why Every Autonomous Action Needs Exactly One Owner | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-14-Agentic-Ownership|Agentic Ownership]] |
 | 1 | 2026-11-13 | Agentic Compression: How Autonomous Systems Keep the Signal and Lose the Noise | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-13-Agentic-Compression|Agentic Compression]] |
 | 1 | 2026-11-12 | Agentic Debt: Why Autonomous Systems Borrow Against Their Own Future | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-12-Agentic-Debt|Agentic Debt]] |
 | 1 | 2026-11-11 | Agentic Assumptions: The Invisible Preconditions That Decide Whether Autonomous Systems Work | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-11-Agentic-Assumptions|Agentic Assumptions]] |
@@ -113,6 +114,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-11-14-Agentic-Ownership|Agentic Ownership]]: Authority-information-consequence alignment, three failure modes (diffusion, orphaning, boundary ambiguity), owner field at creation, successor, terminal state for unowned actions
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-13-Agentic-Compression|Agentic Compression]]: Fidelity contract, three failure modes (loss, losslessness, unverifiable), layer selection, consumer as probe
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-12-Agentic-Debt|Agentic Debt]]: Principal and interest, recording debt, highest-interest paydown, paydown as a loop step
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-11-Agentic-Assumptions|Agentic Assumptions]]: Explicit preconditions, decay vs violation vs contradiction, health checks on assumptions, shelf life, fail-closed
