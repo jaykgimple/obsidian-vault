@@ -1,36 +1,37 @@
 ---
 title: Home
 tags: [dashboard, index]
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-11-13 (daily maintenance)
+> Last updated: 2026-11-14 (daily maintenance)
 
 ## Health: 71/100 (C)
 
 || Metric | Value |
 |--------|-------|
-| Total Notes | 220 |
-| Wikilinks | 1,311 |
+| Total Notes | 222 |
+| Wikilinks | 1,323 |
 | Link Density | ~5.96/note |
 || Orphans | 8 |
 || Dead Ends | 15 |
-|| Untagged | 35 |
+|| Untagged | 38 |
 || Broken Links | 0 |
 
-## �️ God Notes (Most Connected)
+## 👑 God Notes (Most Connected)
 
 || # | Note | In | Out | Group |
 ||---|------|----|-----|-------|
-|| 1 | Home | 72 | 60 | meta |
-|| 2 | OctoGentic Blog Index | 57 | 72 | OctoGentic |
-|| 3 | OctoGentic — Portfolio Overview | 59 | 16 | OctoGentic |
-|| 4 | CoS — Chief of Staff | 41 | 9 | agents |
-|| 5 | Story Engine — Architecture Overview | 16 | 13 | Story-Engine |
+|| 1 | Home | 75 | 61 | meta |
+|| 2 | OctoGentic Blog Index | 60 | 75 | OctoGentic |
+|| 3 | OctoGentic — Portfolio Overview | 62 | 16 | OctoGentic |
+|| 4 | CoS — Chief of Staff | 44 | 9 | agents |
+|| 5 | Story Engine — Architecture Overview | 17 | 13 | Story-Engine |
 
 ## Recent Updates
+- 2026-11-14: Daily maintenance: 222 notes, 1,323 wikilinks, 0 broken links, restored report format, graph rebuilt + deployed
 - 2026-11-13: Daily maintenance: 220 notes, 1,311 wikilinks, 0 broken links, corrected Story-Engine link in Agentic Compression post, graph rebuilt + deployed
 - 2026-11-12: Daily maintenance: 218 notes, 1,297 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-12: [[2026-11-12]] — Published "Agentic Debt" blog post (T-DT1 through T-DT5), 1,148 words
