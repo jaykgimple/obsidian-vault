@@ -41,6 +41,34 @@ aliases: [OmniVoke Platform, omnivoke]
 - [[10-PROPERTIES/OmniVoke/HITL-Test-2026-09-29]] — HITL test findings: Bluesky junction fix + silent-success mask fix (deployed 2026-09-29)
 - [[10-PROPERTIES/OmniVoke/HITL-Review-Redesign]] — collapsed summary + expandable rows + asset slot for multi-platform review surface (2026-09-26)
 
+## Native rig-animation renderer (2026-11-15)
+
+Added a second, deterministic render engine alongside the existing text-to-video path (the "Best/option 3 hybrid" from Stickman). Vendored Stickman's MIT-licensed painted-puppet rig into `src/worker/native-anim/` (b6_puppet.py etc.) on a pinned py3.12 venv (`.pyenv`), with a code-drawn character adapter (no image model, deterministic PIL/numpy sprites) and a script->scene authoring bridge. Routes by `visual.mode === "animated"` (set at enqueue when `brand.visualStyle.kind === "animated"`); faceless/avatar output stays byte-identical (regression-pinned).
+
+Shipped as a 7-piece gauntlet, all committed to `main` (11 unpushed commits as of 2026-11-15):
+- P1 vendor engine + render; P2 schema (`Brand.visualStyle` + `nativeAnimCharacter` Json) + R2 key contract; P3 code-drawn character adapter (`native-anim-character.ts` + `character_adapter.py`, SHA-256 packageVersion); P4 scene authoring (`native-anim-scene.ts` + `scene_runner.py`) -> real 720x1280 30fps mp4; P5 render integration + fail-fast guard; P6 dashboard/API selection + pending flag; P7 worker character lifecycle (pending -> generating CAS +15m lease -> ready).
+
+Architecture invariants (the hard rules that held):
+- **Python/R2 is VPS-worker-only.** `drainRenderJob` default `renderNativeAnimation` is a no-Python fallback that throws "requires the VPS worker with .pyenv and ffmpeg"; only `render-poller.ts` injects `renderNativeAnimationOnWorker` (commit 7df4a9b). Vercel `/api/render/tick` cron route must never reach Python.
+- Character is code-drawn, deterministic (byte-identical across generations), no image model, no Stickman-art redistribution.
+- DB: `nativeAnimCharacter` column applied via `prisma db execute` ALTER TABLE (additive jsonb), same pattern as visualStyle. No migrations dir.
+
+Still open (not yet done): P7 closed the plumbing only; no live customer render, no git push/Vercel deploy, no worker restart. Jay deploys via git push (never manual Vercel trigger).
+
+## Multi-character speaker-tagged cast (2026-11-15)
+
+Layered on top of the single-character native-anim engine. A script can now drive ONE character (plain narration) or SEVERAL (speaker tags), exactly per Jay's requirement: "A. speaker tags in script; if no tags, the model decides how many characters."
+
+Mechanism: script lines use `NAME: line` speaker tags (generation.ts instructs the model to tag multi-voice scripts and returns a `speakers: string[]` field). `parseSpeakers(script)` strips tags for TTS/subtitles while keeping cue->speaker mapping. `ensureNativeAnimCharacterCast` resolves one character PER script speaker (speaker-driven; no pre-configured cast required), and `buildNativeAnimCharacterSpec` keys character_id + seed on the speaker identity so two speakers under one brand render visually DISTINCT code-drawn characters (deterministic).
+
+Shipped as a 6-piece gauntlet, all OUR_WINS after fixes:
+- P1 speaker tags + parseSpeakers (clock-time/URL false-positive guards); P2 character LIBRARY storage (`NativeAnimCharacterLibrary {version 1, characters{}}` + `visualStyle.characters[]`); P3 style fingerprint + plural generation (regenerate only stale members); P4 multi-character scene authoring (N puppets, per-shot speaker assignment, runner installs N packages); P5 render integration (tags stripped from TTS/subtitles, speaker mapping survives); P6 speaker-driven + distinct cast (the model-decides requirement).
+
+Key invariants held throughout:
+- Single-character + faceless + avatar output is byte-identical (exact-equality regression pins).
+- Python/R2 stays VPS-worker-only; the Vercel cron route throws a fallback error, never reaches Python.
+- Characters are code-drawn (no image model), deterministic (same speaker+style -> same spec), with SHA-256 packageVersion + per-sprite hash verification.
+
 ## Notes
 
 - Pitfall: the picker is PLATFORMS, not content-types; no file picker for YouTube Short (it generates the short).
