@@ -8,13 +8,14 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 142 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 143 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
+| 1 | 2026-11-16 | Agentic Thresholds: How Autonomous Systems Decide Where the Line Goes | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-16-Agentic-Thresholds|Agentic Thresholds]] |
 | 1 | 2026-11-15 | Agentic Invariants: The Hard Rules That Survive Every Optimization | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-15-Agentic-Invariants|Agentic Invariants]] |
 | 1 | 2026-11-14 | Agentic Ownership: Why Every Autonomous Action Needs Exactly One Owner | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-14-Agentic-Ownership|Agentic Ownership]] |
 | 1 | 2026-11-13 | Agentic Compression: How Autonomous Systems Keep the Signal and Lose the Noise | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-13-Agentic-Compression|Agentic Compression]] |
@@ -115,6 +116,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-11-16-Agentic-Thresholds|Agentic Thresholds]]: Threshold as a cost ratio between false pass and false fail, three failure modes (single-number, set-and-forget, gamed), retry budget plus terminal state, segmented lines
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-15-Agentic-Invariants|Agentic Invariants]]: Invariants as executable checks, three failure modes (prose enforcement, silent trade, over-tightening), guardians, fail-closed violation, byte-equality pins
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-14-Agentic-Ownership|Agentic Ownership]]: Authority-information-consequence alignment, three failure modes (diffusion, orphaning, boundary ambiguity), owner field at creation, successor, terminal state for unowned actions
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-13-Agentic-Compression|Agentic Compression]]: Fidelity contract, three failure modes (loss, losslessness, unverifiable), layer selection, consumer as probe
