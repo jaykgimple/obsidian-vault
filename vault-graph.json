@@ -3,15 +3,15 @@
     "total_nodes": 226,
     "total_links": 1316,
     "groups": [
-      "40-LOGS",
       "20-AGENTS",
-      "30-PATTERNS",
-      "unknown",
-      "00-DAILY",
       "00-META",
-      "10-PROPERTIES"
+      "unknown",
+      "10-PROPERTIES",
+      "40-LOGS",
+      "00-DAILY",
+      "30-PATTERNS"
     ],
-    "last_updated": "2026-11-16T09:03:18.862165+00:00"
+    "last_updated": "2026-11-16T09:07:57.559099+00:00"
   },
   "nodes": [
     {
@@ -66,8 +66,8 @@
       "tags": [
         "pattern",
         "agent",
-        "lesson",
-        "decision"
+        "decision",
+        "lesson"
       ],
       "status": "active",
       "path": "00-META/Architecture.md",
@@ -182,8 +182,8 @@
       "title": "2026-08-16",
       "group": "40-LOGS",
       "tags": [
-        "Agent",
-        "1"
+        "1",
+        "Agent"
       ],
       "status": "active",
       "path": "40-LOGS/2026-08-16.md",
@@ -462,7 +462,7 @@
       "tags": [],
       "status": "active",
       "path": "40-LOGS/vault-analysis-latest.md",
-      "links_count": 0,
+      "links_count": 6,
       "inbound_count": 11,
       "x": 425.01,
       "y": -22.54,
