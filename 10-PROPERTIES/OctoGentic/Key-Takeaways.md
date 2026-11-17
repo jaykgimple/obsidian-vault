@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-11-11
+updated: 2026-11-17
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -14,6 +14,18 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 > Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 
+
+---
+
+## 🔷 POST: Agentic Recourse: How Autonomous Systems Leave a Handle for the People They Act On (2026-11-17)
+
+### Key Takeaways
+
+- [ ] **T-RC1: Escalation is system-initiated. Recourse is person-initiated.** A system that can ask for help is not yet answerable. The handle belongs to the person the decision lands on.
+- [ ] **T-RC2: Publish the decision, the reason, and the evidence at the moment of action.** A receipt the person can read beats a report they must request. Secrecy is the opposite of recourse.
+- [ ] **T-RC3: Make the reason actionable.** Name the gap in the person's terms and the next move. An explanation that does not tell you what to change is a score, not a handle.
+- [ ] **T-RC4: Make the override as cheap as the original action.** If the system acts in one click, the person must be able to contest or force in one click, with the risk stated.
+- [ ] **T-RC5: Give every appeal a human, a clock, and a terminal state, and feed the outcome back into the policy.** A handle that dead-ends teaches the person not to pull it, and the same case will recur.
 
 ---
 
