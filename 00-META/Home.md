@@ -1,36 +1,37 @@
 ---
 title: Home
 tags: [dashboard, index]
-updated: 2026-11-16
+updated: 2026-11-17
 ---
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-11-16 (daily maintenance)
+> Last updated: 2026-11-17 (daily maintenance)
 
 ## Health: 71/100 (C)
 
 || Metric | Value |
 |--------|-------|
-|| Total Notes | 226 |
-|| Wikilinks | 1,348 |
-| Link Density | ~5.96/note |
+|| Total Notes | 228 |
+|| Wikilinks | 1,354 |
+|| Link Density | ~5.94/note |
 || Orphans | 8 |
 || Dead Ends | 15 |
-|| Untagged | 38 |
+|| Untagged | 40 |
 || Broken Links | 0 |
 
 ## 👑 God Notes (Most Connected)
 
 || # | Note | In | Out | Group |
 ||---|------|----|-----|-------|
-|| 1 | Home | 75 | 61 | meta |
-|| 2 | OctoGentic Blog Index | 60 | 75 | OctoGentic |
-|| 3 | OctoGentic — Portfolio Overview | 62 | 16 | OctoGentic |
-|| 4 | CoS — Chief of Staff | 44 | 9 | agents |
-|| 5 | Story Engine — Architecture Overview | 17 | 13 | Story-Engine |
+|| 1 | Home | 78 | 61 | meta |
+|| 2 | OctoGentic Blog Index | 63 | 78 | OctoGentic |
+|| 3 | OctoGentic — Portfolio Overview | 65 | 16 | OctoGentic |
+|| 4 | CoS — Chief of Staff | 47 | 9 | agents |
+|| 5 | Story Engine — Architecture Overview | 18 | 13 | Story-Engine |
 
 ## Recent Updates
+- 2026-11-17: Daily maintenance: 228 notes, 1,354 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-16: Daily maintenance: 226 notes, 1,348 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-15: Daily maintenance: 224 notes, 1,335 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-14: Daily maintenance: 222 notes, 1,323 wikilinks, 0 broken links, restored report format, graph rebuilt + deployed

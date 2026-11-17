@@ -1,19 +1,19 @@
 ---
-title: Vault Analysis — 2026-11-16 10:06
+title: Vault Analysis — 2026-11-17 10:04
 tags: [vault, maintenance, analysis]
-updated: 2026-11-16
+updated: 2026-11-17
 ---
 
 # Vault Analysis Report
 
-**Generated:** 2026-11-16 10:06:47
-**Total notes scanned:** 225
-**Total unique notes:** 226
-**Total wikilinks found (excl. code spans):** 1255
+**Generated:** 2026-11-17 10:04:59
+**Total notes scanned:** 227
+**Total unique notes:** 228
+**Total wikilinks found (excl. code spans):** 1268
 
 ## Summary
 
-- Valid links: **1249**
+- Valid links: **1262**
 - Broken links (file not found): **0**
 - Template placeholders: **6**
 - Files with broken links: **0**
