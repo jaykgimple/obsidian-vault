@@ -8,13 +8,14 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 146 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 147 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
+| 1 | 2026-11-18 | Agentic Containment: How Autonomous Systems Limit the Blast Radius of a Bad Decision | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-18-Agentic-Containment|Agentic Containment]] |
 | 1 | 2026-11-17 | Agentic Recourse: How Autonomous Systems Leave a Handle for the People They Act On | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-17-Agentic-Recourse|Agentic Recourse]] |
 | 1 | 2026-11-16 | Agentic Thresholds: How Autonomous Systems Decide Where the Line Goes | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-16-Agentic-Thresholds|Agentic Thresholds]] |
 | 1 | 2026-11-15 | Agentic Invariants: The Hard Rules That Survive Every Optimization | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-15-Agentic-Invariants|Agentic Invariants]] |
@@ -117,6 +118,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-11-18-Agentic-Containment|Agentic Containment]]: Blast radius as a design property, three failure modes (unbounded action, shared-state cascade, missing kill switch), smallest reach per decision, isolated seams, staged rollout, exercised kill switch, fence trips fed back into the design
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-17-Agentic-Recourse|Agentic Recourse]]: Recourse as the person's handle after a decision, three failure modes (silent action, opaque reason, dead-end appeal), receipt at action time, actionable reason, cheap override, appeal with a human, a clock, and a terminal state
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-16-Agentic-Thresholds|Agentic Thresholds]]: Threshold as a cost ratio between false pass and false fail, three failure modes (single-number, set-and-forget, gamed), retry budget plus terminal state, segmented lines
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-15-Agentic-Invariants|Agentic Invariants]]: Invariants as executable checks, three failure modes (prose enforcement, silent trade, over-tightening), guardians, fail-closed violation, byte-equality pins
