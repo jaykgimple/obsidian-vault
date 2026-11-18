@@ -1,36 +1,37 @@
 ---
 title: Home
 tags: [dashboard, index]
-updated: 2026-11-17
+updated: 2026-11-18
 ---
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-11-17 (daily maintenance)
+> Last updated: 2026-11-18 (daily maintenance)
 
 ## Health: 71/100 (C)
 
 || Metric | Value |
 |--------|-------|
-|| Total Notes | 228 |
-|| Wikilinks | 1,354 |
-|| Link Density | ~5.94/note |
+|| Total Notes | 230 |
+|| Wikilinks | 1,368 |
+|| Link Density | ~5.95/note |
 || Orphans | 8 |
 || Dead Ends | 15 |
-|| Untagged | 40 |
+|| Untagged | 41 |
 || Broken Links | 0 |
 
 ## 👑 God Notes (Most Connected)
 
 || # | Note | In | Out | Group |
 ||---|------|----|-----|-------|
-|| 1 | Home | 78 | 61 | meta |
-|| 2 | OctoGentic Blog Index | 63 | 78 | OctoGentic |
-|| 3 | OctoGentic — Portfolio Overview | 65 | 16 | OctoGentic |
-|| 4 | CoS — Chief of Staff | 47 | 9 | agents |
+|| 1 | OctoGentic Blog Index | 64 | 79 | OctoGentic |
+|| 2 | Home | 79 | 61 | meta |
+|| 3 | OctoGentic — Portfolio Overview | 66 | 16 | OctoGentic |
+|| 4 | CoS — Chief of Staff | 48 | 9 | agents |
 || 5 | Story Engine — Architecture Overview | 18 | 13 | Story-Engine |
 
 ## Recent Updates
+- 2026-11-18: Daily maintenance: 230 notes, 1,368 wikilinks, 0 broken links, backtick-escaped 6 template false positives, graph rebuilt + deployed
 - 2026-11-17: Daily maintenance: 228 notes, 1,354 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-16: Daily maintenance: 226 notes, 1,348 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-15: Daily maintenance: 224 notes, 1,335 wikilinks, 0 broken links, graph rebuilt + deployed
