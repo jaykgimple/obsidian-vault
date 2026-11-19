@@ -8,13 +8,14 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 147 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 148 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
+| 1 | 2026-11-19 | Agentic Freshness: How Autonomous Systems Know When What They Know Goes Stale | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-19-Agentic-Freshness|Agentic Freshness]] |
 | 1 | 2026-11-18 | Agentic Containment: How Autonomous Systems Limit the Blast Radius of a Bad Decision | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-18-Agentic-Containment|Agentic Containment]] |
 | 1 | 2026-11-17 | Agentic Recourse: How Autonomous Systems Leave a Handle for the People They Act On | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-17-Agentic-Recourse|Agentic Recourse]] |
 | 1 | 2026-11-16 | Agentic Thresholds: How Autonomous Systems Decide Where the Line Goes | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-16-Agentic-Thresholds|Agentic Thresholds]] |
@@ -118,6 +119,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-11-19-Agentic-Freshness|Agentic Freshness]]: Premise validity over time, three failure modes (timeless fact, silent stale, graceful-but-wrong), capture-time timestamps, consumer-set shelf lives, fail-closed expiry, decision-time re-verification, age logged beside the decision
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-18-Agentic-Containment|Agentic Containment]]: Blast radius as a design property, three failure modes (unbounded action, shared-state cascade, missing kill switch), smallest reach per decision, isolated seams, staged rollout, exercised kill switch, fence trips fed back into the design
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-17-Agentic-Recourse|Agentic Recourse]]: Recourse as the person's handle after a decision, three failure modes (silent action, opaque reason, dead-end appeal), receipt at action time, actionable reason, cheap override, appeal with a human, a clock, and a terminal state
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-16-Agentic-Thresholds|Agentic Thresholds]]: Threshold as a cost ratio between false pass and false fail, three failure modes (single-number, set-and-forget, gamed), retry budget plus terminal state, segmented lines
