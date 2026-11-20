@@ -44,7 +44,18 @@ for note_name, filepath in sorted(all_md_files.items()):
         content = open(filepath, 'r', encoding='utf-8').read()
     except:
         continue
+    in_fence = False
     for i, line in enumerate(content.split('\n'), 1):
+        # Skip fenced code blocks and inline code spans so documentation
+        # examples like `[[Note Name]]` / `[[...]]` are not counted as links.
+        if line.strip().startswith('```'):
+            in_fence = not in_fence
+            continue
+        if in_fence:
+            continue
+        line = re.sub(r'`{3}[^`]*`{3}', '', line)
+        line = re.sub(r'`{2}[^`]*`{2}', '', line)
+        line = re.sub(r'`[^`]*`', '', line)
         for m in WIKILINK_RE.finditer(line):
             target = m.group(1).strip()
             links_found.append((note_name, i, target, m.group(0), line.strip()))
