@@ -1,20 +1,20 @@
 ---
 title: Home
 tags: [dashboard, index]
-updated: 2026-11-19
+updated: 2026-11-20
 ---
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-11-19 (daily maintenance)
+> Last updated: 2026-11-20 (daily maintenance)
 
 ## Health: 71/100 (C)
 
 || Metric | Value |
 |--------|-------|
-|| Total Notes | 233 |
-|| Wikilinks | 1,385 |
-|| Link Density | ~5.94/note |
+|| Total Notes | 238 |
+|| Wikilinks | 1,405 |
+|| Link Density | ~5.90/note |
 || Orphans | 8 |
 || Dead Ends | 15 |
 || Untagged | 41 |
@@ -31,6 +31,7 @@ updated: 2026-11-19
 || 5 | Story Engine — Architecture Overview | 18 | 13 | Story-Engine |
 
 ## Recent Updates
+- 2026-11-20: Daily maintenance: 238 notes, 1,405 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-19: Daily maintenance: 233 notes, 1,385 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-18: Daily maintenance: 230 notes, 1,368 wikilinks, 0 broken links, backtick-escaped 6 template false positives, graph rebuilt + deployed
 - 2026-11-17: Daily maintenance: 228 notes, 1,354 wikilinks, 0 broken links, graph rebuilt + deployed
