@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-11-17
+updated: 2026-11-20
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -9,11 +9,23 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **146** blog posts.
+> Consolidated signal from all **149** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 
+
+---
+
+## 🔷 POST: Agentic Attention: How Autonomous Systems Decide What to Reason About (2026-11-20)
+
+### Key Takeaways
+
+- [ ] **T-AT1: Attention is not awareness.** Awareness sees the input; attention chooses which input gets the expensive reasoning. A system can be fully aware and still reason shallowly about the premise that decides.
+- [ ] **T-AT2: Rank by consequence, not salience.** Importance is impact multiplied by uncertainty. A loud input is not a load-bearing one.
+- [ ] **T-AT3: Set depth per premise, not per input.** The load-bearing premise gets verification; the decorative one gets a skim. Depth is a budget line set by the decision.
+- [ ] **T-AT4: Protect the budget and re-check the ranking at decision time.** Batch, defer, and drop. The ranking is a premise too, and it expires like one.
+- [ ] **T-AT5: Log where the attention went.** The allocation record is how the system notices it has been spending on decoration, and how the budget gets tuned.
 
 ---
 
