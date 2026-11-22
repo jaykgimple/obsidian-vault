@@ -3518,3 +3518,43 @@ Links scanned: 1398
 Fixes applied: 0
 Daily note: 2026-11-20 created
 Log: vault-analysis-latest.md updated
+Total markdown files: 240
+Total wikilink occurrences found: 1304
+
+Resolved links: 1303
+Broken/ambiguous links: 1
+
+--- BROKEN/AMBIGUOUS LINKS ---
+  10-PROPERTIES/OmniVoke:59 -> [[software-development/stickman-b6-engine]] -- NO_MATCH
+    Line: - **Custom code removed (never resurrect):** native-anim-* / cast-adapters / speakers / styles / scene-background / brand-visual-style (TS) + scene_runner / character/painted/ai_painted/explainer/illustrated/minimalist adapters (Py). The authoritative workflow is [[software-development/stickman-b6-engine]] (run the repo as-is, content-swap only).
+  UNFIXED (no match found): 10-PROPERTIES/OmniVoke:59 [[software-development/stickman-b6-engine]]
+
+Created daily note: /root/projects/obsidian-vault/00-DAILY/2026-11-21.md
+Saved maintenance log to: /root/projects/obsidian-vault/40-LOGS/vault-analysis-latest.md
+
+=== VAULT MAINTENANCE COMPLETE ===
+Notes: 240
+Links scanned: 1304
+Fixes applied: 0
+Daily note: 2026-11-21 created
+Log: vault-analysis-latest.md updated
+Total markdown files: 241
+Total wikilink occurrences found: 1308
+
+Resolved links: 1307
+Broken/ambiguous links: 1
+
+--- BROKEN/AMBIGUOUS LINKS ---
+  10-PROPERTIES/OmniVoke:59 -> [[software-development/stickman-b6-engine]] -- NO_MATCH
+    Line: - **Custom code removed (never resurrect):** native-anim-* / cast-adapters / speakers / styles / scene-background / brand-visual-style (TS) + scene_runner / character/painted/ai_painted/explainer/illustrated/minimalist adapters (Py). The authoritative workflow is [[software-development/stickman-b6-engine]] (run the repo as-is, content-swap only).
+  UNFIXED (no match found): 10-PROPERTIES/OmniVoke:59 [[software-development/stickman-b6-engine]]
+
+Created daily note: /root/projects/obsidian-vault/00-DAILY/2026-11-22.md
+Saved maintenance log to: /root/projects/obsidian-vault/40-LOGS/vault-analysis-latest.md
+
+=== VAULT MAINTENANCE COMPLETE ===
+Notes: 241
+Links scanned: 1308
+Fixes applied: 0
+Daily note: 2026-11-22 created
+Log: vault-analysis-latest.md updated

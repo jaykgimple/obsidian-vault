@@ -1,36 +1,37 @@
 ---
 title: Home
 tags: [dashboard, index]
-updated: 2026-11-20
+updated: 2026-11-22
 ---
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-11-20 (daily maintenance)
+> Last updated: 2026-11-22 (daily maintenance)
 
-## Health: 71/100 (C)
+## Health: 70/100 (C)
 
 || Metric | Value |
 |--------|-------|
-|| Total Notes | 238 |
-|| Wikilinks | 1,405 |
-|| Link Density | ~5.90/note |
-|| Orphans | 8 |
-|| Dead Ends | 15 |
-|| Untagged | 41 |
+|| Total Notes | 242 |
+|| Wikilinks | 1,415 |
+|| Link Density | ~5.85/note |
+|| Orphans | 12 |
+|| Dead Ends | 18 |
+|| Untagged | 44 |
 || Broken Links | 0 |
 
 ## 👑 God Notes (Most Connected)
 
 || # | Note | In | Out | Group |
 ||---|------|----|-----|-------|
-|| 1 | OctoGentic Blog Index | 64 | 79 | OctoGentic |
-|| 2 | Home | 79 | 61 | meta |
-|| 3 | OctoGentic — Portfolio Overview | 66 | 16 | OctoGentic |
-|| 4 | CoS — Chief of Staff | 48 | 9 | agents |
-|| 5 | Story Engine — Architecture Overview | 18 | 13 | Story-Engine |
+|| 1 | OctoGentic Blog Index | 66 | 81 | OctoGentic |
+|| 2 | Home | 83 | 61 | meta |
+|| 3 | OctoGentic — Portfolio Overview | 68 | 16 | OctoGentic |
+|| 4 | CoS — Chief of Staff | 52 | 9 | agents |
+|| 5 | LucentSkill — AI Upskilling LMS | 24 | 9 | properties |
 
 ## Recent Updates
+- 2026-11-22: Daily maintenance: 242 notes, 1,415 wikilinks, 0 broken links, fixed 1 (OmniVoke → Stickman-B6-Wiring-Plan skill ref), graph rebuilt + deployed
 - 2026-11-20: Daily maintenance: 238 notes, 1,405 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-19: Daily maintenance: 233 notes, 1,385 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-18: Daily maintenance: 230 notes, 1,368 wikilinks, 0 broken links, backtick-escaped 6 template false positives, graph rebuilt + deployed

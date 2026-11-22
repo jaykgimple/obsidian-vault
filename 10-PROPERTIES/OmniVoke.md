@@ -41,6 +41,23 @@ aliases: [OmniVoke Platform, omnivoke]
 - [[10-PROPERTIES/OmniVoke/HITL-Test-2026-09-29]] — HITL test findings: Bluesky junction fix + silent-success mask fix (deployed 2026-09-29)
 - [[10-PROPERTIES/OmniVoke/HITL-Review-Redesign]] — collapsed summary + expandable rows + asset slot for multi-platform review surface (2026-09-26)
 
+## Native-anim wiring REVERTED (2026-11-20)
+
+Reverted the entire premature stickman native-anim integration. The earlier two gauntlets
+(visual-style + native-anim) wired custom character/scene generators into the render path
+before the "implement repo as-is + test it" step was confirmed. Per [[Home]] decision, that
+step comes FIRST (vendor + test), then wire later.
+
+Current clean state (deployed, commit `0596326`):
+- Video engine, schema, dashboard, API restored to pre-stickman baseline (faceless/avatar intact, 731/731 tests, tsc clean, build green).
+- Vendored the repo as-is and KEPT it: `src/worker/native-anim/` = 12 `b6_*.py` + `reference-b6/` assets + the passing proof `outputs/omnivoke-proof-02/preview.mp4` (298 frames, 0px contact error).
+- Preserved the separate `brand-pause` kill-switch (commit `4f0946d`) on top; `Brand.paused`, PATCH `/api/brands/[id]`, dashboard Pause/Resume, publish-engine short-circuit all intact.
+
+Key lessons (the traps that bit this session):
+- **The full vendored tree was only in un-pushed local commits.** Prod (`origin/main`) had just 4 core `b6_*.py` + the custom adapters; the 8 remaining `b6_*.py` + entire `reference-b6/` + proof lived only in local commit `75c03dd` (never pushed). A `git reset --hard origin/main` silently drops them — re-checkout from the backup branch to recover.
+- **Diverged histories:** prod had `brand-pause` (4f0946d) that local lacked, and local had 3 un-pushed native-anim commits prod lacked. Naive push would have wiped brand-pause. Reconcile by resetting to `origin/main` then replaying the revert on top.
+- **Custom code removed (never resurrect):** native-anim-* / cast-adapters / speakers / styles / scene-background / brand-visual-style (TS) + scene_runner / character/painted/ai_painted/explainer/illustrated/minimalist adapters (Py). The authoritative workflow (run the repo as-is, content-swap only) is [[10-PROPERTIES/OmniVoke/Stickman-B6-Wiring-Plan]]; the Hermes skill `software-development/stickman-b6-engine` codifies it.
+
 ## Native rig-animation renderer (2026-11-15)
 
 Added a second, deterministic render engine alongside the existing text-to-video path (the "Best/option 3 hybrid" from Stickman). Vendored Stickman's MIT-licensed painted-puppet rig into `src/worker/native-anim/` (b6_puppet.py etc.) on a pinned py3.12 venv (`.pyenv`), with a code-drawn character adapter (no image model, deterministic PIL/numpy sprites) and a script->scene authoring bridge. Routes by `visual.mode === "animated"` (set at enqueue when `brand.visualStyle.kind === "animated"`); faceless/avatar output stays byte-identical (regression-pinned).
