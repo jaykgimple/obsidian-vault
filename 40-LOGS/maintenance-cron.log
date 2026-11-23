@@ -3558,3 +3558,32 @@ Links scanned: 1308
 Fixes applied: 0
 Daily note: 2026-11-22 created
 Log: vault-analysis-latest.md updated
+Total markdown files: 245
+Total wikilink occurrences found: 1318
+
+Resolved links: 1314
+Broken/ambiguous links: 4
+
+--- BROKEN/AMBIGUOUS LINKS ---
+  10-PROPERTIES/OctoGentic/Blog-Index:18 -> [[10-PROPERTIES/OctoGentic/Blog/2026-11-23-Agentic-Rehearsal]] -- NO_MATCH
+    Line: | 1 | 2026-11-23 | Agentic Rehearsal: How Autonomous Systems Practice a Decision Before They Commit It | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-23-Agentic-Rehearsal|Agentic Rehearsal]] |
+  10-PROPERTIES/OctoGentic/Blog-Index:19 -> [[10-PROPERTIES/OctoGentic/Blog/2026-11-22-Agentic-Sequencing]] -- NO_MATCH
+    Line: | 1 | 2026-11-22 | Agentic Sequencing: Why the Order of Operations Is a Design Decision | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-22-Agentic-Sequencing|Agentic Sequencing]] |
+  10-PROPERTIES/OctoGentic/Blog-Index:125 -> [[10-PROPERTIES/OctoGentic/Blog/2026-11-23-Agentic-Rehearsal]] -- NO_MATCH
+    Line: - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-23-Agentic-Rehearsal|Agentic Rehearsal]]: Rehearsal as a consequence-free stage before the irreversible step, three failure modes (no rehearsal, fake rehearsal, endless rehearsal), cheap and faithful practice, gate the real run on the rehearsal, typed human override
+  10-PROPERTIES/OctoGentic/Blog-Index:126 -> [[10-PROPERTIES/OctoGentic/Blog/2026-11-22-Agentic-Sequencing]] -- NO_MATCH
+    Line: - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-22-Agentic-Sequencing|Agentic Sequencing]]: Order as part of the result, three failure modes (premature exposure, late validation, skipped dependencies), explicit order and dependencies, validate before exposure, irreversible steps last
+  UNFIXED (no match found): 10-PROPERTIES/OctoGentic/Blog-Index:18 [[10-PROPERTIES/OctoGentic/Blog/2026-11-23-Agentic-Rehearsal]]
+  UNFIXED (no match found): 10-PROPERTIES/OctoGentic/Blog-Index:19 [[10-PROPERTIES/OctoGentic/Blog/2026-11-22-Agentic-Sequencing]]
+  UNFIXED (no match found): 10-PROPERTIES/OctoGentic/Blog-Index:125 [[10-PROPERTIES/OctoGentic/Blog/2026-11-23-Agentic-Rehearsal]]
+  UNFIXED (no match found): 10-PROPERTIES/OctoGentic/Blog-Index:126 [[10-PROPERTIES/OctoGentic/Blog/2026-11-22-Agentic-Sequencing]]
+
+Created daily note: /root/projects/obsidian-vault/00-DAILY/2026-11-23.md
+Saved maintenance log to: /root/projects/obsidian-vault/40-LOGS/vault-analysis-latest.md
+
+=== VAULT MAINTENANCE COMPLETE ===
+Notes: 245
+Links scanned: 1318
+Fixes applied: 0
+Daily note: 2026-11-23 created
+Log: vault-analysis-latest.md updated
