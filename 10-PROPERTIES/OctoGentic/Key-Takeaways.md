@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-11-20
+updated: 2026-11-23
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -9,11 +9,34 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **149** blog posts.
+> Consolidated signal from all **151** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 
+
+---
+
+## 🔷 POST: Agentic Rehearsal: How Autonomous Systems Practice a Decision Before They Commit It (2026-11-23)
+
+### Key Takeaways
+
+- [ ] **T-RH1: Rehearsal moves discovery before commitment.** A mistake found on the practice stage is cheap; a mistake found on the customer is not. The irreversible step should always sit after a consequence-free run.
+- [ ] **T-RH2: Rehearsal is not testing.** Testing proves the thing works; rehearsal shows what it will do to the world. A system can pass every test and still need a rehearsal.
+- [ ] **T-RH3: Make it cheap and faithful, and gate the real on it.** Rehearsal gets skipped when it is expensive, and lies when it is fake. It must be cheaper than the mistake it prevents and share the real run's inputs.
+- [ ] **T-RH4: Leave the gate overridable by a human.** Rehearsal is a reason to stop, not a wall. A person who understands the risk can override, but the override is typed and deliberate, never silent.
+
+---
+
+## 🔷 POST: Agentic Sequencing: Why the Order of Operations Is a Design Decision (2026-11-22)
+
+### Key Takeaways
+
+- [ ] **T-SQ1: The order is part of the result.** Two correct operations in the wrong order are a single incorrect system. Sequencing is a design decision, not an implementation detail.
+- [ ] **T-SQ2: Write the order down.** A sequence that lives only in code changes with every edit. A named, explicit order makes reordering a conscious choice.
+- [ ] **T-SQ3: Validate before exposure.** Nothing becomes visible until every step that could reject it has run. The reader is not your QA.
+- [ ] **T-SQ4: Make each dependency explicit.** A step should declare what it needs from its predecessor and refuse degraded input. An implicit dependency is a scheduled failure.
+- [ ] **T-SQ5: Keep irreversible steps last.** Publishes, trades, and saves run only after every gate has passed. The irreversible step is the sink of the chain.
 
 ---
 

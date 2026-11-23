@@ -8,13 +8,15 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 149 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 151 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
+| 1 | 2026-11-23 | Agentic Rehearsal: How Autonomous Systems Practice a Decision Before They Commit It | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-23-Agentic-Rehearsal|Agentic Rehearsal]] |
+| 1 | 2026-11-22 | Agentic Sequencing: Why the Order of Operations Is a Design Decision | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-22-Agentic-Sequencing|Agentic Sequencing]] |
 | 1 | 2026-11-20 | Agentic Attention: How Autonomous Systems Decide What to Reason About | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-20-Agentic-Attention|Agentic Attention]] |
 | 1 | 2026-11-19 | Agentic Freshness: How Autonomous Systems Know When What They Know Goes Stale | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-19-Agentic-Freshness|Agentic Freshness]] |
 | 1 | 2026-11-18 | Agentic Containment: How Autonomous Systems Limit the Blast Radius of a Bad Decision | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-18-Agentic-Containment|Agentic Containment]] |
@@ -120,6 +122,8 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-11-23-Agentic-Rehearsal|Agentic Rehearsal]]: Rehearsal as a consequence-free stage before the irreversible step, three failure modes (no rehearsal, fake rehearsal, endless rehearsal), cheap and faithful practice, gate the real run on the rehearsal, typed human override
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-11-22-Agentic-Sequencing|Agentic Sequencing]]: Order as part of the result, three failure modes (premature exposure, late validation, skipped dependencies), explicit order and dependencies, validate before exposure, irreversible steps last
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-20-Agentic-Attention|Agentic Attention]]: Attention as the scarce reasoning budget, three failure modes (uniform budget, loudest signal, attention leak), rank by consequence not salience, depth per premise, protect the budget, re-check the ranking at decision time, log the allocation
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-19-Agentic-Freshness|Agentic Freshness]]: Premise validity over time, three failure modes (timeless fact, silent stale, graceful-but-wrong), capture-time timestamps, consumer-set shelf lives, fail-closed expiry, decision-time re-verification, age logged beside the decision
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-18-Agentic-Containment|Agentic Containment]]: Blast radius as a design property, three failure modes (unbounded action, shared-state cascade, missing kill switch), smallest reach per decision, isolated seams, staged rollout, exercised kill switch, fence trips fed back into the design
