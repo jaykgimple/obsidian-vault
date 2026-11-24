@@ -58,6 +58,28 @@ Matt's 10 feedback rows → 3 buildable pieces (pricing parked). All shipped to 
   into every rewrite prompt as "eliminate these" targets; editor passes live
   flags automatically. Commit 70eeadd.
 
+## Improve-flow UX (2026-11-24), commit 5df74b9
+
+Matt/Kathy flagged the AI-rewrite flow as confusing: the button was called
+"Rewrite" but only opened an interview, and the actual rewriting was per-bullet
+(users kept clicking AI over and over). Resolved:
+
+- Dashboard button renamed `Rewrite` -> `Improve resume`. It now skips the
+  intake interview on return visits (intake questions generate once + persist,
+  so their presence = "already seen") and lands straight in the editor.
+- Editor gains `Enhance with AI`: one action rewrites summary, skills,
+  education, and every experience bullet, then a before/after modal with
+  per-item keep/skip toggles before anything applies. Auto-runs once on entry
+  from "Improve resume" (gated on intake + parse-judge settle).
+- Follow-up (81f0957): the experience bullets go through a SINGLE
+  `rewriteSectionBullets` call in a new `/api/resumes/enhance` endpoint, NOT
+  N parallel per-bullet calls (which each read the same pre-enhance snapshot
+  and could reuse action verbs). `rewriteSectionBullets` + prompts gained an
+  `intakeContext` arg so intake grounding is preserved alongside the
+  "never repeat a verb within the section" rule.
+- Per-field sparkle buttons are retained (not hidden) for one-line re-rewrites.
+- Interview CTA `Start rewriting` -> `Apply AI improvements`; card retitled.
+
 ## Open items
 
 - Publish the layoff series + 15-day plan (blocked on OmniVoke API key from Jay).

@@ -3587,3 +3587,26 @@ Links scanned: 1318
 Fixes applied: 0
 Daily note: 2026-11-23 created
 Log: vault-analysis-latest.md updated
+Total markdown files: 249
+Total wikilink occurrences found: 1338
+
+Resolved links: 1336
+Broken/ambiguous links: 2
+
+--- BROKEN/AMBIGUOUS LINKS ---
+  10-PROPERTIES/OctoGentic/Blog-Index:18 -> [[10-PROPERTIES/OctoGentic/Blog/2026-11-24-Agentic-Segmentation]] -- NO_MATCH
+    Line: | 1 | 2026-11-24 | Agentic Segmentation: Why Autonomous Systems Must Route by Readiness, Not Identity | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-24-Agentic-Segmentation|Agentic Segmentation]] |
+  10-PROPERTIES/OctoGentic/Blog-Index:126 -> [[10-PROPERTIES/OctoGentic/Blog/2026-11-24-Agentic-Segmentation]] -- NO_MATCH
+    Line: - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-24-Agentic-Segmentation|Agentic Segmentation]]: Readiness not identity as the routing axis, segment as a checkable claim updated on evidence, next-step placement, few honest segments over per-user generation
+  UNFIXED (no match found): 10-PROPERTIES/OctoGentic/Blog-Index:18 [[10-PROPERTIES/OctoGentic/Blog/2026-11-24-Agentic-Segmentation]]
+  UNFIXED (no match found): 10-PROPERTIES/OctoGentic/Blog-Index:126 [[10-PROPERTIES/OctoGentic/Blog/2026-11-24-Agentic-Segmentation]]
+
+Created daily note: /root/projects/obsidian-vault/00-DAILY/2026-11-24.md
+Saved maintenance log to: /root/projects/obsidian-vault/40-LOGS/vault-analysis-latest.md
+
+=== VAULT MAINTENANCE COMPLETE ===
+Notes: 249
+Links scanned: 1338
+Fixes applied: 0
+Daily note: 2026-11-24 created
+Log: vault-analysis-latest.md updated
