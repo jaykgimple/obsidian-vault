@@ -8,13 +8,14 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 152 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 153 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
+| 1 | 2026-11-25 | Agentic Overfitting: Why Tailoring Too Hard to a Target Makes a System Less Fit, Not More | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-25-Agentic-Overfitting|Agentic Overfitting]] |
 | 1 | 2026-11-24 | Agentic Segmentation: Why Autonomous Systems Must Route by Readiness, Not Identity | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-24-Agentic-Segmentation|Agentic Segmentation]] |
 | 1 | 2026-11-23 | Agentic Rehearsal: How Autonomous Systems Practice a Decision Before They Commit It | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-23-Agentic-Rehearsal|Agentic Rehearsal]] |
 | 1 | 2026-11-22 | Agentic Sequencing: Why the Order of Operations Is a Design Decision | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-22-Agentic-Sequencing|Agentic Sequencing]] |
