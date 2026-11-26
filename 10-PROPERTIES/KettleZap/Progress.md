@@ -67,6 +67,18 @@ Status: MVP LIVE at https://kettlezap.vercel.app (auto-deploys on push to main).
   and local .env; values from `pass cloudflare/r2/*`.
 - Jay's own account `jaykgimple@gmail.com` has signed up and logged a completion on prod.
 
+## Re-do + reset (2026-11-26, fourth pass)
+
+- Users can re-do any completed day from the Journey grid. Tapping a "Done" day opens
+  an "are you sure?" confirm (shared `src/components/ConfirmDialog.tsx`); confirming
+  navigates to that Zap. Re-doing now UPSERTS the completion (schema unique
+  `@@unique([userId, track, dayNumber])`, migration 20261126071620) so "Zaps done X/30"
+  and total minutes never double-count.
+- Reset program: "Reset program" control at the bottom of Journey wipes all completions
+  back to Day 1, behind a danger-styled confirm.
+- Journey rows moved into a client component `journey/JourneyDay.tsx` (was server-rendered
+  <Link> rows) to own the confirm state.
+
 ## Next
 
 - Serve demo MP4s from R2 and wire into Player rest screens (in-app looping demos).
