@@ -8,13 +8,14 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 153 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 154 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
+| 1 | 2026-11-26 | Agentic Idle: Why the Best Autonomous Systems Know When to Do Nothing | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-26-Agentic-Idle|Agentic Idle]] |
 | 1 | 2026-11-25 | Agentic Overfitting: Why Tailoring Too Hard to a Target Makes a System Less Fit, Not More | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-25-Agentic-Overfitting|Agentic Overfitting]] |
 | 1 | 2026-11-24 | Agentic Segmentation: Why Autonomous Systems Must Route by Readiness, Not Identity | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-24-Agentic-Segmentation|Agentic Segmentation]] |
 | 1 | 2026-11-23 | Agentic Rehearsal: How Autonomous Systems Practice a Decision Before They Commit It | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-23-Agentic-Rehearsal|Agentic Rehearsal]] |
@@ -124,6 +125,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-11-26-Agentic-Idle|Agentic Idle]]: Idle as a first-class verdict (reason, re-check, exit condition), fail-closed default making action the exception, convergence as the iteration form of idle, three failure modes (idle collapse, silent idle, fake busy)
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-24-Agentic-Segmentation|Agentic Segmentation]]: Readiness not identity as the routing axis, segment as a checkable claim updated on evidence, next-step placement, few honest segments over per-user generation
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-23-Agentic-Rehearsal|Agentic Rehearsal]]: Rehearsal as a consequence-free stage before the irreversible step, three failure modes (no rehearsal, fake rehearsal, endless rehearsal), cheap and faithful practice, gate the real run on the rehearsal, typed human override
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-22-Agentic-Sequencing|Agentic Sequencing]]: Order as part of the result, three failure modes (premature exposure, late validation, skipped dependencies), explicit order and dependencies, validate before exposure, irreversible steps last

@@ -9,11 +9,44 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **151** blog posts.
+> Consolidated signal from all **154** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 
+
+---
+
+## 🔷 POST: Agentic Idle: Why the Best Autonomous Systems Know When to Do Nothing (2026-11-26)
+
+### Key Takeaways
+
+- [ ] **T-ID1: Activity is not progress.** A system scored on motion will manufacture motion. Optimize for correctness, and let output be the visible trace of good decisions rather than the target itself.
+- [ ] **T-ID2: Idle is a verdict, not a gap.** Doing nothing should be stated as a first-class result with a reason, a scheduled re-check, and an exit condition. A skip that stays silent is procrastination wearing a calm face.
+- [ ] **T-ID3: Fail-closed makes action the exception.** Newtradium only enters a position when the signal clears the bar, and it shows the reasoning behind every no-trade day. Idle is the default, action is the exception that clears a threshold.
+- [ ] **T-ID4: Know when to stop iterating.** Darcron's gauntlet has to recognize convergence and refuse a round that would only change, not improve, the work. The discipline of sitting still is what keeps iteration from becoming erosion.
+
+---
+
+## 🔷 POST: Agentic Overfitting: Why Tailoring Too Hard to a Target Makes a System Less Fit, Not More (2026-11-25)
+
+### Key Takeaways
+
+- [ ] **T-OF1: Overfitting is metric-goal divergence.** When the number a system is told to raise separates from the outcome it is meant to produce, raising the number erodes the outcome. The score climbs while the purpose falls away.
+- [ ] **T-OF2: A proxy pushed past its use hollows out the real thing.** The overfit resume maximizes keyword overlap by stripping the true details that made the candidate distinct. It disappears to the machine and reads as hollow to the human.
+- [ ] **T-OF3: Fidelity is a hard constraint, not a soft preference.** Ground tailoring in the source of truth and make "do not invent employers or metrics" inviolable. Optimization happens inside a boundary that preserves truth.
+- [ ] **T-OF4: A target score is a floor to clear, not a target to maximize.** Clear the ATS match, then remain exactly as true as the source. A resume that clears the floor and stays faithful is fit; one that maxes the score by leaving the source behind is overfit.
+
+---
+
+## 🔷 POST: Agentic Segmentation: Why Autonomous Systems Must Route by Readiness, Not Identity (2026-11-24)
+
+### Key Takeaways
+
+- [ ] **T-SG1: Route by readiness, not identity.** Title and tenure are weak predictors of current ability. Segment learners by what they can do right now, then route accordingly.
+- [ ] **T-SG2: A segment is a checkable claim, not a hidden guess.** The placement is explicit and testable. When evidence contradicts it, the placement moves. Coarse and honest beats fine-grained and invisible.
+- [ ] **T-SG3: Readiness sits just beyond current ability.** The right material is the next step, not a rehash of the known or a leap into the not-yet-reachable.
+- [ ] **T-SG4: A few well-defined segments beat per-user generation.** Skip the false choice between one-size-fits-all and bespoke. Segment, then update on evidence, and the cohort moves.
 
 ---
 
