@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-11-23
+updated: 2026-11-26
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -9,11 +9,22 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **154** blog posts.
+> Consolidated signal from all **155** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 
+
+---
+
+## 🔷 POST: Agentic Thanksgiving: Why a Holiday Dinner Is a Multi-Agent Coordination Problem (2026-11-26)
+
+### Key Takeaways
+
+- [ ] **T-TG1: A potluck is a pipeline with no shared memory.** Fan out dish assignments and track dependencies, or accept four sides and zero cranberry sauce.
+- [ ] **T-TG2: Make the gravy exactly once.** Idempotency is not a database feature; it is the discipline of refusing the "pinch for good luck" on retry.
+- [ ] **T-TG3: The critic at the table needs an exit condition.** Without a stated bar and a willingness to refuse another round, the blind critic keeps returning "more crust" until the ice cream is gone.
+- [ ] **T-TG4: Gratitude compounds.** A specific thank-you, delivered once per meal, compounds into a relationship the way small consistent gains compound into leverage.
 
 ---
 
