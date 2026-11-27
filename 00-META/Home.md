@@ -1,23 +1,23 @@
 ---
 title: Home
 tags: [dashboard, index]
-updated: 2026-11-26
+updated: 2026-11-27
 ---
 
 # 🏠 Vault Dashboard
 
-> Last updated: 2026-11-26 (daily maintenance)
+> Last updated: 2026-11-27 (daily maintenance)
 
-## Health: 68/100 (C)
+## Health: 67/100 (C)
 
 || Metric | Value |
 ||--------|-------|
-|| Total Notes | 260 |
-|| Wikilinks | 1,475 |
+|| Total Notes | 264 |
+|| Wikilinks | 1,497 |
 || Link Density | ~5.67/note |
-|| Orphans | 21 |
-|| Dead Ends | 26 |
-|| Untagged | 53 |
+|| Orphans | 22 |
+|| Dead Ends | 27 |
+|| Untagged | 55 |
 || Broken Links | 0 |
 
 ## 👑 God Notes (Most Connected)
@@ -31,6 +31,7 @@ updated: 2026-11-26
 || 5 | LucentSkill — AI Upskilling LMS | 24 | 9 | properties |
 
 ## Recent Updates
+- 2026-11-27: Daily maintenance: 264 notes, 1,497 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-26: Daily maintenance: 260 notes, 1,475 wikilinks, 0 broken links, graph rebuilt + deployed
 - 2026-11-24: Daily maintenance: 251 notes, 1,451 wikilinks, 0 broken links, created missing Agentic Segmentation blog note, graph rebuilt + deployed
 - 2026-11-22: Daily maintenance: 242 notes, 1,415 wikilinks, 0 broken links, fixed 1 (OmniVoke → Stickman-B6-Wiring-Plan skill ref), graph rebuilt + deployed
