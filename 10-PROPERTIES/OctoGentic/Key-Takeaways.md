@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-11-26
+updated: 2026-11-27
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -9,11 +9,22 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **155** blog posts.
+> Consolidated signal from all **156** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 
+
+---
+
+## 🔷 POST: Agentic Rebuild: Why You Regenerate the Corpus, Not the Instance (2026-11-27)
+
+### Key Takeaways
+
+- [ ] **T-RB1: Classify the defect before choosing the tool.** Local and isolated means patch; systemic and recurring means rebuild. A flaw stamped across every artifact is one pipeline bug wearing many faces, and no number of patches reaches the cause.
+- [ ] **T-RB2: The premise and pipeline are the source of truth, not the prose.** Hand-editing generated output forks the artifact away from its own generator. Rerun through the current engine and every item stays coherent with the model behind it.
+- [ ] **T-RB3: The corpus is the unit of correctness when a reader consumes the whole body.** A reader compares chapter three to chapter seven, so the relationship between artifacts is what is judged. Rebuild restores the relationship; a patch only restores the part.
+- [ ] **T-RB4: A rebuild must survive its own failure.** Checkpoint and resume per segment so a long regeneration can fail partway and retry only what failed, instead of corrupting the corpus it is meant to heal.
 
 ---
 
