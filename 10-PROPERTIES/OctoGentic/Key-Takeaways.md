@@ -1,7 +1,7 @@
 ---
 title: OctoGentic Key Takeaways
 created: 2026-06-27
-updated: 2026-11-27
+updated: 2026-11-28
 tags: [octogentic, takeaways, index]
 status: active
 aliases: [Key Takeaways Index, Takeaways Dashboard]
@@ -9,11 +9,22 @@ aliases: [Key Takeaways Index, Takeaways Dashboard]
 
 # OctoGentic Key Takeaways
 
-> Consolidated signal from all **156** blog posts.
+> Consolidated signal from all **157** blog posts.
 > Source: `octogentic/content/KEY_TAKEAWAYS.md`
 > Part of → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 
+
+---
+
+## 🔷 POST: Agentic Undo: Why Autonomous Systems Need a Reversal Path, Not Just a Stop Button (2026-11-28)
+
+### Key Takeaways
+
+- [ ] **T-UN1: A stop button does not unmake shipped action.** Stop governs the future and is cheap because nothing has happened; undo governs the past and is expensive because the action now lives in systems and audiences the agent does not control.
+- [ ] **T-UN2: Track every surrogate back to its source.** When one input fans out to many platform copies, reversal fails the moment a copy cannot be located. You cannot reverse what you cannot enumerate.
+- [ ] **T-UN3: Reversal is a first-class operation, not an emergency bolt-on.** No undo, fake undo, and tombstone-only undo all share one cause: reversal was designed after the action instead of beside it.
+- [ ] **T-UN4: Know what "back" means per action class.** Some reversals restore the prior state, like unpublishing; others are compensating acts, like closing a position, that merely point the other direction. Confusing the two reverses a system straight into a new error.
 
 ---
 

@@ -8,13 +8,14 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 
 # OctoGentic Blog Index
 
-> 156 blog posts across the Signal Feed. Full content in `content/blog/`.
+> 157 blog posts across the Signal Feed. Full content in `content/blog/`.
 > Owned by → [[10-PROPERTIES/OctoGentic/Overview|Overview]]
 
 ## All Posts (by date, newest first)
 
 | # | Date | Title | Wiki Link |
 |---|------|-------|-----------|
+| 1 | 2026-11-28 | Agentic Undo: Why Autonomous Systems Need a Reversal Path, Not Just a Stop Button | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-28-Agentic-Undo|Agentic Undo]] |
 | 1 | 2026-11-27 | Agentic Rebuild: Why You Regenerate the Corpus, Not the Instance | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-27-Agentic-Rebuild|Agentic Rebuild]] |
 | 1 | 2026-11-26 | Agentic Thanksgiving: Why a Holiday Dinner Is a Multi-Agent Coordination Problem | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-26-Agentic-Thanksgiving|Agentic Thanksgiving]] |
 | 1 | 2026-11-26 | Agentic Idle: Why the Best Autonomous Systems Know When to Do Nothing | → [[10-PROPERTIES/OctoGentic/Blog/2026-11-26-Agentic-Idle|Agentic Idle]] |
@@ -127,6 +128,7 @@ aliases: [Signal Feed, Blog Posts, OctoGentic Blog Index]
 ## Topic Map
 
 ### 🏗️ Architecture
+- → [[10-PROPERTIES/OctoGentic/Blog/2026-11-28-Agentic-Undo|Agentic Undo]]: Stop versus undo (future vs past), surrogate tracking across a fan-out, reversal as a first-class action designed beside the action it reverses, restore versus compensate per action class
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-27-Agentic-Rebuild|Agentic Rebuild]]: Systemic vs local defect classification deciding patch versus rebuild, premise and pipeline as source of truth over emitted prose, the corpus as the correctness unit when a reader consumes the whole body, checkpoint-and-resume so a long regeneration survives its own failure
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-26-Agentic-Thanksgiving|Agentic Thanksgiving]]: Holiday dinner as a multi-agent coordination problem, potluck as a shared-nothing pipeline, gravy idempotency, fail-closed second helping, context-window table talk, gratitude compounding
 - → [[10-PROPERTIES/OctoGentic/Blog/2026-11-26-Agentic-Idle|Agentic Idle]]: Idle as a first-class verdict (reason, re-check, exit condition), fail-closed default making action the exception, convergence as the iteration form of idle, three failure modes (idle collapse, silent idle, fake busy)
